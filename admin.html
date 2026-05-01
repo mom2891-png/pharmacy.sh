@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PharmInfo - 로컬 업로드 관리자</title>
+  <link rel="stylesheet" href="style-new.css">
+  <style>
+    body {
+      background-color: var(--bg-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .admin-container {
+      background: #fff;
+      padding: 40px;
+      border: var(--border-width) solid var(--black);
+      box-shadow: 12px 12px 0px var(--black);
+      max-width: 500px;
+      width: 100%;
+    }
+    .form-group {
+      margin-bottom: 24px;
+    }
+    label {
+      display: block;
+      font-weight: 900;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+    input[type="text"], input[type="file"] {
+      width: 100%;
+      padding: 12px;
+      border: 3px solid var(--black);
+      font-size: 16px;
+      font-family: 'Pretendard', sans-serif;
+      box-sizing: border-box;
+    }
+    .neo-btn-lg {
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+    }
+    #status {
+      margin-top: 24px;
+      padding: 16px;
+      font-weight: 700;
+      display: none;
+      border: 3px solid var(--black);
+    }
+    .success {
+      background-color: #D1FAE5;
+      color: #065F46;
+    }
+    .error {
+      background-color: #FEE2E2;
+      color: #991B1B;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="admin-container">
+    <h1 style="margin-top:0;">📁 가이드라인 파일 업로드</h1>
+    <p>가이드라인 문서(PDF 또는 HWP)를 선택하여 업로드하면, 로컬 서버에 저장되고 data.js가 자동으로 업데이트됩니다.</p>
+    
+    <form id="uploadForm">
+      <div class="form-group">
+        <label for="guidelineId">가이드라인 ID (예: g8)</label>
+        <input type="text" id="guidelineId" name="guidelineId" placeholder="업데이트할 항목의 ID를 입력하세요" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="guidelineFile">파일 선택 (PDF, HWP)</label>
+        <input type="file" id="guidelineFile" name="guidelineFile" accept=".pdf,.hwp" required>
+      </div>
+      
+      <button type="submit" class="neo-btn-lg">업로드 및 적용</button>
+    </form>
+
+    <div id="status"></div>
+  </div>
+
+  <script>
+    document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const form = e.target;
+      const formData = new FormData(form);
+      const statusDiv = document.getElementById('status');
+      
+      statusDiv.style.display = 'block';
+      statusDiv.className = '';
+      statusDiv.innerHTML = '업로드 중... ⏳';
+
+      try {
+        const response = await fetch('/api/upload', {
+          method: 'POST',
+          body: formData
+        });
+        
+        const result = await response.json();
+        
+        if (response.ok) {
+          statusDiv.className = 'success';
+          statusDiv.innerHTML = `
+            ✅ <b>성공:</b> ${result.message}<br>
+            경로: ${result.filePath}<br><br>
+            <strong style="color:var(--primary);">💡 다음 단계:</strong><br>
+            ${result.instruction}
+          `;
+          form.reset();
+        } else {
+          statusDiv.className = 'error';
+          statusDiv.innerHTML = `❌ <b>오류:</b> ${result.error}`;
+        }
+      } catch (error) {
+        statusDiv.className = 'error';
+        statusDiv.innerHTML = `❌ <b>네트워크 오류:</b> 서버에 연결할 수 없습니다. 터미널에서 서버가 켜져 있는지 확인하세요.`;
+      }
+    });
+  </script>
+</body>
+</html>
