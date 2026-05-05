@@ -8,6 +8,41 @@
   <link rel="stylesheet" href="style-new.css?v=2">
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+  <!-- UI Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- KaTeX (Math Rendering) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js"></script>
+
+  <script>
+    mermaid.initialize({ startOnLoad: false });
+    
+    // 전역 마크다운 및 수식 렌더러 설정
+    window.renderMarkdown = function(text) {
+      if (!text) return '';
+      
+      // 1. 먼저 마크다운을 HTML로 변환
+      const html = marked.parse(text);
+      
+      // 2. 임시 컨테이너를 만들어 수식 렌더링 적용
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = html;
+      
+      renderMathInElement(tempDiv, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false}
+        ],
+        throwOnError: false
+      });
+      
+      return tempDiv.innerHTML;
+    };
+  </script>
 </head>
 
 <body>
@@ -30,9 +65,11 @@
 
       <nav class="main-nav">
         <button class="nav-btn" data-path="/" onclick="window.app.navigateTo('/')">홈</button>
+        <button class="nav-btn" data-path="/trash" id="trashNavBtn" onclick="window.app.navigateTo('/trash')" style="display:none; font-size: 13px; min-width: unset; padding: 6px 10px;">🗑️ 휴지통</button>
         <button class="nav-btn" data-path="/guidelines" onclick="window.app.navigateTo('/guidelines')">가이드라인</button>
         <button class="nav-btn" data-path="/drugs" onclick="window.app.navigateTo('/drugs')">약물 정보</button>
         <button class="nav-btn" data-path="/supplements" onclick="window.app.navigateTo('/supplements')">건기식</button>
+        <button id="admin-toggle-btn" class="nav-btn admin-mode-btn" onclick="window.app.toggleAdminMode()">🔐 관리자 로그인</button>
       </nav>
     </div>
   </header>
@@ -77,11 +114,50 @@
       </div>
     </div>
   </div>
+  <!-- Drug Detail Sidebar -->
+  <div id="drug-detail-sidebar" class="neo-sidebar">
+    <div class="sidebar-header">
+      <h3>약물 상세 정보</h3>
+      <button class="sidebar-close" onclick="window.app.closeDrugDetailSidebar()">✖</button>
+    </div>
+    <div class="sidebar-body">
+      <div id="sidebar-content">
+        <!-- Content injected by app-new.js -->
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <button class="neo-btn" onclick="window.app.saveDrugDetails()">상세 정보 저장</button>
+    </div>
+  </div>
+  <!-- Admin Login Modal -->
+  <div id="admin-login-modal" class="modal-overlay" style="display:none;">
+    <div class="modal-content neo-card login-modal">
+      <div class="modal-header">
+        <h3>🔐 관리자 인증</h3>
+        <button class="modal-close" onclick="window.app.closeAdminLoginModal()">✖</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 14px; color: #64748b; margin-bottom: 20px; font-weight: 600;">
+          콘텐츠 관리를 위해 비밀번호를 입력해주세요.
+        </p>
+        <div class="form-group">
+          <label for="admin-pw-input">비밀번호</label>
+          <input type="password" id="admin-pw-input" class="neo-input" placeholder="비밀번호 입력..." 
+                 onkeyup="if(event.key === 'Enter') window.app.submitAdminLogin()">
+        </div>
+        <div id="login-error-msg" style="color: #ef4444; font-size: 13px; font-weight: 800; min-height: 20px; margin-top: 10px;"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="neo-btn" style="width: 100%;" onclick="window.app.submitAdminLogin()">로그인</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="sidebar-overlay" class="sidebar-overlay" onclick="window.app.closeDrugDetailSidebar()"></div>
 
   <script>
     // 캐시 방지를 위한 동적 스크립트 로드
     const v = Date.now();
-    document.write('<script src="data.js?v=' + v + '"><\/script>');
     document.write('<script type="module" src="app-new.js?v=' + v + '"><\/script>');
   </script>
   <script>console.log("PharmInfo App Loaded with cache-busting");</script>

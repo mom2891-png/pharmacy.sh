@@ -1106,3 +1106,439 @@ main {
     transform: rotate(45deg);
 }
 
+/* Category Add Buttons */
+.add-minor-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  border-top: 4px dashed var(--black);
+  margin-top: 60px;
+}
+
+.add-minor-btn {
+  background: var(--black);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 8px 8px 0px var(--primary);
+  transition: all 0.2s;
+}
+
+.add-minor-btn:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px var(--secondary);
+}
+
+.add-sub-btn {
+  background: #f0fdf4;
+  color: #166534;
+  border: 2px solid #166534;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-sub-btn:hover {
+  background: #dcfce7;
+  transform: scale(1.05);
+}
+
+/* Sidebar (Floating Card Version) */
+.neo-sidebar {
+  position: fixed;
+  top: 50%;
+  right: -750px;
+  transform: translateY(-50%);
+  width: 750px; /* Slightly wider to be sure */
+  height: 600px; 
+  background: white;
+  border: 5px solid var(--black);
+  z-index: 2000;
+  transition: right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px 20px 0px rgba(0,0,0,1);
+}
+
+.neo-sidebar.open {
+  right: 40px;
+}
+
+.sidebar-header {
+  padding: 16px 24px;
+  background: var(--primary);
+  color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid var(--black);
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.sidebar-close {
+  background: var(--black);
+  color: white;
+  border: none;
+  width: 28px;
+  height: 28px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-body {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-footer {
+  padding: 16px 24px;
+  border-top: 5px solid var(--black);
+  background: #f8fafc;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Remove gray overlay completely */
+.sidebar-overlay {
+  display: none !important;
+}
+
+.sidebar-field {
+  width: 100%;
+}
+
+.sidebar-field label {
+  display: block;
+  font-weight: 800;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--black);
+  background: #eee;
+  padding: 4px 8px;
+  display: inline-block;
+  border: 2px solid var(--black);
+  margin-bottom: 10px;
+}
+
+.sidebar-textarea {
+  width: 100%;
+  height: 120px; /* Base height */
+  padding: 12px;
+  border: 3px solid var(--black);
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  background: #fff;
+  box-shadow: inset 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+/* Specific heights to fill the 600px height better */
+#sidebar-desc { height: 100px; }
+#sidebar-usage { height: 80px; }
+#sidebar-caution { height: 80px; }
+
+@media (max-width: 800px) {
+  .neo-sidebar {
+    width: 95%;
+    height: 90vh;
+    right: -105%;
+  }
+}
+
+/* 토스트 알림 */
+.neo-toast {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: var(--primary);
+  color: white;
+  padding: 16px 32px;
+  font-weight: 900;
+  border: 3px solid var(--black);
+  box-shadow: 8px 8px 0px var(--black);
+  z-index: 9999;
+  animation: toast-in 0.3s ease-out;
+}
+
+@keyframes toast-in {
+  from { transform: translateY(100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* 로그인 모달 전용 */
+.login-modal {
+  width: 380px !important;
+  border-radius: 0;
+  background: white;
+  padding: 32px !important;
+  box-shadow: 12px 12px 0px var(--black) !important;
+}
+
+.login-modal .modal-header {
+  border-bottom: 4px solid var(--black);
+  margin-bottom: 24px;
+}
+
+.login-modal .modal-header h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.login-modal label {
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.login-modal .neo-input {
+  border-width: 3px;
+  font-size: 18px;
+  padding: 14px;
+}
+
+.login-modal .modal-footer {
+  margin-top: 32px;
+}
+
+.login-modal .neo-btn {
+  font-size: 18px;
+  padding: 14px;
+  background: var(--secondary);
+  color: white;
+}
+
+/* 컴포넌트 영역 강조 효과 (관리자 전용) */
+.dev-component-area {
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.dev-component-area:hover {
+  outline: 4px solid #fde047 !important;
+  outline-offset: -4px;
+  box-shadow: 0 0 20px rgba(253, 224, 71, 0.4) !important;
+  cursor: help;
+}
+
+.dev-component-area:hover .dev-label {
+  background: #000 !important;
+  color: #fde047 !important;
+  transform: scale(1.1);
+}
+.guideline-sub-btn:hover {
+  background: var(--secondary) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0px #000 !important;
+  border-color: #000 !important;
+}
+
+
+
+/* Guideline Major Cards Uniformity - Clean Version */
+.guideline-major-card {
+  min-height: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  padding: 24px !important;
+  background: var(--white);
+  border: 4px solid var(--black) !important;
+  box-shadow: 8px 8px 0px var(--black) !important;
+  transition: all 0.2s ease;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.guideline-major-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px var(--black) !important;
+  background: #fdfdfd;
+}
+
+.guideline-major-card .badge-mini {
+  font-size: 10px;
+  padding: 4px 8px;
+  width: fit-content;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.guideline-major-card .card-title {
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--black);
+}
+
+.guideline-sub-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 48px;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 2px dashed var(--black);
+  margin-top: 10px;
+}
+
+.guideline-sub-btn {
+  font-family: 'SUITE', sans-serif;
+  font-weight: 800 !important;
+  border: 3px solid var(--black) !important;
+  box-shadow: 3px 3px 0px var(--black) !important;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: var(--black);
+  transition: all 0.1s;
+}
+
+.guideline-sub-btn:hover {
+  background: var(--primary) !important;
+  color: white !important;
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px var(--black) !important;
+}
+
+.more-toggle-btn {
+  width: 100%;
+  background: #f8fafc;
+  border: 3px solid var(--black);
+  padding: 10px;
+  font-weight: 900;
+  font-size: 13px;
+  color: var(--black);
+  cursor: pointer;
+  box-shadow: 3px 3px 0px var(--black);
+  transition: all 0.1s;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.more-toggle-btn:hover {
+  background: var(--black);
+  color: var(--white);
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px var(--black);
+}
+
+.more-toggle-btn.active {
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Hidden items logic */
+.guideline-sub-btn.extra-item {
+  display: none;
+}
+
+.guideline-major-card.expanded .guideline-sub-btn.extra-item {
+  display: flex;
+}
+
+.delete-btn-mini {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  background: white;
+  border: 2px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.1s;
+  z-index: 10;
+}
+
+.delete-btn-mini:hover {
+  background: #ef4444;
+  color: white;
+}
+
+/* Disease Integration Summary & Unified AI Summary */
+.disease-integration-card {
+  border: 4px solid #ef4444 !important;
+  background: #fff5f5 !important;
+  box-shadow: 8px 8px 0px #ef4444 !important;
+  padding: 24px !important;
+  margin-bottom: 32px !important;
+}
+
+.unified-summary {
+  background: #faf5ff !important;
+  border: 3px solid var(--black) !important;
+  padding: 32px !important;
+}
+
+.summary-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-block {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #1e293b;
+}
+
+.summary-block strong {
+  color: var(--black);
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* 가이드라인 완료 체크 스타일 */
+.item-card-cube.is-done {
+  background-color: #f0fdf4 !important; /* 연한 녹색 배경 */
+  border-color: #10b981 !important;
+  opacity: 0.9;
+}
+
+.item-card-cube.is-done .item-title {
+  color: #065f46;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(16, 185, 129, 0.4);
+}
+
+.guideline-check-tool:hover {
+  transform: scale(1.3);
+  color: #059669 !important;
+}
+
+.guideline-delete-tool:hover {
+  transform: scale(1.3);
+  color: #ef4444 !important;
+}

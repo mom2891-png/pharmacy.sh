@@ -8207,403 +8207,41 @@ const DB = {
     {
       "id": "drug_v4_1",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "ACEi (pril계)",
+      "minor": "고지혈증 치료제",
+      "sub": "Fibrate",
       "items": [
         {
-          "ingredient": "Enalapril",
-          "reference": "레니프릴",
-          "image": "assets/images/drugs/p2_i0.png"
+          "ingredient": "Fenofibrate",
+          "reference": "리피딜슈프라",
+          "image": "assets/images/drugs/p3_i25.png"
         },
         {
-          "ingredient": "Perindopril",
-          "reference": "아서틸",
-          "image": "assets/images/drugs/p2_i0.png"
-        },
-        {
-          "ingredient": "Captopril",
-          "reference": "카프릴",
-          "image": "assets/images/drugs/p2_i1.png"
-        },
-        {
-          "ingredient": "Alacepril",
-          "reference": "세타프릴",
-          "image": "assets/images/drugs/p2_i2.png"
-        },
-        {
-          "ingredient": "Ramipril",
-          "reference": "트리테이스",
-          "image": "assets/images/drugs/p2_i4.png"
-        },
-        {
-          "ingredient": "Lisinopril",
-          "reference": "제스트릴",
-          "image": "assets/images/drugs/p2_i3.png"
-        },
-        {
-          "ingredient": "새 성분명",
-          "reference": "새 대조약",
+          "ingredient": "Fenofibric acid Choline",
+          "reference": "글리펜서방",
           "image": ""
+        },
+        {
+          "ingredient": "Fenofibrate",
+          "reference": "페노시드",
+          "image": ""
+        },
+        {
+          "ingredient": "Fenofibrate",
+          "reference": "티지페논",
+          "image": ""
+        },
+        {
+          "ingredient": "Gemfibrozil",
+          "reference": "제일로피드",
+          "image": "assets/images/drugs/p3_i29.png"
         }
       ]
     },
     {
       "id": "drug_v4_2",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "ARB",
-      "items": [
-        {
-          "ingredient": "Telmisartan",
-          "reference": "미카르디스",
-          "image": "assets/images/drugs/p2_i6.png"
-        },
-        {
-          "ingredient": "Irbesartan",
-          "reference": "아프로벨",
-          "image": "assets/images/drugs/p2_i8.png"
-        },
-        {
-          "ingredient": "Losartan",
-          "reference": "코자",
-          "image": "assets/images/drugs/p2_i9.png"
-        },
-        {
-          "ingredient": "Valsartan",
-          "reference": "디오반",
-          "image": "assets/images/drugs/p2_i5.png"
-        },
-        {
-          "ingredient": "Olmesartan",
-          "reference": "올메텍",
-          "image": "assets/images/drugs/p2_i7.png"
-        },
-        {
-          "ingredient": "Candesartan",
-          "reference": "아타칸",
-          "image": "assets/images/drugs/p2_i10.png"
-        },
-        {
-          "ingredient": "Azilsartan",
-          "reference": "이달비",
-          "image": "assets/images/drugs/p2_i11.png"
-        },
-        {
-          "ingredient": "Fimasartan",
-          "reference": "카나브",
-          "image": "assets/images/drugs/p2_i12.png"
-        },
-        {
-          "ingredient": "Eprosartan",
-          "reference": "테베텐",
-          "image": "assets/images/drugs/p2_i13.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619291327",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "BB(비선택성)",
-      "items": [
-        {
-          "ingredient": "Propranolol",
-          "reference": "인데놀",
-          "image": "assets/images/drugs/p2_i14.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619352144",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "BB(선택성)",
-      "items": [
-        {
-          "ingredient": "Atenolol",
-          "reference": "사 테놀민",
-          "image": "assets/images/drugs/p2_i15.png"
-        },
-        {
-          "ingredient": "Bisoprolol",
-          "reference": "콩코르",
-          "image": "assets/images/drugs/p2_i16.png"
-        },
-        {
-          "ingredient": "Nebivolol",
-          "reference": "네비스톨",
-          "image": "assets/images/drugs/p2_i17.png"
-        },
-        {
-          "ingredient": "S-Nebivolol",
-          "reference": "레보테놀",
-          "image": "assets/images/drugs/p2_i18.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619378998",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "BB(혈관확장성)",
-      "items": [
-        {
-          "ingredient": "Carvedilol",
-          "reference": "딜라트렌",
-          "image": "assets/images/drugs/p2_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619421373",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "NonDHP-CCB",
-      "items": [
-        {
-          "ingredient": "Diltiazem",
-          "reference": "헤르벤",
-          "image": ""
-        },
-        {
-          "ingredient": "Verapamil",
-          "reference": "이솦틴",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_5",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "DHP-CCB",
-      "items": [
-        {
-          "ingredient": "Amlodipine",
-          "reference": "노바스크",
-          "image": "assets/images/drugs/p2_i22.png"
-        },
-        {
-          "ingredient": "Benidipine",
-          "reference": "코디핀",
-          "image": "assets/images/drugs/p2_i25.png"
-        },
-        {
-          "ingredient": "Lercanidipine",
-          "reference": "자니딥",
-          "image": "assets/images/drugs/p2_i26.png"
-        },
-        {
-          "ingredient": "Nifedipine",
-          "reference": "아달라트/니페론",
-          "image": "assets/images/drugs/p2_i27.png"
-        },
-        {
-          "ingredient": "s-Amlodipine",
-          "reference": "레보텐션",
-          "image": ""
-        },
-        {
-          "ingredient": "s-Amlodipine",
-          "reference": "로디엔",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619554733",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "혈관확장제",
-      "items": [
-        {
-          "ingredient": "Doxazosin",
-          "reference": "카두라엑스엘",
-          "image": "assets/images/drugs/p2_i30.png"
-        },
-        {
-          "ingredient": "Minoxidil",
-          "reference": "현대미녹시딜",
-          "image": "assets/images/drugs/p2_i31.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619617163",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "중추성 교감차단제",
-      "items": [
-        {
-          "ingredient": "Clonidine",
-          "reference": "켑베이서방",
-          "image": "assets/images/drugs/p2_i32.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_new_1777619480224",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "α1 차단제",
-      "items": [
-        {
-          "ingredient": "Terazosin",
-          "reference": "일양하이트린",
-          "image": "assets/images/drugs/p2_i28.png"
-        },
-        {
-          "ingredient": "Doxazosin",
-          "reference": "카두라엑스엘",
-          "image": "assets/images/drugs/p2_i29.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_7",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "CCB",
-          "reference": "",
-          "image": ""
-        },
-        {
-          "ingredient": "BB",
-          "reference": "",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_8",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Nitroglycerin",
-      "items": [
-        {
-          "ingredient": "BB",
-          "reference": "",
-          "image": ""
-        },
-        {
-          "ingredient": "ACEi / ARB",
-          "reference": "",
-          "image": ""
-        },
-        {
-          "ingredient": "SGLT-2i",
-          "reference": "",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_9",
-      "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Nitroglycerin",
-      "items": [
-        {
-          "ingredient": "Digoxin",
-          "reference": "디고신",
-          "image": "assets/images/drugs/p3_i3.png"
-        },
-        {
-          "ingredient": "Dobutamine",
-          "reference": "토부렉스주",
-          "image": "assets/images/drugs/p3_i4.png"
-        },
-        {
-          "ingredient": "Milrinone",
-          "reference": "프리마코주",
-          "image": "assets/images/drugs/p3_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_10",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "Loop 이뇨제",
-      "items": [
-        {
-          "ingredient": "Furosemide",
-          "reference": "라식스",
-          "image": "assets/images/drugs/p3_i6.png"
-        },
-        {
-          "ingredient": "Torsemide",
-          "reference": "토렘",
-          "image": "assets/images/drugs/p3_i7.png"
-        },
-        {
-          "ingredient": "Azosemide",
-          "reference": "유레틴",
-          "image": "assets/images/drugs/p3_i8.png"
-        },
-        {
-          "ingredient": "Xipamide",
-          "reference": "승 디유렉",
-          "image": "assets/images/drugs/p3_i9.png"
-        },
-        {
-          "ingredient": "Tolvaptan",
-          "reference": "삼스카정",
-          "image": "assets/images/drugs/p3_i10.png"
-        },
-        {
-          "ingredient": "Acetazolamide",
-          "reference": "아세타졸정",
-          "image": "assets/images/drugs/p3_i11.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_11",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "Thiazide계",
-      "items": [
-        {
-          "ingredient": "Spironolactone",
-          "reference": "알닥톤",
-          "image": "assets/images/drugs/p3_i12.png"
-        },
-        {
-          "ingredient": "Finerenone",
-          "reference": "케렌디아(당뇨)",
-          "image": "assets/images/drugs/p3_i13.png"
-        },
-        {
-          "ingredient": "Amiloride",
-          "reference": "아미로",
-          "image": "assets/images/drugs/p3_i14.png"
-        },
-        {
-          "ingredient": "Hydrochlorothiazide",
-          "reference": "다이크로짇",
-          "image": "assets/images/drugs/p3_i15.png"
-        },
-        {
-          "ingredient": "Indapamide",
-          "reference": "후루덱스",
-          "image": "assets/images/drugs/p3_i16.png"
-        },
-        {
-          "ingredient": "Chlorthalidone",
-          "reference": "이달비클로",
-          "image": "assets/images/drugs/p3_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_12",
-      "major": "[1. 순환기계질환]",
       "minor": "고지혈증 치료제",
-      "sub": "HMG-CoA (Statin)",
+      "sub": "HMG-CoA",
       "items": [
         {
           "ingredient": "Fluvastatin",
@@ -8636,55 +8274,17 @@ const DB = {
           "image": "assets/images/drugs/p3_i23.png"
         },
         {
-          "ingredient": "새 성분명",
-          "reference": "새 대조약",
-          "image": ""
-        },
-        {
-          "ingredient": "새 성분명",
-          "reference": "새 대조약",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_13",
-      "major": "[1. 순환기계질환]",
-      "minor": "고지혈증 치료제",
-      "sub": "HMG-CoA (Statin)",
-      "items": [
-        {
           "ingredient": "Pravastatin",
           "reference": "메바로친",
           "image": "assets/images/drugs/p3_i24.png"
-        },
-        {
-          "ingredient": "Fenofibrate",
-          "reference": "리피딜슈프라",
-          "image": "assets/images/drugs/p3_i25.png"
-        },
-        {
-          "ingredient": "Fenofibric acid",
-          "reference": "페노시드",
-          "image": "assets/images/drugs/p3_i27.png"
-        },
-        {
-          "ingredient": "Choline Feno-",
-          "reference": "티지페논",
-          "image": "assets/images/drugs/p3_i28.png"
-        },
-        {
-          "ingredient": "Gemfibrozil",
-          "reference": "제일로피드",
-          "image": "assets/images/drugs/p3_i29.png"
         }
       ]
     },
     {
-      "id": "drug_v4_14",
+      "id": "drug_v4_3",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Nicotinic acid계",
+      "minor": "고지혈증 치료제",
+      "sub": "Nicotinic acid 계",
       "items": [
         {
           "ingredient": "Niacin",
@@ -8695,11 +8295,19 @@ const DB = {
           "ingredient": "Acipimox",
           "reference": "일동올베탐",
           "image": "assets/images/drugs/p3_i31.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_4",
+      "major": "[1. 순환기계질환]",
+      "minor": "고지혈증 치료제",
+      "sub": "기타",
+      "items": [
         {
           "ingredient": "Omega-3",
-          "reference": "오마코연질C",
-          "image": "assets/images/drugs/p3_i32.png"
+          "reference": "오마코연질 C",
+          "image": ""
         },
         {
           "ingredient": "Ezetimibe",
@@ -8709,33 +8317,298 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_15",
+      "id": "drug_v4_5",
       "major": "[1. 순환기계질환]",
       "minor": "고혈압 치료제",
-      "sub": "상세 분류",
+      "sub": "ACEi (pril)",
       "items": [
         {
-          "ingredient": "BB",
-          "reference": "",
+          "ingredient": "Enalapril",
+          "reference": "레니프릴",
+          "image": "assets/images/drugs/p2_i0.png"
+        },
+        {
+          "ingredient": "Perindopril",
+          "reference": "아서틸",
+          "image": "assets/images/drugs/p2_i0.png"
+        },
+        {
+          "ingredient": "Alacepril",
+          "reference": "세타프릴",
+          "image": "assets/images/drugs/p2_i2.png"
+        },
+        {
+          "ingredient": "Captopril",
+          "reference": "카프릴",
+          "image": "assets/images/drugs/p2_i1.png"
+        },
+        {
+          "ingredient": "Ramipril",
+          "reference": "트리테이스",
+          "image": "assets/images/drugs/p2_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_6",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "ARB (sartan)",
+      "items": [
+        {
+          "ingredient": "Valsartan",
+          "reference": "디오반",
+          "image": "assets/images/drugs/p2_i5.png"
+        },
+        {
+          "ingredient": "Telmisartan",
+          "reference": "미카르디스",
+          "image": "assets/images/drugs/p2_i6.png"
+        },
+        {
+          "ingredient": "Telmisartan",
+          "reference": "프리토",
           "image": ""
         },
         {
-          "ingredient": "CCB",
-          "reference": "",
+          "ingredient": "Irbesartan",
+          "reference": "아프로벨",
+          "image": "assets/images/drugs/p2_i8.png"
+        },
+        {
+          "ingredient": "Losartan",
+          "reference": "코자",
+          "image": "assets/images/drugs/p2_i9.png"
+        },
+        {
+          "ingredient": "Candesartan",
+          "reference": "아타칸",
+          "image": "assets/images/drugs/p2_i10.png"
+        },
+        {
+          "ingredient": "Azilsartan",
+          "reference": "이달비",
+          "image": "assets/images/drugs/p2_i11.png"
+        },
+        {
+          "ingredient": "Fimasartan",
+          "reference": "카나브",
+          "image": "assets/images/drugs/p2_i12.png"
+        },
+        {
+          "ingredient": "Eprosartan",
+          "reference": "테베텐",
+          "image": "assets/images/drugs/p2_i13.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_7",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "BB (비선택성)",
+      "items": [
+        {
+          "ingredient": "Propranolol",
+          "reference": "인데놀",
+          "image": "assets/images/drugs/p2_i14.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_8",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "BB (선택성)",
+      "items": [
+        {
+          "ingredient": "Atenolol",
+          "reference": "테놀민",
           "image": ""
+        },
+        {
+          "ingredient": "Bisoprolol",
+          "reference": "콩코르",
+          "image": "assets/images/drugs/p2_i16.png"
+        },
+        {
+          "ingredient": "S-Atenolol",
+          "reference": "레보테놀",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_9",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "BB(혈관확장성)",
+      "items": [
+        {
+          "ingredient": "Nebivolol",
+          "reference": "네비스톨",
+          "image": "assets/images/drugs/p2_i17.png"
+        },
+        {
+          "ingredient": "Carvedilol",
+          "reference": "딜라트렌",
+          "image": "assets/images/drugs/p2_i19.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_10",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "DHP-CCB",
+      "items": [
+        {
+          "ingredient": "Amlodipine",
+          "reference": "노바스크",
+          "image": "assets/images/drugs/p2_i22.png"
+        },
+        {
+          "ingredient": "s-Amlodipine",
+          "reference": "레보텐션",
+          "image": ""
+        },
+        {
+          "ingredient": "Benidipine",
+          "reference": "로디엔",
+          "image": ""
+        },
+        {
+          "ingredient": "Nifedipine",
+          "reference": "아달라트",
+          "image": ""
+        },
+        {
+          "ingredient": "Nifedipine",
+          "reference": "니페론",
+          "image": ""
+        },
+        {
+          "ingredient": "Nifedipine",
+          "reference": "코디핀",
+          "image": ""
+        },
+        {
+          "ingredient": "Lercanidipine",
+          "reference": "자니딥",
+          "image": "assets/images/drugs/p2_i26.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_11",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "NonDHP-CCB",
+      "items": [
+        {
+          "ingredient": "Verapamil",
+          "reference": "이솝틴",
+          "image": ""
+        },
+        {
+          "ingredient": "Diltiazem",
+          "reference": "헤르벤",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_12",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "a1 차단제",
+      "items": [
+        {
+          "ingredient": "Terazosin",
+          "reference": "일양하이트린",
+          "image": "assets/images/drugs/p2_i28.png"
+        },
+        {
+          "ingredient": "Doxazosin",
+          "reference": "카두라엑스엘",
+          "image": "assets/images/drugs/p2_i29.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_13",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "중추성 교감차단제",
+      "items": [
+        {
+          "ingredient": "Clonidine",
+          "reference": "베이서방",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_14",
+      "major": "[1. 순환기계질환]",
+      "minor": "고혈압 치료제",
+      "sub": "혈관확장제",
+      "items": [
+        {
+          "ingredient": "Minoxidil",
+          "reference": "현대미녹시딜",
+          "image": "assets/images/drugs/p2_i31.png"
+        },
+        {
+          "ingredient": "Hydralazine",
+          "reference": "삼진히드랄라진",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_15",
+      "major": "[1. 순환기계질환]",
+      "minor": "부정맥 치료제",
+      "sub": "K+ 유출 차단제",
+      "items": [
+        {
+          "ingredient": "Dronedarone",
+          "reference": "멀택",
+          "image": "assets/images/drugs/p4_i4.png"
+        },
+        {
+          "ingredient": "Dronedarone",
+          "reference": "삼진드론",
+          "image": ""
+        },
+        {
+          "ingredient": "Amiodarone",
+          "reference": "코다론",
+          "image": "assets/images/drugs/p4_i6.png"
+        },
+        {
+          "ingredient": "Sotalol",
+          "reference": "소타론",
+          "image": "assets/images/drugs/p4_i7.png"
         }
       ]
     },
     {
       "id": "drug_v4_16",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "상세 분류",
+      "minor": "부정맥 치료제",
+      "sub": "Na+ 유입 차단제",
       "items": [
         {
           "ingredient": "Propafenone",
-          "reference": "리트모놈SR서 방",
-          "image": "assets/images/drugs/p4_i0.png"
+          "reference": "리트모놈 SR 서방",
+          "image": ""
+        },
+        {
+          "ingredient": "Propafenone",
+          "reference": "프로페논",
+          "image": ""
         },
         {
           "ingredient": "Flecainide",
@@ -8752,24 +8625,9 @@ const DB = {
     {
       "id": "drug_v4_17",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "K+ 유출 차단제",
+      "minor": "부정맥 치료제",
+      "sub": "디기탈리스",
       "items": [
-        {
-          "ingredient": "Dronedarone",
-          "reference": "멀택",
-          "image": "assets/images/drugs/p4_i4.png"
-        },
-        {
-          "ingredient": "Amiodarone",
-          "reference": "코다론",
-          "image": "assets/images/drugs/p4_i6.png"
-        },
-        {
-          "ingredient": "Sotalol",
-          "reference": "소타론",
-          "image": "assets/images/drugs/p4_i7.png"
-        },
         {
           "ingredient": "Digoxin",
           "reference": "디고신",
@@ -8780,97 +8638,160 @@ const DB = {
     {
       "id": "drug_v4_18",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Midodrine",
+      "minor": "심부전 치료제",
+      "sub": "Beta 흥분제",
       "items": [
         {
-          "ingredient": "Nicardipine",
-          "reference": "페르디핀서방",
-          "image": "assets/images/drugs/p4_i10.png"
-        },
-        {
-          "ingredient": "Nimodipine",
-          "reference": "니모디핀",
-          "image": "assets/images/drugs/p4_i11.png"
-        },
-        {
-          "ingredient": "Nicergoline",
-          "reference": "사미온",
-          "image": "assets/images/drugs/p4_i12.png"
-        },
-        {
-          "ingredient": "Citicoline",
-          "reference": "소마지나",
-          "image": "assets/images/drugs/p4_i13.png"
-        },
-        {
-          "ingredient": "Vitis vinifera Leaf",
-          "reference": "안탁스",
-          "image": "assets/images/drugs/p4_i14.png"
-        },
-        {
-          "ingredient": "Vitis vinifera Seed",
-          "reference": "엔테론정",
-          "image": "assets/images/drugs/p4_i15.png"
+          "ingredient": "Dobutamine",
+          "reference": "토부렉스주",
+          "image": "assets/images/drugs/p3_i4.png"
         }
       ]
     },
     {
       "id": "drug_v4_19",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Midodrine",
+      "minor": "심부전 치료제",
+      "sub": "PDE 억제제",
       "items": [
         {
-          "ingredient": "Centella Asiatica",
-          "reference": "센시아",
-          "image": "assets/images/drugs/p4_i19.png"
-        },
-        {
-          "ingredient": "Micronized Flavonoid",
-          "reference": "베니톨",
-          "image": "assets/images/drugs/p4_i20.png"
+          "ingredient": "Milrinone",
+          "reference": "프리마코주",
+          "image": "assets/images/drugs/p3_i5.png"
         }
       ]
     },
     {
       "id": "drug_v4_20",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Midodrine",
+      "minor": "심부전 치료제",
+      "sub": "디기탈리스",
       "items": [
         {
-          "ingredient": "Diosmin",
-          "reference": "디오맥스",
-          "image": "assets/images/drugs/p4_i22.png"
-        },
-        {
-          "ingredient": "Naftazone",
-          "reference": "메디아벤엘",
-          "image": "assets/images/drugs/p4_i24.png"
-        },
-        {
-          "ingredient": "Limaprost",
-          "reference": "오팔몬",
-          "image": "assets/images/drugs/p4_i25.png"
-        },
-        {
-          "ingredient": "Dobesilate",
-          "reference": "독시움",
-          "image": "assets/images/drugs/p4_i26.png"
-        },
-        {
-          "ingredient": "Alprostadil",
-          "reference": "에글란딘",
-          "image": "assets/images/drugs/p4_i27.png"
+          "ingredient": "Digoxin",
+          "reference": "디고신",
+          "image": "assets/images/drugs/p4_i8.png"
         }
       ]
     },
     {
       "id": "drug_v4_21",
       "major": "[1. 순환기계질환]",
-      "minor": "고혈압 치료제",
-      "sub": "Midodrine",
+      "minor": "이뇨제",
+      "sub": "Loop",
+      "items": [
+        {
+          "ingredient": "Furosemide",
+          "reference": "라식스",
+          "image": "assets/images/drugs/p3_i6.png"
+        },
+        {
+          "ingredient": "Torsemide",
+          "reference": "토렘",
+          "image": "assets/images/drugs/p3_i7.png"
+        },
+        {
+          "ingredient": "Azosemide",
+          "reference": "유레틴",
+          "image": "assets/images/drugs/p3_i8.png"
+        },
+        {
+          "ingredient": "Xipamide",
+          "reference": "디유렉",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_22",
+      "major": "[1. 순환기계질환]",
+      "minor": "이뇨제",
+      "sub": "Thiazide 계 및 유사체",
+      "items": [
+        {
+          "ingredient": "Hydrochlorothiazide",
+          "reference": "다이크로짇",
+          "image": "assets/images/drugs/p3_i15.png"
+        },
+        {
+          "ingredient": "Indapamide",
+          "reference": "후루덱스",
+          "image": "assets/images/drugs/p3_i16.png"
+        },
+        {
+          "ingredient": "Chlorthalidone",
+          "reference": "이달비클로",
+          "image": "assets/images/drugs/p3_i17.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_23",
+      "major": "[1. 순환기계질환]",
+      "minor": "이뇨제",
+      "sub": "기타 이뇨제",
+      "items": [
+        {
+          "ingredient": "Tolvaptan",
+          "reference": "삼스카정",
+          "image": "assets/images/drugs/p3_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_24",
+      "major": "[1. 순환기계질환]",
+      "minor": "이뇨제",
+      "sub": "칼륨보존 이뇨제",
+      "items": [
+        {
+          "ingredient": "Spironolactone",
+          "reference": "알닥톤",
+          "image": "assets/images/drugs/p3_i12.png"
+        },
+        {
+          "ingredient": "Finerenone",
+          "reference": "케렌디아(당뇨)",
+          "image": "assets/images/drugs/p3_i13.png"
+        },
+        {
+          "ingredient": "Amiloride",
+          "reference": "아미로",
+          "image": "assets/images/drugs/p3_i14.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_25",
+      "major": "[1. 순환기계질환]",
+      "minor": "이뇨제",
+      "sub": "탄산탈수효소 Inh",
+      "items": [
+        {
+          "ingredient": "Acetazolamide",
+          "reference": "아세타졸정",
+          "image": "assets/images/drugs/p3_i11.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_26",
+      "major": "[1. 순환기계질환]",
+      "minor": "저혈압 치료제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Midodrine",
+          "reference": "미드론",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_27",
+      "major": "[1. 순환기계질환]",
+      "minor": "폐고혈압 치료제",
+      "sub": "Endothelin 수용체 길항제",
       "items": [
         {
           "ingredient": "Ambrisentan",
@@ -8886,540 +8807,236 @@ const DB = {
           "ingredient": "Bosentan",
           "reference": "트라클리어",
           "image": "assets/images/drugs/p4_i30.png"
-        },
-        {
-          "ingredient": "Beraprost",
-          "reference": "베라실",
-          "image": "assets/images/drugs/p4_i31.png"
-        },
-        {
-          "ingredient": "Sildenafil",
-          "reference": "비아그라",
-          "image": "assets/images/drugs/p4_i32.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_22",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "당뇨병 치료제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Biguanide",
-          "reference": "",
-          "image": "assets/images/drugs/p5_i0.png"
-        },
-        {
-          "ingredient": "Thiazolidinedione(TZD)",
-          "reference": "",
-          "image": "assets/images/drugs/p5_i2.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_23",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "당뇨병 치료제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Metformin",
-          "reference": "다이아벡스",
-          "image": "assets/images/drugs/p5_i0.png"
-        },
-        {
-          "ingredient": "Pioglitazone",
-          "reference": "액토스",
-          "image": "assets/images/drugs/p5_i2.png"
-        },
-        {
-          "ingredient": "Pio+Met",
-          "reference": "액토스메트",
-          "image": "assets/images/drugs/p5_i3.png"
-        },
-        {
-          "ingredient": "Lobeglitazone",
-          "reference": "듀비에",
-          "image": "assets/images/drugs/p5_i4.png"
-        },
-        {
-          "ingredient": "Lobe+Met",
-          "reference": "듀비메트",
-          "image": "assets/images/drugs/p5_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_24",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "당뇨병 치료제",
-      "sub": "Sulfonylurea(SU)",
-      "items": [
-        {
-          "ingredient": "Gliclazide",
-          "reference": "디아미크롱",
-          "image": "assets/images/drugs/p5_i6.png"
-        },
-        {
-          "ingredient": "Glimepiride",
-          "reference": "아마릴",
-          "image": "assets/images/drugs/p5_i7.png"
-        },
-        {
-          "ingredient": "Glime+Met",
-          "reference": "아마릴",
-          "image": "assets/images/drugs/p5_i7.png"
-        },
-        {
-          "ingredient": "Glibenclamide",
-          "reference": "다오닐",
-          "image": "assets/images/drugs/p5_i9.png"
-        },
-        {
-          "ingredient": "Gliben+Met",
-          "reference": "글루코반스",
-          "image": "assets/images/drugs/p5_i10.png"
-        },
-        {
-          "ingredient": "Glipizide",
-          "reference": "다이그린",
-          "image": "assets/images/drugs/p5_i11.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_25",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "당뇨병 치료제",
-      "sub": "SGLT-2 억제제",
-      "items": [
-        {
-          "ingredient": "Dapagliflozin",
-          "reference": "포시가",
-          "image": "assets/images/drugs/p5_i12.png"
-        },
-        {
-          "ingredient": "Dapa+Met",
-          "reference": "직듀오",
-          "image": "assets/images/drugs/p5_i13.png"
-        },
-        {
-          "ingredient": "Empagliflozin",
-          "reference": "자디앙",
-          "image": "assets/images/drugs/p5_i14.png"
-        },
-        {
-          "ingredient": "Enavogliflozin",
-          "reference": "엔블로",
-          "image": "assets/images/drugs/p5_i16.png"
-        },
-        {
-          "ingredient": "Enavo+Met",
-          "reference": "엔블로멧",
-          "image": "assets/images/drugs/p5_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_26",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "당뇨병 치료제",
-      "sub": "DPP-4 억제제",
-      "items": [
-        {
-          "ingredient": "Gemigliptin",
-          "reference": "제미글로",
-          "image": "assets/images/drugs/p5_i18.png"
-        },
-        {
-          "ingredient": "Linagliptin",
-          "reference": "트라젠타",
-          "image": "assets/images/drugs/p5_i20.png"
-        },
-        {
-          "ingredient": "Lina+Met",
-          "reference": "트라젠타듀오",
-          "image": "assets/images/drugs/p5_i21.png"
-        },
-        {
-          "ingredient": "Sitagliptin",
-          "reference": "자누비아",
-          "image": "assets/images/drugs/p5_i22.png"
-        },
-        {
-          "ingredient": "Sita+Met",
-          "reference": "자누메트",
-          "image": "assets/images/drugs/p5_i23.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_27",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "한 Dipeptidyl peptidase-4 inhibitor (DPP-4 inh)",
-      "items": [
-        {
-          "ingredient": "Vildagliptin",
-          "reference": "가브스",
-          "image": "assets/images/drugs/p5_i24.png"
-        },
-        {
-          "ingredient": "Vilda+Met",
-          "reference": "가브스메트",
-          "image": "assets/images/drugs/p5_i25.png"
-        },
-        {
-          "ingredient": "Teneligliptin",
-          "reference": "테넬리아",
-          "image": "assets/images/drugs/p5_i26.png"
-        },
-        {
-          "ingredient": "Teneli+Met",
-          "reference": "테넬리아엠",
-          "image": "assets/images/drugs/p5_i27.png"
-        },
-        {
-          "ingredient": "Alogliptin",
-          "reference": "네시나",
-          "image": "assets/images/drugs/p5_i28.png"
-        },
-        {
-          "ingredient": "Alo+Met",
-          "reference": "네시나메트",
-          "image": "assets/images/drugs/p5_i29.png"
         }
       ]
     },
     {
       "id": "drug_v4_28",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "한 Dipeptidyl peptidase-4 inhibitor (DPP-4 inh)",
+      "major": "[1. 순환기계질환]",
+      "minor": "폐고혈압 치료제",
+      "sub": "PDE5 억제제",
       "items": [
         {
-          "ingredient": "Anagliptin",
-          "reference": "가드렛",
-          "image": "assets/images/drugs/p5_i30.png"
-        },
-        {
-          "ingredient": "Ana+Met",
-          "reference": "가드메트",
-          "image": "assets/images/drugs/p5_i31.png"
-        },
-        {
-          "ingredient": "Evogliptin",
-          "reference": "슈가논",
-          "image": "assets/images/drugs/p5_i32.png"
-        },
-        {
-          "ingredient": "Evo+Met",
-          "reference": "슈가메트",
-          "image": "assets/images/drugs/p5_i33.png"
-        },
-        {
-          "ingredient": "Saxagliptin",
-          "reference": "온글라이자",
-          "image": "assets/images/drugs/p5_i34.png"
-        },
-        {
-          "ingredient": "Saxa+Met",
-          "reference": "콤비글라이즈",
-          "image": "assets/images/drugs/p5_i35.png"
+          "ingredient": "Sildenafil",
+          "reference": "비아그라",
+          "image": "assets/images/drugs/p22_i7.png"
         }
       ]
     },
     {
       "id": "drug_v4_29",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "α-glucosidase i",
+      "major": "[1. 순환기계질환]",
+      "minor": "폐고혈압 치료제",
+      "sub": "PGI2 유도체",
       "items": [
         {
-          "ingredient": "Acarbose",
-          "reference": "글루코바이",
-          "image": "assets/images/drugs/p5_i36.png"
-        },
-        {
-          "ingredient": "Voglibose",
-          "reference": "베이슨",
-          "image": "assets/images/drugs/p5_i37.png"
-        },
-        {
-          "ingredient": "Miglitol",
-          "reference": "미그보스",
-          "image": "assets/images/drugs/p5_i38.png"
-        },
-        {
-          "ingredient": "Mitiglinide",
-          "reference": "글루패스",
-          "image": "assets/images/drugs/p5_i39.png"
-        },
-        {
-          "ingredient": "Nateglinide",
-          "reference": "파스틱",
-          "image": "assets/images/drugs/p5_i40.png"
-        },
-        {
-          "ingredient": "Repaglinide",
-          "reference": "노보넘",
-          "image": "assets/images/drugs/p5_i41.png"
+          "ingredient": "Beraprost",
+          "reference": "베라실",
+          "image": "assets/images/drugs/p55_i19.png"
         }
       ]
     },
     {
       "id": "drug_v4_30",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "Insulin 속효",
+      "major": "[1. 순환기계질환]",
+      "minor": "혈액순환장애 치료제",
+      "sub": "뇌순환 개선",
       "items": [
         {
-          "ingredient": "Aspart",
-          "reference": "노보래피드",
-          "image": "assets/images/drugs/p6_i2.png"
+          "ingredient": "Nicardipine",
+          "reference": "페르디핀서방",
+          "image": "assets/images/drugs/p4_i10.png"
         },
         {
-          "ingredient": "Glulisine",
-          "reference": "애피드라솔로스타",
-          "image": "assets/images/drugs/p6_i3.png"
+          "ingredient": "Nimodipine",
+          "reference": "니모디핀",
+          "image": "assets/images/drugs/p4_i11.png"
         },
         {
-          "ingredient": "Lispro",
-          "reference": "휴마로그퀵펜",
-          "image": "assets/images/drugs/p6_i4.png"
+          "ingredient": "Nicergoline",
+          "reference": "사미온",
+          "image": "assets/images/drugs/p38_i8.png"
+        },
+        {
+          "ingredient": "Citicoline",
+          "reference": "소마지나",
+          "image": "assets/images/drugs/p4_i13.png"
         }
       ]
     },
     {
       "id": "drug_v4_31",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "Insulin 장시간",
+      "major": "[1. 순환기계질환]",
+      "minor": "혈액순환장애 치료제",
+      "sub": "말초혈액순환 개선",
       "items": [
         {
-          "ingredient": "Degludec",
-          "reference": "트레시바",
-          "image": "assets/images/drugs/p6_i5.png"
+          "ingredient": "Limaprost",
+          "reference": "오팔몬",
+          "image": "assets/images/drugs/p4_i25.png"
         },
         {
-          "ingredient": "Detemir",
-          "reference": "레버미어",
-          "image": "assets/images/drugs/p6_i6.png"
-        },
-        {
-          "ingredient": "Glargine",
-          "reference": "투제오",
-          "image": "assets/images/drugs/p6_i7.png"
+          "ingredient": "Alprostadil",
+          "reference": "에글란딘",
+          "image": "assets/images/drugs/p4_i27.png"
         }
       ]
     },
     {
       "id": "drug_v4_32",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "훈 GLP-1 유사체",
+      "major": "[1. 순환기계질환]",
+      "minor": "혈액순환장애 치료제",
+      "sub": "정맥순환 개선",
       "items": [
         {
-          "ingredient": "Dulaglutide",
-          "reference": "트루리시티",
-          "image": "assets/images/drugs/p6_i9.png"
+          "ingredient": "Vitis vinifera Leaf",
+          "reference": "안탁스",
+          "image": "assets/images/drugs/p4_i14.png"
         },
         {
-          "ingredient": "Degludec + Liraglutide",
-          "reference": "줄토피",
-          "image": "assets/images/drugs/p6_i11.png"
+          "ingredient": "Vitis vinifera Seed",
+          "reference": "엔테론정",
+          "image": "assets/images/drugs/p4_i15.png"
+        },
+        {
+          "ingredient": "Ginkgo Ext",
+          "reference": "기넥신에프",
+          "image": ""
+        },
+        {
+          "ingredient": "Ginkgo Ext",
+          "reference": "타나민",
+          "image": ""
+        },
+        {
+          "ingredient": "Ginkgo Ext",
+          "reference": "세보칸",
+          "image": ""
+        },
+        {
+          "ingredient": "Centella Asiatica",
+          "reference": "센시아",
+          "image": "assets/images/drugs/p4_i19.png"
+        },
+        {
+          "ingredient": "Micronized Flavonoid",
+          "reference": "베니톨",
+          "image": "assets/images/drugs/p4_i20.png"
+        },
+        {
+          "ingredient": "Diosmin",
+          "reference": "치퀵",
+          "image": ""
+        },
+        {
+          "ingredient": "Diosmin",
+          "reference": "디오맥스",
+          "image": "assets/images/drugs/p4_i22.png"
+        },
+        {
+          "ingredient": "Naftazone",
+          "reference": "베노론",
+          "image": ""
+        },
+        {
+          "ingredient": "Naftazone",
+          "reference": "메디아벤엘",
+          "image": "assets/images/drugs/p4_i24.png"
+        },
+        {
+          "ingredient": "Dobesilate",
+          "reference": "독시움",
+          "image": "assets/images/drugs/p30_i17.png"
         }
       ]
     },
     {
       "id": "drug_v4_33",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "Liraglutide",
+      "major": "[1. 순환기계질환]",
+      "minor": "협심증 치료제",
+      "sub": "질산염 제제",
       "items": [
         {
-          "ingredient": "R-Thioctic acid",
-          "reference": "덱시드",
-          "image": "assets/images/drugs/p6_i14.png"
+          "ingredient": "Nitroglycerin",
+          "reference": "니트로링구알 스프레이",
+          "image": ""
         },
         {
-          "ingredient": "Thioctic acid",
-          "reference": "치옥타시드HR",
-          "image": "assets/images/drugs/p6_i15.png"
+          "ingredient": "Nitroglycerin",
+          "reference": "명문 NTG 설하",
+          "image": ""
         },
         {
-          "ingredient": "Epalrestat",
-          "reference": "에팔",
-          "image": "assets/images/drugs/p6_i16.png"
+          "ingredient": "Isosorbide dinitrate",
+          "reference": "이소켓서방",
+          "image": ""
         }
       ]
     },
     {
       "id": "drug_v4_34",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "호르몬제제",
+      "minor": "갑상선 질환 치료제",
+      "sub": "저하증 치료제",
       "items": [
         {
-          "ingredient": "Prednisolone",
-          "reference": "소론도",
-          "image": "assets/images/drugs/p6_i17.png"
+          "ingredient": "Levothyroxine",
+          "reference": "씬지로이드",
+          "image": "assets/images/drugs/p7_i35.png"
         },
         {
-          "ingredient": "Methylprednisolone",
-          "reference": "피디",
-          "image": "assets/images/drugs/p6_i18.png"
-        },
-        {
-          "ingredient": "Dexamethasone",
-          "reference": "유한덱사메타손",
-          "image": "assets/images/drugs/p6_i19.png"
-        },
-        {
-          "ingredient": "Hydrocortisone",
-          "reference": "하이손",
-          "image": "assets/images/drugs/p6_i20.png"
+          "ingredient": "Liothyronine",
+          "reference": "테트로닌",
+          "image": "assets/images/drugs/p7_i36.png"
         }
       ]
     },
     {
       "id": "drug_v4_35",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "호르몬제제",
+      "minor": "갑상선 질환 치료제",
+      "sub": "항진증 치료제",
       "items": [
         {
-          "ingredient": "Deflazacort",
-          "reference": "캘코트정",
-          "image": "assets/images/drugs/p6_i21.png"
+          "ingredient": "Methimazole",
+          "reference": "부광메티마졸",
+          "image": "assets/images/drugs/p7_i33.png"
         },
         {
-          "ingredient": "Beclomethasone",
-          "reference": "클리퍼",
-          "image": "assets/images/drugs/p6_i22.png"
-        },
-        {
-          "ingredient": "Triamcinolone",
-          "reference": "레더코트",
-          "image": "assets/images/drugs/p6_i23.png"
-        },
-        {
-          "ingredient": "Somatropin",
-          "reference": "싸이젠리퀴드",
-          "image": "assets/images/drugs/p6_i24.png"
-        },
-        {
-          "ingredient": "Desmopressin",
-          "reference": "미니린멜트",
-          "image": "assets/images/drugs/p6_i25.png"
-        },
-        {
-          "ingredient": "Octreotide",
-          "reference": "산도스타틴",
-          "image": "assets/images/drugs/p6_i26.png"
+          "ingredient": "Propylthiouracil",
+          "reference": "안티로이드",
+          "image": "assets/images/drugs/p7_i34.png"
         }
       ]
     },
     {
       "id": "drug_v4_36",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "고프로락틴 혈증 치료제",
+      "sub": "Lysergic acid 유도",
       "items": [
         {
-          "ingredient": "Testosterone",
-          "reference": "네비도",
-          "image": "assets/images/drugs/p7_i0.png"
-        },
-        {
-          "ingredient": "Cyproterone+EE",
-          "reference": "다이안느35",
-          "image": "assets/images/drugs/p7_i3.png"
+          "ingredient": "Bromocriptine",
+          "reference": "팔로델",
+          "image": "assets/images/drugs/p7_i37.png"
         }
       ]
     },
     {
       "id": "drug_v4_37",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Drospirenone+E",
-          "reference": "안젤릭",
-          "image": "assets/images/drugs/p7_i4.png"
-        },
-        {
-          "ingredient": "Drospirenone+EE",
-          "reference": "야스민",
-          "image": "assets/images/drugs/p7_i5.png"
-        },
-        {
-          "ingredient": "Desogestrel+EE",
-          "reference": "머시론",
-          "image": "assets/images/drugs/p7_i7.png"
-        },
-        {
-          "ingredient": "Tibolone",
-          "reference": "리비알",
-          "image": "assets/images/drugs/p7_i8.png"
-        },
-        {
-          "ingredient": "Dydrogesterone",
-          "reference": "듀파스톤",
-          "image": "assets/images/drugs/p7_i9.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_38",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Medroxy Pro-",
-          "reference": "프로베라",
-          "image": "assets/images/drugs/p7_i10.png"
-        },
-        {
-          "ingredient": "Progesterone",
-          "reference": "유트로게스탄",
-          "image": "assets/images/drugs/p7_i11.png"
-        },
-        {
-          "ingredient": "Estriol",
-          "reference": "오베스틴",
-          "image": "assets/images/drugs/p7_i12.png"
-        },
-        {
-          "ingredient": "Progesterone",
-          "reference": "크리논겔",
-          "image": "assets/images/drugs/p7_i13.png"
-        },
-        {
-          "ingredient": "Estriol",
-          "reference": "유센스질크림",
-          "image": "assets/images/drugs/p7_i14.png"
-        },
-        {
-          "ingredient": "Progesterone",
-          "reference": "루티너스질정",
-          "image": "assets/images/drugs/p7_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_39",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "골다공증 치료제",
+      "sub": "Bisphosphonate",
       "items": [
         {
           "ingredient": "Alendronate",
           "reference": "마빌",
           "image": "assets/images/drugs/p7_i16.png"
+        },
+        {
+          "ingredient": "Alendronate",
+          "reference": "포사맥스",
+          "image": ""
         },
         {
           "ingredient": "Etidronate",
@@ -9444,34 +9061,29 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_40",
+      "id": "drug_v4_38",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "골다공증 치료제",
+      "sub": "SERM",
       "items": [
         {
-          "ingredient": "Vit D",
-          "reference": "",
-          "image": "assets/images/drugs/p7_i24.png"
+          "ingredient": "Bazedoxifene",
+          "reference": "비비안트",
+          "image": "assets/images/drugs/p7_i27.png"
         },
         {
-          "ingredient": "SERM",
-          "reference": "",
+          "ingredient": "Raloxifene",
+          "reference": "에비스타",
           "image": "assets/images/drugs/p7_i26.png"
         }
       ]
     },
     {
-      "id": "drug_v4_41",
+      "id": "drug_v4_39",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "골다공증 치료제",
+      "sub": "Vit D",
       "items": [
-        {
-          "ingredient": "Teriparatide",
-          "reference": "포스테오",
-          "image": "assets/images/drugs/p7_i22.png"
-        },
         {
           "ingredient": "Alfacalcidol",
           "reference": "알파본",
@@ -9481,90 +9093,493 @@ const DB = {
           "ingredient": "Calcitriol",
           "reference": "칼시오",
           "image": "assets/images/drugs/p7_i25.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_40",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "골다공증 치료제",
+      "sub": "부갑상선호르몬",
+      "items": [
+        {
+          "ingredient": "Teriparatide",
+          "reference": "포스테오",
+          "image": "assets/images/drugs/p7_i22.png"
         },
         {
-          "ingredient": "Raloxifene",
-          "reference": "에비스타",
-          "image": "assets/images/drugs/p7_i26.png"
-        },
+          "ingredient": "Teriparatide",
+          "reference": "테로사",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_41",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "Biguanide",
+      "items": [
         {
-          "ingredient": "Bazedoxifene",
-          "reference": "비비안트",
-          "image": "assets/images/drugs/p7_i27.png"
+          "ingredient": "Metformin",
+          "reference": "다이아벡스",
+          "image": "assets/images/drugs/p5_i0.png"
         }
       ]
     },
     {
       "id": "drug_v4_42",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "당뇨병 치료제",
+      "sub": "DPP-4 inh",
       "items": [
         {
-          "ingredient": "Allopurinol",
-          "reference": "자이로릭",
-          "image": "assets/images/drugs/p7_i28.png"
+          "ingredient": "Gemigliptin",
+          "reference": "제미글로",
+          "image": "assets/images/drugs/p5_i18.png"
         },
         {
-          "ingredient": "Febuxostat",
-          "reference": "페브릭",
-          "image": "assets/images/drugs/p7_i29.png"
+          "ingredient": "Gemigliptin+Metformin",
+          "reference": "제미메트",
+          "image": ""
         },
         {
-          "ingredient": "Benzbromarone",
-          "reference": "유리논",
-          "image": "assets/images/drugs/p7_i30.png"
+          "ingredient": "Linagliptin",
+          "reference": "트라젠타",
+          "image": "assets/images/drugs/p5_i20.png"
         },
         {
-          "ingredient": "Potassium citrate",
-          "reference": "유로시트라K",
-          "image": "assets/images/drugs/p7_i31.png"
+          "ingredient": "Linagliptin+Metformin",
+          "reference": "트라젠타듀오",
+          "image": ""
         },
         {
-          "ingredient": "Colchicine",
-          "reference": "콜킨",
-          "image": "assets/images/drugs/p7_i32.png"
+          "ingredient": "Sitagliptin",
+          "reference": "자누비아",
+          "image": "assets/images/drugs/p5_i22.png"
+        },
+        {
+          "ingredient": "Sitagliptin+Metformin",
+          "reference": "자누메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Vildagliptin",
+          "reference": "가브스",
+          "image": "assets/images/drugs/p5_i24.png"
+        },
+        {
+          "ingredient": "Vildagliptin+Metformin",
+          "reference": "가브스메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Teneligliptin",
+          "reference": "테넬리아",
+          "image": "assets/images/drugs/p5_i26.png"
+        },
+        {
+          "ingredient": "Teneligliptin+Metformin",
+          "reference": "테넬리아엠",
+          "image": ""
+        },
+        {
+          "ingredient": "Alogliptin",
+          "reference": "네시나",
+          "image": "assets/images/drugs/p5_i28.png"
+        },
+        {
+          "ingredient": "Alogliptin+Metformin",
+          "reference": "네시나메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Anagliptin",
+          "reference": "가드렛",
+          "image": "assets/images/drugs/p5_i30.png"
+        },
+        {
+          "ingredient": "Anagliptin+Metformin",
+          "reference": "가드메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Evogliptin",
+          "reference": "슈가논",
+          "image": "assets/images/drugs/p5_i32.png"
+        },
+        {
+          "ingredient": "Evogliptin+Metformin",
+          "reference": "슈가메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Saxagliptin",
+          "reference": "온글라이자",
+          "image": "assets/images/drugs/p5_i34.png"
+        },
+        {
+          "ingredient": "Saxagliptin+Metformin",
+          "reference": "콤비글라이즈",
+          "image": ""
         }
       ]
     },
     {
       "id": "drug_v4_43",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "당뇨병 치료제",
+      "sub": "GLP-1 + Insulin 장시간",
       "items": [
         {
-          "ingredient": "Methimazole",
-          "reference": "부광메티마졸",
-          "image": "assets/images/drugs/p7_i33.png"
+          "ingredient": "Degludec + Liraglutide",
+          "reference": "줄토피",
+          "image": "assets/images/drugs/p6_i11.png"
         },
         {
-          "ingredient": "Propylthiouracil",
-          "reference": "안티로이드",
-          "image": "assets/images/drugs/p7_i34.png"
-        },
-        {
-          "ingredient": "Levothyroxine",
-          "reference": "씬지로이드",
-          "image": "assets/images/drugs/p7_i35.png"
-        },
-        {
-          "ingredient": "Liothyronine",
-          "reference": "테트로닌",
-          "image": "assets/images/drugs/p7_i36.png"
-        },
-        {
-          "ingredient": "Bromocriptine",
-          "reference": "팔로델",
-          "image": "assets/images/drugs/p7_i37.png"
+          "ingredient": "Lixisenatide + Glargine",
+          "reference": "솔리쿠아",
+          "image": ""
         }
       ]
     },
     {
       "id": "drug_v4_44",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "당뇨병 치료제",
+      "sub": "GLP-1 유사체",
+      "items": [
+        {
+          "ingredient": "Semaglutide",
+          "reference": "오젬픽",
+          "image": ""
+        },
+        {
+          "ingredient": "Dulaglutide",
+          "reference": "트루리시티",
+          "image": "assets/images/drugs/p6_i9.png"
+        },
+        {
+          "ingredient": "Liraglutide",
+          "reference": "빅토자",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_45",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "Insulin 속효",
+      "items": [
+        {
+          "ingredient": "Aspart",
+          "reference": "노보래피드",
+          "image": "assets/images/drugs/p6_i2.png"
+        },
+        {
+          "ingredient": "Glulisine",
+          "reference": "애피드라솔로스타",
+          "image": "assets/images/drugs/p6_i3.png"
+        },
+        {
+          "ingredient": "Lispro",
+          "reference": "휴마로그퀵펜",
+          "image": "assets/images/drugs/p6_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_46",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "Insulin 장시간",
+      "items": [
+        {
+          "ingredient": "Detemir",
+          "reference": "레버미어",
+          "image": "assets/images/drugs/p6_i6.png"
+        },
+        {
+          "ingredient": "Degludec",
+          "reference": "트레시바",
+          "image": "assets/images/drugs/p6_i5.png"
+        },
+        {
+          "ingredient": "Glargine",
+          "reference": "투제오",
+          "image": "assets/images/drugs/p6_i7.png"
+        },
+        {
+          "ingredient": "Glargine",
+          "reference": "란투스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_47",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "Insulin 혼합",
+      "items": [
+        {
+          "ingredient": "Aspart + Aspart protamine",
+          "reference": "노보믹스 30",
+          "image": ""
+        },
+        {
+          "ingredient": "Aspart + Aspart protamine",
+          "reference": "노보믹스 50",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_48",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "Meglitinide",
+      "items": [
+        {
+          "ingredient": "Mitiglinide",
+          "reference": "글루패스",
+          "image": "assets/images/drugs/p5_i39.png"
+        },
+        {
+          "ingredient": "Nateglinide",
+          "reference": "파스틱",
+          "image": "assets/images/drugs/p5_i40.png"
+        },
+        {
+          "ingredient": "Repaglinide",
+          "reference": "노보넘",
+          "image": "assets/images/drugs/p5_i41.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_49",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "SGLT-2 inh",
+      "items": [
+        {
+          "ingredient": "Dapagliflozin",
+          "reference": "포시가",
+          "image": "assets/images/drugs/p5_i12.png"
+        },
+        {
+          "ingredient": "Dapagliflozin+Metformin",
+          "reference": "직듀오",
+          "image": ""
+        },
+        {
+          "ingredient": "Empagliflozin",
+          "reference": "자디앙",
+          "image": "assets/images/drugs/p5_i14.png"
+        },
+        {
+          "ingredient": "Empagliflozin+Metformin",
+          "reference": "자디앙듀오",
+          "image": ""
+        },
+        {
+          "ingredient": "Enavogliflozin",
+          "reference": "엔블로",
+          "image": "assets/images/drugs/p5_i16.png"
+        },
+        {
+          "ingredient": "Enavogliflozin+Metformin",
+          "reference": "엔블로멧",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_50",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "Sulfonylurea (SU)",
+      "items": [
+        {
+          "ingredient": "Gliclazide",
+          "reference": "디아미크롱",
+          "image": "assets/images/drugs/p5_i6.png"
+        },
+        {
+          "ingredient": "Glimepiride",
+          "reference": "아마릴",
+          "image": "assets/images/drugs/p5_i7.png"
+        },
+        {
+          "ingredient": "Glibenclamide",
+          "reference": "다오닐",
+          "image": "assets/images/drugs/p5_i9.png"
+        },
+        {
+          "ingredient": "Glimepiride+Metformin",
+          "reference": "아마릴M",
+          "image": ""
+        },
+        {
+          "ingredient": "Glipizide",
+          "reference": "다이그린",
+          "image": "assets/images/drugs/p5_i11.png"
+        },
+        {
+          "ingredient": "Glibenclamide+Metformin",
+          "reference": "글루코반스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_51",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "TZD",
+      "items": [
+        {
+          "ingredient": "Pioglitazone",
+          "reference": "액토스",
+          "image": "assets/images/drugs/p5_i2.png"
+        },
+        {
+          "ingredient": "Pioglitazone+Metformin",
+          "reference": "액토스메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Lobeglitazone",
+          "reference": "듀비에",
+          "image": "assets/images/drugs/p5_i4.png"
+        },
+        {
+          "ingredient": "Lobeglitazone+Metformin",
+          "reference": "듀비메트",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_52",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병 치료제",
+      "sub": "a-glucosidase i",
+      "items": [
+        {
+          "ingredient": "Voglibose",
+          "reference": "베이슨",
+          "image": "assets/images/drugs/p5_i37.png"
+        },
+        {
+          "ingredient": "Acarbose",
+          "reference": "글루코바이",
+          "image": "assets/images/drugs/p5_i36.png"
+        },
+        {
+          "ingredient": "Miglitol",
+          "reference": "미그보스",
+          "image": "assets/images/drugs/p5_i38.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_53",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "당뇨병성 신경병증 약",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "R-Thioctic acid",
+          "reference": "덱시드",
+          "image": "assets/images/drugs/p6_i14.png"
+        },
+        {
+          "ingredient": "Thioctic acid",
+          "reference": "치옥타시드 HR",
+          "image": ""
+        },
+        {
+          "ingredient": "Epalrestat",
+          "reference": "에팔",
+          "image": "assets/images/drugs/p6_i16.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_54",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "배란촉진제",
+      "sub": "Gonadotropin 류",
+      "items": [
+        {
+          "ingredient": "Menotrophin",
+          "reference": "메노푸어",
+          "image": ""
+        },
+        {
+          "ingredient": "Menotrophin",
+          "reference": "아이브이에프엠",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_55",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "비만치료제",
+      "sub": "GLP-1 유사체",
+      "items": [
+        {
+          "ingredient": "Liraglutide",
+          "reference": "삭센다",
+          "image": ""
+        },
+        {
+          "ingredient": "Semaglutide",
+          "reference": "위고비",
+          "image": "assets/images/drugs/p8_i15.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_56",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "비만치료제",
+      "sub": "말초성",
+      "items": [
+        {
+          "ingredient": "Orlistat",
+          "reference": "제니칼",
+          "image": "assets/images/drugs/p8_i14.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_57",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "비만치료제",
+      "sub": "중추성",
+      "items": [
+        {
+          "ingredient": "Bupropion+Naltrexone",
+          "reference": "레비아",
+          "image": ""
+        },
+        {
+          "ingredient": "Bupropion",
+          "reference": "웰부트린 XL",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_58",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "비만치료제",
+      "sub": "중추성 (향정)",
       "items": [
         {
           "ingredient": "Diethylpropion",
@@ -9582,102 +9597,194 @@ const DB = {
           "image": "assets/images/drugs/p8_i6.png"
         },
         {
+          "ingredient": "Phentermine",
+          "reference": "디에타민",
+          "image": ""
+        },
+        {
           "ingredient": "Phendimetrazine",
           "reference": "푸링",
           "image": "assets/images/drugs/p8_i9.png"
+        },
+        {
+          "ingredient": "Phendimetrazine",
+          "reference": "판베시",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_45",
+      "id": "drug_v4_59",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "비만치료제",
+      "sub": "중추성 (향정) + 항뇌전증",
       "items": [
         {
           "ingredient": "Phentermine+Topiramate",
           "reference": "큐시미아",
           "image": "assets/images/drugs/p8_i10.png"
-        },
-        {
-          "ingredient": "Naltrexone",
-          "reference": "레비아",
-          "image": "assets/images/drugs/p8_i11.png"
-        },
-        {
-          "ingredient": "Bupropion",
-          "reference": "애드피온서방",
-          "image": "assets/images/drugs/p8_i12.png"
-        },
-        {
-          "ingredient": "Orlistat",
-          "reference": "제니칼",
-          "image": "assets/images/drugs/p8_i14.png"
         }
       ]
     },
     {
-      "id": "drug_v4_46",
+      "id": "drug_v4_60",
       "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "사후 피임약",
+      "sub": "-",
       "items": [
         {
-          "ingredient": "Venlafaxine",
-          "reference": "",
+          "ingredient": "Levonorgestrel",
+          "reference": "포스티노 1",
           "image": ""
         },
-        {
-          "ingredient": "Fluoxetine",
-          "reference": "",
-          "image": "assets/images/drugs/p8_i15.png"
-        },
-        {
-          "ingredient": "Semaglutide",
-          "reference": "위고비",
-          "image": "assets/images/drugs/p8_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_47",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "한 Vit B12+Cyproheptadine+Carnitine+Lysine",
-      "items": [
-        {
-          "ingredient": "Levonorgestrel+EE",
-          "reference": "미니보라",
-          "image": "assets/images/drugs/p8_i20.png"
-        },
-        {
-          "ingredient": "Gestodene+EE",
-          "reference": "마이보라",
-          "image": "assets/images/drugs/p8_i3.png"
-        },
-        {
-          "ingredient": "Drospirenone+EE",
-          "reference": "안젤릭(E 상이)",
-          "image": "assets/images/drugs/p8_i0.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_48",
-      "major": "[2. 호르몬&대사 질환]",
-      "minor": "미분류",
-      "sub": "한 Vit B12+Cyproheptadine+Carnitine+Lysine",
-      "items": [
         {
           "ingredient": "Ulipristal",
           "reference": "엘라원",
           "image": "assets/images/drugs/p8_i22.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_61",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "성호르몬제제",
+      "sub": "남성호르몬",
+      "items": [
+        {
+          "ingredient": "Testosterone",
+          "reference": "예나스테론",
+          "image": ""
         },
         {
-          "ingredient": "Levonorgestrel",
-          "reference": "포스티노1",
-          "image": "assets/images/drugs/p8_i23.png"
+          "ingredient": "Testosterone",
+          "reference": "나테스토나잘겔",
+          "image": ""
         },
+        {
+          "ingredient": "Testosterone",
+          "reference": "네비도",
+          "image": "assets/images/drugs/p7_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_62",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "성호르몬제제",
+      "sub": "여성호르몬",
+      "items": [
+        {
+          "ingredient": "Drospirenone+EE",
+          "reference": "안젤릭",
+          "image": ""
+        },
+        {
+          "ingredient": "Drospirenone+EE",
+          "reference": "야즈",
+          "image": ""
+        },
+        {
+          "ingredient": "Drospirenone+EE",
+          "reference": "야스민",
+          "image": "assets/images/drugs/p7_i5.png"
+        },
+        {
+          "ingredient": "Desogestrel+EE",
+          "reference": "머시론",
+          "image": "assets/images/drugs/p7_i7.png"
+        },
+        {
+          "ingredient": "Tibolone",
+          "reference": "리비알",
+          "image": "assets/images/drugs/p7_i8.png"
+        },
+        {
+          "ingredient": "Dydrogesterone",
+          "reference": "듀파스톤",
+          "image": "assets/images/drugs/p7_i9.png"
+        },
+        {
+          "ingredient": "Progesterone",
+          "reference": "유트로게스탄",
+          "image": "assets/images/drugs/p7_i11.png"
+        },
+        {
+          "ingredient": "Progesterone",
+          "reference": "크리논겔",
+          "image": "assets/images/drugs/p7_i13.png"
+        },
+        {
+          "ingredient": "Progesterone",
+          "reference": "루티너스질정",
+          "image": "assets/images/drugs/p7_i15.png"
+        },
+        {
+          "ingredient": "Estriol",
+          "reference": "오베스틴",
+          "image": "assets/images/drugs/p7_i12.png"
+        },
+        {
+          "ingredient": "Estriol",
+          "reference": "유센스질크림",
+          "image": "assets/images/drugs/p7_i14.png"
+        },
+        {
+          "ingredient": "Medroxy Progesterone",
+          "reference": "프로베라",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_63",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "성호르몬제제",
+      "sub": "항남성호르몬",
+      "items": [
+        {
+          "ingredient": "Cyproterone+EE",
+          "reference": "다이안느 35",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_64",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "식욕촉진제",
+      "sub": "프로게스테론",
+      "items": [
+        {
+          "ingredient": "Megestrol",
+          "reference": "메게롤",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_65",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "식욕촉진제",
+      "sub": "항히스타민 복합제",
+      "items": [
+        {
+          "ingredient": "Vit B12+Cyproheptadine+Carnitine+Lysine",
+          "reference": "트레스탄캡슐",
+          "image": ""
+        },
+        {
+          "ingredient": "Vit B12+Cyproheptadine+Carnitine+Lysine",
+          "reference": "트레스탄츄정",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_66",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "체내 피임장치",
+      "sub": "-",
+      "items": [
         {
           "ingredient": "Etonogestrel",
           "reference": "임플라논",
@@ -9691,10 +9798,579 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_49",
+      "id": "drug_v4_67",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "통풍치료제",
+      "sub": "배설 촉진제",
+      "items": [
+        {
+          "ingredient": "Potassium citrate",
+          "reference": "유로시트라 K",
+          "image": ""
+        },
+        {
+          "ingredient": "Benzbromarone",
+          "reference": "유리논",
+          "image": "assets/images/drugs/p7_i30.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_68",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "통풍치료제",
+      "sub": "요산 생성 억제제",
+      "items": [
+        {
+          "ingredient": "Allopurinol",
+          "reference": "자이로릭",
+          "image": "assets/images/drugs/p7_i28.png"
+        },
+        {
+          "ingredient": "Febuxostat",
+          "reference": "페브릭",
+          "image": "assets/images/drugs/p7_i29.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_69",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "통풍치료제",
+      "sub": "통풍 발작 예방제",
+      "items": [
+        {
+          "ingredient": "Colchicine",
+          "reference": "콜킨",
+          "image": "assets/images/drugs/p7_i32.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_70",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "피임제",
+      "sub": "2세대 P+E",
+      "items": [
+        {
+          "ingredient": "Levonorgestrel+EE",
+          "reference": "미니보라",
+          "image": "assets/images/drugs/p8_i20.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_71",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "피임제",
+      "sub": "3세대 P+E",
+      "items": [
+        {
+          "ingredient": "Desogestrel+EE",
+          "reference": "머시론",
+          "image": "assets/images/drugs/p7_i7.png"
+        },
+        {
+          "ingredient": "Gestodene+EE",
+          "reference": "마이보라",
+          "image": "assets/images/drugs/p8_i3.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_72",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "피임제",
+      "sub": "4세대 P+E",
+      "items": [
+        {
+          "ingredient": "Drospirenone+EE",
+          "reference": "안젤릭",
+          "image": ""
+        },
+        {
+          "ingredient": "Drospirenone+EE",
+          "reference": "야스민",
+          "image": "assets/images/drugs/p7_i5.png"
+        },
+        {
+          "ingredient": "Drospirenone+EE",
+          "reference": "야즈",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_73",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "호르몬제제",
+      "sub": "부신피질 호르몬제",
+      "items": [
+        {
+          "ingredient": "Prednisolone",
+          "reference": "피디",
+          "image": ""
+        },
+        {
+          "ingredient": "Prednisolone",
+          "reference": "소론도",
+          "image": "assets/images/drugs/p6_i17.png"
+        },
+        {
+          "ingredient": "Methylprednisolone",
+          "reference": "메틸프레드니솔론",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexamethasone",
+          "reference": "유한덱사메타손",
+          "image": "assets/images/drugs/p6_i19.png"
+        },
+        {
+          "ingredient": "Hydrocortisone",
+          "reference": "하이손",
+          "image": "assets/images/drugs/p6_i20.png"
+        },
+        {
+          "ingredient": "Beclomethasone",
+          "reference": "클리퍼",
+          "image": "assets/images/drugs/p6_i22.png"
+        },
+        {
+          "ingredient": "Triamcinolone",
+          "reference": "레더코트",
+          "image": "assets/images/drugs/p6_i23.png"
+        },
+        {
+          "ingredient": "Deflazacort",
+          "reference": "캘코트정",
+          "image": "assets/images/drugs/p6_i21.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_74",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "호르몬제제",
+      "sub": "성장호르몬",
+      "items": [
+        {
+          "ingredient": "Somatropin",
+          "reference": "싸이젠리퀴드",
+          "image": "assets/images/drugs/p6_i24.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_75",
+      "major": "[2. 호르몬&대사 질환]",
+      "minor": "호르몬제제",
+      "sub": "항성장 바소프레신",
+      "items": [
+        {
+          "ingredient": "Octreotide",
+          "reference": "산도스타틴",
+          "image": "assets/images/drugs/p6_i26.png"
+        },
+        {
+          "ingredient": "Desmopressin",
+          "reference": "미니린멜트",
+          "image": "assets/images/drugs/p6_i25.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_76",
       "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "[3. 호흡기계질환]",
+      "minor": "거담제",
+      "sub": "점액 분비 촉진제",
+      "items": [
+        {
+          "ingredient": "Ambroxol + Clenbuterol",
+          "reference": "암브로콜",
+          "image": ""
+        },
+        {
+          "ingredient": "Ambroxol + Clenbuterol",
+          "reference": "암브로콜시럽",
+          "image": "assets/images/drugs/p11_i12.png"
+        },
+        {
+          "ingredient": "Bromhexine",
+          "reference": "-",
+          "image": ""
+        },
+        {
+          "ingredient": "Ambroxol",
+          "reference": "뮤코펙트",
+          "image": "assets/images/drugs/p11_i14.png"
+        },
+        {
+          "ingredient": "Ambroxol",
+          "reference": "뮤코졸",
+          "image": ""
+        },
+        {
+          "ingredient": "아이비+황련",
+          "reference": "시네츄라",
+          "image": ""
+        },
+        {
+          "ingredient": "Guaifenesin",
+          "reference": "-",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_77",
+      "major": "[3. 호흡기계질환]",
+      "minor": "거담제",
+      "sub": "점액 용해제",
+      "items": [
+        {
+          "ingredient": "Carbocysteine",
+          "reference": "리나치올",
+          "image": ""
+        },
+        {
+          "ingredient": "Carbocysteine",
+          "reference": "리나치올시럽",
+          "image": "assets/images/drugs/p11_i17.png"
+        },
+        {
+          "ingredient": "Acetylcysteine",
+          "reference": "뮤테란",
+          "image": "assets/images/drugs/p11_i19.png"
+        },
+        {
+          "ingredient": "Acetylcysteine",
+          "reference": "프리아틸",
+          "image": ""
+        },
+        {
+          "ingredient": "Erdosteine",
+          "reference": "엘도스시럽",
+          "image": "assets/images/drugs/p11_i21.png"
+        },
+        {
+          "ingredient": "Erdosteine",
+          "reference": "엘도스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_78",
+      "major": "[3. 호흡기계질환]",
+      "minor": "비강 질환 치료제",
+      "sub": "비강 Beta 효능",
+      "items": [
+        {
+          "ingredient": "Ipratropium",
+          "reference": "리노벤트",
+          "image": "assets/images/drugs/p10_i19.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_79",
+      "major": "[3. 호흡기계질환]",
+      "minor": "비강 질환 치료제",
+      "sub": "비강 세척제",
+      "items": [
+        {
+          "ingredient": "NaCl",
+          "reference": "엔클비액",
+          "image": "assets/images/drugs/p10_i21.png"
+        },
+        {
+          "ingredient": "NaCl",
+          "reference": "피지오머",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexpanthenol+hyaluronate",
+          "reference": "코앤",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_80",
+      "major": "[3. 호흡기계질환]",
+      "minor": "비강 질환 치료제",
+      "sub": "비강 스테로이드제",
+      "items": [
+        {
+          "ingredient": "Mometasone",
+          "reference": "나자케어",
+          "image": "assets/images/drugs/p10_i25.png"
+        },
+        {
+          "ingredient": "Triamcinolone",
+          "reference": "나자코트",
+          "image": "assets/images/drugs/p10_i26.png"
+        },
+        {
+          "ingredient": "Fluticasone",
+          "reference": "아바미스",
+          "image": "assets/images/drugs/p10_i23.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_81",
+      "major": "[3. 호흡기계질환]",
+      "minor": "비강 질환 치료제",
+      "sub": "비강 항히스타민",
+      "items": [
+        {
+          "ingredient": "Azelastine",
+          "reference": "아셉틴",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_82",
+      "major": "[3. 호흡기계질환]",
+      "minor": "비강 질환 치료제",
+      "sub": "비충혈제거제",
+      "items": [
+        {
+          "ingredient": "Pseudoephedrine",
+          "reference": "슈다페드",
+          "image": "assets/images/drugs/p10_i15.png"
+        },
+        {
+          "ingredient": "Oxymetazoline",
+          "reference": "화이투벤",
+          "image": ""
+        },
+        {
+          "ingredient": "Xylometazoline",
+          "reference": "오트리빈",
+          "image": "assets/images/drugs/p10_i17.png"
+        },
+        {
+          "ingredient": "Xylometazoline",
+          "reference": "오트리빈에스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_83",
+      "major": "[3. 호흡기계질환]",
+      "minor": "진해제",
+      "sub": "말초성",
+      "items": [
+        {
+          "ingredient": "Levodropropizine",
+          "reference": "레보투스시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Levodropropizine",
+          "reference": "레보틱스 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Benzonatate",
+          "reference": "지콜",
+          "image": ""
+        },
+        {
+          "ingredient": "Benzonatate",
+          "reference": "드로피진",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_84",
+      "major": "[3. 호흡기계질환]",
+      "minor": "진해제",
+      "sub": "중추/마약성",
+      "items": [
+        {
+          "ingredient": "Codeine",
+          "reference": "명문인산코데인",
+          "image": "assets/images/drugs/p16_i17.png"
+        },
+        {
+          "ingredient": "Dihydrocodeine 함유",
+          "reference": "코푸정",
+          "image": ""
+        },
+        {
+          "ingredient": "Dihydrocodeine 함유",
+          "reference": "코푸시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Dihydrocodeine 함유",
+          "reference": "코대원에스시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Dihydrocodeine 함유",
+          "reference": "코데날시럽",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_85",
+      "major": "[3. 호흡기계질환]",
+      "minor": "진해제",
+      "sub": "중추/비마약성",
+      "items": [
+        {
+          "ingredient": "Dextromethorphan 함유",
+          "reference": "지노콜시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Dextromethorphan 함유",
+          "reference": "코푸시럽에스",
+          "image": ""
+        },
+        {
+          "ingredient": "Levocloperastine",
+          "reference": "프리비투스",
+          "image": "assets/images/drugs/p11_i6.png"
+        },
+        {
+          "ingredient": "Butamirate",
+          "reference": "-",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_86",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제",
+      "sub": "LT 차단제+항히스타민제",
+      "items": [
+        {
+          "ingredient": "Montelukast+Levocetirizine",
+          "reference": "몬테리진",
+          "image": "assets/images/drugs/p12_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_87",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제",
+      "sub": "Leukotriene 차단제",
+      "items": [
+        {
+          "ingredient": "Montelukast",
+          "reference": "싱귤레어",
+          "image": "assets/images/drugs/p9_i9.png"
+        },
+        {
+          "ingredient": "Pranlukast",
+          "reference": "씨투스",
+          "image": "assets/images/drugs/p9_i12.png"
+        },
+        {
+          "ingredient": "Pranlukast",
+          "reference": "씨투스현탁정",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_88",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제",
+      "sub": "SABA",
+      "items": [
+        {
+          "ingredient": "Salbutamol",
+          "reference": "벤토린네뷸",
+          "image": ""
+        },
+        {
+          "ingredient": "Salbutamol",
+          "reference": "벤토린흡입액",
+          "image": ""
+        },
+        {
+          "ingredient": "Salbutamol",
+          "reference": "벤토린에보할러",
+          "image": ""
+        },
+        {
+          "ingredient": "Salbutamol",
+          "reference": "살부트론",
+          "image": ""
+        },
+        {
+          "ingredient": "Salbutamol",
+          "reference": "신일살부타몰",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_89",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제",
+      "sub": "Xanthine 유도체",
+      "items": [
+        {
+          "ingredient": "Doxofylline",
+          "reference": "액시마",
+          "image": "assets/images/drugs/p9_i16.png"
+        },
+        {
+          "ingredient": "Bamifylline",
+          "reference": "트렌타딜",
+          "image": "assets/images/drugs/p9_i17.png"
+        },
+        {
+          "ingredient": "Aminophylline",
+          "reference": "대원아미노필린",
+          "image": "assets/images/drugs/p9_i18.png"
+        },
+        {
+          "ingredient": "Acebrophylline",
+          "reference": "설포라제",
+          "image": "assets/images/drugs/p9_i19.png"
+        },
+        {
+          "ingredient": "Theobromine",
+          "reference": "애니코프",
+          "image": ""
+        },
+        {
+          "ingredient": "Theophylline",
+          "reference": "데오크레시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Theophylline",
+          "reference": "테올란비",
+          "image": ""
+        },
+        {
+          "ingredient": "Theophylline",
+          "reference": "유니필",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_90",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제",
+      "sub": "교감신경성 기관지 확장제",
       "items": [
         {
           "ingredient": "Procaterol",
@@ -9719,95 +10395,108 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_50",
+      "id": "drug_v4_91",
       "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "Leukotriene차단제(-lukast)",
-      "items": [
-        {
-          "ingredient": "Montelukast",
-          "reference": "싱귤레어",
-          "image": "assets/images/drugs/p9_i9.png"
-        },
-        {
-          "ingredient": "Pranlukast",
-          "reference": "씨투스",
-          "image": "assets/images/drugs/p9_i12.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_51",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "LT 차단제+항히스타민제",
-      "items": [
-        {
-          "ingredient": "Montelukast+Levocetirizine",
-          "reference": "몬테리진",
-          "image": "assets/images/drugs/p9_i15.png"
-        },
-        {
-          "ingredient": "Doxofylline",
-          "reference": "액시마",
-          "image": "assets/images/drugs/p9_i16.png"
-        },
-        {
-          "ingredient": "Bamifylline",
-          "reference": "트렌타딜",
-          "image": "assets/images/drugs/p9_i17.png"
-        },
-        {
-          "ingredient": "Aminophylline",
-          "reference": "대원아미노필린",
-          "image": "assets/images/drugs/p9_i18.png"
-        },
-        {
-          "ingredient": "Acebrophylline",
-          "reference": "설포라제",
-          "image": "assets/images/drugs/p9_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_52",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "Theobromine",
-      "items": [
-        {
-          "ingredient": "Echinacea",
-          "reference": "에키나포스",
-          "image": "assets/images/drugs/p9_i24.png"
-        },
-        {
-          "ingredient": "Pelargonium Sidoides",
-          "reference": "움카민정",
-          "image": "assets/images/drugs/p9_i25.png"
-        },
-        {
-          "ingredient": "Caffeine",
-          "reference": "네오카프액",
-          "image": "assets/images/drugs/p9_i29.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_53",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "천식/COPD 치료제(흡입)",
+      "sub": "ICS",
       "items": [
         {
           "ingredient": "Fluticasone",
-          "reference": "아뉴이티100​ 엘립타",
-          "image": "assets/images/drugs/p10_i0.png"
+          "reference": "아뉴이티 100 엘립타",
+          "image": ""
+        },
+        {
+          "ingredient": "Fluticasone",
+          "reference": "아뉴이티 200 엘립타",
+          "image": ""
+        },
+        {
+          "ingredient": "Fluticasone",
+          "reference": "후릭소타이드 디스커스",
+          "image": ""
         },
         {
           "ingredient": "Budesonide",
           "reference": "풀미코트",
           "image": "assets/images/drugs/p10_i2.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_92",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제(흡입)",
+      "sub": "ICS+LABA",
+      "items": [
+        {
+          "ingredient": "Salmeterol+Fluticasone",
+          "reference": "세레타이드 에보할러",
+          "image": ""
         },
+        {
+          "ingredient": "Salmeterol+Fluticasone",
+          "reference": "세레타이드 디스커스",
+          "image": ""
+        },
+        {
+          "ingredient": "Budesonide+Formoterol",
+          "reference": "심비코트 터부헬러",
+          "image": ""
+        },
+        {
+          "ingredient": "Budesonide+Formoterol",
+          "reference": "심비코트 라피헬러",
+          "image": ""
+        },
+        {
+          "ingredient": "Fluticasone+Vilanterol",
+          "reference": "렐바 100 엘립타",
+          "image": ""
+        },
+        {
+          "ingredient": "Fluticasone+Vilanterol",
+          "reference": "렐바 200 엘립타",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_93",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제(흡입)",
+      "sub": "ICS+LABA+LAMA",
+      "items": [
+        {
+          "ingredient": "Fluticasone+Vilanterol+Umeclidinium",
+          "reference": "트렐리지엘립타",
+          "image": "assets/images/drugs/p10_i14.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_94",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제(흡입)",
+      "sub": "LABA+LAMA",
+      "items": [
+        {
+          "ingredient": "Olodaterol + Tiotropium",
+          "reference": "바헬바레스피맷",
+          "image": "assets/images/drugs/p10_i12.png"
+        },
+        {
+          "ingredient": "Vilanterol+Umeclidinium",
+          "reference": "아노로엘립타",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_95",
+      "major": "[3. 호흡기계질환]",
+      "minor": "천식/COPD 치료제(흡입)",
+      "sub": "LAMA",
+      "items": [
         {
           "ingredient": "Umeclidinium",
           "reference": "인크루즈엘립타",
@@ -9821,181 +10510,87 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_54",
+      "id": "drug_v4_96",
       "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "ICS+LABA (일반적으로 천식약제)",
+      "minor": "호흡기 감염 치료제",
+      "sub": "-",
       "items": [
         {
-          "ingredient": "Fluticasone+Vilanterol",
-          "reference": "렐바100엘립타",
-          "image": "assets/images/drugs/p10_i6.png"
+          "ingredient": "Echinacea",
+          "reference": "에키나포스",
+          "image": "assets/images/drugs/p9_i24.png"
         },
         {
-          "ingredient": "Budesonide+Formoterol",
-          "reference": "심비코트​ 라피헬러",
-          "image": "assets/images/drugs/p10_i9.png"
+          "ingredient": "Pelargonium Sidoides",
+          "reference": "움카민정",
+          "image": "assets/images/drugs/p9_i25.png"
+        },
+        {
+          "ingredient": "Pelargonium Sidoides",
+          "reference": "움카민시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Pelargonium 함유",
+          "reference": "움카민플러스",
+          "image": ""
+        },
+        {
+          "ingredient": "Pelargonium 함유",
+          "reference": "코대원에스",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_55",
+      "id": "drug_v4_97",
       "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "ICS+LABA (일반적으로 천식약제)",
+      "minor": "호흡기 감염 치료제",
+      "sub": "호흡촉진제",
       "items": [
         {
-          "ingredient": "Olodaterol + Tiotropium",
-          "reference": "바헬바레스피맷",
-          "image": "assets/images/drugs/p10_i12.png"
-        },
-        {
-          "ingredient": "Fluticasone+Vilanterol+Umeclidinium",
-          "reference": "트렐리지엘립타",
-          "image": "assets/images/drugs/p10_i14.png"
+          "ingredient": "Caffeine",
+          "reference": "네오카프액",
+          "image": "assets/images/drugs/p9_i29.png"
         }
       ]
     },
     {
-      "id": "drug_v4_56",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "ICS+LABA (일반적으로 천식약제)",
-      "items": [
-        {
-          "ingredient": "Pseudoephedrine",
-          "reference": "슈다페드",
-          "image": "assets/images/drugs/p10_i15.png"
-        },
-        {
-          "ingredient": "Oxymetazoline",
-          "reference": "오트리빈에스",
-          "image": "assets/images/drugs/p10_i16.png"
-        },
-        {
-          "ingredient": "Xylometazoline",
-          "reference": "오트리빈",
-          "image": "assets/images/drugs/p10_i17.png"
-        },
-        {
-          "ingredient": "Azelastine",
-          "reference": "아젭틴",
-          "image": "assets/images/drugs/p10_i19.png"
-        },
-        {
-          "ingredient": "Ipratropium",
-          "reference": "리노벤트",
-          "image": "assets/images/drugs/p10_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_57",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "ICS+LABA (일반적으로 천식약제)",
-      "items": [
-        {
-          "ingredient": "NaCl",
-          "reference": "엔클비액",
-          "image": "assets/images/drugs/p10_i21.png"
-        },
-        {
-          "ingredient": "Dexpanthenol+ hyaluronate",
-          "reference": "코앤",
-          "image": "assets/images/drugs/p10_i21.png"
-        },
-        {
-          "ingredient": "Fluticasone",
-          "reference": "아바미스",
-          "image": "assets/images/drugs/p10_i23.png"
-        },
-        {
-          "ingredient": "Mometasone",
-          "reference": "나자케어",
-          "image": "assets/images/drugs/p10_i25.png"
-        },
-        {
-          "ingredient": "Triamcinolone",
-          "reference": "나자코트",
-          "image": "assets/images/drugs/p10_i26.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_58",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "중추/비마약성(Noscapine, Dextromethorphan 등)",
-      "items": [
-        {
-          "ingredient": "Levocloperastine",
-          "reference": "프리비투스",
-          "image": "assets/images/drugs/p11_i6.png"
-        },
-        {
-          "ingredient": "Butamirate",
-          "reference": "지노콜시럽",
-          "image": "assets/images/drugs/p11_i7.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_59",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "Levodropropizine",
-      "items": [
-        {
-          "ingredient": "Ambroxol + Clenbuterol",
-          "reference": "암브로콜시럽",
-          "image": "assets/images/drugs/p11_i12.png"
-        },
-        {
-          "ingredient": "Ambroxol",
-          "reference": "뮤코펙트",
-          "image": "assets/images/drugs/p11_i14.png"
-        },
-        {
-          "ingredient": "Bromhexine",
-          "reference": "뮤코졸",
-          "image": "assets/images/drugs/p11_i15.png"
-        },
-        {
-          "ingredient": "Guaifenesin",
-          "reference": "",
-          "image": "assets/images/drugs/p11_i16.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_60",
-      "major": "[3. 호흡기계질환]",
-      "minor": "미분류",
-      "sub": "약 점액 용해제 (황기반 -steine 류)",
-      "items": [
-        {
-          "ingredient": "Carbocysteine",
-          "reference": "리나치올시럽",
-          "image": "assets/images/drugs/p11_i17.png"
-        },
-        {
-          "ingredient": "Acetylcysteine",
-          "reference": "뮤테란",
-          "image": "assets/images/drugs/p11_i19.png"
-        },
-        {
-          "ingredient": "Erdosteine",
-          "reference": "엘도스시럽",
-          "image": "assets/images/drugs/p11_i21.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_61",
+      "id": "drug_v4_98",
       "major": "[4. 알러지 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "기타 알러지 약물",
+      "sub": "비만세포 안정화제",
+      "items": [
+        {
+          "ingredient": "Tanilast",
+          "reference": "리자벤",
+          "image": "assets/images/drugs/p12_i22.png"
+        },
+        {
+          "ingredient": "Pemirolast",
+          "reference": "페미로살",
+          "image": "assets/images/drugs/p12_i23.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_99",
+      "major": "[4. 알러지 질환]",
+      "minor": "기타 알러지 약물",
+      "sub": "알레르기 유발 추출물",
+      "items": [
+        {
+          "ingredient": "집먼지진드기 알러젠 Ext.",
+          "reference": "스타로랄 300 설하액",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_100",
+      "major": "[4. 알러지 질환]",
+      "minor": "항히스타민제",
+      "sub": "1세대",
       "items": [
         {
           "ingredient": "Mequitazine",
@@ -10010,25 +10605,35 @@ const DB = {
         {
           "ingredient": "Hydroxyzine",
           "reference": "아디팜",
-          "image": "assets/images/drugs/p12_i3.png"
+          "image": "assets/images/drugs/p38_i30.png"
         },
         {
           "ingredient": "Diphenhydramine",
-          "reference": "쿨드림(불면증)",
-          "image": "assets/images/drugs/p12_i4.png"
+          "reference": "쿨",
+          "image": ""
+        },
+        {
+          "ingredient": "Diphenhydramine",
+          "reference": "드림",
+          "image": ""
+        },
+        {
+          "ingredient": "Triprolidine 함유",
+          "reference": "액티피드정",
+          "image": ""
         },
         {
           "ingredient": "Doxylamine",
-          "reference": "아론(불면증)",
-          "image": "assets/images/drugs/p12_i5.png"
+          "reference": "아론",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_62",
+      "id": "drug_v4_101",
       "major": "[4. 알러지 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "항히스타민제",
+      "sub": "2세대",
       "items": [
         {
           "ingredient": "Emedastine",
@@ -10041,33 +10646,25 @@ const DB = {
           "image": "assets/images/drugs/p12_i8.png"
         },
         {
+          "ingredient": "Epinastine",
+          "reference": "알레스틴",
+          "image": ""
+        },
+        {
           "ingredient": "Rupatadine",
           "reference": "루파핀",
           "image": "assets/images/drugs/p12_i9.png"
         },
         {
-          "ingredient": "Epinastine",
-          "reference": "훈 알레스틴",
-          "image": "assets/images/drugs/p12_i10.png"
+          "ingredient": "Ebastine",
+          "reference": "보령에바스텔",
+          "image": "assets/images/drugs/p12_i12.png"
         },
         {
           "ingredient": "Bepotastine",
           "reference": "투리온",
           "image": "assets/images/drugs/p12_i11.png"
         },
-        {
-          "ingredient": "Ebastine",
-          "reference": "보령에바스텔",
-          "image": "assets/images/drugs/p12_i12.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_63",
-      "major": "[4. 알러지 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
         {
           "ingredient": "Mizolastine",
           "reference": "미졸",
@@ -10079,14 +10676,14 @@ const DB = {
           "image": "assets/images/drugs/p12_i14.png"
         },
         {
-          "ingredient": "Cetirizine",
-          "reference": "한 지르텍",
-          "image": "assets/images/drugs/p12_i15.png"
-        },
-        {
           "ingredient": "Olopatadine",
           "reference": "알레락",
           "image": "assets/images/drugs/p12_i16.png"
+        },
+        {
+          "ingredient": "Cetirizine",
+          "reference": "지르텍",
+          "image": ""
         },
         {
           "ingredient": "Ketotifen",
@@ -10096,11 +10693,21 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_64",
+      "id": "drug_v4_102",
       "major": "[4. 알러지 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "항히스타민제",
+      "sub": "3세대",
       "items": [
+        {
+          "ingredient": "Fexofenadine",
+          "reference": "알레그라 120",
+          "image": ""
+        },
+        {
+          "ingredient": "Fexofenadine",
+          "reference": "알레그라 180",
+          "image": ""
+        },
         {
           "ingredient": "Desloratadine",
           "reference": "에리우스",
@@ -10119,72 +10726,60 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_65",
-      "major": "[4. 알러지 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "id": "drug_v4_103",
+      "major": "[5. 근골격계 질환]",
+      "minor": "AAP 복합제",
+      "sub": "AAP+Tramadol",
       "items": [
         {
-          "ingredient": "Tanilast",
-          "reference": "리자벤",
-          "image": "assets/images/drugs/p12_i22.png"
-        },
-        {
-          "ingredient": "Pemirolast",
-          "reference": "페미로살",
-          "image": "assets/images/drugs/p12_i23.png"
+          "ingredient": "울트라셋",
+          "reference": "",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_66",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "items": [
-        {
-          "ingredient": "Aspirin",
-          "reference": "아스피린",
-          "image": "assets/images/drugs/p13_i0.png"
-        },
-        {
-          "ingredient": "Cinnoxicam",
-          "reference": "시나트롤",
-          "image": "assets/images/drugs/p13_i1.png"
-        },
-        {
-          "ingredient": "Meloxicam",
-          "reference": "모빅캡슐",
-          "image": "assets/images/drugs/p13_i2.png"
-        },
-        {
-          "ingredient": "Piroxicam",
-          "reference": "지엘피록시캄",
-          "image": "assets/images/drugs/p13_i3.png"
-        },
-        {
-          "ingredient": "Lornoxicam",
-          "reference": "제포",
-          "image": "assets/images/drugs/p13_i4.png"
-        },
-        {
-          "ingredient": "Clonixin",
-          "reference": "파인싹",
-          "image": "assets/images/drugs/p13_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_67",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
+      "id": "drug_v4_104",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
       "sub": "Anilide 계",
       "items": [
         {
           "ingredient": "Nimesulide",
           "reference": "메수리",
           "image": "assets/images/drugs/p13_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_105",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "COX-2",
+      "items": [
+        {
+          "ingredient": "Etoricoxib",
+          "reference": "알콕시아",
+          "image": "assets/images/drugs/p14_i3.png"
         },
+        {
+          "ingredient": "Celecoxib",
+          "reference": "쎄레브렉스",
+          "image": "assets/images/drugs/p14_i2.png"
+        },
+        {
+          "ingredient": "Polmacoxib",
+          "reference": "아셀렉스",
+          "image": "assets/images/drugs/p14_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_106",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Indole acetic acid 계",
+      "items": [
         {
           "ingredient": "Proglumetacin",
           "reference": "아푸록산",
@@ -10201,96 +10796,81 @@ const DB = {
           "image": "assets/images/drugs/p13_i9.png"
         },
         {
-          "ingredient": "Sulindac",
-          "reference": "크리돌",
-          "image": "assets/images/drugs/p13_i10.png"
-        },
-        {
           "ingredient": "Ketorolac",
           "reference": "케토라신",
           "image": "assets/images/drugs/p13_i11.png"
+        },
+        {
+          "ingredient": "Sulindac",
+          "reference": "크리돌",
+          "image": "assets/images/drugs/p13_i10.png"
         }
       ]
     },
     {
-      "id": "drug_v4_68",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "훈 CA - Propioniac acids 계",
-      "items": [
-        {
-          "ingredient": "Ibuprofen",
-          "reference": "애드빌",
-          "image": "assets/images/drugs/p13_i12.png"
-        },
-        {
-          "ingredient": "Ibuprofen Lys",
-          "reference": "일펜",
-          "image": "assets/images/drugs/p13_i16.png"
-        },
-        {
-          "ingredient": "Ibuprofen Arg",
-          "reference": "캐롤에프",
-          "image": "assets/images/drugs/p13_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_69",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "CA - Propioniac acids 계",
-      "items": [
-        {
-          "ingredient": "Dexibuprofen D.C",
-          "reference": "디부루펜",
-          "image": "assets/images/drugs/p13_i21.png"
-        },
-        {
-          "ingredient": "Zaltoprofen",
-          "reference": "솔레톤",
-          "image": "assets/images/drugs/p13_i22.png"
-        },
-        {
-          "ingredient": "Loxoprofen",
-          "reference": "동화록소닌",
-          "image": "assets/images/drugs/p13_i23.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_70",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "CA - Propioniac acids 계",
-      "items": [
-        {
-          "ingredient": "Naproxen",
-          "reference": "낙센에프",
-          "image": "assets/images/drugs/p13_i24.png"
-        },
-        {
-          "ingredient": "Naproxen Na",
-          "reference": "아나프록스",
-          "image": "assets/images/drugs/p13_i27.png"
-        },
-        {
-          "ingredient": "Pelubiprofen",
-          "reference": "펠루비",
-          "image": "assets/images/drugs/p13_i28.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_71",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "CA - Propioniac acids 계",
+      "id": "drug_v4_107",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Naphthalene 계",
       "items": [
         {
           "ingredient": "Nabumetone",
           "reference": "유니메톤",
           "image": "assets/images/drugs/p13_i30.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_108",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Nicotinic acid 계",
+      "items": [
+        {
+          "ingredient": "Clonixin",
+          "reference": "파인싹",
+          "image": "assets/images/drugs/p13_i5.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_109",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Oxicam 계",
+      "items": [
+        {
+          "ingredient": "Cinnoxicam",
+          "reference": "시나트롤",
+          "image": "assets/images/drugs/p13_i1.png"
+        },
+        {
+          "ingredient": "Piroxicam",
+          "reference": "지엘피록시캄",
+          "image": "assets/images/drugs/p13_i3.png"
+        },
+        {
+          "ingredient": "Meloxicam",
+          "reference": "모빅캡슐",
+          "image": "assets/images/drugs/p13_i2.png"
+        },
+        {
+          "ingredient": "Lornoxicam",
+          "reference": "제포",
+          "image": "assets/images/drugs/p13_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_110",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Phenyl acetic acids 계",
+      "items": [
+        {
+          "ingredient": "Aceclofenac",
+          "reference": "프로닥",
+          "image": ""
         },
         {
           "ingredient": "Aceclofenac",
@@ -10301,68 +10881,121 @@ const DB = {
           "ingredient": "Diclofenac",
           "reference": "카타스",
           "image": "assets/images/drugs/p13_i33.png"
-        },
-        {
-          "ingredient": "Momiflumate",
-          "reference": "모니플루",
-          "image": "assets/images/drugs/p13_i34.png"
-        },
-        {
-          "ingredient": "Nefopam",
-          "reference": "올페인",
-          "image": "assets/images/drugs/p13_i35.png"
         }
       ]
     },
     {
-      "id": "drug_v4_72",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "id": "drug_v4_111",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Propioniac acids 계",
       "items": [
         {
-          "ingredient": "Imidazole",
-          "reference": "세르젠",
-          "image": "assets/images/drugs/p14_i0.png"
+          "ingredient": "Ibuprofen",
+          "reference": "애드빌",
+          "image": "assets/images/drugs/p13_i12.png"
         },
         {
-          "ingredient": "Talniflumate",
-          "reference": "소말겐",
-          "image": "assets/images/drugs/p14_i1.png"
+          "ingredient": "Ibuprofen",
+          "reference": "이지엔 6애니",
+          "image": ""
         },
         {
-          "ingredient": "Celecoxib",
-          "reference": "쎄레브렉스",
-          "image": "assets/images/drugs/p14_i2.png"
+          "ingredient": "Ibuprofen",
+          "reference": "부루펜",
+          "image": ""
         },
         {
-          "ingredient": "Etoricoxib",
-          "reference": "알콕시아",
-          "image": "assets/images/drugs/p14_i3.png"
+          "ingredient": "Ibuprofen",
+          "reference": "탁센(파란색)",
+          "image": ""
         },
         {
-          "ingredient": "Polmacoxib",
-          "reference": "아셀렉스",
-          "image": "assets/images/drugs/p14_i4.png"
+          "ingredient": "Ibuprofen Arg",
+          "reference": "일펜",
+          "image": ""
         },
         {
-          "ingredient": "Benzydamine",
-          "reference": "삼아탄툼",
-          "image": "assets/images/drugs/p14_i5.png"
+          "ingredient": "Ibuprofen Lys",
+          "reference": "캐롤에프",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexibuprofen",
+          "reference": "애니펜",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexibuprofen",
+          "reference": "이지엔 6프로",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexibuprofen",
+          "reference": "디부루펜",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexibuprofen",
+          "reference": "탁센(보라색)",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexibuprofen D.C",
+          "reference": "동화록소닌",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexibuprofen D.C",
+          "reference": "솔레톤",
+          "image": ""
+        },
+        {
+          "ingredient": "Naproxen",
+          "reference": "낙센에프",
+          "image": "assets/images/drugs/p13_i24.png"
+        },
+        {
+          "ingredient": "Naproxen",
+          "reference": "이지엔 6스트롱",
+          "image": ""
+        },
+        {
+          "ingredient": "Naproxen Na",
+          "reference": "아나프록스",
+          "image": "assets/images/drugs/p13_i27.png"
+        },
+        {
+          "ingredient": "Naproxen Na",
+          "reference": "탁센(초록색)",
+          "image": ""
+        },
+        {
+          "ingredient": "Pelubiprofen",
+          "reference": "펠루비",
+          "image": "assets/images/drugs/p13_i28.png"
         }
       ]
     },
     {
-      "id": "drug_v4_73",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "id": "drug_v4_112",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS",
+      "sub": "Salicylate 계",
       "items": [
         {
-          "ingredient": "Ibuprofen+Diphenhydramine",
-          "reference": "이지엔6나이트",
-          "image": "assets/images/drugs/p14_i6.png"
-        },
+          "ingredient": "Aspirin",
+          "reference": "아스피린",
+          "image": "assets/images/drugs/p13_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_113",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS 복합제",
+      "sub": "NSAIDs+PPI",
+      "items": [
         {
           "ingredient": "Naproxen+Esomeprazole",
           "reference": "낙소졸",
@@ -10371,48 +11004,64 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_74",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "id": "drug_v4_114",
+      "major": "[5. 근골격계 질환]",
+      "minor": "NSAIDS 복합제",
+      "sub": "생리통약제",
       "items": [
         {
-          "ingredient": "Ketorolac",
-          "reference": "케토신",
-          "image": "assets/images/drugs/p14_i14.png"
+          "ingredient": "Ibuprofen+Pamabrom",
+          "reference": "이지엔 6이브",
+          "image": ""
         },
         {
-          "ingredient": "Ketoprofen",
-          "reference": "약 부광케토프로펜",
-          "image": "assets/images/drugs/p14_i15.png"
-        },
-        {
-          "ingredient": "Diclofenac",
-          "reference": "페나카",
-          "image": "assets/images/drugs/p14_i16.png"
-        },
-        {
-          "ingredient": "Piroxicam",
-          "reference": "피록시캄주",
-          "image": "assets/images/drugs/p14_i17.png"
-        },
-        {
-          "ingredient": "Dexketoprofen",
-          "reference": "케랄주",
-          "image": "assets/images/drugs/p14_i18.png"
-        },
-        {
-          "ingredient": "Nefopam",
-          "reference": "아큐판",
-          "image": "assets/images/drugs/p14_i18.png"
+          "ingredient": "Ibuprofen+Pamabrom",
+          "reference": "탁센이브",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_75",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "id": "drug_v4_115",
+      "major": "[5. 근골격계 질환]",
+      "minor": "근이완제",
+      "sub": "중추성",
+      "items": [
+        {
+          "ingredient": "Baclofen",
+          "reference": "바크론",
+          "image": "assets/images/drugs/p15_i11.png"
+        },
+        {
+          "ingredient": "Eperisone",
+          "reference": "뮤페신",
+          "image": "assets/images/drugs/p15_i10.png"
+        },
+        {
+          "ingredient": "Chlorzoxazone",
+          "reference": "티자리드",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_116",
+      "major": "[5. 근골격계 질환]",
+      "minor": "류마티스치료제",
+      "sub": "면역억제제",
+      "items": [
+        {
+          "ingredient": "Methotrexate",
+          "reference": "메토트렉세이트",
+          "image": "assets/images/drugs/p15_i3.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_117",
+      "major": "[5. 근골격계 질환]",
+      "minor": "비마약성 진통제",
+      "sub": "-",
       "items": [
         {
           "ingredient": "AAP",
@@ -10420,256 +11069,45 @@ const DB = {
           "image": "assets/images/drugs/p14_i20.png"
         },
         {
+          "ingredient": "AAP",
+          "reference": "세토펜",
+          "image": ""
+        },
+        {
           "ingredient": "Tramadol",
           "reference": "트리돌",
           "image": "assets/images/drugs/p14_i22.png"
-        },
-        {
-          "ingredient": "Propacetamol",
-          "reference": "데노간",
-          "image": "assets/images/drugs/p14_i25.png"
         }
       ]
     },
     {
-      "id": "drug_v4_76",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "AAP+Tramadol",
-          "reference": "울트라셋",
-          "image": "assets/images/drugs/p14_i26.png"
-        },
-        {
-          "ingredient": "AAP+Ibuprofen",
-          "reference": "맥시제식",
-          "image": "assets/images/drugs/p14_i27.png"
-        },
-        {
-          "ingredient": "AAP+Caffeine+Ethenzamide",
-          "reference": "펜잘큐",
-          "image": "assets/images/drugs/p14_i28.png"
-        },
-        {
-          "ingredient": "AAP+Diphenhydramine",
-          "reference": "펜잘나이트",
-          "image": "assets/images/drugs/p14_i29.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_77",
-      "major": "[7. 근골격계 및 면역질환]",
-      "minor": "류마티스 및 면역조절제",
-      "sub": "JAK 억제제",
-      "items": [
-        {
-          "ingredient": "Upadacitinib",
-          "reference": "린버크서방정",
-          "image": "assets/images/drugs/p15_i0.png"
-        },
-        {
-          "ingredient": "Baricitinib",
-          "reference": "올루미언트",
-          "image": "assets/images/drugs/p15_i1.png"
-        },
-        {
-          "ingredient": "Filgotinib",
-          "reference": "지셀레카",
-          "image": "assets/images/drugs/p15_i2.png"
-        },
-        {
-          "ingredient": "Methotrexate",
-          "reference": "메토트렉세이트",
-          "image": "assets/images/drugs/p15_i3.png"
-        },
-        {
-          "ingredient": "Tocilizumab",
-          "reference": "악템라",
-          "image": "assets/images/drugs/p15_i4.png"
-        },
-        {
-          "ingredient": "Leflunomide",
-          "reference": "아라바",
-          "image": "assets/images/drugs/p15_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_78",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "생약제제",
-      "items": [
-        {
-          "ingredient": "Eperisone",
-          "reference": "뮤페신",
-          "image": "assets/images/drugs/p15_i10.png"
-        },
-        {
-          "ingredient": "Baclofen",
-          "reference": "바크론",
-          "image": "assets/images/drugs/p15_i11.png"
-        },
-        {
-          "ingredient": "Tizanidine",
-          "reference": "티자리드",
-          "image": "assets/images/drugs/p15_i12.png"
-        },
-        {
-          "ingredient": "Orphenadrine",
-          "reference": "오페릴50서방",
-          "image": "assets/images/drugs/p15_i14.png"
-        },
-        {
-          "ingredient": "Afloqualone",
-          "reference": "아로베스트",
-          "image": "assets/images/drugs/p15_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_79",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "생약제제",
-      "items": [
-        {
-          "ingredient": "Chlorphenesin",
-          "reference": "릴렉시아",
-          "image": "assets/images/drugs/p15_i16.png"
-        },
-        {
-          "ingredient": "Orphenadrine",
-          "reference": "스락신",
-          "image": "assets/images/drugs/p15_i18.png"
-        },
-        {
-          "ingredient": "Clostridium Botulinum Toxin A",
-          "reference": "보톡스",
-          "image": "assets/images/drugs/p15_i19.png"
-        },
-        {
-          "ingredient": "Dantrolene",
-          "reference": "아노렉스",
-          "image": "assets/images/drugs/p15_i20.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_80",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "신경근 차단제 - Ach 상경적 길항제",
-      "items": [
-        {
-          "ingredient": "Rocuronium",
-          "reference": "에스메",
-          "image": "assets/images/drugs/p15_i21.png"
-        },
-        {
-          "ingredient": "Vecuronium",
-          "reference": "베카론",
-          "image": "assets/images/drugs/p15_i21.png"
-        },
-        {
-          "ingredient": "Suxamethonium",
-          "reference": "석시콜린",
-          "image": "assets/images/drugs/p15_i23.png"
-        },
-        {
-          "ingredient": "Atracurium",
-          "reference": "아트라",
-          "image": "assets/images/drugs/p15_i24.png"
-        },
-        {
-          "ingredient": "Cisatracurium",
-          "reference": "님벡스",
-          "image": "assets/images/drugs/p15_i24.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_81",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "id": "drug_v4_118",
+      "major": "[6. 통증 질환]",
+      "minor": "마약성 진통제",
+      "sub": "Opioid 효능약",
       "items": [
         {
           "ingredient": "Oxycodone",
-          "reference": "옥시넘주",
-          "image": "assets/images/drugs/p16_i0.png"
+          "reference": "옥시콘틴서방",
+          "image": ""
         },
-        {
-          "ingredient": "Oxycodone+Naloxone",
-          "reference": "타진서방",
-          "image": "assets/images/drugs/p16_i3.png"
-        },
-        {
-          "ingredient": "Hydromorphone",
-          "reference": "딜리드",
-          "image": "assets/images/drugs/p16_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_82",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
         {
           "ingredient": "Morphine",
           "reference": "엠에스알서방",
           "image": "assets/images/drugs/p16_i5.png"
         },
         {
-          "ingredient": "Pethidine",
-          "reference": "페치딘",
-          "image": "assets/images/drugs/p16_i8.png"
-        },
-        {
-          "ingredient": "AAP+Hydrocodone",
-          "reference": "하이코돈",
-          "image": "assets/images/drugs/p16_i9.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_83",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Fentanyl",
-          "reference": "인스타닐나잘",
-          "image": "assets/images/drugs/p16_i10.png"
-        },
-        {
           "ingredient": "Fentanyl",
           "reference": "듀로제식",
           "image": "assets/images/drugs/p16_i11.png"
-        },
-        {
-          "ingredient": "Remifentanil",
-          "reference": "울티바",
-          "image": "assets/images/drugs/p16_i14.png"
-        },
-        {
-          "ingredient": "Sufentanil",
-          "reference": "수펜탈",
-          "image": "assets/images/drugs/p16_i15.png"
         }
       ]
     },
     {
-      "id": "drug_v4_84",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "한 Opioid 효능약 - 약한 진통효과",
+      "id": "drug_v4_119",
+      "major": "[6. 통증 질환]",
+      "minor": "마약성 진통제",
+      "sub": "Opioid 효능약-약한 진통",
       "items": [
         {
           "ingredient": "Codeine",
@@ -10684,38 +11122,378 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_85",
-      "major": "[5. 근골격계/결합조직 질환] + [6. 통증 질환]",
-      "minor": "미분류",
-      "sub": "한 Opioid 효능약 - 약한 진통효과",
+      "id": "drug_v4_120",
+      "major": "[7. 소화기계질환]",
+      "minor": "간장/담낭/췌장 치료제",
+      "sub": "간보호제",
       "items": [
         {
-          "ingredient": "Buprenorphine",
-          "reference": "노스판패취",
-          "image": "assets/images/drugs/p16_i19.png"
+          "ingredient": "BDD+마늘유",
+          "reference": "펜넬",
+          "image": ""
         },
         {
-          "ingredient": "Nalbuphine",
-          "reference": "날페인주",
-          "image": "assets/images/drugs/p16_i20.png"
+          "ingredient": "BDD",
+          "reference": "닛셀",
+          "image": "assets/images/drugs/p20_i4.png"
         },
         {
-          "ingredient": "Butorphanol",
-          "reference": "부토판주",
-          "image": "assets/images/drugs/p16_i21.png"
+          "ingredient": "BDD+Carnitine Orotate+비타민 B",
+          "reference": "고덱스",
+          "image": ""
+        },
+        {
+          "ingredient": "Glutathione",
+          "reference": "에바치온",
+          "image": "assets/images/drugs/p20_i7.png"
+        },
+        {
+          "ingredient": "Silymarin",
+          "reference": "레가론",
+          "image": "assets/images/drugs/p20_i8.png"
         }
       ]
     },
     {
-      "id": "drug_v4_86",
+      "id": "drug_v4_121",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "[7. 소화기계질환]",
+      "minor": "간장/담낭/췌장 치료제",
+      "sub": "담석용해제",
+      "items": [
+        {
+          "ingredient": "UDCA+BDD",
+          "reference": "유디비",
+          "image": "assets/images/drugs/p20_i17.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_122",
+      "major": "[7. 소화기계질환]",
+      "minor": "간장/담낭/췌장 치료제",
+      "sub": "이담제",
+      "items": [
+        {
+          "ingredient": "Ornithine-Aspartate",
+          "reference": "헤파멜즈",
+          "image": "assets/images/drugs/p20_i9.png"
+        },
+        {
+          "ingredient": "Arginine",
+          "reference": "헬민 200",
+          "image": ""
+        },
+        {
+          "ingredient": "Citric acid+Betaine+Arginine",
+          "reference": "헤파토스",
+          "image": ""
+        },
+        {
+          "ingredient": "Citric acid+Betaine+Arginine",
+          "reference": "가네톡",
+          "image": ""
+        },
+        {
+          "ingredient": "DDE",
+          "reference": "가레오",
+          "image": "assets/images/drugs/p20_i14.png"
+        },
+        {
+          "ingredient": "CDCA/UDCA",
+          "reference": "씨앤유",
+          "image": "assets/images/drugs/p20_i15.png"
+        },
+        {
+          "ingredient": "UDCA",
+          "reference": "우루사",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_123",
+      "major": "[7. 소화기계질환]",
+      "minor": "간장/담낭/췌장 치료제",
+      "sub": "췌장질환제제",
+      "items": [
+        {
+          "ingredient": "Camostat",
+          "reference": "호이판",
+          "image": "assets/images/drugs/p20_i18.png"
+        },
+        {
+          "ingredient": "Nafamostat",
+          "reference": "후탄",
+          "image": "assets/images/drugs/p56_i10.png"
+        },
+        {
+          "ingredient": "Gabexate",
+          "reference": "호의",
+          "image": "assets/images/drugs/p56_i9.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_124",
+      "major": "[7. 소화기계질환]",
+      "minor": "기타 소화기 약물",
+      "sub": "소화효소 복합제",
+      "items": [
+        {
+          "ingredient": "소화효소제",
+          "reference": "다제스",
+          "image": ""
+        },
+        {
+          "ingredient": "소화효소제",
+          "reference": "베아제",
+          "image": ""
+        },
+        {
+          "ingredient": "Pancreatin",
+          "reference": "노자임 10000",
+          "image": ""
+        },
+        {
+          "ingredient": "Pancreatin",
+          "reference": "노자임 40000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_125",
+      "major": "[7. 소화기계질환]",
+      "minor": "기타 소화기 약물",
+      "sub": "장내 가스 제거제",
+      "items": [
+        {
+          "ingredient": "Dimethicone",
+          "reference": "가소콜",
+          "image": ""
+        },
+        {
+          "ingredient": "Simethicone",
+          "reference": "가소콜",
+          "image": "assets/images/drugs/p20_i21.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_126",
+      "major": "[7. 소화기계질환]",
+      "minor": "기타 소화기 약물",
+      "sub": "장정결제",
+      "items": [
+        {
+          "ingredient": "일반 - 총 1.6L",
+          "reference": "원프렙 1.38 산",
+          "image": ""
+        },
+        {
+          "ingredient": "일반 - 총 2L",
+          "reference": "플렌뷰",
+          "image": ""
+        },
+        {
+          "ingredient": "일반 - 총 3L",
+          "reference": "쿨프렙",
+          "image": ""
+        },
+        {
+          "ingredient": "일반 - 3L",
+          "reference": "엔도클린산",
+          "image": ""
+        },
+        {
+          "ingredient": "정제 28 알/0.85L",
+          "reference": "오라팡",
+          "image": ""
+        },
+        {
+          "ingredient": "정제 20 알/0.85L",
+          "reference": "제이클",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_127",
+      "major": "[7. 소화기계질환]",
+      "minor": "소화성궤양 치료제",
+      "sub": "H2 blocker",
+      "items": [
+        {
+          "ingredient": "Famotidine",
+          "reference": "가스터",
+          "image": "assets/images/drugs/p17_i6.png"
+        },
+        {
+          "ingredient": "Lafutidine",
+          "reference": "스토가",
+          "image": "assets/images/drugs/p17_i7.png"
+        },
+        {
+          "ingredient": "Roxatidine",
+          "reference": "록산",
+          "image": "assets/images/drugs/p17_i8.png"
+        },
+        {
+          "ingredient": "Cimetidine",
+          "reference": "타가메트",
+          "image": ""
+        },
+        {
+          "ingredient": "Nizatidine",
+          "reference": "액시드",
+          "image": "assets/images/drugs/p17_i10.png"
+        },
+        {
+          "ingredient": "Ranitidine",
+          "reference": "알비스(취하)",
+          "image": "assets/images/drugs/p17_i11.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_128",
+      "major": "[7. 소화기계질환]",
+      "minor": "소화성궤양 치료제",
+      "sub": "P-CAB",
+      "items": [
+        {
+          "ingredient": "Tegoprazan",
+          "reference": "케이캡",
+          "image": "assets/images/drugs/p17_i22.png"
+        },
+        {
+          "ingredient": "Zastaprazan",
+          "reference": "자큐보",
+          "image": "assets/images/drugs/p17_i24.png"
+        },
+        {
+          "ingredient": "Fexuprazan",
+          "reference": "펙수클루",
+          "image": "assets/images/drugs/p17_i23.png"
+        },
+        {
+          "ingredient": "Vonoprazan",
+          "reference": "보신티(취하)",
+          "image": "assets/images/drugs/p17_i25.png"
+        },
+        {
+          "ingredient": "Revaprazan",
+          "reference": "레바넥스",
+          "image": "assets/images/drugs/p17_i26.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_129",
+      "major": "[7. 소화기계질환]",
+      "minor": "소화성궤양 치료제",
+      "sub": "PPI",
+      "items": [
+        {
+          "ingredient": "Pantoprazole",
+          "reference": "판토록",
+          "image": "assets/images/drugs/p17_i12.png"
+        },
+        {
+          "ingredient": "Lansoprazole",
+          "reference": "란스톤",
+          "image": ""
+        },
+        {
+          "ingredient": "S-Pantoprazole",
+          "reference": "레토프라",
+          "image": "assets/images/drugs/p17_i13.png"
+        },
+        {
+          "ingredient": "Dexlansoprazole",
+          "reference": "덱실란트",
+          "image": "assets/images/drugs/p17_i15.png"
+        },
+        {
+          "ingredient": "Ilaprazole",
+          "reference": "놀텍",
+          "image": "assets/images/drugs/p17_i16.png"
+        },
+        {
+          "ingredient": "Omeprazole",
+          "reference": "오메드",
+          "image": "assets/images/drugs/p17_i17.png"
+        },
+        {
+          "ingredient": "Esomeprazole",
+          "reference": "넥시움",
+          "image": ""
+        },
+        {
+          "ingredient": "Esomeprazole",
+          "reference": "에소메졸",
+          "image": ""
+        },
+        {
+          "ingredient": "Rabeprazole",
+          "reference": "파리에트",
+          "image": "assets/images/drugs/p17_i20.png"
+        },
+        {
+          "ingredient": "Rabe+NaHCO3",
+          "reference": "라베뉴",
+          "image": "assets/images/drugs/p17_i21.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_130",
+      "major": "[7. 소화기계질환]",
+      "minor": "소화성궤양 치료제",
+      "sub": "점막보호제",
+      "items": [
+        {
+          "ingredient": "Irsogladine",
+          "reference": "가스론엔",
+          "image": "assets/images/drugs/p17_i27.png"
+        },
+        {
+          "ingredient": "Polaprezinc",
+          "reference": "프로맥",
+          "image": "assets/images/drugs/p17_i29.png"
+        },
+        {
+          "ingredient": "Tri K Bismuth",
+          "reference": "데놀",
+          "image": "assets/images/drugs/p17_i28.png"
+        },
+        {
+          "ingredient": "Na Alginate",
+          "reference": "라미나지",
+          "image": "assets/images/drugs/p17_i30.png"
+        },
+        {
+          "ingredient": "Rebamipide",
+          "reference": "무코스타",
+          "image": "assets/images/drugs/p17_i31.png"
+        },
+        {
+          "ingredient": "Artemisia 95%",
+          "reference": "스티렌투엑스",
+          "image": "assets/images/drugs/p17_i32.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_131",
+      "major": "[7. 소화기계질환]",
+      "minor": "소화성궤양 치료제",
+      "sub": "제산제",
       "items": [
         {
           "ingredient": "Mg(OH)2",
           "reference": "마그밀",
-          "image": "assets/images/drugs/p17_i0.png"
+          "image": "assets/images/drugs/p18_i0.png"
         },
         {
           "ingredient": "NaHCO3",
@@ -10745,287 +11523,94 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_87",
+      "id": "drug_v4_132",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Histamine H2 Receptor Antagonist (H2 blocker)",
+      "minor": "염증성 장질환 치료제",
+      "sub": "-",
       "items": [
         {
-          "ingredient": "Famotidine",
-          "reference": "가스터",
-          "image": "assets/images/drugs/p17_i6.png"
+          "ingredient": "Mesalazine",
+          "reference": "펜타사서방정",
+          "image": "assets/images/drugs/p20_i0.png"
         },
         {
-          "ingredient": "Lafutidine",
-          "reference": "스토가",
-          "image": "assets/images/drugs/p17_i7.png"
+          "ingredient": "Mesalazine",
+          "reference": "펜타사좌약",
+          "image": ""
         },
         {
-          "ingredient": "Roxatidine",
-          "reference": "록산",
-          "image": "assets/images/drugs/p17_i8.png"
+          "ingredient": "Sulfasalazine",
+          "reference": "조피린장용정",
+          "image": "assets/images/drugs/p20_i2.png"
         },
         {
-          "ingredient": "Cimetidine",
-          "reference": "훈 타가메트",
-          "image": "assets/images/drugs/p17_i9.png"
-        },
-        {
-          "ingredient": "Nizatidine",
-          "reference": "액시드",
-          "image": "assets/images/drugs/p17_i10.png"
-        },
-        {
-          "ingredient": "Ranitidine",
-          "reference": "알비스(취하)",
-          "image": "assets/images/drugs/p17_i11.png"
+          "ingredient": "Balsalazide",
+          "reference": "콜라잘",
+          "image": "assets/images/drugs/p20_i3.png"
         }
       ]
     },
     {
-      "id": "drug_v4_88",
+      "id": "drug_v4_133",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Proton Pump Inhibitor (PPI)",
+      "minor": "위장관 운동 조절제",
+      "sub": "기타",
       "items": [
         {
-          "ingredient": "Pantoprazole",
-          "reference": "판토록",
-          "image": "assets/images/drugs/p17_i12.png"
+          "ingredient": "Aclatonium",
+          "reference": "아크라톤",
+          "image": "assets/images/drugs/p18_i35.png"
         },
         {
-          "ingredient": "S-Pantoprazole",
-          "reference": "레토프라",
-          "image": "assets/images/drugs/p17_i13.png"
-        },
-        {
-          "ingredient": "Dexlansoprazole",
-          "reference": "덱실란트",
-          "image": "assets/images/drugs/p17_i15.png"
-        },
-        {
-          "ingredient": "Ilaprazole",
-          "reference": "놀텍",
-          "image": "assets/images/drugs/p17_i16.png"
+          "ingredient": "Aclatonium",
+          "reference": "이리콜",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_89",
+      "id": "drug_v4_134",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Proton Pump Inhibitor (PPI)",
+      "minor": "위장관 운동 조절제",
+      "sub": "세로토닌 수용체 작용약",
       "items": [
         {
-          "ingredient": "Omeprazole",
-          "reference": "오메드",
-          "image": "assets/images/drugs/p17_i17.png"
+          "ingredient": "Prucalopride",
+          "reference": "모비졸로",
+          "image": "assets/images/drugs/p18_i31.png"
         },
         {
-          "ingredient": "Esomeprazole",
-          "reference": "약 넥시움",
-          "image": "assets/images/drugs/p17_i18.png"
+          "ingredient": "Prucalopride",
+          "reference": "루칼로",
+          "image": ""
         },
         {
-          "ingredient": "Rabeprazole",
-          "reference": "파리에트",
-          "image": "assets/images/drugs/p17_i20.png"
-        },
-        {
-          "ingredient": "Rabe+NaHCO3",
-          "reference": "라베뉴",
-          "image": "assets/images/drugs/p17_i21.png"
+          "ingredient": "Ramosetron",
+          "reference": "나제아주",
+          "image": "assets/images/drugs/p19_i1.png"
         }
       ]
     },
     {
-      "id": "drug_v4_90",
+      "id": "drug_v4_135",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Potassium-Competitive Acid Blocker (P-CAB)",
-      "items": [
-        {
-          "ingredient": "Tegoprazan",
-          "reference": "케이캡",
-          "image": "assets/images/drugs/p17_i22.png"
-        },
-        {
-          "ingredient": "Fexuprazan",
-          "reference": "펙수클루",
-          "image": "assets/images/drugs/p17_i23.png"
-        },
-        {
-          "ingredient": "Zastaprazan",
-          "reference": "자큐보",
-          "image": "assets/images/drugs/p17_i24.png"
-        },
-        {
-          "ingredient": "Vonoprazan",
-          "reference": "보신티(취하)",
-          "image": "assets/images/drugs/p17_i25.png"
-        },
-        {
-          "ingredient": "Revaprazan",
-          "reference": "레바넥스",
-          "image": "assets/images/drugs/p17_i26.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_91",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Potassium-Competitive Acid Blocker (P-CAB)",
-      "items": [
-        {
-          "ingredient": "Irsogladine",
-          "reference": "가스론엔",
-          "image": "assets/images/drugs/p17_i27.png"
-        },
-        {
-          "ingredient": "Tri K Bismuth",
-          "reference": "데놀",
-          "image": "assets/images/drugs/p17_i28.png"
-        },
-        {
-          "ingredient": "Polaprezinc",
-          "reference": "프로맥",
-          "image": "assets/images/drugs/p17_i29.png"
-        },
-        {
-          "ingredient": "Na Alginate",
-          "reference": "라미나지",
-          "image": "assets/images/drugs/p17_i30.png"
-        },
-        {
-          "ingredient": "Rebamipide",
-          "reference": "무코스타",
-          "image": "assets/images/drugs/p17_i31.png"
-        },
-        {
-          "ingredient": "Artemisia 95%",
-          "reference": "스티렌투엑스",
-          "image": "assets/images/drugs/p17_i32.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_92",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Mg(OH)2",
-          "reference": "마그밀",
-          "image": "assets/images/drugs/p18_i0.png"
-        },
-        {
-          "ingredient": "Polycarbophil Ca",
-          "reference": "실콘",
-          "image": "assets/images/drugs/p18_i1.png"
-        },
-        {
-          "ingredient": "Glycerin",
-          "reference": "그린관장약",
-          "image": "assets/images/drugs/p18_i2.png"
-        },
-        {
-          "ingredient": "Bisacodyl",
-          "reference": "둘코락스",
-          "image": "assets/images/drugs/p18_i3.png"
-        },
-        {
-          "ingredient": "Agiolax",
-          "reference": "아락실",
-          "image": "assets/images/drugs/p18_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_93",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Docusate+Sorbitol",
-          "reference": "얄액",
-          "image": "assets/images/drugs/p18_i6.png"
-        },
-        {
-          "ingredient": "Docusate+Bisacodyl",
-          "reference": "듀오락스",
-          "image": "assets/images/drugs/p18_i6.png"
-        },
-        {
-          "ingredient": "UDCA+Docusate+Bisacodyl+Casanthranol",
-          "reference": "메이킨큐",
-          "image": "assets/images/drugs/p18_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_94",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Rhamnosus",
-          "reference": "람노스",
-          "image": "assets/images/drugs/p18_i9.png"
-        },
-        {
-          "ingredient": "Saccharomyces Boulardii",
-          "reference": "비오플산",
-          "image": "assets/images/drugs/p18_i10.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_95",
-      "major": "[3. 소화기관용제]",
-      "minor": "지사제",
-      "sub": "지사제",
-      "items": [
-        {
-          "ingredient": "Dioctahedral",
-          "reference": "포타겔",
-          "image": "assets/images/drugs/p18_i15.png"
-        },
-        {
-          "ingredient": "Loperamide",
-          "reference": "사 로프민",
-          "image": "assets/images/drugs/p18_i16.png"
-        },
-        {
-          "ingredient": "Nifuroxazide",
-          "reference": "에세푸릴",
-          "image": "assets/images/drugs/p18_i17.png"
-        },
-        {
-          "ingredient": "Bismuth",
-          "reference": "펩토무스",
-          "image": "assets/images/drugs/p18_i18.png"
-        },
-        {
-          "ingredient": "Racecadotril",
-          "reference": "하이드라섹산",
-          "image": "assets/images/drugs/p18_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_96",
-      "major": "[3. 소화기관용제]",
-      "minor": "지사제 및 위장관 조절제",
-      "sub": "상세 분류",
+      "minor": "위장관 운동 조절제",
+      "sub": "소화관 운동 조절",
       "items": [
         {
           "ingredient": "Domperidone",
           "reference": "돔페리돈",
           "image": "assets/images/drugs/p18_i21.png"
+        },
+        {
+          "ingredient": "Domperidone",
+          "reference": "멕시롱액",
+          "image": ""
+        },
+        {
+          "ingredient": "Domperidone",
+          "reference": "알보젠돔페리돈",
+          "image": ""
         },
         {
           "ingredient": "Metoclopramide",
@@ -11046,19 +11631,29 @@ const DB = {
           "ingredient": "Mosapride",
           "reference": "가스모틴",
           "image": "assets/images/drugs/p18_i25.png"
+        },
+        {
+          "ingredient": "현호색/견우자",
+          "reference": "모티리톤",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_97",
+      "id": "drug_v4_136",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "위장관 운동 조절제",
+      "sub": "항콜린제",
       "items": [
         {
           "ingredient": "Trimebutine",
           "reference": "포리부틴",
           "image": "assets/images/drugs/p18_i27.png"
+        },
+        {
+          "ingredient": "Trimebutine",
+          "reference": "포리부틴시럽",
+          "image": ""
         },
         {
           "ingredient": "Octylonium",
@@ -11068,132 +11663,167 @@ const DB = {
         {
           "ingredient": "Chlordiazepoxide+Clidinium",
           "reference": "리브락스",
-          "image": "assets/images/drugs/p18_i30.png"
+          "image": "assets/images/drugs/p38_i19.png"
         }
       ]
     },
     {
-      "id": "drug_v4_98",
+      "id": "drug_v4_137",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "지사제",
+      "sub": "기타",
       "items": [
         {
-          "ingredient": "Prucalopride",
-          "reference": "모비졸로",
-          "image": "assets/images/drugs/p18_i31.png"
-        },
-        {
-          "ingredient": "Ramosetron",
-          "reference": "나제아주",
-          "image": "assets/images/drugs/p18_i33.png"
-        },
-        {
-          "ingredient": "Aclatonium",
-          "reference": "아크라톤",
-          "image": "assets/images/drugs/p18_i35.png"
+          "ingredient": "Bismuth",
+          "reference": "펩토무스",
+          "image": "assets/images/drugs/p18_i18.png"
         }
       ]
     },
     {
-      "id": "drug_v4_99",
+      "id": "drug_v4_138",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "지사제",
+      "sub": "살균성제제",
       "items": [
         {
-          "ingredient": "Ramosetron",
-          "reference": "나제아주",
-          "image": "assets/images/drugs/p19_i1.png"
-        },
-        {
-          "ingredient": "Palonosetron",
-          "reference": "알록시주",
-          "image": "assets/images/drugs/p19_i3.png"
-        },
-        {
-          "ingredient": "Ondansetron",
-          "reference": "조프란",
-          "image": "assets/images/drugs/p19_i4.png"
-        },
-        {
-          "ingredient": "Granisetron",
-          "reference": "카이트릴",
-          "image": "assets/images/drugs/p19_i5.png"
-        },
-        {
-          "ingredient": "Aprepitant",
-          "reference": "에멘드",
-          "image": "assets/images/drugs/p19_i6.png"
+          "ingredient": "Nifuroxazide",
+          "reference": "에세푸릴",
+          "image": "assets/images/drugs/p18_i17.png"
         }
       ]
     },
     {
-      "id": "drug_v4_100",
+      "id": "drug_v4_139",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "지사제",
+      "sub": "수렴 흡착제",
       "items": [
         {
-          "ingredient": "Doxylamine+Pyridoxine",
-          "reference": "디클렉틴",
-          "image": "assets/images/drugs/p19_i7.png"
-        },
-        {
-          "ingredient": "Dimenhydrinate",
-          "reference": "보나링",
-          "image": "assets/images/drugs/p19_i8.png"
-        },
-        {
-          "ingredient": "Dimenhydrinate+Cinnarizine",
-          "reference": "알레버트",
-          "image": "assets/images/drugs/p19_i9.png"
-        },
-        {
-          "ingredient": "Scopolamine",
-          "reference": "부스코판",
-          "image": "assets/images/drugs/p19_i10.png"
+          "ingredient": "Dioctahedral",
+          "reference": "포타겔",
+          "image": "assets/images/drugs/p18_i15.png"
         }
       ]
     },
     {
-      "id": "drug_v4_101",
+      "id": "drug_v4_140",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Domperidone",
+      "minor": "지사제",
+      "sub": "장운동억제제",
       "items": [
         {
-          "ingredient": "Glycopyrrolate",
-          "reference": "모비눌주",
-          "image": "assets/images/drugs/p19_i13.png"
+          "ingredient": "Loperamide",
+          "reference": "로프민",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_141",
+      "major": "[7. 소화기계질환]",
+      "minor": "지사제",
+      "sub": "정장제",
+      "items": [
+        {
+          "ingredient": "Rhamnosus",
+          "reference": "람노스",
+          "image": "assets/images/drugs/p18_i9.png"
         },
         {
-          "ingredient": "Atropine",
-          "reference": "약 아트로핀주",
-          "image": "assets/images/drugs/p19_i14.png"
+          "ingredient": "Saccharomyces Boulardii",
+          "reference": "비오플산",
+          "image": "assets/images/drugs/p18_i10.png"
         },
         {
-          "ingredient": "Scopolamine",
-          "reference": "부스코판",
+          "ingredient": "Saccharomyces Boulardii",
+          "reference": "비오플캡슐",
           "image": ""
         },
         {
-          "ingredient": "Dicyclomine",
-          "reference": "이지",
-          "image": "assets/images/drugs/p19_i16.png"
+          "ingredient": "Bacillus Subtilis + Enterococcus Faecium",
+          "reference": "메디락에스",
+          "image": ""
         },
         {
-          "ingredient": "Dicyclomine+Papaverine",
-          "reference": "싸이베린",
-          "image": "assets/images/drugs/p19_i17.png"
+          "ingredient": "Bacillus Subtilis + Enterococcus Faecium",
+          "reference": "메디락디에스",
+          "image": ""
+        },
+        {
+          "ingredient": "Bacillus Subtilis + Enterococcus Faecium",
+          "reference": "메디락에스산",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_102",
+      "id": "drug_v4_142",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "Domperidone",
+      "minor": "지사제",
+      "sub": "흡착성 항균제",
+      "items": [
+        {
+          "ingredient": "Racecadotril",
+          "reference": "하이드라섹산",
+          "image": "assets/images/drugs/p18_i19.png"
+        },
+        {
+          "ingredient": "Racecadotril",
+          "reference": "라세카",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_143",
+      "major": "[7. 소화기계질환]",
+      "minor": "진경제",
+      "sub": "Papaverine 계(IBS)",
+      "items": [
+        {
+          "ingredient": "Pinaverium",
+          "reference": "디세텔",
+          "image": "assets/images/drugs/p19_i20.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_144",
+      "major": "[7. 소화기계질환]",
+      "minor": "진경제",
+      "sub": "Papaverine+장내가스제거제",
+      "items": [
+        {
+          "ingredient": "Alverine+Simethicone",
+          "reference": "가네스판",
+          "image": "assets/images/drugs/p19_i21.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_145",
+      "major": "[7. 소화기계질환]",
+      "minor": "진경제",
+      "sub": "기타",
+      "items": [
+        {
+          "ingredient": "Tiropramide",
+          "reference": "티로파정",
+          "image": ""
+        },
+        {
+          "ingredient": "Tiropramide",
+          "reference": "안티모딕주",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_146",
+      "major": "[7. 소화기계질환]",
+      "minor": "진경제",
+      "sub": "유도체 (진경)",
       "items": [
         {
           "ingredient": "Papaverine",
@@ -11209,149 +11839,377 @@ const DB = {
           "ingredient": "Phloroglucinol",
           "reference": "후로스판",
           "image": ""
-        },
-        {
-          "ingredient": "Pinaverium",
-          "reference": "디세텔",
-          "image": "assets/images/drugs/p19_i20.png"
-        },
-        {
-          "ingredient": "Alverine+Simethicone",
-          "reference": "가네스판",
-          "image": "assets/images/drugs/p19_i21.png"
         }
       ]
     },
     {
-      "id": "drug_v4_103",
+      "id": "drug_v4_147",
       "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "진경제",
+      "sub": "항콜린제",
       "items": [
         {
-          "ingredient": "Mesalazine",
-          "reference": "펜타사서방정",
-          "image": "assets/images/drugs/p20_i0.png"
+          "ingredient": "Glycopyrrolate",
+          "reference": "모비눌주",
+          "image": "assets/images/drugs/p19_i13.png"
         },
         {
-          "ingredient": "Sulfasalazine",
-          "reference": "조피린장용정",
-          "image": "assets/images/drugs/p20_i2.png"
-        },
-        {
-          "ingredient": "Balsalazide",
-          "reference": "콜라잘",
-          "image": "assets/images/drugs/p20_i3.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_104",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "BDD",
-          "reference": "닛셀",
-          "image": "assets/images/drugs/p20_i4.png"
-        },
-        {
-          "ingredient": "Glutathione",
-          "reference": "에바치온",
-          "image": "assets/images/drugs/p20_i7.png"
-        },
-        {
-          "ingredient": "Silymarin",
-          "reference": "레가론",
-          "image": "assets/images/drugs/p20_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_105",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Ornithine-Aspartate",
-          "reference": "헤파멜즈",
-          "image": "assets/images/drugs/p20_i9.png"
-        },
-        {
-          "ingredient": "Arginine",
-          "reference": "헬민200",
-          "image": "assets/images/drugs/p20_i11.png"
-        },
-        {
-          "ingredient": "DDE",
-          "reference": "가레오",
-          "image": "assets/images/drugs/p20_i14.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_106",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "CDCA/UDCA",
-          "reference": "씨앤유",
-          "image": "assets/images/drugs/p20_i15.png"
-        },
-        {
-          "ingredient": "UDCA+BDD",
-          "reference": "유디비",
-          "image": "assets/images/drugs/p20_i17.png"
-        },
-        {
-          "ingredient": "Camostat",
-          "reference": "호이판",
-          "image": "assets/images/drugs/p20_i18.png"
-        },
-        {
-          "ingredient": "Nafamostat",
-          "reference": "후탄",
-          "image": "assets/images/drugs/p20_i19.png"
-        },
-        {
-          "ingredient": "Gabexate",
-          "reference": "호의",
-          "image": "assets/images/drugs/p20_i20.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_107",
-      "major": "[7. 소화기계질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Dimethicone",
-          "reference": "",
+          "ingredient": "Atropine",
+          "reference": "아트로핀주",
           "image": ""
         },
         {
-          "ingredient": "Simethicone",
-          "reference": "가소콜",
-          "image": "assets/images/drugs/p20_i21.png"
+          "ingredient": "Scopolamine",
+          "reference": "부스코판",
+          "image": "assets/images/drugs/p19_i10.png"
         },
         {
-          "ingredient": "Pancreatin",
-          "reference": "노자임10000",
-          "image": "assets/images/drugs/p20_i24.png"
+          "ingredient": "Dicyclomine",
+          "reference": "싸이베린",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_108",
+      "id": "drug_v4_148",
+      "major": "[7. 소화기계질환]",
+      "minor": "진경제",
+      "sub": "항콜린제+Papaverine",
+      "items": [
+        {
+          "ingredient": "Dicyclomine+Papaverine",
+          "reference": "이지",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_149",
+      "major": "[7. 소화기계질환]",
+      "minor": "진토제",
+      "sub": "5-HT3 길항제",
+      "items": [
+        {
+          "ingredient": "Ramosetron",
+          "reference": "나제아주",
+          "image": "assets/images/drugs/p19_i1.png"
+        },
+        {
+          "ingredient": "Ramosetron",
+          "reference": "이리콜",
+          "image": ""
+        },
+        {
+          "ingredient": "Palonosetron",
+          "reference": "알록시주",
+          "image": "assets/images/drugs/p19_i3.png"
+        },
+        {
+          "ingredient": "Ondansetron",
+          "reference": "조프란",
+          "image": "assets/images/drugs/p19_i4.png"
+        },
+        {
+          "ingredient": "Granisetron",
+          "reference": "카이트릴",
+          "image": "assets/images/drugs/p19_i5.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_150",
+      "major": "[7. 소화기계질환]",
+      "minor": "진토제",
+      "sub": "NK1 길항제",
+      "items": [
+        {
+          "ingredient": "Aprepitant",
+          "reference": "에멘드",
+          "image": "assets/images/drugs/p19_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_151",
+      "major": "[7. 소화기계질환]",
+      "minor": "진토제",
+      "sub": "항콜린제",
+      "items": [
+        {
+          "ingredient": "Scopolamine",
+          "reference": "부스코판",
+          "image": "assets/images/drugs/p19_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_152",
+      "major": "[7. 소화기계질환]",
+      "minor": "진토제",
+      "sub": "항히스타민제",
+      "items": [
+        {
+          "ingredient": "Doxylamine+Pyridoxine",
+          "reference": "디클렉틴",
+          "image": "assets/images/drugs/p19_i7.png"
+        },
+        {
+          "ingredient": "Dimenhydrinate",
+          "reference": "보나링",
+          "image": "assets/images/drugs/p44_i19.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_153",
+      "major": "[7. 소화기계질환]",
+      "minor": "진토제",
+      "sub": "항히스타민제+혈액순환개선제",
+      "items": [
+        {
+          "ingredient": "Dimenhydrinate+Cinnarizine",
+          "reference": "알레버트",
+          "image": "assets/images/drugs/p19_i9.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_154",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "UDCA+연화성+자극성+침윤성 하제",
+      "items": [
+        {
+          "ingredient": "UDCA+Docusate+Bisacodyl+Casanthranol",
+          "reference": "메이킨큐",
+          "image": "assets/images/drugs/p18_i8.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_155",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "연화성+삼투성",
+      "items": [
+        {
+          "ingredient": "Docusate+Sorbitol",
+          "reference": "얄액",
+          "image": "assets/images/drugs/p18_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_156",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "연화성+자극성",
+      "items": [
+        {
+          "ingredient": "Docusate+Bisacodyl",
+          "reference": "듀오락스",
+          "image": "assets/images/drugs/p18_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_157",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "염류 하제",
+      "items": [
+        {
+          "ingredient": "Mg(OH)2",
+          "reference": "마그밀",
+          "image": "assets/images/drugs/p18_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_158",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "윤활성 하제",
+      "items": [
+        {
+          "ingredient": "Glycerin",
+          "reference": "그린관장약",
+          "image": "assets/images/drugs/p18_i2.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_159",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "자극성 하제",
+      "items": [
+        {
+          "ingredient": "Bisacodyl",
+          "reference": "둘코락스",
+          "image": "assets/images/drugs/p18_i3.png"
+        },
+        {
+          "ingredient": "Agiolax",
+          "reference": "아기오",
+          "image": ""
+        },
+        {
+          "ingredient": "Agiolax",
+          "reference": "아락실",
+          "image": "assets/images/drugs/p18_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_160",
+      "major": "[7. 소화기계질환]",
+      "minor": "하제",
+      "sub": "팽창성 하제",
+      "items": [
+        {
+          "ingredient": "Polycarbophil Ca",
+          "reference": "실콘",
+          "image": "assets/images/drugs/p18_i1.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_161",
       "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "[8. 비뇨생식계 질환]",
+      "minor": "경구 조루 치료제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Dapoxetine",
+          "reference": "프릴리지",
+          "image": "assets/images/drugs/p22_i20.png"
+        },
+        {
+          "ingredient": "Clomipramine",
+          "reference": "그로민",
+          "image": "assets/images/drugs/p39_i2.png"
+        },
+        {
+          "ingredient": "Sildenafil+Clomipramine",
+          "reference": "구세",
+          "image": "assets/images/drugs/p22_i21.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_162",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "기타 비뇨기계 약물",
+      "sub": "알칼리화제 (신장결석약제)",
+      "items": [
+        {
+          "ingredient": "Potassium citrate",
+          "reference": "유로시트라 K",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_163",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "기타 비뇨기계 약물",
+      "sub": "요로소독제",
+      "items": [
+        {
+          "ingredient": "Methenamine",
+          "reference": "유로렉스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_164",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "기타 비뇨기계 약물",
+      "sub": "유즙분비억제",
+      "items": [
+        {
+          "ingredient": "Cabergoline",
+          "reference": "카버락틴",
+          "image": "assets/images/drugs/p42_i13.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_165",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "발기부전 치료제",
+      "sub": "경구 PDE5 i",
+      "items": [
+        {
+          "ingredient": "Sildenafil",
+          "reference": "비아그라",
+          "image": "assets/images/drugs/p22_i7.png"
+        },
+        {
+          "ingredient": "Sildenafil",
+          "reference": "팔팔",
+          "image": ""
+        },
+        {
+          "ingredient": "Tadalafil",
+          "reference": "시알리스",
+          "image": "assets/images/drugs/p22_i9.png"
+        },
+        {
+          "ingredient": "Tadalafil",
+          "reference": "구구",
+          "image": ""
+        },
+        {
+          "ingredient": "Mirodenafil",
+          "reference": "엠빅스",
+          "image": "assets/images/drugs/p22_i11.png"
+        },
+        {
+          "ingredient": "Udenafil",
+          "reference": "자이데나",
+          "image": "assets/images/drugs/p22_i12.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_166",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "배뇨장애 치료제",
+      "sub": "5-a-reductase i",
+      "items": [
+        {
+          "ingredient": "Dutasteride",
+          "reference": "아보다트",
+          "image": "assets/images/drugs/p21_i7.png"
+        },
+        {
+          "ingredient": "Finasteride",
+          "reference": "프로스카",
+          "image": "assets/images/drugs/p21_i8.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_167",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "배뇨장애 치료제",
+      "sub": "a-blocker+5-a-reductase i",
+      "items": [
+        {
+          "ingredient": "Dutasteride + Tamsulosin",
+          "reference": "듀오다트",
+          "image": "assets/images/drugs/p21_i9.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_168",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "배뇨장애 치료제",
+      "sub": "교감신경 억제제 (a-blocker)",
       "items": [
         {
           "ingredient": "Tamsulosin",
@@ -11370,55 +12228,27 @@ const DB = {
         },
         {
           "ingredient": "Alfuzosin",
-          "reference": "자트랄XL",
-          "image": "assets/images/drugs/p21_i3.png"
+          "reference": "자트랄 XL",
+          "image": ""
         },
         {
           "ingredient": "Silodosin",
           "reference": "트루패스구붕",
           "image": "assets/images/drugs/p21_i4.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_169",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "배뇨장애 치료제",
+      "sub": "기타",
+      "items": [
         {
           "ingredient": "Naftopidil",
           "reference": "플리바스",
           "image": "assets/images/drugs/p21_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_109",
-      "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "[8. 비뇨생식계 질환]",
-      "items": [
-        {
-          "ingredient": "Bethanechol",
-          "reference": "마이토닌",
-          "image": "assets/images/drugs/p21_i6.png"
         },
-        {
-          "ingredient": "Dutasteride",
-          "reference": "아보다트",
-          "image": "assets/images/drugs/p21_i7.png"
-        },
-        {
-          "ingredient": "Finasteride",
-          "reference": "프로스카",
-          "image": "assets/images/drugs/p21_i8.png"
-        },
-        {
-          "ingredient": "Dutasteride + Tamsulosin",
-          "reference": "듀오다트",
-          "image": "assets/images/drugs/p21_i9.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_110",
-      "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "[8. 비뇨생식계 질환]",
-      "items": [
         {
           "ingredient": "Oxybutynin",
           "reference": "디트로판",
@@ -11426,13 +12256,13 @@ const DB = {
         },
         {
           "ingredient": "Tolterodine",
-          "reference": "디트루시톨SR",
-          "image": "assets/images/drugs/p21_i11.png"
+          "reference": "디트루시톨 SR",
+          "image": ""
         },
         {
           "ingredient": "Solifenacin",
-          "reference": "한 베시케어",
-          "image": "assets/images/drugs/p21_i12.png"
+          "reference": "베시케어",
+          "image": ""
         },
         {
           "ingredient": "Mirabegron",
@@ -11441,8 +12271,8 @@ const DB = {
         },
         {
           "ingredient": "Propiverine",
-          "reference": "비유피4",
-          "image": "assets/images/drugs/p21_i14.png"
+          "reference": "비유피 4",
+          "image": ""
         },
         {
           "ingredient": "Serenoa Ext.",
@@ -11452,11 +12282,34 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_111",
+      "id": "drug_v4_170",
       "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "[8. 비뇨생식계 질환]",
+      "minor": "배뇨장애 치료제",
+      "sub": "부교감신경흥분",
       "items": [
+        {
+          "ingredient": "Bethanechol",
+          "reference": "마이토닌",
+          "image": "assets/images/drugs/p21_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_171",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "신부전증",
+      "sub": "고인산혈증 치료",
+      "items": [
+        {
+          "ingredient": "Sevelamer",
+          "reference": "렌벨라",
+          "image": ""
+        },
+        {
+          "ingredient": "Sevelamer",
+          "reference": "렌벨라산",
+          "image": ""
+        },
         {
           "ingredient": "Ferric citrate",
           "reference": "네폭실",
@@ -11480,56 +12333,126 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_112",
+      "id": "drug_v4_172",
       "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "[8. 비뇨생식계 질환]",
+      "minor": "신부전증",
+      "sub": "고칼륨혈증 치료",
       "items": [
         {
           "ingredient": "Polystyrene Sulfonate Ca",
           "reference": "아가메이트",
           "image": "assets/images/drugs/p21_i22.png"
+        },
+        {
+          "ingredient": "Polystyrene Sulfonate Ca",
+          "reference": "카리메트산",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_113",
+      "id": "drug_v4_173",
       "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "[8. 비뇨생식계 질환]",
+      "minor": "신부전증",
+      "sub": "부갑상샘 항진증 (CaSR 작용제)",
       "items": [
         {
-          "ingredient": "Calcitriol",
-          "reference": "",
-          "image": "assets/images/drugs/p21_i28.png"
-        },
-        {
-          "ingredient": "Paricalcitol",
-          "reference": "",
-          "image": "assets/images/drugs/p21_i29.png"
-        },
-        {
           "ingredient": "Cinacalcet",
-          "reference": "",
-          "image": "assets/images/drugs/p21_i30.png"
+          "reference": "레그파라",
+          "image": ""
         },
         {
           "ingredient": "Evocalcet",
-          "reference": "",
-          "image": "assets/images/drugs/p21_i31.png"
-        },
-        {
-          "ingredient": "Finerenone",
-          "reference": "",
-          "image": "assets/images/drugs/p21_i32.png"
+          "reference": "올케디아",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_114",
+      "id": "drug_v4_174",
       "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "신부전증",
+      "sub": "부갑상샘 항진증 (활성형 VitD)",
+      "items": [
+        {
+          "ingredient": "Calcitriol",
+          "reference": "본키",
+          "image": "assets/images/drugs/p24_i8.png"
+        },
+        {
+          "ingredient": "Paricalcitol",
+          "reference": "에이플라주",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_175",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "신부전증",
+      "sub": "신장애 환자의 영양 보급",
+      "items": [
+        {
+          "ingredient": "아미노산",
+          "reference": "케토스테릴",
+          "image": ""
+        },
+        {
+          "ingredient": "수용성 비타민",
+          "reference": "레날민",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_176",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "신부전증",
+      "sub": "요독증",
+      "items": [
+        {
+          "ingredient": "구형흡착탄",
+          "reference": "크레메진세립",
+          "image": ""
+        },
+        {
+          "ingredient": "구형흡착탄",
+          "reference": "크레메진속붕",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_177",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "신부전증",
+      "sub": "칼륨보존이뇨제",
+      "items": [
+        {
+          "ingredient": "Finerenone",
+          "reference": "케렌디아",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_178",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "외용 피임제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Nonoxynol-9",
+          "reference": "노원질좌제",
+          "image": "assets/images/drugs/p22_i22.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_179",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "자궁에 작용하는 약물",
+      "sub": "자궁수축 억제제",
       "items": [
         {
           "ingredient": "Ritodrine",
@@ -11540,7 +12463,15 @@ const DB = {
           "ingredient": "Atosiban",
           "reference": "트랙토실주",
           "image": "assets/images/drugs/p22_i2.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_180",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "자궁에 작용하는 약물",
+      "sub": "자궁수축제",
+      "items": [
         {
           "ingredient": "Misoprostol",
           "reference": "싸이토텍",
@@ -11558,78 +12489,48 @@ const DB = {
         },
         {
           "ingredient": "Carbetocin",
-          "reference": "듀라토신RTS",
-          "image": "assets/images/drugs/p22_i6.png"
+          "reference": "듀라토신 RTS",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_115",
+      "id": "drug_v4_181",
       "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Sildenafil",
-          "reference": "비아그라",
-          "image": "assets/images/drugs/p22_i7.png"
-        },
-        {
-          "ingredient": "Tadalafil",
-          "reference": "시알리스",
-          "image": "assets/images/drugs/p22_i9.png"
-        },
-        {
-          "ingredient": "Mirodenafil",
-          "reference": "엠빅스",
-          "image": "assets/images/drugs/p22_i11.png"
-        },
-        {
-          "ingredient": "Udenafil",
-          "reference": "자이데나",
-          "image": "assets/images/drugs/p22_i12.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_116",
-      "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Potassium citrate",
-          "reference": "유로시트라K",
-          "image": "assets/images/drugs/p22_i0.png"
-        },
-        {
-          "ingredient": "Methenamine",
-          "reference": "한 유로렉스",
-          "image": "assets/images/drugs/p22_i13.png"
-        },
-        {
-          "ingredient": "Cabergoline",
-          "reference": "카버락틴",
-          "image": "assets/images/drugs/p22_i14.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_117",
-      "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "질감염 치료제",
+      "sub": "항진균제",
       "items": [
         {
           "ingredient": "Clotrimazole",
-          "reference": "카네스틴질정",
-          "image": "assets/images/drugs/p22_i15.png"
+          "reference": "카네스텐질정",
+          "image": ""
         },
         {
-          "ingredient": "Nystatin+Neomycin+Polymyxin",
+          "ingredient": "Sertaconazole",
+          "reference": "더모픽스질정",
+          "image": "assets/images/drugs/p50_i19.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_182",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "질감염 치료제",
+      "sub": "항진균제+항생제",
+      "items": [
+        {
+          "ingredient": "Nystatin+Neomycin+Polymyxin B",
           "reference": "오엔지질연질",
-          "image": "assets/images/drugs/p22_i17.png"
-        },
+          "image": "assets/images/drugs/p50_i25.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_183",
+      "major": "[8. 비뇨생식계 질환]",
+      "minor": "질감염 치료제",
+      "sub": "항진균제+항생제+스테로이드",
+      "items": [
         {
           "ingredient": "Clotrimazole+Genta+Betameth",
           "reference": "라벤다크림",
@@ -11638,154 +12539,16 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_118",
-      "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Clomipramine",
-          "reference": "그로민",
-          "image": "assets/images/drugs/p22_i19.png"
-        },
-        {
-          "ingredient": "Dapoxetine",
-          "reference": "프릴리지",
-          "image": "assets/images/drugs/p22_i20.png"
-        },
-        {
-          "ingredient": "Sildenafil+Clomipramine",
-          "reference": "구세",
-          "image": "assets/images/drugs/p22_i21.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_119",
-      "major": "[8. 비뇨생식계 질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Nonoxynol-9",
-          "reference": "노원질좌제",
-          "image": "assets/images/drugs/p22_i22.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_120",
+      "id": "drug_v4_184",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "각질 용해제",
+      "sub": "-",
       "items": [
         {
-          "ingredient": "Minocycline",
-          "reference": "미노씬",
-          "image": "assets/images/drugs/p23_i0.png"
+          "ingredient": "5-FU + Salicylic acid",
+          "reference": "베루말",
+          "image": ""
         },
-        {
-          "ingredient": "Tetracycline",
-          "reference": "테라싸이클린",
-          "image": "assets/images/drugs/p23_i1.png"
-        },
-        {
-          "ingredient": "Isotretinoin",
-          "reference": "이소티논",
-          "image": "assets/images/drugs/p23_i2.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_121",
-      "major": "[12. 피부과용제]",
-      "minor": "여드름 치료제",
-      "sub": "국소 여드름 치료",
-      "items": [
-        {
-          "ingredient": "Azelaic Acid",
-          "reference": "아젤리아크림",
-          "image": "assets/images/drugs/p23_i3.png"
-        },
-        {
-          "ingredient": "Salicylic acid",
-          "reference": "클리어틴외용",
-          "image": "assets/images/drugs/p23_i4.png"
-        },
-        {
-          "ingredient": "Clindamycin",
-          "reference": "클린디올",
-          "image": "assets/images/drugs/p23_i5.png"
-        },
-        {
-          "ingredient": "Ibuprofen piconol +Isopropyl",
-          "reference": "훈 애크논크림",
-          "image": "assets/images/drugs/p23_i6.png"
-        },
-        {
-          "ingredient": "Nicotinamide",
-          "reference": "세비타비겔",
-          "image": "assets/images/drugs/p23_i7.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_122",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Tretinoin",
-          "reference": "스티바에이(취하)",
-          "image": "assets/images/drugs/p23_i8.png"
-        },
-        {
-          "ingredient": "Adapalene",
-          "reference": "디페린겔",
-          "image": "assets/images/drugs/p23_i10.png"
-        },
-        {
-          "ingredient": "Adapalene+Benzoyl Peroxide",
-          "reference": "에피듀오",
-          "image": "assets/images/drugs/p23_i10.png"
-        },
-        {
-          "ingredient": "Trifarotene",
-          "reference": "아크리프",
-          "image": "assets/images/drugs/p23_i12.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_123",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Tranexamic acid",
-          "reference": "도란사민",
-          "image": "assets/images/drugs/p23_i13.png"
-        },
-        {
-          "ingredient": "Hydroquinone",
-          "reference": "도미나크림",
-          "image": "assets/images/drugs/p23_i14.png"
-        },
-        {
-          "ingredient": "Hydrocortisone+Hydroquinone+Tretinoin",
-          "reference": "멜라논크림",
-          "image": "assets/images/drugs/p23_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_124",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
         {
           "ingredient": "Salicylic acid",
           "reference": "티눈밴드",
@@ -11799,67 +12562,37 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_125",
+      "id": "drug_v4_185",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Finasteride",
-          "reference": "프로페시아",
-          "image": "assets/images/drugs/p24_i0.png"
-        },
-        {
-          "ingredient": "Dexpanthenol",
-          "reference": "덱스노실",
-          "image": "assets/images/drugs/p24_i1.png"
-        },
-        {
-          "ingredient": "Panththenate+Keratin+Cysteine+Yeast+P-aminobenzoic acid+Thiamine",
-          "reference": "판시딜캡슐",
-          "image": "assets/images/drugs/p24_i2.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_126",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "외용제 (여성)",
-      "items": [
-        {
-          "ingredient": "Alfatradiol",
-          "reference": "엘크라넬알파",
-          "image": "assets/images/drugs/p24_i3.png"
-        },
-        {
-          "ingredient": "Minoxidil",
-          "reference": "마이녹실3%",
-          "image": "assets/images/drugs/p24_i4.png"
-        },
-        {
-          "ingredient": "Finasteride",
-          "reference": "훈 핀쥬베스프레이",
-          "image": "assets/images/drugs/p24_i6.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_127",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "외용제 (여성)",
+      "minor": "건선 치료제",
+      "sub": "경구 VitA 제제",
       "items": [
         {
           "ingredient": "Acitretin",
           "reference": "네오티카손",
           "image": "assets/images/drugs/p24_i7.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_186",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "건선 치료제",
+      "sub": "비타민 D3 제제",
+      "items": [
         {
           "ingredient": "Calcitriol",
           "reference": "본키",
           "image": "assets/images/drugs/p24_i8.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_187",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "건선 치료제",
+      "sub": "외용 스테로이드 +비타민 D3",
+      "items": [
         {
           "ingredient": "Betamethasone+Calcipotriol",
           "reference": "다이보베트",
@@ -11868,61 +12601,154 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_128",
+      "id": "drug_v4_188",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "외용제 (여성)",
+      "minor": "기미 치료제",
+      "sub": "기미 복합제",
       "items": [
         {
-          "ingredient": "Dupilumab",
-          "reference": "듀피젠트",
-          "image": "assets/images/drugs/p24_i10.png"
-        },
-        {
-          "ingredient": "Upadacitinib",
-          "reference": "린버크",
-          "image": "assets/images/drugs/p24_i11.png"
-        },
-        {
-          "ingredient": "Abrocitinib",
-          "reference": "시빈코",
-          "image": "assets/images/drugs/p24_i12.png"
-        },
-        {
-          "ingredient": "Baricitinib",
-          "reference": "올루미언트",
-          "image": "assets/images/drugs/p24_i13.png"
+          "ingredient": "Hydrocortisone+Hydroquinone+Tretinoin",
+          "reference": "멜라논크림",
+          "image": "assets/images/drugs/p23_i15.png"
         }
       ]
     },
     {
-      "id": "drug_v4_129",
+      "id": "drug_v4_189",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "외용 칼시뉴린 억제제",
+      "minor": "기미 치료제",
+      "sub": "색소침착 피부 표백",
       "items": [
         {
-          "ingredient": "Pimecrolimus",
-          "reference": "엘리델크림",
-          "image": "assets/images/drugs/p24_i14.png"
+          "ingredient": "Hydroquinone",
+          "reference": "도미나크림",
+          "image": "assets/images/drugs/p23_i14.png"
         },
         {
-          "ingredient": "Tacrolimus",
-          "reference": "프로토픽연고",
-          "image": "assets/images/drugs/p24_i15.png"
-        },
-        {
-          "ingredient": "Doxepin",
-          "reference": "사일레노",
-          "image": "assets/images/drugs/p24_i16.png"
+          "ingredient": "Tranexamic acid",
+          "reference": "도란사민",
+          "image": "assets/images/drugs/p23_i13.png"
         }
       ]
     },
     {
-      "id": "drug_v4_130",
+      "id": "drug_v4_190",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "기타 피부용 약물",
+      "sub": "Rosacea 치료",
+      "items": [
+        {
+          "ingredient": "Ivermectin",
+          "reference": "수란트라-희귀",
+          "image": "assets/images/drugs/p26_i9.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_191",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "기타 피부용 약물",
+      "sub": "국소 마취 작용제",
+      "items": [
+        {
+          "ingredient": "Lidocaine",
+          "reference": "리도카인젤리",
+          "image": "assets/images/drugs/p26_i5.png"
+        },
+        {
+          "ingredient": "Lidocaine",
+          "reference": "리도카인비스코스",
+          "image": ""
+        },
+        {
+          "ingredient": "Lidocaine",
+          "reference": "뉴도탑",
+          "image": ""
+        },
+        {
+          "ingredient": "Pramoxine",
+          "reference": "헤모렉스크림",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_192",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "기타 피부용 약물",
+      "sub": "다한증",
+      "items": [
+        {
+          "ingredient": "Aluminum Cl",
+          "reference": "노스엣",
+          "image": ""
+        },
+        {
+          "ingredient": "Aluminum Cl",
+          "reference": "드리클로",
+          "image": ""
+        },
+        {
+          "ingredient": "Glycopyrrolate",
+          "reference": "스웨트롤패드",
+          "image": "assets/images/drugs/p26_i11.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_193",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "기타 피부용 약물",
+      "sub": "만성 손습진",
+      "items": [
+        {
+          "ingredient": "Alitretinoin",
+          "reference": "아리톡",
+          "image": "assets/images/drugs/p26_i12.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_194",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "기타 피부용 약물",
+      "sub": "피부 보호 & 수렴제",
+      "items": [
+        {
+          "ingredient": "Trolamine",
+          "reference": "비아핀에멀젼",
+          "image": ""
+        },
+        {
+          "ingredient": "Petrolatum",
+          "reference": "바세린",
+          "image": "assets/images/drugs/p26_i14.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_195",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "상처/궤양 치료제",
+      "sub": "상처 회복",
+      "items": [
+        {
+          "ingredient": "D-판테놀",
+          "reference": "D-판테놀",
+          "image": ""
+        },
+        {
+          "ingredient": "Trafermin",
+          "reference": "피블라스트",
+          "image": "assets/images/drugs/p25_i3.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_196",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "상처/궤양 치료제",
+      "sub": "영유아 연고",
       "items": [
         {
           "ingredient": "Dexpanthenol",
@@ -11930,10 +12756,18 @@ const DB = {
           "image": "assets/images/drugs/p25_i0.png"
         },
         {
-          "ingredient": "Trafermin",
-          "reference": "피블라스트",
-          "image": "assets/images/drugs/p25_i3.png"
-        },
+          "ingredient": "소맥추출물",
+          "reference": "스티모린에스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_197",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "상처/궤양 치료제",
+      "sub": "화상치료제",
+      "items": [
         {
           "ingredient": "Sitosterol",
           "reference": "미보",
@@ -11947,117 +12781,400 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_131",
+      "id": "drug_v4_198",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 1 (Very high potency)",
       "items": [
         {
-          "ingredient": "EGF",
-          "reference": "이지에프새살",
-          "image": "assets/images/drugs/p25_i6.png"
-        },
-        {
-          "ingredient": "Hyaluronate",
-          "reference": "코네티비나겔",
-          "image": "assets/images/drugs/p25_i7.png"
-        },
-        {
-          "ingredient": "PDRN",
-          "reference": "리쥬비넥스",
-          "image": "assets/images/drugs/p25_i8.png"
-        },
-        {
-          "ingredient": "Keratinocyte",
-          "reference": "훈 칼로덤",
-          "image": "assets/images/drugs/p25_i9.png"
-        },
-        {
-          "ingredient": "Allantoin+Heparin+Anion Ext",
-          "reference": "콘투락투벡스",
-          "image": "assets/images/drugs/p25_i10.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_132",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Povidone Iodine",
-          "reference": "포비돈요오드",
-          "image": "assets/images/drugs/p25_i12.png"
-        },
-        {
-          "ingredient": "Chlorhexidine",
-          "reference": "헥사메딘",
-          "image": "assets/images/drugs/p25_i15.png"
-        },
-        {
-          "ingredient": "Cetylpyridinium",
-          "reference": "미놀 트로키",
+          "ingredient": "Clobetasol Propionate",
+          "reference": "더모베이트",
           "image": ""
         },
         {
-          "ingredient": "Nitrofurazone",
-          "reference": "니트로푸라존",
-          "image": "assets/images/drugs/p25_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_133",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Octenidine + Phenoxyethanol",
-          "reference": "옥테니셉트",
-          "image": "assets/images/drugs/p25_i18.png"
+          "ingredient": "Clobetasol Propionate",
+          "reference": "베타베이트",
+          "image": ""
         },
         {
-          "ingredient": "Chlorhexidine + Isopropanol",
-          "reference": "헥시타놀2%",
-          "image": "assets/images/drugs/p25_i19.png"
+          "ingredient": "Clobetasol Propionate",
+          "reference": "도모호론",
+          "image": ""
         },
         {
-          "ingredient": "Chlorhexidine + Cetrimide",
-          "reference": "클로헥신크림",
-          "image": "assets/images/drugs/p25_i20.png"
+          "ingredient": "Clobetasol Propionate",
+          "reference": "클로벡스",
+          "image": ""
         },
         {
-          "ingredient": "Acrinol + Berberine + E.Faecalis + Loperamide",
-          "reference": "배탈렌",
-          "image": "assets/images/drugs/p25_i20.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_134",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Allantoin+Chlorhexidine+Lidocaine+Tetrahydrozoline",
-          "reference": "푸레파인마일드",
-          "image": "assets/images/drugs/p25_i22.png"
+          "ingredient": "Diflorasone Diacetate 0.05%",
+          "reference": "디프라 C",
+          "image": ""
         },
         {
-          "ingredient": "Flavonoid",
-          "reference": "치센",
+          "ingredient": "Diflucortolone Valerate 0.3%",
+          "reference": "디푸코 0.3%",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_135",
+      "id": "drug_v4_199",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 2 (High potency)",
+      "items": [
+        {
+          "ingredient": "Desoximetasone 0.25%",
+          "reference": "데속시시원 G",
+          "image": ""
+        },
+        {
+          "ingredient": "Desoximetasone 0.25%",
+          "reference": "에스파손 G",
+          "image": ""
+        },
+        {
+          "ingredient": "Desoximetasone 0.25%",
+          "reference": "데타손 O",
+          "image": ""
+        },
+        {
+          "ingredient": "Halcinonide 0.1%",
+          "reference": "베로단연고",
+          "image": "assets/images/drugs/p28_i18.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_200",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 3 (High potency)",
+      "items": [
+        {
+          "ingredient": "Difluprednate 0.05%",
+          "reference": "리베카 C",
+          "image": ""
+        },
+        {
+          "ingredient": "Desoximetasone 0.25% L",
+          "reference": "데타손 L",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_201",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 4 (Mid potency)",
+      "items": [
+        {
+          "ingredient": "Methylprednisolone Aceponate 0.1%",
+          "reference": "아드반탄",
+          "image": ""
+        },
+        {
+          "ingredient": "Mometasone furoate 0.1%",
+          "reference": "큐모타손 L",
+          "image": ""
+        },
+        {
+          "ingredient": "Triamcinolone 0.1%",
+          "reference": "오라메디",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_202",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 5 (Mid potency)",
+      "items": [
+        {
+          "ingredient": "Prednicarbate 0.25%",
+          "reference": "베이드 L",
+          "image": ""
+        },
+        {
+          "ingredient": "Prednicarbate 0.25%",
+          "reference": "더마톱",
+          "image": ""
+        },
+        {
+          "ingredient": "Prednicarbate 0.25%",
+          "reference": "티티베",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_203",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 6 (Low potency)",
+      "items": [
+        {
+          "ingredient": "Desonide 0.05%",
+          "reference": "데스원 L",
+          "image": ""
+        },
+        {
+          "ingredient": "Desonide 0.05%",
+          "reference": "마일드원 C",
+          "image": ""
+        },
+        {
+          "ingredient": "Desonide 0.05%",
+          "reference": "데스오웬 L",
+          "image": ""
+        },
+        {
+          "ingredient": "Prednisolone Valeroacetate",
+          "reference": "삼아리도멕스 L",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_204",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "스테로이드 외용제제",
+      "sub": "Class 7 (Low potency)",
+      "items": [
+        {
+          "ingredient": "Hydrocortisone hydrochloride",
+          "reference": "락티케어에이취씨",
+          "image": ""
+        },
+        {
+          "ingredient": "Hydrocortisone hydrochloride",
+          "reference": "하티손 L",
+          "image": ""
+        },
+        {
+          "ingredient": "Hydrocortisone acetate 1%",
+          "reference": "락티코트 C",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_205",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "아토피성 피부염 치료제",
+      "sub": "Interleukin inh",
+      "items": [
+        {
+          "ingredient": "Dupilumab",
+          "reference": "듀피젠트",
+          "image": "assets/images/drugs/p24_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_206",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "아토피성 피부염 치료제",
+      "sub": "JAK inh",
+      "items": [
+        {
+          "ingredient": "Upadacitinib",
+          "reference": "린버크",
+          "image": "assets/images/drugs/p24_i11.png"
+        },
+        {
+          "ingredient": "Baricitinib",
+          "reference": "올루미언트",
+          "image": "assets/images/drugs/p24_i13.png"
+        },
+        {
+          "ingredient": "Abrocitinib",
+          "reference": "시빈코",
+          "image": "assets/images/drugs/p24_i12.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_207",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "아토피성 피부염 치료제",
+      "sub": "가려움 완화제",
+      "items": [
+        {
+          "ingredient": "달맞이꽃 종자유",
+          "reference": "에보프림",
+          "image": ""
+        },
+        {
+          "ingredient": "Doxepin",
+          "reference": "사일레노",
+          "image": "assets/images/drugs/p39_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_208",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "아토피성 피부염 치료제",
+      "sub": "외용 칼시뉴린 억제제",
+      "items": [
+        {
+          "ingredient": "Pimecrolimus",
+          "reference": "엘리델크림",
+          "image": "assets/images/drugs/p24_i14.png"
+        },
+        {
+          "ingredient": "Tacrolimus",
+          "reference": "프로토픽연고",
+          "image": "assets/images/drugs/p24_i15.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_209",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-경구",
+      "sub": "Vit A 유도체",
+      "items": [
+        {
+          "ingredient": "Isotretinoin",
+          "reference": "이소티논",
+          "image": "assets/images/drugs/p23_i2.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_210",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-경구",
+      "sub": "항생제",
+      "items": [
+        {
+          "ingredient": "Minocycline",
+          "reference": "미노씬",
+          "image": "assets/images/drugs/p47_i25.png"
+        },
+        {
+          "ingredient": "Tetracycline",
+          "reference": "테라싸이클린",
+          "image": "assets/images/drugs/p47_i26.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_211",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "1세대 VitA",
+      "items": [
+        {
+          "ingredient": "Tretinoin",
+          "reference": "투앤티크림",
+          "image": ""
+        },
+        {
+          "ingredient": "Tretinoin",
+          "reference": "스티바에이(취하)",
+          "image": "assets/images/drugs/p23_i8.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_212",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "3세대 VitA",
+      "items": [
+        {
+          "ingredient": "Adapalene",
+          "reference": "디페린겔",
+          "image": "assets/images/drugs/p23_i10.png"
+        },
+        {
+          "ingredient": "Adapalene+Benzoyl Peroxide",
+          "reference": "에피듀오",
+          "image": "assets/images/drugs/p23_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_213",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "4세대 VitA",
+      "items": [
+        {
+          "ingredient": "Trifarotene",
+          "reference": "아크리프",
+          "image": "assets/images/drugs/p23_i12.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_214",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "Vit B3 유도체",
+      "items": [
+        {
+          "ingredient": "Nicotinamide",
+          "reference": "세비타비겔",
+          "image": "assets/images/drugs/p23_i7.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_215",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "각질 제거제",
+      "items": [
+        {
+          "ingredient": "Azelaic Acid",
+          "reference": "아젤리아크림",
+          "image": "assets/images/drugs/p23_i3.png"
+        },
+        {
+          "ingredient": "Salicylic acid",
+          "reference": "클리어틴외용",
+          "image": "assets/images/drugs/p23_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_216",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "항생제",
+      "items": [
+        {
+          "ingredient": "Clindamycin",
+          "reference": "클린디올",
+          "image": "assets/images/drugs/p23_i5.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_217",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "여드름 치료제-외용",
+      "sub": "항염증 NSAIDs +항감염제",
+      "items": [
+        {
+          "ingredient": "Ibuprofen piconol + Isopropyl",
+          "reference": "애크논크림",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_218",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "옴 & 이 치료제",
+      "sub": "-",
       "items": [
         {
           "ingredient": "Crotamiton",
@@ -12066,8 +13183,13 @@ const DB = {
         },
         {
           "ingredient": "Lindane",
-          "reference": "린단로오숀",
-          "image": "assets/images/drugs/p26_i1.png"
+          "reference": "린단로오손",
+          "image": ""
+        },
+        {
+          "ingredient": "Lindane",
+          "reference": "린단액",
+          "image": ""
         },
         {
           "ingredient": "Permethrin",
@@ -12082,140 +13204,23 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_136",
+      "id": "drug_v4_219",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
+      "minor": "외용 항진균제",
+      "sub": "Allylamine 계",
       "items": [
         {
-          "ingredient": "Lidocaine",
-          "reference": "리도카인젤리",
-          "image": "assets/images/drugs/p26_i5.png"
-        },
-        {
-          "ingredient": "Pramoxine",
-          "reference": "훈 헤모렉스크림",
-          "image": "assets/images/drugs/p26_i8.png"
-        },
-        {
-          "ingredient": "Ivermectin",
-          "reference": "수란트라-희귀",
-          "image": "assets/images/drugs/p26_i9.png"
+          "ingredient": "Naftifine",
+          "reference": "엑소데릴",
+          "image": "assets/images/drugs/p27_i17.png"
         }
       ]
     },
     {
-      "id": "drug_v4_137",
+      "id": "drug_v4_220",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Glycopyrrolate",
-          "reference": "스웨트롤패드",
-          "image": "assets/images/drugs/p26_i11.png"
-        },
-        {
-          "ingredient": "Alitretinoin",
-          "reference": "아리톡",
-          "image": "assets/images/drugs/p26_i12.png"
-        },
-        {
-          "ingredient": "Petrolatum",
-          "reference": "바세린",
-          "image": "assets/images/drugs/p26_i14.png"
-        },
-        {
-          "ingredient": "Trolamine",
-          "reference": "비아핀에멀젼",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_138",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Fusidic acid",
-          "reference": "후시딘O",
-          "image": "assets/images/drugs/p27_i0.png"
-        },
-        {
-          "ingredient": "Ozenoxacin",
-          "reference": "오자넥스크림",
-          "image": "assets/images/drugs/p27_i1.png"
-        },
-        {
-          "ingredient": "Tyrothricin",
-          "reference": "조아티로겔",
-          "image": "assets/images/drugs/p27_i3.png"
-        },
-        {
-          "ingredient": "Mupirocin",
-          "reference": "베아로반O",
-          "image": "assets/images/drugs/p27_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_139",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Bacitracin+Neomycin+PolymyxinB",
-          "reference": "바스포연고",
-          "image": "assets/images/drugs/p27_i6.png"
-        },
-        {
-          "ingredient": "Neomycin + Centella",
-          "reference": "마데카솔케어",
-          "image": "assets/images/drugs/p27_i7.png"
-        },
-        {
-          "ingredient": "Gentamicin+Betamethasone Valerate",
-          "reference": "쎄레스톤지",
-          "image": "assets/images/drugs/p27_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_140",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Bacitracin+Neomycin+PolymyxinB+Pramoxine",
-      "items": [
-        {
-          "ingredient": "Silver Sulfadiazine",
-          "reference": "실마진C",
-          "image": "assets/images/drugs/p27_i11.png"
-        },
-        {
-          "ingredient": "Metronidazole",
-          "reference": "메로G",
-          "image": "assets/images/drugs/p27_i13.png"
-        },
-        {
-          "ingredient": "Acyclovir",
-          "reference": "바이C",
-          "image": "assets/images/drugs/p27_i13.png"
-        },
-        {
-          "ingredient": "Imiquimod",
-          "reference": "알다라C",
-          "image": "assets/images/drugs/p27_i14.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_141",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Bacitracin+Neomycin+PolymyxinB+Pramoxine",
+      "minor": "외용 항진균제",
+      "sub": "Azole 계",
       "items": [
         {
           "ingredient": "Flutrimazole",
@@ -12226,11 +13231,6 @@ const DB = {
           "ingredient": "Isoconazole",
           "reference": "트라보겐",
           "image": "assets/images/drugs/p27_i16.png"
-        },
-        {
-          "ingredient": "Naftifine",
-          "reference": "엑소데릴",
-          "image": "assets/images/drugs/p27_i17.png"
         },
         {
           "ingredient": "Ketoconazole",
@@ -12250,33 +13250,23 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_142",
+      "id": "drug_v4_221",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Bacitracin+Neomycin+PolymyxinB+Pramoxine",
+      "minor": "외용 항진균제",
+      "sub": "기타",
       "items": [
         {
           "ingredient": "Butenafine",
-          "reference": "다나핀",
-          "image": "assets/images/drugs/p27_i22.png"
-        },
-        {
-          "ingredient": "Amorolfine",
           "reference": "로세릴",
-          "image": "assets/images/drugs/p27_i22.png"
-        },
-        {
-          "ingredient": "Terbinafine+Glycyrrhizinate+Menthol+Lidocaine",
-          "reference": "무조날쿨",
-          "image": "assets/images/drugs/p27_i23.png"
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_143",
+      "id": "drug_v4_222",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Bacitracin+Neomycin+PolymyxinB+Pramoxine",
+      "minor": "외용 항진균제",
+      "sub": "발톱무좀",
       "items": [
         {
           "ingredient": "Amorolfine",
@@ -12297,7 +13287,33 @@ const DB = {
           "ingredient": "Terbinafine",
           "reference": "라미실원스",
           "image": "assets/images/drugs/p27_i28.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_223",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "외용 항진균제",
+      "sub": "복합제",
+      "items": [
+        {
+          "ingredient": "Terbinafine+Glycyrrhizinate+Menthol+Lidocain",
+          "reference": "다나핀",
+          "image": ""
         },
+        {
+          "ingredient": "Terbinafine+Glycyrrhizinate+Menthol+Lidocain",
+          "reference": "무조날쿨",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_224",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "외용 항진균제",
+      "sub": "지루성 두피염",
+      "items": [
         {
           "ingredient": "Ketoconazole",
           "reference": "비가졸",
@@ -12311,200 +13327,449 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_144",
+      "id": "drug_v4_225",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Clobetasol Propionate",
+      "minor": "치질",
+      "sub": "-",
       "items": [
         {
-          "ingredient": "Diflorasone Diacetate 0.05%",
-          "reference": "디프라C",
-          "image": "assets/images/drugs/p28_i12.png"
+          "ingredient": "Allantoin+Chlorhexidine+Lidocaine+Tetrahydrozoline",
+          "reference": "푸레파인",
+          "image": ""
         },
         {
-          "ingredient": "Diflucortolone Valerate 0.3%",
-          "reference": "디푸코0.3%L",
-          "image": "assets/images/drugs/p28_i12.png"
-        },
-        {
-          "ingredient": "Betamethasone dipropionate 0.05%",
-          "reference": "",
-          "image": "assets/images/drugs/p28_i14.png"
+          "ingredient": "Allantoin+Chlorhexidine+Lidocaine+Tetrahydrozoline",
+          "reference": "푸레파인마일드",
+          "image": "assets/images/drugs/p25_i22.png"
         }
       ]
     },
     {
-      "id": "drug_v4_145",
+      "id": "drug_v4_226",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "사 Class 2 (High potency)",
+      "minor": "치질",
+      "sub": "혈액순환장애 치료제 참고",
       "items": [
         {
-          "ingredient": "Desoximetasone 0.05% G",
-          "reference": "데속시시원G",
-          "image": "assets/images/drugs/p28_i15.png"
+          "ingredient": "Flavonoid",
+          "reference": "치센",
+          "image": ""
         },
         {
-          "ingredient": "Desoximetasone 0.25% CO",
-          "reference": "데타손O",
-          "image": "assets/images/drugs/p28_i16.png"
-        },
-        {
-          "ingredient": "Halcinonide 0.1%",
-          "reference": "베로단연고",
-          "image": "assets/images/drugs/p28_i18.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_146",
-      "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "복합제에 다수 함유 (쎄레스톤지 등)",
-      "items": [
-        {
-          "ingredient": "Difluprednate 0.05%",
-          "reference": "리베카C",
-          "image": "assets/images/drugs/p28_i25.png"
-        },
-        {
-          "ingredient": "Desoximetasone 0.25% L",
-          "reference": "데타손L",
-          "image": "assets/images/drugs/p28_i26.png"
-        },
-        {
-          "ingredient": "Betamethasone valerate",
-          "reference": "",
+          "ingredient": "Flavonoid",
+          "reference": "치퀵",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_147",
+      "id": "drug_v4_227",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Budesonide 0.025%",
+      "minor": "탈모 치료제",
+      "sub": "경구용 제제",
       "items": [
         {
-          "ingredient": "Mometasone furoate 0.1%",
-          "reference": "더모타손엠엘이L",
-          "image": "assets/images/drugs/p29_i4.png"
-        },
-        {
-          "ingredient": "Triamcinolone 0.1%",
-          "reference": "오라메디O",
-          "image": "assets/images/drugs/p29_i7.png"
+          "ingredient": "Finasteride",
+          "reference": "프로페시아",
+          "image": "assets/images/drugs/p24_i0.png"
         }
       ]
     },
     {
-      "id": "drug_v4_148",
+      "id": "drug_v4_228",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Class 5 (Mid potency)",
+      "minor": "탈모 치료제",
+      "sub": "보조 경구제",
       "items": [
         {
-          "ingredient": "Fluticasone propionate 0.05%",
-          "reference": "큐티베이트C(취하)",
-          "image": "assets/images/drugs/p29_i10.png"
+          "ingredient": "Dexpanthenol",
+          "reference": "덱스노실",
+          "image": "assets/images/drugs/p24_i1.png"
         },
         {
-          "ingredient": "Clobetasone butyrate",
-          "reference": "유모베이트C(취하)",
-          "image": "assets/images/drugs/p29_i11.png"
+          "ingredient": "Panththenate+Keratin+Cysteine+Yeast+P-aminobenzoic acid+Thiamine",
+          "reference": "판시딜캡슐",
+          "image": "assets/images/drugs/p24_i2.png"
         }
       ]
     },
     {
-      "id": "drug_v4_149",
+      "id": "drug_v4_229",
       "major": "[9. 피부/피하조직질환]",
-      "minor": "미분류",
-      "sub": "Class 7 (Low potency)",
+      "minor": "탈모 치료제",
+      "sub": "외용제 (남성)",
       "items": [
         {
-          "ingredient": "Hydrocortisone hydrochloride 1%",
-          "reference": "락티케어에이취씨 L",
-          "image": "assets/images/drugs/p29_i25.png"
+          "ingredient": "Finasteride",
+          "reference": "핀쥬베스프레이",
+          "image": ""
         },
         {
-          "ingredient": "Hydrocortisone hydrochloride 2.5%",
-          "reference": "락티케어에이취씨 L",
-          "image": "assets/images/drugs/p29_i26.png"
-        },
-        {
-          "ingredient": "Hydrocortisone acetate 1%",
-          "reference": "락티코트C",
-          "image": "assets/images/drugs/p29_i28.png"
+          "ingredient": "Minoxidil",
+          "reference": "로게인폼 5%",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_150",
-      "major": "[11. 안과용제]",
+      "id": "drug_v4_230",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "탈모 치료제",
+      "sub": "외용제(여성)",
+      "items": [
+        {
+          "ingredient": "Alfatradiol",
+          "reference": "엘크라넬알파",
+          "image": "assets/images/drugs/p24_i3.png"
+        },
+        {
+          "ingredient": "Minoxidil",
+          "reference": "마이녹실 3%",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_231",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "피부 살균 소독제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Povidone lodine",
+          "reference": "포비돈요오드",
+          "image": ""
+        },
+        {
+          "ingredient": "Povidone lodine",
+          "reference": "포비딘인후",
+          "image": ""
+        },
+        {
+          "ingredient": "Povidone lodine",
+          "reference": "지노베타딘질",
+          "image": ""
+        },
+        {
+          "ingredient": "Chlorhexidine+Isopropanol",
+          "reference": "헥시타놀 2%",
+          "image": ""
+        },
+        {
+          "ingredient": "Octenidine+Phenoxyethanol",
+          "reference": "옥테니셉트",
+          "image": ""
+        },
+        {
+          "ingredient": "Chlorhexidine+Cetrimide",
+          "reference": "클로헥신크림",
+          "image": ""
+        },
+        {
+          "ingredient": "Chlorhexidine",
+          "reference": "헥사메딘",
+          "image": "assets/images/drugs/p34_i8.png"
+        },
+        {
+          "ingredient": "Cetylpyridinium",
+          "reference": "미놀 트로키",
+          "image": ""
+        },
+        {
+          "ingredient": "Nitrofurazone",
+          "reference": "니트로푸라존",
+          "image": "assets/images/drugs/p25_i17.png"
+        },
+        {
+          "ingredient": "Acrinol + Berberine + E.Faecalis + Loperamide",
+          "reference": "배탈렌",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_232",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "항생제연고",
+      "sub": "단일제",
+      "items": [
+        {
+          "ingredient": "Fusidic acid",
+          "reference": "후시딘",
+          "image": ""
+        },
+        {
+          "ingredient": "Ozenoxacin",
+          "reference": "오자넥스크림",
+          "image": "assets/images/drugs/p27_i1.png"
+        },
+        {
+          "ingredient": "Tyrothricin",
+          "reference": "조아티로겔",
+          "image": "assets/images/drugs/p27_i3.png"
+        },
+        {
+          "ingredient": "Mupirocin",
+          "reference": "베아로반",
+          "image": ""
+        },
+        {
+          "ingredient": "Mupirocin",
+          "reference": "에스로반",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_233",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "항생제연고",
+      "sub": "스테로이드+항진균제",
+      "items": [
+        {
+          "ingredient": "Gentamicin+Betamethasone Valerate",
+          "reference": "쎄레스톤지",
+          "image": "assets/images/drugs/p27_i8.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_234",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "항생제연고",
+      "sub": "스테로이드+항진균제+항생제",
+      "items": [
+        {
+          "ingredient": "Betamethasone dipropionate 0.05%+Clotrimazole+Gentamicin",
+          "reference": "라벤다크림",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_235",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "항생제연고",
+      "sub": "항생제 + 상처회복",
+      "items": [
+        {
+          "ingredient": "Neomycin + Centella",
+          "reference": "마데카솔케어",
+          "image": "assets/images/drugs/p27_i7.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_236",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "항생제연고",
+      "sub": "항생제 3종",
+      "items": [
+        {
+          "ingredient": "Bacitracin+Neomycin+PolymyxinB",
+          "reference": "바스포연고",
+          "image": "assets/images/drugs/p27_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_237",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "항생제연고",
+      "sub": "항생제 3종 + 가려움증 완화",
+      "items": [
+        {
+          "ingredient": "Bacitracin+Neomycin+PolymyxinB+Pramoxine",
+          "reference": "케어믹신플러스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_238",
+      "major": "[9. 피부/피하조직질환]",
+      "minor": "흉터 치료제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Hyaluronate",
+          "reference": "코네티비나겔",
+          "image": "assets/images/drugs/p25_i7.png"
+        },
+        {
+          "ingredient": "EGF",
+          "reference": "이지에프새살",
+          "image": "assets/images/drugs/p25_i6.png"
+        },
+        {
+          "ingredient": "PDRN",
+          "reference": "리쥬비넥스",
+          "image": "assets/images/drugs/p25_i8.png"
+        },
+        {
+          "ingredient": "Keratinocyte",
+          "reference": "칼로덤",
+          "image": ""
+        },
+        {
+          "ingredient": "Allantoin+Heparin+Anion Ext",
+          "reference": "노스카나",
+          "image": ""
+        },
+        {
+          "ingredient": "Allantoin+Heparin+Anion Ext",
+          "reference": "콘투락투벡스",
+          "image": "assets/images/drugs/p25_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_239",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "각막보호제",
+      "sub": "안구 건조증 (윤활)",
+      "items": [
+        {
+          "ingredient": "Lanolin",
+          "reference": "리포직",
+          "image": ""
+        },
+        {
+          "ingredient": "Carbomer",
+          "reference": "리포직이디오",
+          "image": ""
+        },
+        {
+          "ingredient": "Carbomer",
+          "reference": "듀라티얼즈",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_240",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "각막보호제",
+      "sub": "안구 건조증 (치료)",
+      "items": [
+        {
+          "ingredient": "Rebamipide",
+          "reference": "레바아이",
+          "image": ""
+        },
+        {
+          "ingredient": "Diquafosol",
+          "reference": "디쿠아스",
+          "image": "assets/images/drugs/p33_i13.png"
+        },
+        {
+          "ingredient": "Diquafosol",
+          "reference": "디쿠아스-에스",
+          "image": ""
+        },
+        {
+          "ingredient": "Cyclosporine",
+          "reference": "아이커비스",
+          "image": "assets/images/drugs/p33_i15.png"
+        },
+        {
+          "ingredient": "Cyclosporine",
+          "reference": "레스타시스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_241",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "각막보호제",
+      "sub": "인공누액",
+      "items": [
+        {
+          "ingredient": "Sodium Hyaluronate",
+          "reference": "뉴히알유니",
+          "image": ""
+        },
+        {
+          "ingredient": "Sodium Hyaluronate",
+          "reference": "히아레인",
+          "image": "assets/images/drugs/p33_i0.png"
+        },
+        {
+          "ingredient": "Trehalose",
+          "reference": "아이톡",
+          "image": "assets/images/drugs/p33_i5.png"
+        },
+        {
+          "ingredient": "Trehalose",
+          "reference": "히아박",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_242",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "각막보호제",
+      "sub": "인공누액(CMC)",
+      "items": [
+        {
+          "ingredient": "Carboxymethylcellulose Sodium",
+          "reference": "리프레쉬플러스",
+          "image": "assets/images/drugs/p33_i6.png"
+        },
+        {
+          "ingredient": "Carboxymethylcellulose Sodium",
+          "reference": "눈앤",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_243",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "각막보호제",
+      "sub": "인공누액(포비돈)",
+      "items": [
+        {
+          "ingredient": "Povidone",
+          "reference": "옵타젠트",
+          "image": "assets/images/drugs/p33_i11.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_244",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "기타 안과용제",
+      "sub": "안약 (충혈)",
+      "items": [
+        {
+          "ingredient": "Tetrahydrozoline",
+          "reference": "나조린",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_245",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "기타 안과용제",
+      "sub": "항히스타민제+국소혈관수축제",
+      "items": [
+        {
+          "ingredient": "Naphazoline+Pheniramine",
+          "reference": "-",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_246",
+      "major": "[10. 눈/귀/치과/구강 약물]",
       "minor": "녹내장 치료제",
-      "sub": "안압 조절",
+      "sub": "Prostaglandin (-prost)",
       "items": [
-        {
-          "ingredient": "Brinzolamide",
-          "reference": "아좁트",
-          "image": "assets/images/drugs/p30_i0.png"
-        },
-        {
-          "ingredient": "Dorzolamide",
-          "reference": "트루솝",
-          "image": "assets/images/drugs/p30_i1.png"
-        },
-        {
-          "ingredient": "Carteolol",
-          "reference": "미케란LA",
-          "image": "assets/images/drugs/p30_i2.png"
-        },
-        {
-          "ingredient": "Timolol",
-          "reference": "티모프틱엑스",
-          "image": "assets/images/drugs/p30_i2.png"
-        },
-        {
-          "ingredient": "Betaxolol",
-          "reference": "베톱틱에스",
-          "image": "assets/images/drugs/p30_i4.png"
-        },
-        {
-          "ingredient": "Nipradilol",
-          "reference": "현대하이파딜",
-          "image": "assets/images/drugs/p30_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_151",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "탄산탈수효소 inh",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Prostaglandin (-prost)",
-          "reference": "",
-          "image": "assets/images/drugs/p30_i7.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_152",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "탄산탈수효소 inh",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Brimonidine",
-          "reference": "알파간피",
-          "image": "assets/images/drugs/p30_i6.png"
-        },
-        {
-          "ingredient": "Pilocarpine",
-          "reference": "오큐카르핀",
-          "image": "assets/images/drugs/p30_i7.png"
-        },
         {
           "ingredient": "Latanoprost",
           "reference": "잘라탄",
@@ -12516,9 +13781,9 @@ const DB = {
           "image": "assets/images/drugs/p30_i8.png"
         },
         {
-          "ingredient": "Travoprost",
+          "ingredient": "Tafluprost",
           "reference": "이즈바",
-          "image": "assets/images/drugs/p30_i10.png"
+          "image": ""
         },
         {
           "ingredient": "Tafluprost",
@@ -12528,34 +13793,122 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_153",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "상세 분류",
+      "id": "drug_v4_247",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "녹내장 치료제",
+      "sub": "Prostaglandin + 베타 차단제",
       "items": [
         {
-          "ingredient": "Timolol+Dorzolamide",
-          "reference": "코솝에스",
-          "image": "assets/images/drugs/p30_i13.png"
-        },
-        {
           "ingredient": "Tafluprost+Timolol",
-          "reference": "타프콤",
-          "image": "assets/images/drugs/p30_i14.png"
+          "reference": "코솝에스",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_154",
+      "id": "drug_v4_248",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "백내장 치료제",
-      "sub": "상세 분류",
+      "minor": "녹내장 치료제",
+      "sub": "교감신경 자극제",
       "items": [
         {
-          "ingredient": "Pirenoxine",
-          "reference": "가리유니점안 액",
-          "image": "assets/images/drugs/p30_i15.png"
+          "ingredient": "Brimonidine",
+          "reference": "알파간피",
+          "image": "assets/images/drugs/p30_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_249",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "녹내장 치료제",
+      "sub": "교감신경 자극제+베타 차단제",
+      "items": [
+        {
+          "ingredient": "Brimonidine+Timolol",
+          "reference": "콤비간",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_250",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "녹내장 치료제",
+      "sub": "베타 차단제(-olol)",
+      "items": [
+        {
+          "ingredient": "Carteolol",
+          "reference": "미케란 LA",
+          "image": ""
         },
+        {
+          "ingredient": "Timolol",
+          "reference": "현대하이파딜",
+          "image": ""
+        },
+        {
+          "ingredient": "Nipradilol",
+          "reference": "베톱틱에스",
+          "image": ""
+        },
+        {
+          "ingredient": "Betaxolol",
+          "reference": "티모프틱엑스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_251",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "녹내장 치료제",
+      "sub": "부교감신경 자극제",
+      "items": [
+        {
+          "ingredient": "Pilocarpine",
+          "reference": "오큐카르핀",
+          "image": "assets/images/drugs/p30_i7.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_252",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "녹내장 치료제",
+      "sub": "탄산탈수효소 inh",
+      "items": [
+        {
+          "ingredient": "Brinzolamide",
+          "reference": "아좁트",
+          "image": "assets/images/drugs/p30_i0.png"
+        },
+        {
+          "ingredient": "Dorzolamide",
+          "reference": "트루솝",
+          "image": "assets/images/drugs/p30_i1.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_253",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "녹내장 치료제",
+      "sub": "탄산탈수효소 inh+베타 차단제",
+      "items": [
+        {
+          "ingredient": "Timolol+Dorzolamide",
+          "reference": "타프콤",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_254",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "당뇨병성 망막병증 치료제",
+      "sub": "경구",
+      "items": [
         {
           "ingredient": "Dobesilate",
           "reference": "독시움",
@@ -12565,131 +13918,116 @@ const DB = {
           "ingredient": "Troxerutin",
           "reference": "포수루틴(취하)",
           "image": "assets/images/drugs/p30_i17.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_255",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "백내장 치료제",
+      "sub": "-",
+      "items": [
         {
-          "ingredient": "Naphazoline+Pheniramine",
-          "reference": "나조린",
-          "image": "assets/images/drugs/p30_i17.png"
-        },
-        {
-          "ingredient": "Tetrahydrozoline",
-          "reference": "",
+          "ingredient": "Pirenoxine",
+          "reference": "가리유니점안액",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_155",
+      "id": "drug_v4_256",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "스테로이드제",
-      "sub": "상세 분류",
+      "minor": "산동제",
+      "sub": "교감신경자극제+항콜린제",
       "items": [
         {
-          "ingredient": "Prednisolone",
-          "reference": "프레드포르테",
-          "image": "assets/images/drugs/p32_i0.png"
-        },
-        {
-          "ingredient": "Fluorometholone",
-          "reference": "오큐메토론",
-          "image": "assets/images/drugs/p32_i0.png"
-        },
-        {
-          "ingredient": "Fluorometholone+Gentamicin",
-          "reference": "디겐타안연고",
-          "image": "assets/images/drugs/p32_i3.png"
+          "ingredient": "Phenylephrine+Tropicamide",
+          "reference": "미드린피",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_156",
+      "id": "drug_v4_257",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "스테로이드제",
-      "sub": "상세 분류",
+      "minor": "산동제",
+      "sub": "항콜린제",
       "items": [
         {
-          "ingredient": "Dexa+Neomycin+Polymyxin B",
-          "reference": "네오덱스",
-          "image": "assets/images/drugs/p32_i5.png"
+          "ingredient": "Atropine",
+          "reference": "마이오가드",
+          "image": ""
         },
         {
-          "ingredient": "Loteprednol+Tobramycin",
-          "reference": "로테플러스",
-          "image": "assets/images/drugs/p32_i8.png"
+          "ingredient": "Tropicamide",
+          "reference": "미드리아실",
+          "image": ""
         },
         {
-          "ingredient": "Dexa+Tobramycin",
-          "reference": "토브라덱스",
-          "image": "assets/images/drugs/p32_i9.png"
+          "ingredient": "Cyclopentolate",
+          "reference": "싸이크로질",
+          "image": ""
+        },
+        {
+          "ingredient": "Homatropine",
+          "reference": "오큐호마핀",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_157",
+      "id": "drug_v4_258",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "스테로이드제",
-      "sub": "상세 분류",
+      "minor": "안과용 항감염제",
+      "sub": "항바이러스제",
       "items": [
         {
-          "ingredient": "Fluorometholone+Tetrahydrozoline",
-          "reference": "후메론플러스",
-          "image": "assets/images/drugs/p32_i10.png"
+          "ingredient": "Trifluridine",
+          "reference": "아큐플리딘",
+          "image": "assets/images/drugs/p32_i26.png"
         },
         {
-          "ingredient": "Ketorolac",
-          "reference": "한 아큐베일",
-          "image": "assets/images/drugs/p32_i11.png"
+          "ingredient": "Acyclovir",
+          "reference": "바이클로버",
+          "image": "assets/images/drugs/p32_i26.png"
         },
         {
-          "ingredient": "Bromfenac",
-          "reference": "브로낙",
-          "image": "assets/images/drugs/p32_i11.png"
+          "ingredient": "Acyclovir",
+          "reference": "헤르페시드",
+          "image": ""
         },
         {
-          "ingredient": "Flurbiprofen",
-          "reference": "바슈롬",
-          "image": "assets/images/drugs/p32_i13.png"
-        },
-        {
-          "ingredient": "Diclofenac",
-          "reference": "옵타낙",
-          "image": "assets/images/drugs/p32_i13.png"
+          "ingredient": "Ganciclovir",
+          "reference": "버간점안겔",
+          "image": "assets/images/drugs/p32_i28.png"
         }
       ]
     },
     {
-      "id": "drug_v4_158",
+      "id": "drug_v4_259",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항생제",
-      "sub": "상세 분류",
+      "minor": "안과용 항감염제",
+      "sub": "항생제",
       "items": [
+        {
+          "ingredient": "Levofloxacin",
+          "reference": "크라비트",
+          "image": ""
+        },
         {
           "ingredient": "Ofloxacin",
           "reference": "타리비드",
-          "image": "assets/images/drugs/p32_i17.png"
+          "image": "assets/images/drugs/p48_i9.png"
+        },
+        {
+          "ingredient": "Tosufloxacin",
+          "reference": "오젝스",
+          "image": "assets/images/drugs/p48_i6.png"
         },
         {
           "ingredient": "Moxifloxacin",
           "reference": "비가목스",
           "image": "assets/images/drugs/p32_i18.png"
-        },
-        {
-          "ingredient": "Tosufloxacin",
-          "reference": "오젝스",
-          "image": "assets/images/drugs/p32_i20.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_159",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Ciprofloxacin",
-          "reference": "씨펙스",
-          "image": "assets/images/drugs/p32_i21.png"
         },
         {
           "ingredient": "Gatifloxacin",
@@ -12700,6 +14038,11 @@ const DB = {
           "ingredient": "Chloramphenicol",
           "reference": "참클로람페니콜",
           "image": "assets/images/drugs/p32_i22.png"
+        },
+        {
+          "ingredient": "Ciprofloxacin",
+          "reference": "씨펙스",
+          "image": "assets/images/drugs/p32_i21.png"
         },
         {
           "ingredient": "Tobramycin",
@@ -12714,107 +14057,10 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_160",
+      "id": "drug_v4_260",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Trifluridine",
-          "reference": "아큐플리딘",
-          "image": "assets/images/drugs/p32_i26.png"
-        },
-        {
-          "ingredient": "Acyclovir",
-          "reference": "바이클로버",
-          "image": "assets/images/drugs/p32_i26.png"
-        },
-        {
-          "ingredient": "Ganciclovir",
-          "reference": "버간점안겔",
-          "image": "assets/images/drugs/p32_i28.png"
-        },
-        {
-          "ingredient": "Sulfamethoxazole",
-          "reference": "",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_161",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "인공누액",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Sodium Hyaluronate",
-          "reference": "히아레인",
-          "image": "assets/images/drugs/p33_i0.png"
-        },
-        {
-          "ingredient": "Polysorbate 80",
-          "reference": "건아이",
-          "image": "assets/images/drugs/p33_i2.png"
-        },
-        {
-          "ingredient": "Trehalose",
-          "reference": "아이톡",
-          "image": "assets/images/drugs/p33_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_162",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "인공누액",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Carboxymethylcellulose Sodium",
-          "reference": "리프레쉬플러스",
-          "image": "assets/images/drugs/p33_i6.png"
-        },
-        {
-          "ingredient": "Lanlin",
-          "reference": "듀라티얼즈",
-          "image": "assets/images/drugs/p33_i10.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_163",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "인공누액",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Povidone",
-          "reference": "옵타젠트",
-          "image": "assets/images/drugs/p33_i11.png"
-        },
-        {
-          "ingredient": "Rebamipide",
-          "reference": "사 레바아이",
-          "image": "assets/images/drugs/p33_i11.png"
-        },
-        {
-          "ingredient": "Diquafosol",
-          "reference": "디쿠아스",
-          "image": "assets/images/drugs/p33_i13.png"
-        },
-        {
-          "ingredient": "Cyclosporine",
-          "reference": "아이커비스",
-          "image": "assets/images/drugs/p33_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_164",
-      "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "약",
-      "sub": "상세 분류",
+      "minor": "안과용 항알러지제",
+      "sub": "-",
       "items": [
         {
           "ingredient": "Epinastine",
@@ -12849,135 +14095,127 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_165",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Atropine",
-          "reference": "마이오가드",
-          "image": "assets/images/drugs/p33_i24.png"
-        },
-        {
-          "ingredient": "Tropicamide",
-          "reference": "미드리아실",
-          "image": "assets/images/drugs/p33_i24.png"
-        },
-        {
-          "ingredient": "Cyclopentolate",
-          "reference": "싸이크로질",
-          "image": "assets/images/drugs/p33_i24.png"
-        },
-        {
-          "ingredient": "Homatropine",
-          "reference": "오큐호마핀",
-          "image": "assets/images/drugs/p33_i25.png"
-        },
-        {
-          "ingredient": "Phenylephrine+Tropicamide",
-          "reference": "미드린피",
-          "image": "assets/images/drugs/p33_i26.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_166",
+      "id": "drug_v4_261",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항콜린제 (Atropine, Cyclopentolate, Homatropine, Tropicamide)",
-      "sub": "상세 분류",
+      "minor": "안과용 항염증제",
+      "sub": "비스테로이드성(NSAIDs)",
       "items": [
         {
-          "ingredient": "Policresulen",
-          "reference": "알보칠",
-          "image": "assets/images/drugs/p34_i0.png"
-        },
-        {
-          "ingredient": "Triamcinolone",
-          "reference": "오라메디",
-          "image": "assets/images/drugs/p34_i0.png"
-        },
-        {
-          "ingredient": "Dexamethasone",
-          "reference": "페리덱스",
-          "image": "assets/images/drugs/p34_i2.png"
+          "ingredient": "Ketorolac",
+          "reference": "아큐베일",
+          "image": ""
         },
         {
           "ingredient": "Diclofenac",
-          "reference": "아프니벤큐액",
-          "image": "assets/images/drugs/p34_i4.png"
+          "reference": "바슈롬",
+          "image": ""
+        },
+        {
+          "ingredient": "Bromfenac",
+          "reference": "브로낙",
+          "image": "assets/images/drugs/p32_i11.png"
+        },
+        {
+          "ingredient": "Flurbiprofen",
+          "reference": "옵타낙",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_167",
+      "id": "drug_v4_262",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항콜린제 (Atropine, Cyclopentolate, Homatropine, Tropicamide)",
-      "sub": "Cetylpyridinium+Soluble Azulene+Enoxolone",
+      "minor": "안과용 항염증제",
+      "sub": "스테로이드+항생제",
       "items": [
         {
-          "ingredient": "Chlorhexidine",
-          "reference": "헥사메딘",
-          "image": "assets/images/drugs/p34_i8.png"
+          "ingredient": "Fluorometholone+Gentamicin",
+          "reference": "디겐타안연고",
+          "image": "assets/images/drugs/p32_i3.png"
         },
         {
-          "ingredient": "Benzydamine",
-          "reference": "사 탄툼액",
-          "image": "assets/images/drugs/p34_i8.png"
+          "ingredient": "Fluorometholone+Gentamicin",
+          "reference": "디겐타점안액",
+          "image": ""
         },
         {
-          "ingredient": "Povidone Iodine",
-          "reference": "베타딘인후",
-          "image": "assets/images/drugs/p34_i11.png"
+          "ingredient": "Dexa+Neomycin+Polymyxin B",
+          "reference": "네오덱스",
+          "image": "assets/images/drugs/p32_i5.png"
         },
         {
-          "ingredient": "Cetylpyridinium+Soluble Azulene",
-          "reference": "목앤스프레이",
-          "image": "assets/images/drugs/p34_i12.png"
+          "ingredient": "Dexa+Neomycin+Polymyxin B",
+          "reference": "맥시트롤",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexa+Neomycin+Polymyxin B",
+          "reference": "포러스",
+          "image": ""
+        },
+        {
+          "ingredient": "Loteprednol+Tobramycin",
+          "reference": "로테 플러스",
+          "image": ""
+        },
+        {
+          "ingredient": "Dexa+Tobramycin",
+          "reference": "토브라덱스",
+          "image": "assets/images/drugs/p32_i9.png"
         }
       ]
     },
     {
-      "id": "drug_v4_168",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "Cetylpyridinium+Soluble Azulene+Enoxolone",
+      "id": "drug_v4_263",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "안과용 항염증제",
+      "sub": "스테로이드+항충혈제",
       "items": [
         {
-          "ingredient": "Sodium Hyaluronate",
-          "reference": "뮤코베리어액",
-          "image": "assets/images/drugs/p34_i13.png"
-        },
-        {
-          "ingredient": "Carbamide Peroxide + NaF",
-          "reference": "더존오팔레센스에프15%",
-          "image": "assets/images/drugs/p34_i16.png"
+          "ingredient": "Fluorometholone+Tetrahydrozoline",
+          "reference": "후메론플러스",
+          "image": "assets/images/drugs/p32_i10.png"
         }
       ]
     },
     {
-      "id": "drug_v4_169",
+      "id": "drug_v4_264",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항콜린제 (Atropine, Cyclopentolate, Homatropine, Tropicamide)",
-      "sub": "Cetylpyridinium+Soluble Azulene+Enoxolone",
+      "minor": "안과용 항염증제",
+      "sub": "스테로이드제",
       "items": [
         {
-          "ingredient": "Lysozyme+Carbazochrome+Vit",
-          "reference": "이가탄에프",
-          "image": "assets/images/drugs/p34_i20.png"
+          "ingredient": "Fluorometholone",
+          "reference": "오큐메토론",
+          "image": "assets/images/drugs/p32_i0.png"
+        },
+        {
+          "ingredient": "Fluorometholone",
+          "reference": "플루메토론 0.1",
+          "image": ""
+        },
+        {
+          "ingredient": "Prednisolone",
+          "reference": "프레드포르테",
+          "image": "assets/images/drugs/p32_i0.png"
         }
       ]
     },
     {
-      "id": "drug_v4_170",
+      "id": "drug_v4_265",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "항콜린제 (Atropine, Cyclopentolate, Homatropine, Tropicamide)",
-      "sub": "상세 분류",
+      "minor": "이명 치료제",
+      "sub": "-",
       "items": [
         {
           "ingredient": "Ginkgo Leaf Ext.",
           "reference": "기넥신에프",
           "image": "assets/images/drugs/p35_i0.png"
+        },
+        {
+          "ingredient": "Ginkgo Leaf Ext.",
+          "reference": "타나민",
+          "image": ""
         },
         {
           "ingredient": "Cilostazol+Ginkgo",
@@ -12992,20 +14230,20 @@ const DB = {
         {
           "ingredient": "Flunarizine",
           "reference": "씨베리움",
-          "image": "assets/images/drugs/p35_i4.png"
+          "image": "assets/images/drugs/p44_i11.png"
         },
         {
           "ingredient": "Dimenhydrinate",
           "reference": "보나링",
-          "image": "assets/images/drugs/p35_i5.png"
+          "image": "assets/images/drugs/p44_i19.png"
         }
       ]
     },
     {
-      "id": "drug_v4_171",
+      "id": "drug_v4_266",
       "major": "[10. 눈/귀/치과/구강 약물]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "점이용 약물",
+      "sub": "스테로이드+항생제",
       "items": [
         {
           "ingredient": "Fluocinolone+Ciprofloxacin",
@@ -13014,8 +14252,8 @@ const DB = {
         },
         {
           "ingredient": "Dexamethasone+Ciprofloxacin",
-          "reference": "훈 실로덱스",
-          "image": "assets/images/drugs/p35_i7.png"
+          "reference": "실로덱스",
+          "image": ""
         },
         {
           "ingredient": "Hydrocortisone+Ciprofloxacin",
@@ -13025,99 +14263,253 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_172",
-      "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_267",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-구강/인후소독",
+      "sub": "살균소독제",
       "items": [
         {
-          "ingredient": "VitA",
-          "reference": "수출용만 존재",
+          "ingredient": "Chlorhexidine",
+          "reference": "헥사메딘",
+          "image": "assets/images/drugs/p34_i8.png"
+        },
+        {
+          "ingredient": "Benzydamine",
+          "reference": "탄툼액",
           "image": ""
         },
         {
-          "ingredient": "VitD3",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i1.png"
+          "ingredient": "Benzydamine",
+          "reference": "탄툼네뷸라이저",
+          "image": ""
         },
         {
-          "ingredient": "VitE",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i3.png"
+          "ingredient": "Povidone lodine",
+          "reference": "베타딘인후",
+          "image": ""
         },
         {
-          "ingredient": "VitK",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i4.png"
+          "ingredient": "Cetylpyridinium+Soluble Azulene",
+          "reference": "목앤스프레이",
+          "image": "assets/images/drugs/p34_i12.png"
         }
       ]
     },
     {
-      "id": "drug_v4_173",
-      "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_268",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-구내염/입술염",
+      "sub": "NSAIDS",
       "items": [
         {
-          "ingredient": "Ubidecarenone",
-          "reference": "데카키논",
-          "image": "assets/images/drugs/p36_i0.png"
-        },
-        {
-          "ingredient": "Cholecalciferol",
-          "reference": "디맥",
-          "image": "assets/images/drugs/p36_i1.png"
-        },
-        {
-          "ingredient": "Tocopherol",
-          "reference": "그랑페롤",
-          "image": "assets/images/drugs/p36_i3.png"
-        },
-        {
-          "ingredient": "Phytonadione",
-          "reference": "비타민K1",
-          "image": "assets/images/drugs/p36_i4.png"
+          "ingredient": "Diclofenac",
+          "reference": "아프니벤큐액",
+          "image": "assets/images/drugs/p34_i4.png"
         }
       ]
     },
     {
-      "id": "drug_v4_174",
-      "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_269",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-구내염/입술염",
+      "sub": "구강 스테로이드",
       "items": [
         {
-          "ingredient": "Vit B1",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i5.png"
+          "ingredient": "Triamcinolone",
+          "reference": "오라메디",
+          "image": "assets/images/drugs/p34_i0.png"
         },
         {
-          "ingredient": "Vit B2",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i7.png"
+          "ingredient": "Triamcinolone",
+          "reference": "아프타치",
+          "image": ""
         },
         {
-          "ingredient": "Vit B3",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i8.png"
-        },
-        {
-          "ingredient": "Vit B5",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i9.png"
-        },
-        {
-          "ingredient": "Vit B6",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i10.png"
+          "ingredient": "Dexamethasone",
+          "reference": "페리덱스",
+          "image": "assets/images/drugs/p34_i2.png"
         }
       ]
     },
     {
-      "id": "drug_v4_175",
-      "major": "[15. 비타민 및 영양제]",
-      "minor": "비타민 B군",
-      "sub": "비타민 보급",
+      "id": "drug_v4_270",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-구내염/입술염",
+      "sub": "구내염영양제",
+      "items": [
+        {
+          "ingredient": "Vit B류+L-Cys",
+          "reference": "리보테인",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_271",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-구내염/입술염",
+      "sub": "살균소독제",
+      "items": [
+        {
+          "ingredient": "Policresulen",
+          "reference": "알보칠",
+          "image": "assets/images/drugs/p34_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_272",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-기타 치료",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Sodium Hyaluronate",
+          "reference": "뮤코베리어액",
+          "image": ""
+        },
+        {
+          "ingredient": "Sodium Hyaluronate",
+          "reference": "히아로겔",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_273",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-기타 치료",
+      "sub": "치아 미백",
+      "items": [
+        {
+          "ingredient": "과산화수소 35%",
+          "reference": "뷰티스 15 미백",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_274",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-기타 치료",
+      "sub": "치아 미백+충치 예방",
+      "items": [
+        {
+          "ingredient": "Carbamide Peroxide + NaF",
+          "reference": "센스에프 15%",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_275",
+      "major": "[10. 눈/귀/치과/구강 약물]",
+      "minor": "치과/구강-잇몸 및 치아 영양제",
+      "sub": "잇몸건강",
+      "items": [
+        {
+          "ingredient": "옥수수불검화 Ext",
+          "reference": "인사돌",
+          "image": ""
+        },
+        {
+          "ingredient": "옥수수불검화 Ext",
+          "reference": "이튼큐",
+          "image": ""
+        },
+        {
+          "ingredient": "옥수수불검화 Ext+후박 Ext",
+          "reference": "인사돌플러스",
+          "image": ""
+        },
+        {
+          "ingredient": "Lysozyme+Carbazochrome+Vit",
+          "reference": "이가탄에프",
+          "image": "assets/images/drugs/p34_i20.png"
+        },
+        {
+          "ingredient": "Lysozyme+Carbazochrome+Vit",
+          "reference": "투스딘",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_276",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "무기질 제제",
+      "sub": "대량무기질",
+      "items": [
+        {
+          "ingredient": "Ca",
+          "reference": "JW 글루콘산칼슘",
+          "image": ""
+        },
+        {
+          "ingredient": "Mg",
+          "reference": "염화마그네슘",
+          "image": "assets/images/drugs/p37_i1.png"
+        },
+        {
+          "ingredient": "Mg",
+          "reference": "마구내신 50%-고위험",
+          "image": ""
+        },
+        {
+          "ingredient": "Na",
+          "reference": "염화나트륨-고위험",
+          "image": "assets/images/drugs/p37_i3.png"
+        },
+        {
+          "ingredient": "K",
+          "reference": "염화칼륨-고위험",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_277",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "무기질 제제",
+      "sub": "미량무기질",
+      "items": [
+        {
+          "ingredient": "Zn",
+          "reference": "징크트레이스",
+          "image": "assets/images/drugs/p37_i5.png"
+        },
+        {
+          "ingredient": "Zn",
+          "reference": "아치온 (비듬)",
+          "image": ""
+        },
+        {
+          "ingredient": "Mn",
+          "reference": "망가나주",
+          "image": "assets/images/drugs/p37_i7.png"
+        },
+        {
+          "ingredient": "Se",
+          "reference": "셀레나제티프로주",
+          "image": ""
+        },
+        {
+          "ingredient": "P",
+          "reference": "포스텐-고위험",
+          "image": ""
+        },
+        {
+          "ingredient": "Fe",
+          "reference": "빈혈치료제 참고",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_278",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B1",
       "items": [
         {
           "ingredient": "Thiamine",
@@ -13128,68 +14520,15 @@ const DB = {
           "ingredient": "Fursultiamine",
           "reference": "갈디아민주",
           "image": "assets/images/drugs/p36_i6.png"
-        },
-        {
-          "ingredient": "Riboflavin",
-          "reference": "리보비타주",
-          "image": "assets/images/drugs/p36_i7.png"
-        },
-        {
-          "ingredient": "Nicotinamide",
-          "reference": "승 아미나엑스",
-          "image": "assets/images/drugs/p36_i8.png"
-        },
-        {
-          "ingredient": "Dexpanthenol",
-          "reference": "덱스테놀주",
-          "image": "assets/images/drugs/p36_i9.png"
-        },
-        {
-          "ingredient": "Pyridoxine",
-          "reference": "신일피리독신",
-          "image": "assets/images/drugs/p36_i10.png"
         }
       ]
     },
     {
-      "id": "drug_v4_176",
+      "id": "drug_v4_279",
       "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "수용성 비타민",
+      "sub": "Vit B12",
       "items": [
-        {
-          "ingredient": "Vit B7",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i11.png"
-        },
-        {
-          "ingredient": "Vit B9",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i12.png"
-        },
-        {
-          "ingredient": "Vit B12",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i13.png"
-        },
-        {
-          "ingredient": "Vit C",
-          "reference": "",
-          "image": "assets/images/drugs/p36_i16.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_177",
-      "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Biotin",
-          "reference": "비오틴골드",
-          "image": "assets/images/drugs/p36_i11.png"
-        },
         {
           "ingredient": "Cyanocobalamin",
           "reference": "헤모닉스",
@@ -13204,7 +14543,93 @@ const DB = {
           "ingredient": "Hydroxocobalamin",
           "reference": "헤모닉스",
           "image": "assets/images/drugs/p36_i15.png"
-        },
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_280",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B2",
+      "items": [
+        {
+          "ingredient": "Riboflavin",
+          "reference": "리보비타주",
+          "image": "assets/images/drugs/p36_i7.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_281",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B3",
+      "items": [
+        {
+          "ingredient": "Nicotinamide",
+          "reference": "아미나엑스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_282",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B5",
+      "items": [
+        {
+          "ingredient": "Dexpanthenol",
+          "reference": "덱스테놀주",
+          "image": "assets/images/drugs/p36_i9.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_283",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B6",
+      "items": [
+        {
+          "ingredient": "Pyridoxine",
+          "reference": "신일피리독신",
+          "image": "assets/images/drugs/p36_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_284",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B7",
+      "items": [
+        {
+          "ingredient": "Biotin",
+          "reference": "비오틴골드",
+          "image": "assets/images/drugs/p36_i11.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_285",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit B9",
+      "items": [
+        {
+          "ingredient": "Folic acid",
+          "reference": "신일 폴산정",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_286",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "수용성 비타민",
+      "sub": "Vit C",
+      "items": [
         {
           "ingredient": "Ascorbic acid",
           "reference": "아스코르브산주",
@@ -13213,33 +14638,10 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_178",
+      "id": "drug_v4_287",
       "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "아미노산 제제",
-      "items": [
-        {
-          "ingredient": "S-Arg-L-Met",
-          "reference": "사메론",
-          "image": "assets/images/drugs/p36_i18.png"
-        },
-        {
-          "ingredient": "Carglumic acid",
-          "reference": "카바글루",
-          "image": "assets/images/drugs/p36_i19.png"
-        },
-        {
-          "ingredient": "Betaine",
-          "reference": ".시스탄산",
-          "image": "assets/images/drugs/p36_i20.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_179",
-      "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "아미노산 제제",
+      "minor": "아미노산 제제",
+      "sub": "비필수 아미노산",
       "items": [
         {
           "ingredient": "Citrulline",
@@ -13248,18 +14650,18 @@ const DB = {
         },
         {
           "ingredient": "Cys",
-          "reference": "엘씨500",
-          "image": "assets/images/drugs/p36_i22.png"
-        },
-        {
-          "ingredient": "Ala-Glu",
-          "reference": "디펩티벤",
-          "image": "assets/images/drugs/p36_i23.png"
+          "reference": "엘씨 500",
+          "image": ""
         },
         {
           "ingredient": "Asp-Orn",
           "reference": "헤파멜즈",
           "image": "assets/images/drugs/p36_i24.png"
+        },
+        {
+          "ingredient": "Ala-Glu",
+          "reference": "디펩티벤",
+          "image": "assets/images/drugs/p36_i23.png"
         },
         {
           "ingredient": "Arg",
@@ -13274,84 +14676,151 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_180",
+      "id": "drug_v4_288",
       "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "무기질 제제",
+      "minor": "아미노산 제제",
+      "sub": "필수 아미노산",
       "items": [
         {
-          "ingredient": "Ca",
-          "reference": "JW글루콘산칼슘",
-          "image": "assets/images/drugs/p37_i0.png"
+          "ingredient": "5-HydroxyTrp",
+          "reference": "5-에이치티피",
+          "image": ""
         },
         {
-          "ingredient": "Mg",
-          "reference": "염화마그네슘",
-          "image": "assets/images/drugs/p37_i1.png"
+          "ingredient": "S-Arg-L-Met",
+          "reference": "사메론",
+          "image": "assets/images/drugs/p36_i18.png"
         },
         {
-          "ingredient": "Na",
-          "reference": "염화나트륨-고위험",
-          "image": "assets/images/drugs/p37_i3.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_181",
-      "major": "[11. 비타민 및 영양제류]",
-      "minor": "스테로이드+항생제",
-      "sub": "무기질 제제",
-      "items": [
-        {
-          "ingredient": "Zn",
-          "reference": "징크트레이스",
-          "image": "assets/images/drugs/p37_i5.png"
+          "ingredient": "Carglumic acid",
+          "reference": "카바글루",
+          "image": "assets/images/drugs/p36_i19.png"
         },
         {
-          "ingredient": "Mn",
-          "reference": "망가나주",
-          "image": "assets/images/drugs/p37_i7.png"
-        },
-        {
-          "ingredient": "Fe",
-          "reference": "",
+          "ingredient": "Betaine",
+          "reference": "시스탄산",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_182",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "뇌기능 개선제 (치매포함)",
+      "id": "drug_v4_289",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "지용성 비타민",
+      "sub": "Vit A",
       "items": [
         {
-          "ingredient": "Donepezil",
-          "reference": "아리셉트",
-          "image": "assets/images/drugs/p38_i0.png"
-        },
-        {
-          "ingredient": "Galantamine",
-          "reference": "레미닐피알",
-          "image": "assets/images/drugs/p38_i2.png"
-        },
-        {
-          "ingredient": "Rivastigmine",
-          "reference": "엑셀론",
-          "image": "assets/images/drugs/p38_i4.png"
+          "ingredient": "수출용만 존재",
+          "reference": "-",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_183",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "뇌기능 개선제 (치매포함)",
+      "id": "drug_v4_290",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "지용성 비타민",
+      "sub": "Vit D3",
       "items": [
+        {
+          "ingredient": "Cholecalciferol",
+          "reference": "D3 베이스",
+          "image": ""
+        },
+        {
+          "ingredient": "Cholecalciferol",
+          "reference": "디맥",
+          "image": "assets/images/drugs/p36_i1.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_291",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "지용성 비타민",
+      "sub": "Vit E",
+      "items": [
+        {
+          "ingredient": "Tocopherol",
+          "reference": "그랑페롤",
+          "image": "assets/images/drugs/p36_i3.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_292",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "지용성 비타민",
+      "sub": "Vit K",
+      "items": [
+        {
+          "ingredient": "Phytonadione",
+          "reference": "비타민 K1",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_293",
+      "major": "[11. 비타민 및 영양제류]",
+      "minor": "지용성 비타민",
+      "sub": "Vit 유사체",
+      "items": [
+        {
+          "ingredient": "Ubidecarenone",
+          "reference": "데카키논",
+          "image": "assets/images/drugs/p36_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_294",
+      "major": "[12. 정신/행동장애]",
+      "minor": "뇌기능 개선제",
+      "sub": "Ach 전달 촉진제",
+      "items": [
+        {
+          "ingredient": "Choline Alfoscerate",
+          "reference": "알포콜린시럽",
+          "image": ""
+        },
         {
           "ingredient": "Choline Alfoscerate",
           "reference": "글리아티린연질",
           "image": "assets/images/drugs/p38_i6.png"
+        },
+        {
+          "ingredient": "Choline Alfoscerate",
+          "reference": "알포콜린시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Choline Alfoscerate",
+          "reference": "글리아티린연질",
+          "image": "assets/images/drugs/p38_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_295",
+      "major": "[12. 정신/행동장애]",
+      "minor": "뇌기능 개선제",
+      "sub": "Ach 합성 촉진제",
+      "items": [
+        {
+          "ingredient": "Nicergoline",
+          "reference": "사미온",
+          "image": "assets/images/drugs/p38_i8.png"
+        },
+        {
+          "ingredient": "Oxiracetam",
+          "reference": "뉴로메드",
+          "image": ""
+        },
+        {
+          "ingredient": "Acetyl-L-Carnitine",
+          "reference": "니세틸정",
+          "image": "assets/images/drugs/p38_i10.png"
         },
         {
           "ingredient": "Nicergoline",
@@ -13360,8 +14829,8 @@ const DB = {
         },
         {
           "ingredient": "Oxiracetam",
-          "reference": "훈 뉴로메드",
-          "image": "assets/images/drugs/p38_i9.png"
+          "reference": "뉴로메드",
+          "image": ""
         },
         {
           "ingredient": "Acetyl-L-Carnitine",
@@ -13371,15 +14840,103 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_184",
+      "id": "drug_v4_296",
       "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "뇌기능 개선제 (치매포함)",
+      "minor": "뇌기능 개선제",
+      "sub": "Anticholine-estrase",
       "items": [
+        {
+          "ingredient": "Donepezil",
+          "reference": "도네리온패취",
+          "image": ""
+        },
+        {
+          "ingredient": "Donepezil",
+          "reference": "아리셉트",
+          "image": "assets/images/drugs/p38_i0.png"
+        },
+        {
+          "ingredient": "Donepezil",
+          "reference": "도네페질액",
+          "image": ""
+        },
+        {
+          "ingredient": "Galantamine",
+          "reference": "레미닐피알",
+          "image": "assets/images/drugs/p38_i2.png"
+        },
+        {
+          "ingredient": "Rivastigmine",
+          "reference": "엑셀론패취",
+          "image": ""
+        },
+        {
+          "ingredient": "Rivastigmine",
+          "reference": "엑셀론",
+          "image": "assets/images/drugs/p38_i4.png"
+        },
+        {
+          "ingredient": "Donepezil",
+          "reference": "도네리온패취",
+          "image": ""
+        },
+        {
+          "ingredient": "Donepezil",
+          "reference": "아리셉트",
+          "image": "assets/images/drugs/p38_i0.png"
+        },
+        {
+          "ingredient": "Donepezil",
+          "reference": "도네페질액",
+          "image": ""
+        },
+        {
+          "ingredient": "Galantamine",
+          "reference": "레미닐피알",
+          "image": "assets/images/drugs/p38_i2.png"
+        },
+        {
+          "ingredient": "Rivastigmine",
+          "reference": "엑셀론패취",
+          "image": ""
+        },
+        {
+          "ingredient": "Rivastigmine",
+          "reference": "엑셀론",
+          "image": "assets/images/drugs/p38_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_297",
+      "major": "[12. 정신/행동장애]",
+      "minor": "뇌기능 개선제",
+      "sub": "기타",
+      "items": [
+        {
+          "ingredient": "Lecanemab",
+          "reference": "레켐비",
+          "image": "assets/images/drugs/p38_i12.png"
+        },
         {
           "ingredient": "Cerebrolysin",
           "reference": "세레브로리진",
           "image": "assets/images/drugs/p38_i11.png"
+        },
+        {
+          "ingredient": "Selegiline",
+          "reference": "마오비",
+          "image": "assets/images/drugs/p42_i11.png"
+        },
+        {
+          "ingredient": "Memantine",
+          "reference": "에빅사",
+          "image": "assets/images/drugs/p38_i14.png"
+        },
+        {
+          "ingredient": "Donepezil+Memantine",
+          "reference": "디엠듀오",
+          "image": "assets/images/drugs/p38_i15.png"
         },
         {
           "ingredient": "Lecanemab",
@@ -13387,9 +14944,14 @@ const DB = {
           "image": "assets/images/drugs/p38_i12.png"
         },
         {
+          "ingredient": "Cerebrolysin",
+          "reference": "세레브로리진",
+          "image": "assets/images/drugs/p38_i11.png"
+        },
+        {
           "ingredient": "Selegiline",
-          "reference": "한 마오비",
-          "image": "assets/images/drugs/p38_i12.png"
+          "reference": "마오비",
+          "image": "assets/images/drugs/p42_i11.png"
         },
         {
           "ingredient": "Memantine",
@@ -13404,499 +14966,33 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_185",
+      "id": "drug_v4_298",
       "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "뇌기능 개선제 (치매포함)",
+      "minor": "비정형 향정신병약물 (SGA)",
+      "sub": "Benzamide 계",
       "items": [
         {
-          "ingredient": "Alprazolam",
-          "reference": "자낙스",
-          "image": "assets/images/drugs/p38_i16.png"
-        },
-        {
-          "ingredient": "Bromazepam",
-          "reference": "약 명인브로마제팜",
-          "image": "assets/images/drugs/p38_i17.png"
-        },
-        {
-          "ingredient": "Chlordiazepoxide",
-          "reference": "리버티",
-          "image": "assets/images/drugs/p38_i18.png"
-        },
-        {
-          "ingredient": "Chlordiazepoxide+Clidinium",
-          "reference": "리브락스",
-          "image": "assets/images/drugs/p38_i19.png"
-        },
-        {
-          "ingredient": "Ethyl Loflazepate",
-          "reference": "빅손",
-          "image": "assets/images/drugs/p38_i20.png"
+          "ingredient": "Amisulpride",
+          "reference": "솔리안",
+          "image": "assets/images/drugs/p41_i17.png"
         }
       ]
     },
     {
-      "id": "drug_v4_186",
+      "id": "drug_v4_299",
       "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "뇌기능 개선제 (치매포함)",
+      "minor": "비정형 향정신병약물 (SGA)",
+      "sub": "Benzisoxazole 계",
       "items": [
-        {
-          "ingredient": "Lorazepam",
-          "reference": "아티반",
-          "image": "assets/images/drugs/p38_i21.png"
-        },
-        {
-          "ingredient": "Remimazolam",
-          "reference": "바이파보 주",
-          "image": "assets/images/drugs/p38_i22.png"
-        },
-        {
-          "ingredient": "Clobazam",
-          "reference": "센틸",
-          "image": "assets/images/drugs/p38_i23.png"
-        },
-        {
-          "ingredient": "Diazepam",
-          "reference": "바리움",
-          "image": "assets/images/drugs/p38_i24.png"
-        },
-        {
-          "ingredient": "Tofisopam",
-          "reference": "이소탄",
-          "image": "assets/images/drugs/p38_i26.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_187",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "Thienodiazepine",
-      "items": [
-        {
-          "ingredient": "Clotiazepam",
-          "reference": "리제",
-          "image": "assets/images/drugs/p38_i27.png"
-        },
-        {
-          "ingredient": "Etizolam",
-          "reference": "데파스",
-          "image": "assets/images/drugs/p38_i28.png"
-        },
-        {
-          "ingredient": "Buspirone",
-          "reference": "부스파",
-          "image": "assets/images/drugs/p38_i29.png"
-        },
-        {
-          "ingredient": "Hydroxyzine",
-          "reference": "아디팜",
-          "image": "assets/images/drugs/p38_i30.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_188",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Amitriptyline",
-          "reference": "에나폰",
-          "image": "assets/images/drugs/p39_i0.png"
-        },
-        {
-          "ingredient": "Clomipramine",
-          "reference": "그로민",
-          "image": "assets/images/drugs/p39_i2.png"
-        },
-        {
-          "ingredient": "Doxepin",
-          "reference": "사일레노",
-          "image": "assets/images/drugs/p39_i4.png"
-        },
-        {
-          "ingredient": "Imipramine",
-          "reference": "환인이미프라민",
-          "image": "assets/images/drugs/p39_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_189",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Amoxapine",
-          "reference": "아디센",
-          "image": "assets/images/drugs/p39_i6.png"
-        },
-        {
-          "ingredient": "Nortriptyline",
-          "reference": "센시발",
-          "image": "assets/images/drugs/p39_i7.png"
-        },
-        {
-          "ingredient": "Mirtazapine",
-          "reference": "레메론",
-          "image": "assets/images/drugs/p39_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_190",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "Escitalopram",
-          "reference": "렉사프로",
-          "image": "assets/images/drugs/p39_i9.png"
-        },
-        {
-          "ingredient": "Fluoxetine",
-          "reference": "푸로작",
-          "image": "assets/images/drugs/p39_i10.png"
-        },
-        {
-          "ingredient": "Fluvoxamine",
-          "reference": "듀미록스",
-          "image": "assets/images/drugs/p39_i11.png"
-        },
-        {
-          "ingredient": "Paroxetine",
-          "reference": "팍실CR",
-          "image": "assets/images/drugs/p39_i12.png"
-        },
-        {
-          "ingredient": "Sertraline",
-          "reference": "졸루푸트",
-          "image": "assets/images/drugs/p39_i13.png"
-        },
-        {
-          "ingredient": "Vortioxetine",
-          "reference": "브린텔릭스",
-          "image": "assets/images/drugs/p39_i14.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_191",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "SSRE",
-          "reference": "",
-          "image": "assets/images/drugs/p39_i19.png"
-        },
-        {
-          "ingredient": "MAOI",
-          "reference": "국내 약 없음",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_192",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "Desvenlafaxine",
-          "reference": "프리스틱",
-          "image": "assets/images/drugs/p39_i15.png"
-        },
-        {
-          "ingredient": "Milnacipran",
-          "reference": "익셀",
-          "image": "assets/images/drugs/p39_i16.png"
-        },
-        {
-          "ingredient": "Venlafaxine",
-          "reference": "이팩사",
-          "image": "assets/images/drugs/p39_i17.png"
-        },
-        {
-          "ingredient": "Duloxetine",
-          "reference": "심발타",
-          "image": "assets/images/drugs/p39_i18.png"
-        },
-        {
-          "ingredient": "Tianeptine",
-          "reference": "스타브론",
-          "image": "assets/images/drugs/p39_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_193",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "Agomelatine",
-          "reference": "아고틴",
-          "image": "assets/images/drugs/p39_i20.png"
-        },
-        {
-          "ingredient": "S-Adenosyl-L-Methionine",
-          "reference": "사데닌",
-          "image": "assets/images/drugs/p39_i24.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_194",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "St. John's Wort",
-          "reference": "노이로민",
-          "image": "assets/images/drugs/p39_i25.png"
-        },
-        {
-          "ingredient": "Trazodone",
-          "reference": "트리티코",
-          "image": "assets/images/drugs/p39_i27.png"
-        },
-        {
-          "ingredient": "Esketamine",
-          "reference": "스프라바토",
-          "image": "assets/images/drugs/p39_i30.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_195",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "Quetiapine, Risperidone, Olanzapine, Lurasidone, Ziprasidone",
-          "reference": "",
-          "image": ""
-        },
-        {
-          "ingredient": "Divalproex Sodium, Valproic acid, Sodium Valproate, Mg Valproate, Lamotrigine",
-          "reference": "",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_196",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "SSRI",
-      "items": [
-        {
-          "ingredient": "Lithium",
-          "reference": "탄산리튬",
-          "image": "assets/images/drugs/p39_i31.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_197",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Pentobarbital",
-          "reference": "엔토발주",
-          "image": "assets/images/drugs/p40_i0.png"
-        },
-        {
-          "ingredient": "Phenobarbital",
-          "reference": "페노바르비탈",
-          "image": "assets/images/drugs/p40_i1.png"
-        },
-        {
-          "ingredient": "Thiopental",
-          "reference": "펜토탈소디움",
-          "image": "assets/images/drugs/p40_i2.png"
-        },
-        {
-          "ingredient": "Midazolam",
-          "reference": "미다졸람주",
-          "image": "assets/images/drugs/p40_i3.png"
-        },
-        {
-          "ingredient": "Triazolam",
-          "reference": "졸민",
-          "image": "assets/images/drugs/p40_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_198",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Flunitrazepam",
-          "reference": "라제팜",
-          "image": "assets/images/drugs/p40_i6.png"
-        },
-        {
-          "ingredient": "Flurazepam",
-          "reference": "달마돔",
-          "image": "assets/images/drugs/p40_i7.png"
-        },
-        {
-          "ingredient": "Zaleplon",
-          "reference": "잘레딥",
-          "image": "assets/images/drugs/p40_i8.png"
-        },
-        {
-          "ingredient": "Zolpidem",
-          "reference": "스틸녹스",
-          "image": "assets/images/drugs/p40_i9.png"
-        },
-        {
-          "ingredient": "Eszopiclone",
-          "reference": "조피스타",
-          "image": "assets/images/drugs/p40_i11.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_199",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Diphenhydramine",
-          "reference": "디펙타민",
-          "image": "assets/images/drugs/p40_i12.png"
-        },
-        {
-          "ingredient": "Doxylamine",
-          "reference": "아졸",
-          "image": "assets/images/drugs/p40_i14.png"
-        },
-        {
-          "ingredient": "Doxepin",
-          "reference": "승 사일레노",
-          "image": "assets/images/drugs/p40_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_200",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Allylisopropylacetylurea+Caffeine+Ibuprofen",
-          "reference": "그날엔정",
-          "image": "assets/images/drugs/p40_i17.png"
-        },
-        {
-          "ingredient": "Melatonin",
-          "reference": "서카딘",
-          "image": "assets/images/drugs/p40_i18.png"
-        },
-        {
-          "ingredient": "Chloral Hydrate",
-          "reference": "포크랄시럽",
-          "image": "assets/images/drugs/p40_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_201",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Methylphenidate",
-          "reference": "페니드",
-          "image": "assets/images/drugs/p40_i20.png"
-        },
-        {
-          "ingredient": "Modafinil",
-          "reference": "모다닐",
-          "image": "assets/images/drugs/p40_i23.png"
-        },
-        {
-          "ingredient": "Armodafinil",
-          "reference": "아모닐",
-          "image": "assets/images/drugs/p40_i25.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_202",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Chlorpromazine",
-          "reference": "클로르프로마진",
-          "image": "assets/images/drugs/p41_i0.png"
-        },
-        {
-          "ingredient": "Levomepromazine",
-          "reference": "티세르신",
-          "image": "assets/images/drugs/p41_i1.png"
-        },
-        {
-          "ingredient": "Perphenazine",
-          "reference": "페르페나진",
-          "image": "assets/images/drugs/p41_i2.png"
-        },
-        {
-          "ingredient": "Haloperidol",
-          "reference": "할로페리돌",
-          "image": "assets/images/drugs/p41_i3.png"
-        },
-        {
-          "ingredient": "Sulpiride",
-          "reference": "설피딘",
-          "image": "assets/images/drugs/p41_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_203",
-      "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "Pimozide",
-      "items": [
-        {
-          "ingredient": "Olanzapine",
-          "reference": "자이프렉사확산",
-          "image": "assets/images/drugs/p41_i8.png"
-        },
-        {
-          "ingredient": "Zotepine",
-          "reference": "로도핀",
-          "image": "assets/images/drugs/p41_i10.png"
-        },
         {
           "ingredient": "Paliperidone",
           "reference": "인베가서스티나",
           "image": "assets/images/drugs/p41_i11.png"
+        },
+        {
+          "ingredient": "Paliperidone",
+          "reference": "인베가서방",
+          "image": ""
         },
         {
           "ingredient": "Risperidone",
@@ -13906,10 +15002,10 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_204",
+      "id": "drug_v4_300",
       "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "Pimozide",
+      "minor": "비정형 향정신병약물 (SGA)",
+      "sub": "Dibenzodiazepine 계",
       "items": [
         {
           "ingredient": "Clozapine",
@@ -13917,22 +15013,53 @@ const DB = {
           "image": "assets/images/drugs/p41_i14.png"
         },
         {
+          "ingredient": "Olanzapine",
+          "reference": "자이프렉사확산",
+          "image": "assets/images/drugs/p41_i8.png"
+        },
+        {
+          "ingredient": "Olanzapine",
+          "reference": "자이프렉사",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_301",
+      "major": "[12. 정신/행동장애]",
+      "minor": "비정형 향정신병약물 (SGA)",
+      "sub": "Dibenzothiazepine 계",
+      "items": [
+        {
           "ingredient": "Quetiapine",
           "reference": "쎄로켈",
           "image": "assets/images/drugs/p41_i15.png"
         },
         {
-          "ingredient": "Amisulpride",
-          "reference": "솔리안",
-          "image": "assets/images/drugs/p41_i17.png"
+          "ingredient": "Quetiapine",
+          "reference": "쎄로켈서방정",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_205",
+      "id": "drug_v4_302",
       "major": "[12. 정신/행동장애]",
-      "minor": "스테로이드+항생제",
-      "sub": "Pimozide",
+      "minor": "비정형 향정신병약물 (SGA)",
+      "sub": "Thiepin 계",
+      "items": [
+        {
+          "ingredient": "Zotepine",
+          "reference": "로도핀",
+          "image": "assets/images/drugs/p41_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_303",
+      "major": "[12. 정신/행동장애]",
+      "minor": "비정형 향정신병약물 (SGA)",
+      "sub": "기타",
       "items": [
         {
           "ingredient": "Aripiprazole",
@@ -13957,455 +15084,1148 @@ const DB = {
       ]
     },
     {
-      "id": "drug_v4_206",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "[13. 신경계 질환]",
+      "id": "drug_v4_304",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정신흥분제",
+      "sub": "비중추신경자극제",
       "items": [
         {
-          "ingredient": "Levodopa+DOPAdecarboxylase inh",
-          "reference": "",
-          "image": "assets/images/drugs/p42_i0.png"
-        },
-        {
-          "ingredient": "Levodopa+DOPAdecarboxylase inh. +COMT inh.",
-          "reference": "",
-          "image": "assets/images/drugs/p42_i2.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_207",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "[13. 신경계 질환]",
-      "items": [
-        {
-          "ingredient": "Levodopa+Benserazide",
-          "reference": "마도파",
-          "image": "assets/images/drugs/p42_i0.png"
-        },
-        {
-          "ingredient": "Levodopa+Carbi-",
-          "reference": "퍼킨",
-          "image": "assets/images/drugs/p42_i2.png"
-        },
-        {
-          "ingredient": "Levodopa+Carbidopa+Entacapone",
-          "reference": "스타레보",
-          "image": "assets/images/drugs/p42_i2.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_208",
-      "major": "[13. 신경계 질환]",
-      "minor": "파킨슨병 치료제",
-      "sub": "파킨슨병 치료",
-      "items": [
-        {
-          "ingredient": "Entacapone",
-          "reference": "콤탄",
-          "image": "assets/images/drugs/p42_i6.png"
-        },
-        {
-          "ingredient": "Opicapone",
-          "reference": "오젠티스",
-          "image": "assets/images/drugs/p42_i7.png"
-        },
-        {
-          "ingredient": "Amantadine",
-          "reference": "피케이멜즈",
-          "image": "assets/images/drugs/p42_i8.png"
-        },
-        {
-          "ingredient": "Rasagiline",
-          "reference": "아질렉트",
-          "image": "assets/images/drugs/p42_i9.png"
-        },
-        {
-          "ingredient": "Safinamide",
-          "reference": "에퀴피나",
-          "image": "assets/images/drugs/p42_i10.png"
-        },
-        {
-          "ingredient": "Selegiline",
-          "reference": "마오비",
-          "image": "assets/images/drugs/p42_i11.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_209",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Dopamine R 자극 - 맥각",
-      "items": [
-        {
-          "ingredient": "Bromocriptine",
-          "reference": "팔로델",
+          "ingredient": "Atomoxetine",
+          "reference": "스트라테라",
           "image": ""
         },
         {
-          "ingredient": "Cabergoline",
-          "reference": "카버락틴",
-          "image": "assets/images/drugs/p42_i13.png"
+          "ingredient": "Atomoxetine",
+          "reference": "아토목신",
+          "image": ""
         },
         {
-          "ingredient": "Pramipexole",
-          "reference": "미라펙스",
-          "image": "assets/images/drugs/p42_i14.png"
+          "ingredient": "Atomoxetine",
+          "reference": "환인아토목세틴",
+          "image": ""
         },
         {
-          "ingredient": "Ropinirole",
-          "reference": "리큅",
-          "image": "assets/images/drugs/p42_i16.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_210",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "Dopamine R 자극 - 맥각",
-      "items": [
-        {
-          "ingredient": "Benztropine",
-          "reference": "벤즈트로핀",
-          "image": "assets/images/drugs/p42_i18.png"
+          "ingredient": "Clonidine",
+          "reference": "베이",
+          "image": ""
         },
         {
-          "ingredient": "Biperiden",
-          "reference": "비페린",
-          "image": "assets/images/drugs/p42_i19.png"
+          "ingredient": "Atomoxetine",
+          "reference": "스트라테라",
+          "image": ""
         },
         {
-          "ingredient": "Orphenadrine",
-          "reference": "오페릴서방",
-          "image": "assets/images/drugs/p42_i20.png"
+          "ingredient": "Atomoxetine",
+          "reference": "아토목신",
+          "image": ""
         },
         {
-          "ingredient": "Procycline",
-          "reference": "프로이머",
-          "image": "assets/images/drugs/p42_i21.png"
+          "ingredient": "Atomoxetine",
+          "reference": "환인아토목세틴",
+          "image": ""
         },
         {
-          "ingredient": "Trihexyphenidyl",
-          "reference": "트리헥신",
-          "image": "assets/images/drugs/p42_i22.png"
-        },
-        {
-          "ingredient": "Zonisamide",
-          "reference": "엑세그란",
-          "image": "assets/images/drugs/p42_i23.png"
-        },
-        {
-          "ingredient": "새 성분명",
-          "reference": "새 대조약",
+          "ingredient": "Clonidine",
+          "reference": "베이",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_211",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Dopamine R 자극 - 맥각",
+      "id": "drug_v4_305",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정신흥분제",
+      "sub": "중추신경자극제",
       "items": [
         {
-          "ingredient": "Ergotamine + Caffeine",
-          "reference": "크래밍",
-          "image": "assets/images/drugs/p42_i24.png"
+          "ingredient": "Methylphenidate",
+          "reference": "페니드",
+          "image": "assets/images/drugs/p40_i20.png"
         },
         {
-          "ingredient": "Cinnarizine + Dimenhydrinate",
-          "reference": "알레버트",
-          "image": "assets/images/drugs/p42_i24.png"
+          "ingredient": "Methylphenidate",
+          "reference": "메디키넷",
+          "image": ""
         },
         {
-          "ingredient": "Flunarizine",
-          "reference": "씨베리움",
-          "image": "assets/images/drugs/p42_i26.png"
+          "ingredient": "Methylphenidate",
+          "reference": "콘서타 OROS",
+          "image": ""
         },
         {
-          "ingredient": "Cinnarizine",
-          "reference": "마이그리진",
-          "image": "assets/images/drugs/p42_i27.png"
+          "ingredient": "Modafinil",
+          "reference": "모다닐",
+          "image": "assets/images/drugs/p40_i23.png"
         },
         {
-          "ingredient": "Atogepant",
-          "reference": "아큅타",
-          "image": "assets/images/drugs/p42_i28.png"
+          "ingredient": "Modafinil",
+          "reference": "프로비질",
+          "image": ""
         },
         {
-          "ingredient": "Sumatriptan + Naproxen Na",
-          "reference": "수벡스",
-          "image": "assets/images/drugs/p42_i29.png"
+          "ingredient": "Armodafinil",
+          "reference": "아모닐",
+          "image": "assets/images/drugs/p40_i25.png"
+        },
+        {
+          "ingredient": "Methylphenidate",
+          "reference": "페니드",
+          "image": "assets/images/drugs/p40_i20.png"
+        },
+        {
+          "ingredient": "Methylphenidate",
+          "reference": "메디키넷",
+          "image": ""
+        },
+        {
+          "ingredient": "Methylphenidate",
+          "reference": "콘서타 OROS",
+          "image": ""
+        },
+        {
+          "ingredient": "Modafinil",
+          "reference": "모다닐",
+          "image": "assets/images/drugs/p40_i23.png"
+        },
+        {
+          "ingredient": "Modafinil",
+          "reference": "프로비질",
+          "image": ""
+        },
+        {
+          "ingredient": "Armodafinil",
+          "reference": "아모닐",
+          "image": "assets/images/drugs/p40_i25.png"
         }
       ]
     },
     {
-      "id": "drug_v4_212",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Dopamine R 자극 - 맥각",
+      "id": "drug_v4_306",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정형 향정신병약물 (FGA)",
+      "sub": "Benzamide 계",
       "items": [
         {
-          "ingredient": "Almotriptan",
-          "reference": "알모그란",
-          "image": "assets/images/drugs/p42_i30.png"
-        },
-        {
-          "ingredient": "Frovatriptan",
-          "reference": "미가드",
-          "image": "assets/images/drugs/p42_i31.png"
-        },
-        {
-          "ingredient": "Naratriptan",
-          "reference": "나라믹",
-          "image": "assets/images/drugs/p42_i32.png"
-        },
-        {
-          "ingredient": "Sumatriptan",
-          "reference": "이미그란",
-          "image": "assets/images/drugs/p42_i33.png"
-        },
-        {
-          "ingredient": "Zolmitriptan",
-          "reference": "조믹",
-          "image": "assets/images/drugs/p42_i34.png"
-        },
-        {
-          "ingredient": "Lasmiditan",
-          "reference": "레이보우",
-          "image": "assets/images/drugs/p42_i35.png"
+          "ingredient": "Sulpiride",
+          "reference": "설피딘",
+          "image": "assets/images/drugs/p41_i5.png"
         }
       ]
     },
     {
-      "id": "drug_v4_213",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Dopamine R 자극 - 맥각",
+      "id": "drug_v4_307",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정형 향정신병약물 (FGA)",
+      "sub": "Butyrophenone 계",
       "items": [
         {
-          "ingredient": "Fremanezumab",
-          "reference": "아조비",
-          "image": "assets/images/drugs/p42_i36.png"
+          "ingredient": "Haloperidol",
+          "reference": "할로페리돌",
+          "image": "assets/images/drugs/p41_i3.png"
         },
         {
-          "ingredient": "Galcanezumab",
-          "reference": "앰겔러티",
-          "image": "assets/images/drugs/p42_i37.png"
-        },
-        {
-          "ingredient": "Isometheptene",
-          "reference": "네가펜(수출용)",
-          "image": "assets/images/drugs/p42_i39.png"
-        },
-        {
-          "ingredient": "Topiramate",
-          "reference": "토파맥스",
-          "image": "assets/images/drugs/p42_i40.png"
+          "ingredient": "Haloperidol",
+          "reference": "할로페리돌주",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_214",
-      "major": "[13. 신경계 질환]",
-      "minor": "항전간제",
-      "sub": "뇌전증 치료",
+      "id": "drug_v4_308",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정형 향정신병약물 (FGA)",
+      "sub": "Dihydroindole 계",
       "items": [
         {
-          "ingredient": "Carbamazepine",
-          "reference": "테그레톨",
-          "image": "assets/images/drugs/p43_i0.png"
-        },
-        {
-          "ingredient": "Oxcarbazepine",
-          "reference": "트리렙탈",
-          "image": "assets/images/drugs/p43_i2.png"
-        },
-        {
-          "ingredient": "Rufinamide",
-          "reference": "이노베론",
-          "image": "assets/images/drugs/p43_i3.png"
-        },
-        {
-          "ingredient": "Eslicarbazepine",
-          "reference": "제비닉스",
-          "image": "assets/images/drugs/p43_i4.png"
-        },
-        {
-          "ingredient": "Fosphenytoin",
-          "reference": "쎄레빅스주",
-          "image": "assets/images/drugs/p43_i5.png"
+          "ingredient": "Molindone",
+          "reference": "모반",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_215",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "상세 분류",
+      "id": "drug_v4_309",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정형 향정신병약물 (FGA)",
+      "sub": "Diphenylbutylpiperidine 계",
       "items": [
         {
-          "ingredient": "Lacosamide",
-          "reference": "빔스크",
-          "image": "assets/images/drugs/p43_i6.png"
-        },
-        {
-          "ingredient": "Lamotrigine",
-          "reference": "라믹탈",
-          "image": "assets/images/drugs/p43_i8.png"
-        },
-        {
-          "ingredient": "Phenytoin",
-          "reference": "환단히단토인",
-          "image": "assets/images/drugs/p43_i9.png"
+          "ingredient": "Pimozide",
+          "reference": "명인피모짓",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_216",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_310",
+      "major": "[12. 정신/행동장애]",
+      "minor": "정형 향정신병약물 (FGA)",
+      "sub": "Phenothiazine 계",
       "items": [
         {
-          "ingredient": "Pregabalin",
-          "reference": "리리카",
-          "image": "assets/images/drugs/p43_i12.png"
+          "ingredient": "Chlorpromazine",
+          "reference": "클로르프로마진",
+          "image": "assets/images/drugs/p41_i0.png"
         },
         {
-          "ingredient": "Gabapentin",
-          "reference": "뉴론틴",
-          "image": "assets/images/drugs/p43_i14.png"
+          "ingredient": "Levomepromazine",
+          "reference": "티세르신",
+          "image": "assets/images/drugs/p41_i1.png"
         },
         {
-          "ingredient": "Clonazepam",
-          "reference": "리보트릴",
-          "image": "assets/images/drugs/p43_i16.png"
+          "ingredient": "Perphenazine",
+          "reference": "페르페나진",
+          "image": "assets/images/drugs/p41_i2.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_311",
+      "major": "[12. 정신/행동장애]",
+      "minor": "최면진정제",
+      "sub": "BZD 단시간",
+      "items": [
+        {
+          "ingredient": "Midazolam",
+          "reference": "미다졸람주",
+          "image": "assets/images/drugs/p40_i3.png"
+        },
+        {
+          "ingredient": "Triazolam",
+          "reference": "졸민",
+          "image": "assets/images/drugs/p40_i4.png"
+        },
+        {
+          "ingredient": "Triazolam",
+          "reference": "할시온",
+          "image": ""
+        },
+        {
+          "ingredient": "Midazolam",
+          "reference": "미다졸람주",
+          "image": "assets/images/drugs/p40_i3.png"
+        },
+        {
+          "ingredient": "Triazolam",
+          "reference": "졸민",
+          "image": "assets/images/drugs/p40_i4.png"
+        },
+        {
+          "ingredient": "Triazolam",
+          "reference": "할시온",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_312",
+      "major": "[12. 정신/행동장애]",
+      "minor": "최면진정제",
+      "sub": "BZD 중장시간",
+      "items": [
+        {
+          "ingredient": "Flunitrazepam",
+          "reference": "라제팜",
+          "image": "assets/images/drugs/p40_i6.png"
+        },
+        {
+          "ingredient": "Flurazepam",
+          "reference": "달마돔",
+          "image": "assets/images/drugs/p40_i7.png"
+        },
+        {
+          "ingredient": "Flunitrazepam",
+          "reference": "라제팜",
+          "image": "assets/images/drugs/p40_i6.png"
+        },
+        {
+          "ingredient": "Flurazepam",
+          "reference": "달마돔",
+          "image": "assets/images/drugs/p40_i7.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_313",
+      "major": "[12. 정신/행동장애]",
+      "minor": "최면진정제",
+      "sub": "Barbiturate",
+      "items": [
+        {
+          "ingredient": "Pentobarbital",
+          "reference": "엔토발주",
+          "image": "assets/images/drugs/p40_i0.png"
         },
         {
           "ingredient": "Phenobarbital",
-          "reference": "하나페노바르비탈",
-          "image": "assets/images/drugs/p43_i17.png"
+          "reference": "페노바르비탈",
+          "image": "assets/images/drugs/p40_i1.png"
+        },
+        {
+          "ingredient": "Thiopental",
+          "reference": "펜토탈소디움",
+          "image": "assets/images/drugs/p40_i2.png"
+        },
+        {
+          "ingredient": "Pentobarbital",
+          "reference": "엔토발주",
+          "image": "assets/images/drugs/p40_i0.png"
+        },
+        {
+          "ingredient": "Phenobarbital",
+          "reference": "페노바르비탈",
+          "image": "assets/images/drugs/p40_i1.png"
+        },
+        {
+          "ingredient": "Thiopental",
+          "reference": "펜토탈소디움",
+          "image": "assets/images/drugs/p40_i2.png"
         }
       ]
     },
     {
-      "id": "drug_v4_217",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_314",
+      "major": "[12. 정신/행동장애]",
+      "minor": "최면진정제",
+      "sub": "Z-drug",
       "items": [
         {
-          "ingredient": "Divalproex Sodium",
-          "reference": "데파코트서방",
-          "image": "assets/images/drugs/p43_i18.png"
+          "ingredient": "Zaleplon",
+          "reference": "잘레딥",
+          "image": "assets/images/drugs/p40_i8.png"
         },
         {
-          "ingredient": "Sodium Valproate",
-          "reference": "오르필",
-          "image": "assets/images/drugs/p43_i20.png"
+          "ingredient": "Zolpidem",
+          "reference": "스틸녹스",
+          "image": "assets/images/drugs/p40_i9.png"
+        },
+        {
+          "ingredient": "Zolpidem",
+          "reference": "스틸녹스 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Eszopiclone",
+          "reference": "조피스타",
+          "image": "assets/images/drugs/p40_i11.png"
+        },
+        {
+          "ingredient": "Zaleplon",
+          "reference": "잘레딥",
+          "image": "assets/images/drugs/p40_i8.png"
+        },
+        {
+          "ingredient": "Zolpidem",
+          "reference": "스틸녹스",
+          "image": "assets/images/drugs/p40_i9.png"
+        },
+        {
+          "ingredient": "Zolpidem",
+          "reference": "스틸녹스 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Eszopiclone",
+          "reference": "조피스타",
+          "image": "assets/images/drugs/p40_i11.png"
         }
       ]
     },
     {
-      "id": "drug_v4_218",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "상세 분류",
+      "id": "drug_v4_315",
+      "major": "[12. 정신/행동장애]",
+      "minor": "최면진정제",
+      "sub": "기타",
       "items": [
         {
-          "ingredient": "Mg Valproate",
-          "reference": "프로막",
-          "image": "assets/images/drugs/p43_i23.png"
+          "ingredient": "Diphenhydramine",
+          "reference": "디펙타민",
+          "image": "assets/images/drugs/p40_i12.png"
         },
         {
-          "ingredient": "Ethosuximide",
-          "reference": "자론티",
-          "image": "assets/images/drugs/p43_i25.png"
+          "ingredient": "Doxylamine",
+          "reference": "솔리펠",
+          "image": ""
         },
         {
-          "ingredient": "Zonisamide",
-          "reference": "엑세그란",
-          "image": "assets/images/drugs/p43_i26.png"
+          "ingredient": "Doxylamine",
+          "reference": "아졸",
+          "image": "assets/images/drugs/p40_i14.png"
+        },
+        {
+          "ingredient": "Doxepin",
+          "reference": "사일레노",
+          "image": "assets/images/drugs/p39_i4.png"
+        },
+        {
+          "ingredient": "Dexmedetomidine(고위험)",
+          "reference": "프리세덱스",
+          "image": ""
+        },
+        {
+          "ingredient": "Allylisopropylacetylurea+Caffeine+Ibuprofen",
+          "reference": "그날엔정",
+          "image": "assets/images/drugs/p40_i17.png"
+        },
+        {
+          "ingredient": "Melatonin",
+          "reference": "서카딘",
+          "image": "assets/images/drugs/p40_i18.png"
+        },
+        {
+          "ingredient": "Chloral Hydrate",
+          "reference": "포크랄시럽",
+          "image": "assets/images/drugs/p40_i19.png"
+        },
+        {
+          "ingredient": "Diphenhydramine",
+          "reference": "디펙타민",
+          "image": "assets/images/drugs/p40_i12.png"
+        },
+        {
+          "ingredient": "Doxylamine",
+          "reference": "솔리펠",
+          "image": ""
+        },
+        {
+          "ingredient": "Doxylamine",
+          "reference": "아졸",
+          "image": "assets/images/drugs/p40_i14.png"
+        },
+        {
+          "ingredient": "Doxepin",
+          "reference": "사일레노",
+          "image": "assets/images/drugs/p39_i4.png"
+        },
+        {
+          "ingredient": "Dexmedetomidine(고위험)",
+          "reference": "프리세덱스",
+          "image": ""
+        },
+        {
+          "ingredient": "Allylisopropylacetylurea+Caffeine+Ibuprofen",
+          "reference": "그날엔정",
+          "image": "assets/images/drugs/p40_i17.png"
+        },
+        {
+          "ingredient": "Melatonin",
+          "reference": "서카딘",
+          "image": "assets/images/drugs/p40_i18.png"
+        },
+        {
+          "ingredient": "Chloral Hydrate",
+          "reference": "포크랄시럽",
+          "image": "assets/images/drugs/p40_i19.png"
         }
       ]
     },
     {
-      "id": "drug_v4_219",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_316",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항불안제",
+      "sub": "BZD",
       "items": [
         {
-          "ingredient": "Brivaracetam",
-          "reference": "브리비액트",
-          "image": "assets/images/drugs/p43_i27.png"
+          "ingredient": "Alprazolam",
+          "reference": "자낙스",
+          "image": "assets/images/drugs/p38_i16.png"
         },
         {
-          "ingredient": "Levetiracetam",
-          "reference": "케프라정",
-          "image": "assets/images/drugs/p43_i28.png"
+          "ingredient": "Bromazepam",
+          "reference": "명인브로마제팜",
+          "image": ""
         },
         {
-          "ingredient": "Perampanel",
-          "reference": "파이콤파",
-          "image": "assets/images/drugs/p43_i31.png"
+          "ingredient": "Chlordiazepoxide",
+          "reference": "리버티",
+          "image": "assets/images/drugs/p38_i18.png"
         },
         {
-          "ingredient": "Topiramate",
-          "reference": "토파맥스",
-          "image": "assets/images/drugs/p43_i32.png"
+          "ingredient": "Chlordiazepoxide+Clidinium",
+          "reference": "리브락스",
+          "image": "assets/images/drugs/p38_i19.png"
+        },
+        {
+          "ingredient": "Ethyl Loflazepate",
+          "reference": "빅손",
+          "image": "assets/images/drugs/p38_i20.png"
+        },
+        {
+          "ingredient": "Remimazolam",
+          "reference": "바이파보 주",
+          "image": "assets/images/drugs/p38_i22.png"
+        },
+        {
+          "ingredient": "Lorazepam",
+          "reference": "아티반",
+          "image": "assets/images/drugs/p38_i21.png"
+        },
+        {
+          "ingredient": "Clobazam",
+          "reference": "센틸",
+          "image": "assets/images/drugs/p38_i23.png"
+        },
+        {
+          "ingredient": "Diazepam",
+          "reference": "바리움",
+          "image": "assets/images/drugs/p38_i24.png"
+        },
+        {
+          "ingredient": "Diazepam",
+          "reference": "삼진디아제팜주",
+          "image": ""
+        },
+        {
+          "ingredient": "Tofisopam",
+          "reference": "이소탄",
+          "image": "assets/images/drugs/p38_i26.png"
+        },
+        {
+          "ingredient": "Alprazolam",
+          "reference": "자낙스",
+          "image": "assets/images/drugs/p38_i16.png"
+        },
+        {
+          "ingredient": "Bromazepam",
+          "reference": "명인브로마제팜",
+          "image": ""
+        },
+        {
+          "ingredient": "Chlordiazepoxide",
+          "reference": "리버티",
+          "image": "assets/images/drugs/p38_i18.png"
+        },
+        {
+          "ingredient": "Chlordiazepoxide+Clidinium",
+          "reference": "리브락스",
+          "image": "assets/images/drugs/p38_i19.png"
+        },
+        {
+          "ingredient": "Ethyl Loflazepate",
+          "reference": "빅손",
+          "image": "assets/images/drugs/p38_i20.png"
+        },
+        {
+          "ingredient": "Remimazolam",
+          "reference": "바이파보 주",
+          "image": "assets/images/drugs/p38_i22.png"
+        },
+        {
+          "ingredient": "Lorazepam",
+          "reference": "아티반",
+          "image": "assets/images/drugs/p38_i21.png"
+        },
+        {
+          "ingredient": "Clobazam",
+          "reference": "센틸",
+          "image": "assets/images/drugs/p38_i23.png"
+        },
+        {
+          "ingredient": "Diazepam",
+          "reference": "바리움",
+          "image": "assets/images/drugs/p38_i24.png"
+        },
+        {
+          "ingredient": "Diazepam",
+          "reference": "삼진디아제팜주",
+          "image": ""
+        },
+        {
+          "ingredient": "Tofisopam",
+          "reference": "이소탄",
+          "image": "assets/images/drugs/p38_i26.png"
         }
       ]
     },
     {
-      "id": "drug_v4_220",
-      "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_317",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항불안제",
+      "sub": "Thienodiazepine",
       "items": [
         {
-          "ingredient": "Acamprosate",
-          "reference": "아캄프로세이트",
-          "image": "assets/images/drugs/p43_i33.png"
+          "ingredient": "Clotiazepam",
+          "reference": "리제",
+          "image": "assets/images/drugs/p38_i27.png"
         },
         {
-          "ingredient": "Metadoxine",
-          "reference": "알코텔",
-          "image": "assets/images/drugs/p43_i34.png"
+          "ingredient": "Etizolam",
+          "reference": "데파스",
+          "image": "assets/images/drugs/p38_i28.png"
         },
         {
-          "ingredient": "Naltrexone",
-          "reference": "레비아",
-          "image": "assets/images/drugs/p43_i35.png"
+          "ingredient": "Clotiazepam",
+          "reference": "리제",
+          "image": "assets/images/drugs/p38_i27.png"
         },
         {
-          "ingredient": "Nicotine",
-          "reference": "니코스탑",
-          "image": "assets/images/drugs/p43_i36.png"
-        },
-        {
-          "ingredient": "Varenicline",
-          "reference": "챔픽스",
-          "image": "assets/images/drugs/p43_i37.png"
+          "ingredient": "Etizolam",
+          "reference": "데파스",
+          "image": "assets/images/drugs/p38_i28.png"
         }
       ]
     },
     {
-      "id": "drug_v4_221",
+      "id": "drug_v4_318",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항불안제",
+      "sub": "기타",
+      "items": [
+        {
+          "ingredient": "Buspirone",
+          "reference": "부스파",
+          "image": "assets/images/drugs/p38_i29.png"
+        },
+        {
+          "ingredient": "Hydroxyzine",
+          "reference": "아디팜",
+          "image": "assets/images/drugs/p38_i30.png"
+        },
+        {
+          "ingredient": "Hydroxyzine",
+          "reference": "유시락스",
+          "image": ""
+        },
+        {
+          "ingredient": "Buspirone",
+          "reference": "부스파",
+          "image": "assets/images/drugs/p38_i29.png"
+        },
+        {
+          "ingredient": "Hydroxyzine",
+          "reference": "아디팜",
+          "image": "assets/images/drugs/p38_i30.png"
+        },
+        {
+          "ingredient": "Hydroxyzine",
+          "reference": "유시락스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_319",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "2급 아민 TCA",
+      "items": [
+        {
+          "ingredient": "Amoxapine",
+          "reference": "아디센",
+          "image": "assets/images/drugs/p39_i6.png"
+        },
+        {
+          "ingredient": "Nortriptyline",
+          "reference": "센시발",
+          "image": "assets/images/drugs/p44_i3.png"
+        },
+        {
+          "ingredient": "Amoxapine",
+          "reference": "아디센",
+          "image": "assets/images/drugs/p39_i6.png"
+        },
+        {
+          "ingredient": "Nortriptyline",
+          "reference": "센시발",
+          "image": "assets/images/drugs/p44_i3.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_320",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "3급 아민 TCA",
+      "items": [
+        {
+          "ingredient": "Amitriptyline",
+          "reference": "에나폰",
+          "image": "assets/images/drugs/p44_i1.png"
+        },
+        {
+          "ingredient": "Amitriptyline",
+          "reference": "에트라빌",
+          "image": ""
+        },
+        {
+          "ingredient": "Clomipramine",
+          "reference": "환인클로미프라민",
+          "image": ""
+        },
+        {
+          "ingredient": "Clomipramine",
+          "reference": "그로민",
+          "image": "assets/images/drugs/p39_i2.png"
+        },
+        {
+          "ingredient": "Imipramine",
+          "reference": "환인이미프라민",
+          "image": "assets/images/drugs/p39_i5.png"
+        },
+        {
+          "ingredient": "Doxepin",
+          "reference": "사일레노",
+          "image": "assets/images/drugs/p39_i4.png"
+        },
+        {
+          "ingredient": "Amitriptyline",
+          "reference": "에나폰",
+          "image": "assets/images/drugs/p44_i1.png"
+        },
+        {
+          "ingredient": "Amitriptyline",
+          "reference": "에트라빌",
+          "image": ""
+        },
+        {
+          "ingredient": "Clomipramine",
+          "reference": "환인클로미프라민",
+          "image": ""
+        },
+        {
+          "ingredient": "Clomipramine",
+          "reference": "그로민",
+          "image": "assets/images/drugs/p39_i2.png"
+        },
+        {
+          "ingredient": "Imipramine",
+          "reference": "환인이미프라민",
+          "image": "assets/images/drugs/p39_i5.png"
+        },
+        {
+          "ingredient": "Doxepin",
+          "reference": "사일레노",
+          "image": "assets/images/drugs/p39_i4.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_321",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "NaSSA/TeCA",
+      "items": [
+        {
+          "ingredient": "Mirtazapine",
+          "reference": "레메론",
+          "image": "assets/images/drugs/p39_i8.png"
+        },
+        {
+          "ingredient": "Mirtazapine",
+          "reference": "레메론",
+          "image": "assets/images/drugs/p39_i8.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_322",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "SNRI",
+      "items": [
+        {
+          "ingredient": "Desvenlafaxine",
+          "reference": "프리스틱",
+          "image": "assets/images/drugs/p39_i15.png"
+        },
+        {
+          "ingredient": "Venlafaxine",
+          "reference": "이팩사",
+          "image": "assets/images/drugs/p39_i17.png"
+        },
+        {
+          "ingredient": "Milnacipran",
+          "reference": "익셀",
+          "image": "assets/images/drugs/p39_i16.png"
+        },
+        {
+          "ingredient": "Duloxetine",
+          "reference": "심발타",
+          "image": "assets/images/drugs/p44_i24.png"
+        },
+        {
+          "ingredient": "Desvenlafaxine",
+          "reference": "프리스틱",
+          "image": "assets/images/drugs/p39_i15.png"
+        },
+        {
+          "ingredient": "Venlafaxine",
+          "reference": "이팩사",
+          "image": "assets/images/drugs/p39_i17.png"
+        },
+        {
+          "ingredient": "Milnacipran",
+          "reference": "익셀",
+          "image": "assets/images/drugs/p39_i16.png"
+        },
+        {
+          "ingredient": "Duloxetine",
+          "reference": "심발타",
+          "image": "assets/images/drugs/p44_i24.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_323",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "SSRE",
+      "items": [
+        {
+          "ingredient": "Tianeptine",
+          "reference": "스타브론",
+          "image": "assets/images/drugs/p39_i19.png"
+        },
+        {
+          "ingredient": "Tianeptine",
+          "reference": "스타브론",
+          "image": "assets/images/drugs/p39_i19.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_324",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "SSRI",
+      "items": [
+        {
+          "ingredient": "Escitalopram",
+          "reference": "렉사프로",
+          "image": "assets/images/drugs/p39_i9.png"
+        },
+        {
+          "ingredient": "Fluvoxamine",
+          "reference": "듀미록스",
+          "image": "assets/images/drugs/p39_i11.png"
+        },
+        {
+          "ingredient": "Paroxetine",
+          "reference": "팍실 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Fluoxetine",
+          "reference": "푸로작",
+          "image": "assets/images/drugs/p39_i10.png"
+        },
+        {
+          "ingredient": "Vortioxetine",
+          "reference": "브린텔릭스",
+          "image": "assets/images/drugs/p39_i14.png"
+        },
+        {
+          "ingredient": "Sertraline",
+          "reference": "졸로푸트",
+          "image": ""
+        },
+        {
+          "ingredient": "Escitalopram",
+          "reference": "렉사프로",
+          "image": "assets/images/drugs/p39_i9.png"
+        },
+        {
+          "ingredient": "Fluvoxamine",
+          "reference": "듀미록스",
+          "image": "assets/images/drugs/p39_i11.png"
+        },
+        {
+          "ingredient": "Paroxetine",
+          "reference": "팍실 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Fluoxetine",
+          "reference": "푸로작",
+          "image": "assets/images/drugs/p39_i10.png"
+        },
+        {
+          "ingredient": "Vortioxetine",
+          "reference": "브린텔릭스",
+          "image": "assets/images/drugs/p39_i14.png"
+        },
+        {
+          "ingredient": "Sertraline",
+          "reference": "졸로푸트",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_325",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항우울제",
+      "sub": "기타",
+      "items": [
+        {
+          "ingredient": "Agomelatine",
+          "reference": "아고틴",
+          "image": "assets/images/drugs/p39_i20.png"
+        },
+        {
+          "ingredient": "Bupropion",
+          "reference": "애드피온",
+          "image": ""
+        },
+        {
+          "ingredient": "Bupropion",
+          "reference": "웰부트린 XL",
+          "image": ""
+        },
+        {
+          "ingredient": "S-Adenosyl-L-Methionine",
+          "reference": "사데닌",
+          "image": "assets/images/drugs/p39_i24.png"
+        },
+        {
+          "ingredient": "St. John's Wort",
+          "reference": "노이로민",
+          "image": "assets/images/drugs/p39_i25.png"
+        },
+        {
+          "ingredient": "St. John's Wort",
+          "reference": "훼라민큐",
+          "image": ""
+        },
+        {
+          "ingredient": "Trazodone",
+          "reference": "트리티코서방정",
+          "image": ""
+        },
+        {
+          "ingredient": "Trazodone",
+          "reference": "트리티코",
+          "image": "assets/images/drugs/p39_i27.png"
+        },
+        {
+          "ingredient": "Trazodone",
+          "reference": "환인트라조돈",
+          "image": ""
+        },
+        {
+          "ingredient": "Esketamine",
+          "reference": "스프라바토",
+          "image": "assets/images/drugs/p39_i30.png"
+        },
+        {
+          "ingredient": "Agomelatine",
+          "reference": "아고틴",
+          "image": "assets/images/drugs/p39_i20.png"
+        },
+        {
+          "ingredient": "Bupropion",
+          "reference": "애드피온",
+          "image": ""
+        },
+        {
+          "ingredient": "Bupropion",
+          "reference": "웰부트린 XL",
+          "image": ""
+        },
+        {
+          "ingredient": "S-Adenosyl-L-Methionine",
+          "reference": "사데닌",
+          "image": "assets/images/drugs/p39_i24.png"
+        },
+        {
+          "ingredient": "St. John's Wort",
+          "reference": "노이로민",
+          "image": "assets/images/drugs/p39_i25.png"
+        },
+        {
+          "ingredient": "St. John's Wort",
+          "reference": "훼라민큐",
+          "image": ""
+        },
+        {
+          "ingredient": "Trazodone",
+          "reference": "트리티코서방정",
+          "image": ""
+        },
+        {
+          "ingredient": "Trazodone",
+          "reference": "트리티코",
+          "image": "assets/images/drugs/p39_i27.png"
+        },
+        {
+          "ingredient": "Trazodone",
+          "reference": "환인트라조돈",
+          "image": ""
+        },
+        {
+          "ingredient": "Esketamine",
+          "reference": "스프라바토",
+          "image": "assets/images/drugs/p39_i30.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_326",
+      "major": "[12. 정신/행동장애]",
+      "minor": "항조증",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Lithium",
+          "reference": "탄산리튬",
+          "image": "assets/images/drugs/p39_i31.png"
+        },
+        {
+          "ingredient": "Lithium",
+          "reference": "탄산리튬",
+          "image": "assets/images/drugs/p39_i31.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_327",
       "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "기타 신경계용 약물",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Riluzole",
+          "reference": "리루텍",
+          "image": "assets/images/drugs/p44_i26.png"
+        },
+        {
+          "ingredient": "Taltirelin",
+          "reference": "씨트렐린",
+          "image": "assets/images/drugs/p44_i27.png"
+        },
+        {
+          "ingredient": "Edaravone",
+          "reference": "라디컷",
+          "image": "assets/images/drugs/p44_i25.png"
+        },
+        {
+          "ingredient": "Caffeine",
+          "reference": "네오카프",
+          "image": "assets/images/drugs/p44_i27.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_328",
+      "major": "[13. 신경계 질환]",
+      "minor": "멀미 약",
+      "sub": "-",
       "items": [
         {
           "ingredient": "Dimenhydrinate",
           "reference": "보나링",
-          "image": "assets/images/drugs/p44_i0.png"
+          "image": "assets/images/drugs/p44_i19.png"
+        },
+        {
+          "ingredient": "Scopolamine",
+          "reference": "키미테패취",
+          "image": "assets/images/drugs/p44_i15.png"
+        },
+        {
+          "ingredient": "Dimenhydrinate+Scopolamine",
+          "reference": "보나링츄어블",
+          "image": ""
+        },
+        {
+          "ingredient": "Dimenhydrinate+Scopolamine",
+          "reference": "키미테정",
+          "image": ""
+        },
+        {
+          "ingredient": "Dimenhydrinate+VitB6",
+          "reference": "해피트립",
+          "image": "assets/images/drugs/p44_i17.png"
+        },
+        {
+          "ingredient": "Meclizine+Caffeine+VitB6",
+          "reference": "노보민시럽",
+          "image": "assets/images/drugs/p44_i1.png"
+        },
+        {
+          "ingredient": "Dimenhydrinate+Caffeine+VItB3",
+          "reference": "6",
+          "image": ""
+        },
+        {
+          "ingredient": "소보민시럽+Scopolamine",
+          "reference": "토스롱",
+          "image": ""
+        },
+        {
+          "ingredient": "소보민시럽+Scopolamine",
+          "reference": "토스롱에스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_329",
+      "major": "[13. 신경계 질환]",
+      "minor": "신경통 치료제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Amitriptyline",
+          "reference": "에나폰",
+          "image": "assets/images/drugs/p44_i1.png"
+        },
+        {
+          "ingredient": "Amitriptyline",
+          "reference": "에트라빌",
+          "image": ""
+        },
+        {
+          "ingredient": "Nortriptyline",
+          "reference": "센시발",
+          "image": "assets/images/drugs/p44_i3.png"
+        },
+        {
+          "ingredient": "Carbamazepine",
+          "reference": "테그레톨",
+          "image": "assets/images/drugs/p44_i4.png"
+        },
+        {
+          "ingredient": "Carbamazepine",
+          "reference": "테그레톨씨알",
+          "image": ""
+        },
+        {
+          "ingredient": "Mirogabalin",
+          "reference": "탈리제",
+          "image": "assets/images/drugs/p44_i23.png"
+        },
+        {
+          "ingredient": "Gabapentin",
+          "reference": "뉴론틴",
+          "image": "assets/images/drugs/p44_i8.png"
+        },
+        {
+          "ingredient": "Pregabalin",
+          "reference": "리리카",
+          "image": "assets/images/drugs/p44_i6.png"
+        },
+        {
+          "ingredient": "Pregabalin",
+          "reference": "리리카 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Duloxetine",
+          "reference": "심발타",
+          "image": "assets/images/drugs/p44_i24.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_330",
+      "major": "[13. 신경계 질환]",
+      "minor": "어지럼증 치료제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Dimenhydrinate",
+          "reference": "보나링",
+          "image": "assets/images/drugs/p44_i19.png"
         },
         {
           "ingredient": "Betahistine",
@@ -14431,65 +16251,281 @@ const DB = {
           "ingredient": "Diazepam",
           "reference": "삼진디아제팜",
           "image": "assets/images/drugs/p44_i13.png"
+        },
+        {
+          "ingredient": "Tianeptine",
+          "reference": "스타브론",
+          "image": "assets/images/drugs/p39_i19.png"
         }
       ]
     },
     {
-      "id": "drug_v4_222",
+      "id": "drug_v4_331",
       "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Tianeptine",
+      "minor": "중독성 장애 치료제",
+      "sub": "-",
       "items": [
         {
-          "ingredient": "Dimenhydrinate",
-          "reference": "보나링",
-          "image": "assets/images/drugs/p44_i19.png"
+          "ingredient": "Acamprosate",
+          "reference": "아캄프로세이트",
+          "image": "assets/images/drugs/p43_i33.png"
         },
         {
-          "ingredient": "Scopolamine",
-          "reference": "키미테패취",
-          "image": "assets/images/drugs/p44_i15.png"
+          "ingredient": "Metadoxine",
+          "reference": "알코텔",
+          "image": "assets/images/drugs/p43_i34.png"
         },
         {
-          "ingredient": "Dimenhydrinate+VitB6",
-          "reference": "해피트립",
-          "image": "assets/images/drugs/p44_i17.png"
+          "ingredient": "Naltrexone",
+          "reference": "레비아",
+          "image": "assets/images/drugs/p43_i35.png"
+        },
+        {
+          "ingredient": "Nicotine",
+          "reference": "니코스탑",
+          "image": "assets/images/drugs/p43_i36.png"
+        },
+        {
+          "ingredient": "Varenicline",
+          "reference": "챔픽스",
+          "image": "assets/images/drugs/p43_i37.png"
+        },
+        {
+          "ingredient": "Varenicline",
+          "reference": "니코챔스",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_223",
+      "id": "drug_v4_332",
       "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Tianeptine",
+      "minor": "편두통 및 두통 치료제",
+      "sub": "5-HT1 효능제",
       "items": [
         {
-          "ingredient": "Meclizine+Caffeine+VitB6",
-          "reference": "노보민시럽",
-          "image": "assets/images/drugs/p44_i1.png"
+          "ingredient": "Almotriptan",
+          "reference": "알모그란",
+          "image": "assets/images/drugs/p42_i30.png"
         },
         {
-          "ingredient": "Dimenhydrinate+Caffeine+VItB3,6",
-          "reference": "소보민시럽",
-          "image": "assets/images/drugs/p44_i3.png"
+          "ingredient": "Frovatriptan",
+          "reference": "미가드",
+          "image": "assets/images/drugs/p42_i31.png"
+        },
+        {
+          "ingredient": "Naratriptan",
+          "reference": "나라믹",
+          "image": "assets/images/drugs/p42_i32.png"
+        },
+        {
+          "ingredient": "Zolmitriptan",
+          "reference": "조믹",
+          "image": "assets/images/drugs/p42_i34.png"
+        },
+        {
+          "ingredient": "Sumatriptan",
+          "reference": "이미그란",
+          "image": "assets/images/drugs/p42_i33.png"
+        },
+        {
+          "ingredient": "Lasmiditan",
+          "reference": "레이보우",
+          "image": "assets/images/drugs/p42_i35.png"
         }
       ]
     },
     {
-      "id": "drug_v4_224",
+      "id": "drug_v4_333",
       "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Tianeptine",
+      "minor": "편두통 및 두통 치료제",
+      "sub": "5-HT1+NSAIDS",
       "items": [
         {
-          "ingredient": "Amitriptyline",
-          "reference": "에나폰",
-          "image": "assets/images/drugs/p44_i1.png"
+          "ingredient": "Sumatriptan+Naproxen Na",
+          "reference": "수벡스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_334",
+      "major": "[13. 신경계 질환]",
+      "minor": "편두통 및 두통 치료제",
+      "sub": "CGRP 길항제",
+      "items": [
+        {
+          "ingredient": "Fremanezumab",
+          "reference": "아조비",
+          "image": "assets/images/drugs/p42_i36.png"
         },
         {
-          "ingredient": "Nortriptyline",
-          "reference": "센시발",
-          "image": "assets/images/drugs/p44_i3.png"
+          "ingredient": "Galcanezumab",
+          "reference": "앰겔러티",
+          "image": "assets/images/drugs/p42_i37.png"
+        },
+        {
+          "ingredient": "Atogepant",
+          "reference": "아큅타",
+          "image": "assets/images/drugs/p42_i28.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_335",
+      "major": "[13. 신경계 질환]",
+      "minor": "편두통 및 두통 치료제",
+      "sub": "Ca 통로 차단제",
+      "items": [
+        {
+          "ingredient": "Cinnarizine+Dimenhydrinate",
+          "reference": "알레버트",
+          "image": ""
+        },
+        {
+          "ingredient": "Flunarizine",
+          "reference": "씨베리움",
+          "image": "assets/images/drugs/p44_i11.png"
+        },
+        {
+          "ingredient": "Cinnarizine",
+          "reference": "마이그리진",
+          "image": "assets/images/drugs/p44_i10.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_336",
+      "major": "[13. 신경계 질환]",
+      "minor": "편두통 및 두통 치료제",
+      "sub": "기타",
+      "items": [
+        {
+          "ingredient": "Valproate 류",
+          "reference": "네가펜(수출용)",
+          "image": ""
+        },
+        {
+          "ingredient": "Topiramate",
+          "reference": "토파맥스",
+          "image": "assets/images/drugs/p43_i32.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_337",
+      "major": "[13. 신경계 질환]",
+      "minor": "편두통 및 두통 치료제",
+      "sub": "맥각 알칼로이드",
+      "items": [
+        {
+          "ingredient": "Ergotamine+Caffeine",
+          "reference": "크래밍",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_338",
+      "major": "[13. 신경계 질환]",
+      "minor": "항경련제",
+      "sub": "Ca2+ 차단제",
+      "items": [
+        {
+          "ingredient": "Ethosuximide",
+          "reference": "자론티",
+          "image": ""
+        },
+        {
+          "ingredient": "Zonisamide",
+          "reference": "엑세그란",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_339",
+      "major": "[13. 신경계 질환]",
+      "minor": "항경련제",
+      "sub": "Gaba 작용 증가약",
+      "items": [
+        {
+          "ingredient": "Pregabalin",
+          "reference": "리리카",
+          "image": "assets/images/drugs/p44_i6.png"
+        },
+        {
+          "ingredient": "Pregabalin",
+          "reference": "리리카 CR",
+          "image": ""
+        },
+        {
+          "ingredient": "Gabapentin",
+          "reference": "뉴론틴",
+          "image": "assets/images/drugs/p44_i8.png"
+        },
+        {
+          "ingredient": "Primidone",
+          "reference": "프리미돈",
+          "image": ""
+        },
+        {
+          "ingredient": "Clonazepam",
+          "reference": "리보트릴",
+          "image": "assets/images/drugs/p43_i16.png"
+        },
+        {
+          "ingredient": "Phenobarbital",
+          "reference": "하나페노바르비탈",
+          "image": "assets/images/drugs/p43_i17.png"
+        },
+        {
+          "ingredient": "Divalproex Sodium",
+          "reference": "데파코트서방",
+          "image": "assets/images/drugs/p43_i18.png"
+        },
+        {
+          "ingredient": "Valproic acid+Sodium Valproate",
+          "reference": "데파킨크로노",
+          "image": ""
+        },
+        {
+          "ingredient": "Sodium Valproate",
+          "reference": "오르필",
+          "image": "assets/images/drugs/p43_i20.png"
+        },
+        {
+          "ingredient": "Sodium Valproate",
+          "reference": "오르필시럽",
+          "image": ""
+        },
+        {
+          "ingredient": "Sodium Valproate",
+          "reference": "오르필주",
+          "image": ""
+        },
+        {
+          "ingredient": "Mg Valproate",
+          "reference": "프로막",
+          "image": ""
+        },
+        {
+          "ingredient": "Vigabatrin",
+          "reference": "사브릴",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_340",
+      "major": "[13. 신경계 질환]",
+      "minor": "항경련제",
+      "sub": "Na+ Ch 차단제",
+      "items": [
+        {
+          "ingredient": "Carbamazepine",
+          "reference": "테그레톨씨알",
+          "image": ""
         },
         {
           "ingredient": "Carbamazepine",
@@ -14497,203 +16533,377 @@ const DB = {
           "image": "assets/images/drugs/p44_i4.png"
         },
         {
-          "ingredient": "Mirogabalin",
-          "reference": "탈리제",
-          "image": "assets/images/drugs/p44_i23.png"
+          "ingredient": "Oxcarbazepine",
+          "reference": "트리렙탈",
+          "image": "assets/images/drugs/p43_i2.png"
+        },
+        {
+          "ingredient": "Rufinamide",
+          "reference": "이노베론",
+          "image": "assets/images/drugs/p43_i3.png"
+        },
+        {
+          "ingredient": "Fosphenytoin",
+          "reference": "쎄레빅스주",
+          "image": "assets/images/drugs/p43_i5.png"
+        },
+        {
+          "ingredient": "Eslicarbazepine",
+          "reference": "제비닉스",
+          "image": "assets/images/drugs/p43_i4.png"
+        },
+        {
+          "ingredient": "Lacosamide",
+          "reference": "빔스크주",
+          "image": ""
+        },
+        {
+          "ingredient": "Lacosamide",
+          "reference": "빔스크",
+          "image": ""
+        },
+        {
+          "ingredient": "Lamotrigine",
+          "reference": "라믹탈",
+          "image": ""
+        },
+        {
+          "ingredient": "Phenytoin",
+          "reference": "삼진페니토인주",
+          "image": ""
+        },
+        {
+          "ingredient": "Phenytoin",
+          "reference": "부광페니토인",
+          "image": "assets/images/drugs/p4_i3.png"
+        },
+        {
+          "ingredient": "Phenytoin",
+          "reference": "환단히단토인",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_225",
+      "id": "drug_v4_341",
       "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Tianeptine",
+      "minor": "항경련제",
+      "sub": "기타",
       "items": [
         {
-          "ingredient": "Gabapentin",
-          "reference": "뉴론틴",
-          "image": "assets/images/drugs/p44_i8.png"
+          "ingredient": "Brivaracetam",
+          "reference": "브리비액트",
+          "image": "assets/images/drugs/p43_i27.png"
         },
         {
-          "ingredient": "Pregabalin",
-          "reference": "리리카",
-          "image": "assets/images/drugs/p44_i6.png"
+          "ingredient": "Levetiracetam",
+          "reference": "케프라액",
+          "image": ""
         },
         {
-          "ingredient": "Duloxetine",
-          "reference": "심발타",
-          "image": "assets/images/drugs/p44_i24.png"
+          "ingredient": "Levetiracetam",
+          "reference": "케프라정",
+          "image": "assets/images/drugs/p43_i28.png"
+        },
+        {
+          "ingredient": "Levetiracetam",
+          "reference": "케프라주",
+          "image": ""
+        },
+        {
+          "ingredient": "Perampanel",
+          "reference": "파이콤파",
+          "image": "assets/images/drugs/p43_i31.png"
+        },
+        {
+          "ingredient": "Topiramate",
+          "reference": "토파맥스",
+          "image": "assets/images/drugs/p43_i32.png"
         }
       ]
     },
     {
-      "id": "drug_v4_226",
+      "id": "drug_v4_342",
       "major": "[13. 신경계 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "기타 신경계용 약물",
+      "minor": "항파킨슨제",
+      "sub": "COMT 억제제",
       "items": [
         {
-          "ingredient": "Edaravone",
-          "reference": "라디컷",
-          "image": "assets/images/drugs/p44_i25.png"
+          "ingredient": "Opicapone",
+          "reference": "오젠티스",
+          "image": "assets/images/drugs/p42_i7.png"
         },
         {
-          "ingredient": "Riluzole",
-          "reference": "리루텍",
-          "image": "assets/images/drugs/p44_i26.png"
-        },
-        {
-          "ingredient": "Taltirelin",
-          "reference": "씨트렐린",
-          "image": "assets/images/drugs/p44_i27.png"
-        },
-        {
-          "ingredient": "Caffeine",
-          "reference": "네오카프",
-          "image": "assets/images/drugs/p44_i27.png"
+          "ingredient": "Entacapone",
+          "reference": "콤탄",
+          "image": "assets/images/drugs/p42_i6.png"
         }
       ]
     },
     {
-      "id": "drug_v4_227",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Penicillin계",
+      "id": "drug_v4_343",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "Dopamine R 자극-맥각",
       "items": [
         {
-          "ingredient": "Penicillin G",
-          "reference": "벤제타실주-희귀",
-          "image": "assets/images/drugs/p45_i0.png"
+          "ingredient": "Bromocriptine",
+          "reference": "팔로델",
+          "image": "assets/images/drugs/p7_i37.png"
         },
         {
-          "ingredient": "Ampicillin",
-          "reference": "엠씰린",
-          "image": "assets/images/drugs/p45_i0.png"
-        },
-        {
-          "ingredient": "Ampicillin+Sulbactam",
-          "reference": "썰바신",
-          "image": "assets/images/drugs/p45_i2.png"
-        },
-        {
-          "ingredient": "Nafcillin",
-          "reference": "나프실린주",
-          "image": "assets/images/drugs/p45_i4.png"
+          "ingredient": "Cabergoline",
+          "reference": "카버락틴",
+          "image": "assets/images/drugs/p42_i13.png"
         }
       ]
     },
     {
-      "id": "drug_v4_228",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Penicillin계",
+      "id": "drug_v4_344",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "Dopamine R 자극-비맥각",
       "items": [
         {
-          "ingredient": "Amoxicillin",
-          "reference": "곰실린",
-          "image": "assets/images/drugs/p45_i5.png"
+          "ingredient": "Pramipexole",
+          "reference": "미라펙스",
+          "image": "assets/images/drugs/p42_i14.png"
         },
         {
-          "ingredient": "Amoxicillin+Sulbactam",
-          "reference": "썰타목스주",
-          "image": "assets/images/drugs/p45_i9.png"
+          "ingredient": "Pramipexole",
+          "reference": "미라펙스서방",
+          "image": ""
+        },
+        {
+          "ingredient": "Ropinirole",
+          "reference": "리큅",
+          "image": "assets/images/drugs/p42_i16.png"
+        },
+        {
+          "ingredient": "Ropinirole",
+          "reference": "리큅피디",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_229",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Penicillin계",
+      "id": "drug_v4_345",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "Dopamine 방출",
       "items": [
         {
-          "ingredient": "Piperacillin",
-          "reference": "펜믹스",
-          "image": "assets/images/drugs/p45_i11.png"
-        },
-        {
-          "ingredient": "Piperacillin+Sulbactam",
-          "reference": "콤비신",
-          "image": "assets/images/drugs/p45_i12.png"
-        },
-        {
-          "ingredient": "Piperacillin+Tazobactam",
-          "reference": "타박탐",
-          "image": "assets/images/drugs/p45_i13.png"
-        },
-        {
-          "ingredient": "Sultamicillin",
-          "reference": "유나신",
-          "image": "assets/images/drugs/p45_i14.png"
+          "ingredient": "Amantadine",
+          "reference": "피케이멜즈",
+          "image": "assets/images/drugs/p42_i8.png"
         }
       ]
     },
     {
-      "id": "drug_v4_230",
+      "id": "drug_v4_346",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "Levodopa+DOPAdecarboxylase inh",
+      "items": [
+        {
+          "ingredient": "Levodopa+Benserazide",
+          "reference": "명도파",
+          "image": ""
+        },
+        {
+          "ingredient": "Levodopa+Benserazide",
+          "reference": "마도파",
+          "image": "assets/images/drugs/p42_i0.png"
+        },
+        {
+          "ingredient": "Levodopa+Carbidopa",
+          "reference": "퍼킨",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_347",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "Levodopa+DOPAdecarboxylase inh. +COMT inh.",
+      "items": [
+        {
+          "ingredient": "Levodopa+Carbidopa+Entacapone",
+          "reference": "스타레보",
+          "image": "assets/images/drugs/p42_i2.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_348",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "MAO-B 억제제",
+      "items": [
+        {
+          "ingredient": "Rasagiline",
+          "reference": "아질렉트",
+          "image": "assets/images/drugs/p42_i9.png"
+        },
+        {
+          "ingredient": "Safinamide",
+          "reference": "에퀴피나",
+          "image": "assets/images/drugs/p42_i10.png"
+        },
+        {
+          "ingredient": "Selegiline",
+          "reference": "마오비",
+          "image": "assets/images/drugs/p42_i11.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_349",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "기타",
+      "items": [
+        {
+          "ingredient": "Orphenadrine",
+          "reference": "오페릴서방",
+          "image": ""
+        },
+        {
+          "ingredient": "Zonisamide",
+          "reference": "엑세그란",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_350",
+      "major": "[13. 신경계 질환]",
+      "minor": "항파킨슨제",
+      "sub": "항콜린제",
+      "items": [
+        {
+          "ingredient": "Biperiden",
+          "reference": "비페린",
+          "image": ""
+        },
+        {
+          "ingredient": "Benztropine",
+          "reference": "벤즈트로핀",
+          "image": ""
+        },
+        {
+          "ingredient": "Trihexyphenidyl",
+          "reference": "트리헥신",
+          "image": ""
+        },
+        {
+          "ingredient": "Procycline",
+          "reference": "프로이머",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_351",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Cepha계",
+      "minor": "구충제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Albendazole",
+          "reference": "젠텔",
+          "image": "assets/images/drugs/p53_i4.png"
+        },
+        {
+          "ingredient": "Flubendazole",
+          "reference": "젤콤",
+          "image": "assets/images/drugs/p53_i5.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_352",
+      "major": "[14. 감염성 질환]",
+      "minor": "백신",
+      "sub": "HPV",
+      "items": [
+        {
+          "ingredient": "9가",
+          "reference": "가다실 9",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_353",
+      "major": "[14. 감염성 질환]",
+      "minor": "백신",
+      "sub": "대상포진",
+      "items": [
+        {
+          "ingredient": "재조합",
+          "reference": "싱그릭스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_354",
+      "major": "[14. 감염성 질환]",
+      "minor": "항결핵제",
+      "sub": "항균제-1차",
+      "items": [
+        {
+          "ingredient": "Isoniazid",
+          "reference": "유한짓",
+          "image": ""
+        },
+        {
+          "ingredient": "Rifampicin",
+          "reference": "리팜핀",
+          "image": ""
+        },
+        {
+          "ingredient": "Ethambutol",
+          "reference": "마이암부톨제피",
+          "image": ""
+        },
+        {
+          "ingredient": "Pyrazinamide",
+          "reference": "피라진아미드",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_355",
+      "major": "[14. 감염성 질환]",
+      "minor": "항균제-Cepha 계",
+      "sub": "Cephalosporin 계 - 1세대",
       "items": [
         {
           "ingredient": "Cephradine",
-          "reference": "동구세프라딘",
-          "image": "assets/images/drugs/p45_i15.png"
-        },
-        {
-          "ingredient": "Cefroxadine",
-          "reference": "타이록신",
-          "image": "assets/images/drugs/p45_i16.png"
-        },
-        {
-          "ingredient": "Cefalexin",
-          "reference": "팔렉신",
-          "image": "assets/images/drugs/p45_i17.png"
+          "reference": "유한세프라딘",
+          "image": ""
         },
         {
           "ingredient": "Cefadroxil",
           "reference": "듀리세프",
           "image": "assets/images/drugs/p45_i18.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_231",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Cepha계",
-      "items": [
-        {
-          "ingredient": "Methylol Cephalexin",
-          "reference": "메섹신정",
-          "image": "assets/images/drugs/p45_i21.png"
-        },
-        {
-          "ingredient": "Cefradine-L-Arg",
-          "reference": "판제딘",
-          "image": "assets/images/drugs/p45_i22.png"
-        },
-        {
-          "ingredient": "Cefazedone",
-          "reference": "한올레포스포렌",
-          "image": "assets/images/drugs/p45_i24.png"
         },
         {
           "ingredient": "Cefazolin",
           "reference": "종근당세파졸린",
           "image": "assets/images/drugs/p45_i25.png"
-        },
-        {
-          "ingredient": "Ceftezole",
-          "reference": "세프테졸주",
-          "image": "assets/images/drugs/p45_i25.png"
         }
       ]
     },
     {
-      "id": "drug_v4_232",
+      "id": "drug_v4_356",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Cepha계",
+      "minor": "항균제-Cepha 계",
+      "sub": "Cephalosporin 계 - 2세대",
       "items": [
         {
           "ingredient": "Cefaclor",
@@ -14702,67 +16912,21 @@ const DB = {
         },
         {
           "ingredient": "Cefuroxime",
-          "reference": "세푸록심주",
-          "image": "assets/images/drugs/p46_i1.png"
+          "reference": "진네트",
+          "image": ""
         },
-        {
-          "ingredient": "Cefotiam",
-          "reference": "세란도란주",
-          "image": "assets/images/drugs/p46_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_233",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Cepha계",
-      "items": [
         {
           "ingredient": "Cefprozil",
           "reference": "프로세질",
           "image": "assets/images/drugs/p46_i6.png"
-        },
-        {
-          "ingredient": "Cefprozil",
-          "reference": "세파질건조시럽",
-          "image": "assets/images/drugs/p46_i6.png"
-        },
-        {
-          "ingredient": "Cefmetazole",
-          "reference": "메타키트주",
-          "image": "assets/images/drugs/p46_i7.png"
-        },
-        {
-          "ingredient": "Cefotetan",
-          "reference": "야마테탄",
-          "image": "assets/images/drugs/p46_i9.png"
-        },
-        {
-          "ingredient": "Flomoxef",
-          "reference": "후루마린주",
-          "image": "assets/images/drugs/p46_i10.png"
         }
       ]
     },
     {
-      "id": "drug_v4_234",
+      "id": "drug_v4_357",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "항균제​ -Cepha계",
-      "items": [
-        {
-          "ingredient": "Cefbuperazone",
-          "reference": "토미포란주",
-          "image": "assets/images/drugs/p46_i12.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_235",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Cephalosporin계 - 3세대",
+      "minor": "항균제-Cepha 계",
+      "sub": "Cephalosporin 계 - 3세대",
       "items": [
         {
           "ingredient": "Cefteram",
@@ -14775,121 +16939,91 @@ const DB = {
           "image": "assets/images/drugs/p46_i16.png"
         },
         {
-          "ingredient": "Cefetamet",
-          "reference": "세페신",
-          "image": "assets/images/drugs/p46_i17.png"
+          "ingredient": "Cefdinir",
+          "reference": "세프다나",
+          "image": ""
         },
         {
           "ingredient": "Cefixime",
           "reference": "슈프락스",
           "image": "assets/images/drugs/p46_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_236",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Cephalosporin계 - 3세대",
-      "items": [
-        {
-          "ingredient": "Ceftibuten",
-          "reference": "세프템",
-          "image": "assets/images/drugs/p46_i21.png"
-        },
-        {
-          "ingredient": "Cefpodoxime",
-          "reference": "바난정",
-          "image": "assets/images/drugs/p46_i21.png"
-        },
-        {
-          "ingredient": "Cefditoren",
-          "reference": "메이액트",
-          "image": "assets/images/drugs/p46_i24.png"
         },
         {
           "ingredient": "Ceftriaxone",
           "reference": "세포트리악손",
           "image": "assets/images/drugs/p46_i24.png"
-        },
-        {
-          "ingredient": "Cefmenoxime",
-          "reference": "베스트론이비과",
-          "image": "assets/images/drugs/p46_i25.png"
         }
       ]
     },
     {
-      "id": "drug_v4_237",
+      "id": "drug_v4_358",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Cephalosporin계 - 3세대",
-      "items": [
-        {
-          "ingredient": "Cefcapene",
-          "reference": "소아용후모록스",
-          "image": "assets/images/drugs/p46_i27.png"
-        },
-        {
-          "ingredient": "Cefodizime",
-          "reference": "뉴디짐주",
-          "image": "assets/images/drugs/p46_i28.png"
-        },
-        {
-          "ingredient": "Ceftazidime",
-          "reference": "타짐주",
-          "image": "assets/images/drugs/p46_i28.png"
-        },
-        {
-          "ingredient": "Cefoperazone",
-          "reference": "세포라탐주",
-          "image": "assets/images/drugs/p46_i30.png"
-        },
-        {
-          "ingredient": "Cefotaxime",
-          "reference": "세포탁심주",
-          "image": "assets/images/drugs/p46_i30.png"
-        },
-        {
-          "ingredient": "Ceftizoxime",
-          "reference": "에포세린주",
-          "image": "assets/images/drugs/p46_i31.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_238",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "항균제-Cepha 계",
+      "sub": "Cephalosporin 계 - 4세대",
       "items": [
         {
           "ingredient": "Cefepime",
           "reference": "맥스핌주",
           "image": "assets/images/drugs/p47_i0.png"
-        },
-        {
-          "ingredient": "Cefpirome",
-          "reference": "한세롬주",
-          "image": "assets/images/drugs/p47_i1.png"
-        },
-        {
-          "ingredient": "Cefiderocol",
-          "reference": "페트로자주",
-          "image": "assets/images/drugs/p47_i1.png"
-        },
-        {
-          "ingredient": "Sulfamethoxazole+Trimethoprim",
-          "reference": "셉트린정",
-          "image": "assets/images/drugs/p47_i3.png"
         }
       ]
     },
     {
-      "id": "drug_v4_239",
+      "id": "drug_v4_359",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "항균제-Penicillin 계",
+      "sub": "Beta-lactamase 복합제",
+      "items": [
+        {
+          "ingredient": "Ampicillin+Sulbactam",
+          "reference": "썰바신",
+          "image": "assets/images/drugs/p45_i2.png"
+        },
+        {
+          "ingredient": "Amoxicillin+Clavulanate",
+          "reference": "오구멘틴",
+          "image": ""
+        },
+        {
+          "ingredient": "Amoxicillin+Clavulanate",
+          "reference": "아모크라",
+          "image": ""
+        },
+        {
+          "ingredient": "Piperacillin+Tazobactam",
+          "reference": "타박탐",
+          "image": "assets/images/drugs/p45_i13.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_360",
+      "major": "[14. 감염성 질환]",
+      "minor": "항균제-Penicillin 계",
+      "sub": "Penicillin 단일제",
+      "items": [
+        {
+          "ingredient": "Penicillin G",
+          "reference": "벤제타실주-희귀",
+          "image": "assets/images/drugs/p45_i0.png"
+        },
+        {
+          "ingredient": "Ampicillin",
+          "reference": "엠씰린",
+          "image": "assets/images/drugs/p45_i0.png"
+        },
+        {
+          "ingredient": "Amoxicillin",
+          "reference": "곰실린",
+          "image": "assets/images/drugs/p45_i5.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_361",
+      "major": "[14. 감염성 질환]",
+      "minor": "항균제-기타 항생제",
+      "sub": "Carbapenem 계",
       "items": [
         {
           "ingredient": "Meropenem",
@@ -14897,266 +17031,94 @@ const DB = {
           "image": "assets/images/drugs/p47_i5.png"
         },
         {
-          "ingredient": "Ertapenem",
-          "reference": "인반즈주",
-          "image": "assets/images/drugs/p47_i6.png"
-        },
-        {
           "ingredient": "Imipenem+Cilastatin",
           "reference": "프리페넴주",
           "image": "assets/images/drugs/p47_i6.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_362",
+      "major": "[14. 감염성 질환]",
+      "minor": "항균제-기타 항생제",
+      "sub": "Macrolide 계",
+      "items": [
+        {
+          "ingredient": "Clarithromycin",
+          "reference": "클래리시드",
+          "image": ""
         },
         {
-          "ingredient": "Doripenem",
-          "reference": "피니박스주",
-          "image": "assets/images/drugs/p47_i8.png"
-        },
-        {
-          "ingredient": "Aztreonem",
-          "reference": "",
+          "ingredient": "Azithromycin",
+          "reference": "지스로맥스",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_240",
+      "id": "drug_v4_363",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Polypeptide계",
+      "minor": "항균제-기타 항생제",
+      "sub": "Quinolone 계",
       "items": [
-        {
-          "ingredient": "Colistin",
-          "reference": "콜리스주",
-          "image": "assets/images/drugs/p47_i9.png"
-        },
-        {
-          "ingredient": "Gentamicin",
-          "reference": "겐타마이신주",
-          "image": "assets/images/drugs/p47_i10.png"
-        },
-        {
-          "ingredient": "Netilmicin",
-          "reference": "네틸마이신주",
-          "image": "assets/images/drugs/p47_i11.png"
-        },
-        {
-          "ingredient": "Amikacin",
-          "reference": "아미카신주",
-          "image": "assets/images/drugs/p47_i11.png"
-        },
-        {
-          "ingredient": "Tobramycin",
-          "reference": "토브라마이신주",
-          "image": "assets/images/drugs/p47_i12.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_241",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Tetracycline계",
-      "items": [
-        {
-          "ingredient": "Doxycycline",
-          "reference": "독시사이클린정",
-          "image": "assets/images/drugs/p47_i23.png"
-        },
-        {
-          "ingredient": "Minocycline",
-          "reference": "미노씬",
-          "image": "assets/images/drugs/p47_i25.png"
-        },
-        {
-          "ingredient": "Tetracycline",
-          "reference": "테라싸이클린",
-          "image": "assets/images/drugs/p47_i26.png"
-        },
-        {
-          "ingredient": "Tigecycline",
-          "reference": "타이가실주",
-          "image": "assets/images/drugs/p47_i27.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_242",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Norfloxacin",
-          "reference": "뉴사달",
-          "image": "assets/images/drugs/p48_i0.png"
-        },
         {
           "ingredient": "Ciprofloxacin",
-          "reference": "로프신",
-          "image": "assets/images/drugs/p48_i0.png"
+          "reference": "씨프로바이",
+          "image": ""
         },
         {
           "ingredient": "Moxifloxacin",
           "reference": "아벨록스",
           "image": "assets/images/drugs/p48_i3.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_243",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Quinolone계",
-      "items": [
-        {
-          "ingredient": "Norfloxacin",
-          "reference": "안피펜",
-          "image": "assets/images/drugs/p48_i6.png"
-        },
-        {
-          "ingredient": "Tosufloxacin",
-          "reference": "오젝스",
-          "image": "assets/images/drugs/p48_i6.png"
-        },
-        {
-          "ingredient": "Lomefloxacin",
-          "reference": "로메플록사",
-          "image": "assets/images/drugs/p48_i7.png"
         },
         {
           "ingredient": "Levofloxacin",
-          "reference": "크리비트",
-          "image": "assets/images/drugs/p48_i8.png"
-        },
-        {
-          "ingredient": "Ofloxacin",
-          "reference": "타리비드",
-          "image": "assets/images/drugs/p48_i9.png"
-        },
-        {
-          "ingredient": "Balofloxacin",
-          "reference": "큐록신",
-          "image": "assets/images/drugs/p48_i10.png"
+          "reference": "크라비트",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_244",
+      "id": "drug_v4_364",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Quinolone계",
-      "items": [
-        {
-          "ingredient": "Levofloxacin",
-          "reference": "크라비트정",
-          "image": "assets/images/drugs/p48_i12.png"
-        },
-        {
-          "ingredient": "Gemifloxacin",
-          "reference": "팩티브",
-          "image": "assets/images/drugs/p48_i14.png"
-        },
-        {
-          "ingredient": "Linezolid",
-          "reference": "승 자이복스정",
-          "image": "assets/images/drugs/p48_i14.png"
-        },
-        {
-          "ingredient": "Thiamphenicol",
-          "reference": "울파마이신",
-          "image": "assets/images/drugs/p48_i16.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_245",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "약 Vancomycin계",
+      "minor": "항균제-기타 항생제",
+      "sub": "Vancomycin 계",
       "items": [
         {
           "ingredient": "Vancomycin",
           "reference": "반코진",
           "image": "assets/images/drugs/p48_i24.png"
-        },
-        {
-          "ingredient": "Teicoplanin",
-          "reference": "타고시드주",
-          "image": "assets/images/drugs/p48_i27.png"
-        },
-        {
-          "ingredient": "Fosfomycin",
-          "reference": "모노룰산",
-          "image": "assets/images/drugs/p48_i29.png"
         }
       ]
     },
     {
-      "id": "drug_v4_246",
+      "id": "drug_v4_365",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "약 Vancomycin계",
+      "minor": "항바이러스제",
+      "sub": "항B형간염",
       "items": [
         {
-          "ingredient": "Rifaximin",
-          "reference": "노르믹스",
-          "image": "assets/images/drugs/p48_i30.png"
+          "ingredient": "Entecavir",
+          "reference": "바라크루드",
+          "image": "assets/images/drugs/p49_i33.png"
         },
         {
-          "ingredient": "Nitrofurantoin",
-          "reference": "니트로푸란토인",
-          "image": "assets/images/drugs/p48_i30.png"
+          "ingredient": "Tenofovir",
+          "reference": "비리어드",
+          "image": ""
         },
         {
-          "ingredient": "Fusidate",
-          "reference": "후시딘정",
-          "image": "assets/images/drugs/p48_i31.png"
-        },
-        {
-          "ingredient": "Cefoperazone+Sulbactam",
-          "reference": "세포라탐주",
-          "image": "assets/images/drugs/p48_i32.png"
-        },
-        {
-          "ingredient": "Daptomycin",
-          "reference": "답토신주",
-          "image": "assets/images/drugs/p48_i34.png"
+          "ingredient": "Tenofovir",
+          "reference": "베믈리디",
+          "image": "assets/images/drugs/p49_i34.png"
         }
       ]
     },
     {
-      "id": "drug_v4_247",
+      "id": "drug_v4_366",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Valacyclovir",
-          "reference": "발트렉스",
-          "image": "assets/images/drugs/p49_i0.png"
-        },
-        {
-          "ingredient": "Ganciclovir",
-          "reference": "싸이메",
-          "image": "assets/images/drugs/p49_i0.png"
-        },
-        {
-          "ingredient": "Acyclovir",
-          "reference": "에크로",
-          "image": "assets/images/drugs/p49_i1.png"
-        },
-        {
-          "ingredient": "Inosiplex",
-          "reference": "푸리노신정",
-          "image": "assets/images/drugs/p49_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_248",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "항바이러스제",
+      "sub": "항인플루엔자",
       "items": [
         {
           "ingredient": "Oseltamivir",
@@ -15167,1222 +17129,94 @@ const DB = {
           "ingredient": "Peramivir",
           "reference": "페라미플루주",
           "image": "assets/images/drugs/p49_i8.png"
-        },
-        {
-          "ingredient": "Zanamivir",
-          "reference": "리렌자로타디스크",
-          "image": "assets/images/drugs/p49_i9.png"
-        },
-        {
-          "ingredient": "Baloxavir",
-          "reference": "조플루자",
-          "image": "assets/images/drugs/p49_i10.png"
         }
       ]
     },
     {
-      "id": "drug_v4_249",
+      "id": "drug_v4_367",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "항바이러스제",
+      "sub": "항코로나 바이러스",
       "items": [
-        {
-          "ingredient": "Lamivudine",
-          "reference": "쓰리티씨",
-          "image": "assets/images/drugs/p49_i12.png"
-        },
-        {
-          "ingredient": "Atazanavir",
-          "reference": "한 레야타즈",
-          "image": "assets/images/drugs/p49_i13.png"
-        },
-        {
-          "ingredient": "Nevirapine",
-          "reference": "바이라문",
-          "image": "assets/images/drugs/p49_i14.png"
-        },
-        {
-          "ingredient": "Tenofovir",
-          "reference": "베믈리디",
-          "image": "assets/images/drugs/p49_i15.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_250",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Efavirenz",
-          "reference": "스토크린",
-          "image": "assets/images/drugs/p49_i18.png"
-        },
-        {
-          "ingredient": "Raltegravir",
-          "reference": "이센트레스",
-          "image": "assets/images/drugs/p49_i19.png"
-        },
-        {
-          "ingredient": "Etravirine",
-          "reference": "인테렌스",
-          "image": "assets/images/drugs/p49_i20.png"
-        },
-        {
-          "ingredient": "Ritonavir",
-          "reference": "노비르",
-          "image": "assets/images/drugs/p49_i21.png"
-        },
-        {
-          "ingredient": "Abacavir",
-          "reference": "지아겐",
-          "image": "assets/images/drugs/p49_i22.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_251",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Dolutegravir",
-          "reference": "티비케이",
-          "image": "assets/images/drugs/p49_i24.png"
-        },
-        {
-          "ingredient": "Darunavir",
-          "reference": "프레지스타",
-          "image": "assets/images/drugs/p49_i24.png"
-        },
-        {
-          "ingredient": "Lopinavir+Ritonavir",
-          "reference": "칼렌트",
-          "image": "assets/images/drugs/p49_i25.png"
-        },
-        {
-          "ingredient": "Lamivudine+Abacavir",
-          "reference": "키벡사",
-          "image": "assets/images/drugs/p49_i27.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_252",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Lamivudine+Dolutegravir",
-          "reference": "도바토",
-          "image": "assets/images/drugs/p49_i28.png"
-        },
-        {
-          "ingredient": "Lamivudine+Zidovudine",
-          "reference": "컴비비어",
-          "image": "assets/images/drugs/p49_i29.png"
-        },
-        {
-          "ingredient": "Lamivudine+Abacavir+Dolutegravir",
-          "reference": "트리멕",
-          "image": "assets/images/drugs/p49_i30.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_253",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Telbivudine",
-          "reference": "세비보",
-          "image": "assets/images/drugs/p49_i31.png"
-        },
-        {
-          "ingredient": "Lamivudine",
-          "reference": "제픽스",
-          "image": "assets/images/drugs/p49_i31.png"
-        },
-        {
-          "ingredient": "Adefovir",
-          "reference": "헵세라",
-          "image": "assets/images/drugs/p49_i33.png"
-        },
-        {
-          "ingredient": "Entecavir",
-          "reference": "바라크루드",
-          "image": "assets/images/drugs/p49_i33.png"
-        },
-        {
-          "ingredient": "Tenofovir",
-          "reference": "베믈리디",
-          "image": "assets/images/drugs/p49_i34.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_254",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Clevuidine",
-          "reference": "레보비르",
-          "image": "assets/images/drugs/p50_i0.png"
-        },
         {
           "ingredient": "Remdesivir",
           "reference": "베클루리",
           "image": "assets/images/drugs/p50_i0.png"
         },
         {
-          "ingredient": "Nirmatrevir+ Ritonavir",
+          "ingredient": "Nirmatrevir+Ritonavir",
           "reference": "팍스로비드",
-          "image": "assets/images/drugs/p50_i2.png"
-        },
-        {
-          "ingredient": "Molnupiravir",
-          "reference": "라게브리오",
-          "image": "assets/images/drugs/p50_i3.png"
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_255",
+      "id": "drug_v4_368",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Sofosbuvir",
-          "reference": "소발디",
-          "image": "assets/images/drugs/p50_i4.png"
-        },
-        {
-          "ingredient": "Ribavirin",
-          "reference": "바이라미",
-          "image": "assets/images/drugs/p50_i4.png"
-        },
-        {
-          "ingredient": "Sofosbuvir+Ledipasvir",
-          "reference": "하보",
-          "image": "assets/images/drugs/p50_i5.png"
-        },
-        {
-          "ingredient": "Elbasvir+Grazoprevir",
-          "reference": "제파티",
-          "image": "assets/images/drugs/p50_i7.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_256",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Glecaprevir+Pibrentasvir",
-          "reference": "마비렛",
-          "image": "assets/images/drugs/p50_i8.png"
-        },
-        {
-          "ingredient": "Sofosbuvir+Velpatasvir",
-          "reference": "엡클루사",
-          "image": "assets/images/drugs/p50_i9.png"
-        },
-        {
-          "ingredient": "Sofosbuvir+Velpatasvir+Voxilaprevir",
-          "reference": "보세비",
-          "image": "assets/images/drugs/p50_i10.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_257",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Posaconazole",
-          "reference": "녹사필",
-          "image": "assets/images/drugs/p50_i11.png"
-        },
-        {
-          "ingredient": "Fluconazole",
-          "reference": "대웅푸루나졸",
-          "image": "assets/images/drugs/p50_i13.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_258",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Voriconazole",
-          "reference": "브이펜드",
-          "image": "assets/images/drugs/p50_i17.png"
-        },
-        {
-          "ingredient": "Itraconazole",
-          "reference": "스포라녹스",
-          "image": "assets/images/drugs/p50_i18.png"
-        },
-        {
-          "ingredient": "Sertaconazole",
-          "reference": "더모픽스질정",
-          "image": "assets/images/drugs/p50_i19.png"
-        },
-        {
-          "ingredient": "Clotrimazole",
-          "reference": "카네스텐1질정",
-          "image": "assets/images/drugs/p50_i20.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_259",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Allylamine계",
+      "minor": "항진균제",
+      "sub": "Allylamine 계",
       "items": [
         {
           "ingredient": "Terbinafine",
           "reference": "라미실정",
           "image": "assets/images/drugs/p50_i22.png"
-        },
-        {
-          "ingredient": "Nystatin+Neomycin+Polymyxin B",
-          "reference": "오엔지질연질",
-          "image": "assets/images/drugs/p50_i25.png"
-        },
-        {
-          "ingredient": "Nystatin",
-          "reference": "니스타틴시럽",
-          "image": "assets/images/drugs/p50_i26.png"
         }
       ]
     },
     {
-      "id": "drug_v4_260",
+      "id": "drug_v4_369",
       "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Echinocandin계",
+      "minor": "항진균제",
+      "sub": "Azole 계",
       "items": [
         {
-          "ingredient": "Micafungin",
-          "reference": "마이카민주",
-          "image": "assets/images/drugs/p50_i27.png"
+          "ingredient": "Fluconazole",
+          "reference": "디푸루칸",
+          "image": ""
         },
         {
-          "ingredient": "Anidulafungin",
-          "reference": "에락시스",
-          "image": "assets/images/drugs/p50_i28.png"
-        },
-        {
-          "ingredient": "Caspofungin",
-          "reference": "칸시다스",
-          "image": "assets/images/drugs/p50_i29.png"
-        },
-        {
-          "ingredient": "Amphotericin B",
-          "reference": "암비솜주",
-          "image": "assets/images/drugs/p50_i30.png"
+          "ingredient": "Itraconazole",
+          "reference": "스포라녹스",
+          "image": "assets/images/drugs/p50_i18.png"
         }
       ]
     },
     {
-      "id": "drug_v4_261",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "id": "drug_v4_370",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "빈혈 치료제",
+      "sub": "금속철",
       "items": [
         {
-          "ingredient": "Metronidazole",
-          "reference": "메로겔",
-          "image": "assets/images/drugs/p51_i0.png"
+          "ingredient": "Iron Acetyl Transferrin",
+          "reference": "볼그레액",
+          "image": ""
         },
         {
-          "ingredient": "Tinidazole",
-          "reference": "티니다진",
-          "image": "assets/images/drugs/p51_i2.png"
-        },
-        {
-          "ingredient": "Ornidazole",
-          "reference": "토미졸주",
-          "image": "assets/images/drugs/p51_i3.png"
-        },
-        {
-          "ingredient": "Pentamidine",
-          "reference": "펜타미딘",
-          "image": "assets/images/drugs/p51_i4.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_262",
-      "major": "[14. 감염질환]",
-      "minor": "항결핵제",
-      "sub": "결핵 치료",
-      "items": [
-        {
-          "ingredient": "Isoniazid(H)",
-          "reference": "유한짓",
-          "image": "assets/images/drugs/p51_i7.png"
-        },
-        {
-          "ingredient": "Ethambutol(E)",
-          "reference": "마이암부톨제피",
-          "image": "assets/images/drugs/p51_i7.png"
-        },
-        {
-          "ingredient": "Pyrazinamide(Z )",
-          "reference": "피라진아미드",
-          "image": "assets/images/drugs/p51_i8.png"
-        },
-        {
-          "ingredient": "Pretomanid",
-          "reference": "도브프렐라-희귀",
-          "image": "assets/images/drugs/p51_i10.png"
-        },
-        {
-          "ingredient": "Delamanid",
-          "reference": "델티바-희귀",
-          "image": "assets/images/drugs/p51_i11.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_263",
-      "major": "[1. 순환기계질환]",
-      "minor": "이뇨제",
-      "sub": "Metronidazole+Spiramycin",
-      "items": [
-        {
-          "ingredient": "Rifampicin(R)",
-          "reference": "리팜핀",
-          "image": "assets/images/drugs/p51_i13.png"
-        },
-        {
-          "ingredient": "Rifabutin",
-          "reference": "마이코부틴",
-          "image": "assets/images/drugs/p51_i15.png"
-        },
-        {
-          "ingredient": "Cycloserine",
-          "reference": "크로세린",
-          "image": "assets/images/drugs/p51_i16.png"
-        },
-        {
-          "ingredient": "Prothionamide",
-          "reference": "프로티온아미드",
-          "image": "assets/images/drugs/p51_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_264",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Metronidazole+Spiramycin",
-      "items": [
-        {
-          "ingredient": "H+R",
-          "reference": "튜비스투",
-          "image": "assets/images/drugs/p51_i19.png"
-        },
-        {
-          "ingredient": "H+R+P",
-          "reference": "유유리파터",
-          "image": "assets/images/drugs/p51_i20.png"
-        },
-        {
-          "ingredient": "H+R+P+E",
-          "reference": "튜비스",
-          "image": "assets/images/drugs/p51_i21.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_265",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Metronidazole+Spiramycin",
-      "items": [
-        {
-          "ingredient": "Aminoquinolines",
-          "reference": "",
-          "image": "assets/images/drugs/p51_i22.png"
-        },
-        {
-          "ingredient": "Methanol Quinolines",
-          "reference": "",
-          "image": "assets/images/drugs/p51_i25.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_266",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Metronidazole+Spiramycin",
-      "items": [
-        {
-          "ingredient": "Chloroquine",
-          "reference": "말라클로",
-          "image": "assets/images/drugs/p51_i22.png"
-        },
-        {
-          "ingredient": "Primaquine",
-          "reference": "비바퀸",
-          "image": "assets/images/drugs/p51_i22.png"
-        },
-        {
-          "ingredient": "Hydroxychloroquine",
-          "reference": "클로퀸",
-          "image": "assets/images/drugs/p51_i23.png"
-        },
-        {
-          "ingredient": "Mefloquine",
-          "reference": "라리암",
-          "image": "assets/images/drugs/p51_i25.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_267",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Streptokinase",
-      "items": [
-        {
-          "ingredient": "Albendazole",
-          "reference": "젠텔",
-          "image": "assets/images/drugs/p53_i4.png"
-        },
-        {
-          "ingredient": "Flubendazole",
-          "reference": "젤콤",
-          "image": "assets/images/drugs/p53_i5.png"
-        },
-        {
-          "ingredient": "Praziquantel",
-          "reference": "디스토시드",
-          "image": "assets/images/drugs/p53_i6.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_268",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Antivenom",
-      "items": [
-        {
-          "ingredient": "Immunoglobulin G",
-          "reference": "리브감마",
-          "image": "assets/images/drugs/p53_i12.png"
-        },
-        {
-          "ingredient": "Regdanvimab",
-          "reference": "렉키로나",
-          "image": "assets/images/drugs/p53_i12.png"
-        },
-        {
-          "ingredient": "VZ Ig",
-          "reference": "수두면역글로불린",
-          "image": "assets/images/drugs/p53_i13.png"
-        },
-        {
-          "ingredient": "Histamine Ig",
-          "reference": "히스토불린",
-          "image": "assets/images/drugs/p53_i14.png"
-        },
-        {
-          "ingredient": "HepB Ig",
-          "reference": "헤파불린",
-          "image": "assets/images/drugs/p53_i15.png"
-        },
-        {
-          "ingredient": "Tetanus Ig",
-          "reference": "테타불린",
-          "image": "assets/images/drugs/p53_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_269",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Diphtheria+Tetanus+Pertussis+Polio+Hib+HepB (DTaP-IPV-Hib-HepB)",
-      "items": [
-        {
-          "ingredient": "HPV",
-          "reference": "2가",
+          "ingredient": "Iron Acetyl Transferrin",
+          "reference": "볼그레캡슐",
           "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_270",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Diphtheria+Tetanus+Pertussis+Polio+Hib+HepB (DTaP-IPV-Hib-HepB)",
-      "items": [
-        {
-          "ingredient": "TD+PCV10",
-          "reference": "사 신플로릭스",
-          "image": ""
-        },
-        {
-          "ingredient": "HiB+Tetanus",
-          "reference": "유히브",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_271",
-      "major": "[14. 감염성 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Diphtheria+Tetanus+Pertussis+Polio+Hib+HepB (DTaP-IPV-Hib-HepB)",
-      "items": [
-        {
-          "ingredient": "RSV",
-          "reference": "아렉스비",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_272",
+      "id": "drug_v4_371",
       "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Warfarin",
-          "reference": "와르파린",
-          "image": "assets/images/drugs/p55_i0.png"
-        },
-        {
-          "ingredient": "AntithrombinIII",
-          "reference": "안티트롬빈III",
-          "image": "assets/images/drugs/p55_i2.png"
-        },
-        {
-          "ingredient": "Bemiparin",
-          "reference": "자이버",
-          "image": "assets/images/drugs/p55_i3.png"
-        },
-        {
-          "ingredient": "Dalteparin",
-          "reference": "프라그민",
-          "image": "assets/images/drugs/p55_i4.png"
-        },
-        {
-          "ingredient": "Enoxaparin",
-          "reference": "크렉산",
-          "image": "assets/images/drugs/p55_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_273",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Heparin계",
-      "items": [
-        {
-          "ingredient": "Nadroparin",
-          "reference": "후락시파린",
-          "image": "assets/images/drugs/p55_i6.png"
-        },
-        {
-          "ingredient": "Fondaparinux",
-          "reference": "아릭스트라",
-          "image": "assets/images/drugs/p55_i7.png"
-        },
-        {
-          "ingredient": "Heparin",
-          "reference": "중외헤파린",
-          "image": "assets/images/drugs/p55_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_274",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Heparin계",
-      "items": [
-        {
-          "ingredient": "Cyclooxygenase inh",
-          "reference": "",
-          "image": "assets/images/drugs/p55_i9.png"
-        },
-        {
-          "ingredient": "Serotonin inh",
-          "reference": "",
-          "image": "assets/images/drugs/p55_i13.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_275",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Heparin계",
-      "items": [
-        {
-          "ingredient": "Indobufen",
-          "reference": "이부스트린",
-          "image": "assets/images/drugs/p55_i11.png"
-        },
-        {
-          "ingredient": "Triflusal",
-          "reference": "디스그렌",
-          "image": "assets/images/drugs/p55_i12.png"
-        },
-        {
-          "ingredient": "Sarpogrelate",
-          "reference": "사포디필SR",
-          "image": "assets/images/drugs/p55_i13.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_276",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "P2Y12 inh",
-      "items": [
-        {
-          "ingredient": "Prasugrel",
-          "reference": "에피언트",
-          "image": "assets/images/drugs/p55_i16.png"
-        },
-        {
-          "ingredient": "Ticagrelor",
-          "reference": "브릴린타",
-          "image": "assets/images/drugs/p55_i17.png"
-        },
-        {
-          "ingredient": "Ticlopidine",
-          "reference": "유유크리드",
-          "image": "assets/images/drugs/p55_i18.png"
-        },
-        {
-          "ingredient": "Beraprost",
-          "reference": "베라실",
-          "image": "assets/images/drugs/p55_i19.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_277",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "P2Y12 inh",
-      "items": [
-        {
-          "ingredient": "Phosphodiesterase inh",
-          "reference": "",
-          "image": "assets/images/drugs/p55_i21.png"
-        },
-        {
-          "ingredient": "GP IIb-IIIa antagonist",
-          "reference": "",
-          "image": "assets/images/drugs/p55_i22.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_278",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "P2Y12 inh",
-      "items": [
-        {
-          "ingredient": "Anagrelide",
-          "reference": "아그릴린",
-          "image": "assets/images/drugs/p55_i21.png"
-        },
-        {
-          "ingredient": "Cilostazol",
-          "reference": "프레탈",
-          "image": "assets/images/drugs/p55_i21.png"
-        },
-        {
-          "ingredient": "Abciximab",
-          "reference": "클로티냅주",
-          "image": "assets/images/drugs/p55_i22.png"
-        },
-        {
-          "ingredient": "Tirofiban",
-          "reference": "아그라스타트",
-          "image": "assets/images/drugs/p55_i24.png"
-        },
-        {
-          "ingredient": "Ozagrel",
-          "reference": "키산본에스",
-          "image": "assets/images/drugs/p55_i25.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_279",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Alteplase",
-          "reference": "액티라제",
-          "image": "assets/images/drugs/p56_i0.png"
-        },
-        {
-          "ingredient": "HumanProteinC",
-          "reference": "세프로틴주",
-          "image": "assets/images/drugs/p56_i1.png"
-        },
-        {
-          "ingredient": "Tenecteplase",
-          "reference": "메탈라제",
-          "image": "assets/images/drugs/p56_i2.png"
-        },
-        {
-          "ingredient": "Argatroban",
-          "reference": "노바스탄하이",
-          "image": "assets/images/drugs/p56_i2.png"
-        },
-        {
-          "ingredient": "Dabigatran",
-          "reference": "프라닥사",
-          "image": "assets/images/drugs/p56_i5.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_280",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Apixaban",
-          "reference": "엘리퀴스",
-          "image": "assets/images/drugs/p56_i6.png"
-        },
-        {
-          "ingredient": "Edoxaban",
-          "reference": "릭시아나",
-          "image": "assets/images/drugs/p56_i6.png"
-        },
-        {
-          "ingredient": "Rivaroxaban",
-          "reference": "자렐토",
-          "image": "assets/images/drugs/p56_i7.png"
-        },
-        {
-          "ingredient": "Defibrotide",
-          "reference": "데피텔리오",
-          "image": "assets/images/drugs/p56_i8.png"
-        },
-        {
-          "ingredient": "Gabexate",
-          "reference": "호의",
-          "image": "assets/images/drugs/p56_i9.png"
-        },
-        {
-          "ingredient": "Nafamostat",
-          "reference": "후탄",
-          "image": "assets/images/drugs/p56_i10.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_281",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Carbazochrome",
-          "reference": "",
-          "image": "assets/images/drugs/p56_i16.png"
-        },
-        {
-          "ingredient": "Troxerutin",
-          "reference": "뉴베인액",
-          "image": "assets/images/drugs/p56_i14.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_282",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "한 기미복합제에 VitB군과 함유",
-      "items": [
-        {
-          "ingredient": "Aminocaproic acid",
-          "reference": "",
-          "image": "assets/images/drugs/p56_i22.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_283",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "한 기미복합제에 VitB군과 함유",
-      "items": [
-        {
-          "ingredient": "Factor VII",
-          "reference": "",
-          "image": "assets/images/drugs/p56_i16.png"
-        },
-        {
-          "ingredient": "Factor VIII",
-          "reference": "",
-          "image": "assets/images/drugs/p56_i16.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_284",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "한 기미복합제에 VitB군과 함유",
-      "items": [
-        {
-          "ingredient": "Eptacog-α",
-          "reference": "노보세븐알티-희귀",
-          "image": "assets/images/drugs/p56_i19.png"
-        },
-        {
-          "ingredient": "Susoctocog-α",
-          "reference": "오비주르",
-          "image": "assets/images/drugs/p56_i19.png"
-        },
-        {
-          "ingredient": "Human VIII",
-          "reference": "에트비",
-          "image": "assets/images/drugs/p56_i21.png"
-        },
-        {
-          "ingredient": "Recombinant",
-          "reference": "코지네이트",
-          "image": "assets/images/drugs/p56_i22.png"
-        },
-        {
-          "ingredient": "Damoctocog-α",
-          "reference": "지비",
-          "image": "assets/images/drugs/p56_i23.png"
-        },
-        {
-          "ingredient": "Moroctocog-α",
-          "reference": "진타솔로퓨즈",
-          "image": "assets/images/drugs/p56_i24.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_285",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "한 기미복합제에 VitB군과 함유",
-      "items": [
-        {
-          "ingredient": "Efmoroctocog-α",
-          "reference": "엘록테이트",
-          "image": "assets/images/drugs/p56_i25.png"
-        },
-        {
-          "ingredient": "Beroctocog-α",
-          "reference": "그린모노",
-          "image": "assets/images/drugs/p56_i26.png"
-        },
-        {
-          "ingredient": "Rurioctocog-α",
-          "reference": "애디노베이트",
-          "image": "assets/images/drugs/p56_i26.png"
-        },
-        {
-          "ingredient": "Lonoctocog-α",
-          "reference": "앱스틸라",
-          "image": "assets/images/drugs/p56_i27.png"
-        },
-        {
-          "ingredient": "Emicizumab",
-          "reference": "헴라브라-희귀",
-          "image": "assets/images/drugs/p56_i30.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_286",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Factor IX",
-      "items": [
-        {
-          "ingredient": "Recombinant",
-          "reference": "애드베이트",
-          "image": "assets/images/drugs/p56_i31.png"
-        },
-        {
-          "ingredient": "Nonacog-α",
-          "reference": "베네픽스",
-          "image": "assets/images/drugs/p56_i32.png"
-        },
-        {
-          "ingredient": "Nonacog-γ",
-          "reference": "릭수비스",
-          "image": "assets/images/drugs/p56_i33.png"
-        },
-        {
-          "ingredient": "Albutrepenonacog-γ",
-          "reference": "아이델비온",
-          "image": "assets/images/drugs/p56_i33.png"
-        },
-        {
-          "ingredient": "Eftrenonacog-α",
-          "reference": "알프로릭스",
-          "image": "assets/images/drugs/p56_i34.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_287",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Absorbable Collagen",
-          "reference": "노바콜-희귀",
-          "image": "assets/images/drugs/p57_i0.png"
-        },
-        {
-          "ingredient": "Gelatin+Thrombin",
-          "reference": "플로실헤모스태틱",
-          "image": "assets/images/drugs/p57_i1.png"
-        },
-        {
-          "ingredient": "Clottable Protein+Thrombin",
-          "reference": "에비셀",
-          "image": "assets/images/drugs/p57_i2.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_288",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Fibrinogen+Thrombin",
-          "reference": "베라씰",
-          "image": "assets/images/drugs/p57_i3.png"
-        },
-        {
-          "ingredient": "Thrombin+Aprotinin+Fibrinogen",
-          "reference": "그린플라스트큐",
-          "image": "assets/images/drugs/p57_i5.png"
-        },
-        {
-          "ingredient": "Oxidized Regenerated Cellulose",
-          "reference": "리옥셀피브릴",
-          "image": "assets/images/drugs/p57_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_289",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Aprotinin+CaCl2+Factor XIII+Fibrinogen+Thrombin",
-          "reference": "베라프로스트피콤비",
-          "image": "assets/images/drugs/p57_i6.png"
-        },
-        {
-          "ingredient": "Gelatin",
-          "reference": "큐탄플라스트",
-          "image": "assets/images/drugs/p57_i8.png"
-        },
-        {
-          "ingredient": "Thrombin",
-          "reference": "트롬빈건조분말",
-          "image": "assets/images/drugs/p57_i8.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_290",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Hemocoagulase",
-          "reference": "보트라제주",
-          "image": "assets/images/drugs/p57_i10.png"
-        },
-        {
-          "ingredient": "Eltrombopag",
-          "reference": "레볼레이드",
-          "image": "assets/images/drugs/p57_i10.png"
-        },
-        {
-          "ingredient": "Romiplostim",
-          "reference": "한 로미플레이트주",
-          "image": "assets/images/drugs/p57_i11.png"
-        },
-        {
-          "ingredient": "Fibrinogen",
-          "reference": "파이브리노겐주",
-          "image": "assets/images/drugs/p57_i13.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_291",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Sodium Tetradecyl Sulfate",
-          "reference": "약 파이브로베인주",
-          "image": "assets/images/drugs/p57_i14.png"
-        },
-        {
-          "ingredient": "Heparin",
-          "reference": "헤파린",
-          "image": "assets/images/drugs/p57_i15.png"
-        },
-        {
-          "ingredient": "Heparinoids",
-          "reference": "노블루겔",
-          "image": "assets/images/drugs/p57_i16.png"
-        },
-        {
-          "ingredient": "Mucopolysaccharide",
-          "reference": "히루도이드",
-          "image": "assets/images/drugs/p57_i16.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_292",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
-      "items": [
-        {
-          "ingredient": "Hydroxyethyl Starch+NaCl",
-          "reference": "볼루벤",
-          "image": "assets/images/drugs/p57_i18.png"
-        },
-        {
-          "ingredient": "Pentastarch",
-          "reference": "펜타스타치",
-          "image": "assets/images/drugs/p57_i20.png"
-        },
-        {
-          "ingredient": "Albumin",
-          "reference": "녹십자알부민주",
-          "image": "assets/images/drugs/p57_i21.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_293",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "혈액 및 혈액 관련 제제 - 기타 혈액제제",
-      "items": [
-        {
-          "ingredient": "Hyaluronidase",
-          "reference": "리포라제",
-          "image": "assets/images/drugs/p57_i22.png"
-        },
-        {
-          "ingredient": "Conestat Alfa",
-          "reference": "루코네스트",
-          "image": "assets/images/drugs/p57_i22.png"
-        },
-        {
-          "ingredient": "Lanadelumab",
-          "reference": "탁자이로",
-          "image": "assets/images/drugs/p57_i24.png"
-        },
-        {
-          "ingredient": "Berahyaluronidase",
-          "reference": "테르가제",
-          "image": "assets/images/drugs/p57_i25.png"
-        },
-        {
-          "ingredient": "Icatibant",
-          "reference": "피라지르",
-          "image": "assets/images/drugs/p57_i26.png"
-        },
-        {
-          "ingredient": "D-Mannitol",
-          "reference": "대한디만니톨",
-          "image": "assets/images/drugs/p57_i27.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_294",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "상세 분류",
+      "minor": "빈혈 치료제",
+      "sub": "제1철(Ferrous)",
       "items": [
         {
           "ingredient": "Ferrous Sulfate",
-          "reference": "노페로",
-          "image": "assets/images/drugs/p58_i0.png"
-        },
-        {
-          "ingredient": "Ferrous Gluconate",
-          "reference": "Ferrous Fumarate",
-          "image": "assets/images/drugs/p58_i2.png"
-        },
-        {
-          "ingredient": "Sucroferric",
-          "reference": "벨포로츄어블",
-          "image": "assets/images/drugs/p58_i3.png"
-        },
-        {
-          "ingredient": "Ferric Gluconate",
-          "reference": "훼리탑",
-          "image": "assets/images/drugs/p58_i3.png"
+          "reference": "훼로바유",
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_295",
+      "id": "drug_v4_372",
       "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "철분제-제2철(Ferric)",
+      "minor": "빈혈 치료제",
+      "sub": "제2철(Ferric)",
       "items": [
         {
           "ingredient": "Ferric Hydroxide Sucrose",
@@ -16393,42 +17227,14 @@ const DB = {
           "ingredient": "Ferric Hydroxide Carboxymaltose",
           "reference": "페린젝트주",
           "image": "assets/images/drugs/p58_i6.png"
-        },
-        {
-          "ingredient": "Ferric Hydroxide Polymaltose",
-          "reference": "훼럼키드액",
-          "image": "assets/images/drugs/p58_i7.png"
         }
       ]
     },
     {
-      "id": "drug_v4_296",
+      "id": "drug_v4_373",
       "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Ferritin Hydrogliceric",
-      "items": [
-        {
-          "ingredient": "Carbonyl Iron",
-          "reference": "아네톤",
-          "image": "assets/images/drugs/p58_i12.png"
-        },
-        {
-          "ingredient": "Polysaccharide Iron Complex",
-          "reference": "모아훼린",
-          "image": "assets/images/drugs/p58_i14.png"
-        },
-        {
-          "ingredient": "Iron Isomaltoside",
-          "reference": "모노퍼주",
-          "image": "assets/images/drugs/p58_i17.png"
-        }
-      ]
-    },
-    {
-      "id": "drug_v4_297",
-      "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Ferritin Hydrogliceric",
+      "minor": "조혈촉진 호르몬",
+      "sub": "-",
       "items": [
         {
           "ingredient": "Darbepoetin",
@@ -16436,52 +17242,120 @@ const DB = {
           "image": "assets/images/drugs/p58_i18.png"
         },
         {
-          "ingredient": "MethylPolyethyleneglycol-Epoetinβ",
-          "reference": "미쎄라",
-          "image": "assets/images/drugs/p58_i19.png"
-        },
-        {
           "ingredient": "Erythropoietin",
-          "reference": "아로포틴",
-          "image": "assets/images/drugs/p58_i20.png"
-        },
-        {
-          "ingredient": "Recombinant Erythropoietin",
           "reference": "에포카인",
-          "image": "assets/images/drugs/p58_i20.png"
+          "image": ""
         }
       ]
     },
     {
-      "id": "drug_v4_298",
+      "id": "drug_v4_374",
       "major": "[15. 혈액 및 조혈기관 질환]",
-      "minor": "스테로이드+항생제",
-      "sub": "Ferritin Hydrogliceric",
+      "minor": "지혈제",
+      "sub": "항섬유소 용해제",
       "items": [
         {
-          "ingredient": "Luspatercept",
-          "reference": "레블로질주",
-          "image": "assets/images/drugs/p58_i22.png"
+          "ingredient": "Tranexamic acid",
+          "reference": "트라넥삼산주",
+          "image": ""
         },
         {
-          "ingredient": "Vadadustat",
-          "reference": "바다넴정",
-          "image": "assets/images/drugs/p58_i23.png"
+          "ingredient": "Tranexamic acid",
+          "reference": "도란사민",
+          "image": "assets/images/drugs/p23_i13.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_375",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "항응고제-항혈소판제",
+      "sub": "Cyclooxygenase inh",
+      "items": [
+        {
+          "ingredient": "Aspirin",
+          "reference": "아스트릭스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_376",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "항응고제-항혈소판제",
+      "sub": "P2Y12 inh",
+      "items": [
+        {
+          "ingredient": "Clopidogrel",
+          "reference": "플라빅스",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_377",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "항응고제-항혈소판제",
+      "sub": "Phosphodiesterase inh",
+      "items": [
+        {
+          "ingredient": "Cilastazol",
+          "reference": "프레탈",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_378",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "항응고제-혈액응고억제제",
+      "sub": "Coumarin 계",
+      "items": [
+        {
+          "ingredient": "Warfarin",
+          "reference": "와르파린",
+          "image": "assets/images/drugs/p55_i0.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_379",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "항응고제-혈액응고억제제",
+      "sub": "Heparin 계",
+      "items": [
+        {
+          "ingredient": "Heparin",
+          "reference": "중외헤파린",
+          "image": "assets/images/drugs/p55_i8.png"
         },
         {
-          "ingredient": "Enarodustat",
-          "reference": "에나로이",
-          "image": "assets/images/drugs/p58_i23.png"
+          "ingredient": "Enoxaparin",
+          "reference": "크렉산",
+          "image": "assets/images/drugs/p55_i5.png"
+        }
+      ]
+    },
+    {
+      "id": "drug_v4_380",
+      "major": "[15. 혈액 및 조혈기관 질환]",
+      "minor": "항응고제-혈액응고인자 Xa 저해제",
+      "sub": "-",
+      "items": [
+        {
+          "ingredient": "Rivaroxaban",
+          "reference": "자렐토",
+          "image": "assets/images/drugs/p56_i7.png"
         },
         {
-          "ingredient": "Roxadustat",
-          "reference": "에브렌조(취하)",
-          "image": "assets/images/drugs/p58_i24.png"
+          "ingredient": "Apixaban",
+          "reference": "엘리퀴스",
+          "image": "assets/images/drugs/p56_i6.png"
         },
         {
-          "ingredient": "Folic acid",
-          "reference": "Vit B9",
-          "image": "assets/images/drugs/p58_i25.png"
+          "ingredient": "Edoxaban",
+          "reference": "릭시아나",
+          "image": "assets/images/drugs/p56_i6.png"
         }
       ]
     }

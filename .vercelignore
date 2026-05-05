@@ -1,1 +1,14 @@
-public/
+node_modules
+.git
+.vercel
+scratch
+*.py
+*.txt
+*.csv
+package-lock.json
+server.js
+admin.html
+broken.txt
+check.txt
+links_found*.txt
+summaries.json

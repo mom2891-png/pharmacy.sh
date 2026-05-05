@@ -25,3 +25,11 @@ export function hierarchicalSort(a, b) {
   }
   return 0;
 }
+
+/**
+ * 이름 앞의 숫자 패턴(1., 1-1., 1) 등) 제거
+ */
+export function cleanName(str) {
+  if (!str) return '';
+  return String(str).replace(/^[\d.-]+\.?\s*/, '').replace(/^\d+\)\s*/, '').trim();
+}
