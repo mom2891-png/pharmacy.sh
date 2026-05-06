@@ -6,3 +6,9 @@ node_modules/
 dist/
 build/
 .env
+
+# 대용량 에셋 (PDF, 가이드라인 원문, 이미지 등)
+assets/
+data/
+public/data/guidelines/
+public/data/images/
