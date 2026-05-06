@@ -1487,9 +1487,9 @@ main {
 
 /* Disease Integration Summary & Unified AI Summary */
 .disease-integration-card {
-  border: 4px solid #ef4444 !important;
-  background: #fff5f5 !important;
-  box-shadow: 8px 8px 0px #ef4444 !important;
+  border: 4px solid #1e293b !important;
+  background: #f8fafc !important;
+  box-shadow: 8px 8px 0px #1e293b !important;
   padding: 24px !important;
   margin-bottom: 32px !important;
 }

@@ -263,10 +263,10 @@ export function renderGuidelineItems(majorName, subName, isAdmin) {
       return `
         <div class="disease-integration-card neo-card">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-            <h3 style="margin: 0; color: #b91c1c; font-size: 18px; font-weight: 900;">🛡️ 질환 통합요약</h3>
-            ${isAdmin ? `<button class="neo-btn-sm" onclick="window.app.toggleEditIntegrationSummary()" style="background: #ef4444; color: white; border: none;">수정</button>` : ''}
+            <h3 style="margin: 0; color: #1e293b; font-size: 18px; font-weight: 900;">🛡️ 질환 통합요약</h3>
+            ${isAdmin ? `<button class="neo-btn-sm" onclick="window.app.toggleEditIntegrationSummary()" style="background: #4f46e5; color: white; border: none;">수정</button>` : ''}
           </div>
-          <div id="integration-summary-display" style="font-size: 15px; line-height: 1.7; color: #374151;">
+          <div id="integration-summary-display" style="font-size: 15px; line-height: 1.8; color: #334155;">
             ${window.renderMarkdown(linkifySummary(summaryText || '아직 등록된 통합 요약이 없습니다. 내용을 입력해 주세요.'))}
           </div>
           ${isAdmin ? `
@@ -278,9 +278,9 @@ export function renderGuidelineItems(majorName, subName, isAdmin) {
                 <input type="file" id="category-md-file-input" accept=".md" style="display: none;" onchange="window.app.handleCategoryMdFileUpload(event)">
               </div>
             </div>
-            <textarea id="integration-summary-textarea" style="width: 100%; min-height: 200px; padding: 12px; border: 3px solid #ef4444; border-radius: 4px; font-family: inherit; font-size: 14px; line-height: 1.6;">${escapeHtml(summaryText)}</textarea>
+            <textarea id="integration-summary-textarea" style="width: 100%; min-height: 200px; padding: 12px; border: 3px solid #4f46e5; border-radius: 4px; font-family: inherit; font-size: 14px; line-height: 1.6;">${escapeHtml(summaryText)}</textarea>
             <div style="margin-top: 12px; display: flex; gap: 8px;">
-              <button class="neo-btn-sm" onclick="window.app.saveIntegrationSummary('${escapeHtml(majorName)}', '${escapeHtml(subName)}')" style="background: #b91c1c; color: white; border: none;">💾 저장</button>
+              <button class="neo-btn-sm" onclick="window.app.saveIntegrationSummary('${escapeHtml(majorName)}', '${escapeHtml(subName)}')" style="background: #4f46e5; color: white; border: none;">💾 저장</button>
               <button class="neo-btn-sm" onclick="window.app.toggleEditIntegrationSummary()" style="background: #94a3b8; color: white; border: none;">취소</button>
             </div>
           </div>
@@ -459,6 +459,7 @@ export function renderDetail(id, isAdmin) {
           </div>
           <div style="display: flex; gap: 10px; margin-top: 10px;">
             <button class="neo-btn-sm" onclick="window.app.saveAiSummary('${id}')" style="background: var(--primary); color: white; border: none; font-weight: 900;">💾 저장하기 (파일 동기화)</button>
+            <button class="neo-btn-sm" onclick="document.getElementById('edit-ai-content').value = '';" style="background: #ef4444; color: white; border: none;">🗑️ 내용 비우기</button>
             <button class="neo-btn-sm" onclick="window.app.toggleEditAiSummary()" style="background: #94a3b8; color: white; border: none;">취소</button>
           </div>
         </div>
@@ -1131,6 +1132,82 @@ export function renderDrugList(isAdmin) {
       <button class="neo-back-btn" onclick="window.app.navigateTo('/drugs')">← BACK</button>
       <h2 class="section-title">💊 약물 전체 목록</h2>
       <p class="section-subtitle">현재 대분류별로 탐색 중입니다. 전체 목록 기능은 준비 중입니다.</p>
+    </div>
+  `;
+}
+
+/**
+ * 관리자(사용자) 권한 관리 페이지 렌더링
+ */
+export function renderUserManagement(admins, isAdmin) {
+  const container = document.getElementById(CONTENT_ID);
+  const CONTENT_ID_VAL = "app-content"; 
+  const target = container || document.getElementById(CONTENT_ID_VAL);
+  
+  if (!Array.isArray(admins)) {
+    target.innerHTML = `
+      <div class="section-header">
+        <button class="neo-back-btn" onclick="window.app.navigateTo('/')">← HOME</button>
+        <h2 class="section-title">⚠️ 접근 권한 오류</h2>
+      </div>
+      <div class="neo-card" style="padding: 30px; text-align: center; color: #ef4444;">
+        <i class="fas fa-exclamation-triangle" style="font-size: 40px; margin-bottom: 20px;"></i>
+        <p>관리자 목록을 불러올 권한이 없거나 서버 오류가 발생했습니다.</p>
+        <p style="font-size: 13px; color: #64748b; margin-top: 10px;">${admins.error || 'Unknown Error'}</p>
+      </div>
+    `;
+    return;
+  }
+  
+  const adminsHtml = admins.map(admin => `
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">${admin.email}</td>
+      <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">
+        <span class="badge-mini" style="background: ${admin.role === 'super' ? '#8b5cf6' : '#64748b'};">
+          ${admin.role === 'super' ? '최고 관리자' : '관리자'}
+        </span>
+      </td>
+      <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-size: 12px; color: #64748b;">
+        ${new Date(admin.added_at).toLocaleString()}
+      </td>
+      <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: right;">
+        ${admin.role !== 'super' ? `
+          <button class="neo-btn-sm danger" style="padding: 4px 8px; font-size: 11px;" onclick="window.app.deleteAdmin('${admin.email}')">제거</button>
+        ` : '-'}
+      </td>
+    </tr>
+  `).join('');
+
+  target.innerHTML = `
+    <div class="section-header" style="position: relative;">
+      <button class="neo-back-btn" onclick="window.app.navigateTo('/')">← HOME</button>
+      <h2 class="section-title">👥 사용자 권한 관리</h2>
+      <p class="section-subtitle">시스템에 접근하여 데이터를 수정할 수 있는 관리자 목록을 관리합니다.</p>
+    </div>
+
+    <div class="neo-card" style="margin-top: 20px; padding: 25px;">
+      <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 18px;">➕ 새로운 관리자 추가</h3>
+      <div style="display: flex; gap: 10px; margin-bottom: 30px;">
+        <input type="email" id="new-admin-email" placeholder="추가할 구글 계정 이메일 입력 (예: user@gmail.com)" class="neo-input" style="flex: 1;">
+        <button class="neo-btn" style="white-space: nowrap;" onclick="window.app.addAdmin()">관리자 등록</button>
+      </div>
+
+      <h3 style="margin-bottom: 15px; font-size: 18px;">📋 현재 관리자 목록</h3>
+      <div class="fix-table-wrapper" style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background: #f8fafc; text-align: left;">
+              <th style="padding: 12px; border-bottom: 2px solid var(--black);">이메일 주소</th>
+              <th style="padding: 12px; border-bottom: 2px solid var(--black);">권한</th>
+              <th style="padding: 12px; border-bottom: 2px solid var(--black);">등록일</th>
+              <th style="padding: 12px; border-bottom: 2px solid var(--black); text-align: right;">작업</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${adminsHtml}
+          </tbody>
+        </table>
+      </div>
     </div>
   `;
 }

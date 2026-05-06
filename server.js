@@ -5,6 +5,13 @@ const path = require('path');
 const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const XLSX = require('xlsx');
+const admin = require('firebase-admin');
+
+// Firebase Admin SDK 초기화
+// 서비스 계정 키 파일이 있다면 path를 지정하고, 없다면 기본 설정을 사용합니다.
+admin.initializeApp({
+  projectId: "pharmacy-info-portal"
+});
 
 const app = express();
 const port = 3000;
@@ -27,16 +34,43 @@ const ADMIN_PASSWORD = '3505';
 /**
  * API Key 인증 미들웨어
  */
-function authMiddleware(req, res, next) {
-  const apiKey = req.headers['x-api-key'];
+/**
+ * Firebase ID 토큰 인증 미들웨어
+ */
+async function authMiddleware(req, res, next) {
+  const idToken = req.headers['x-api-key'];
   
-  if (apiKey === ADMIN_PASSWORD) {
+  if (!idToken) {
+    return res.status(401).json({ error: '인증 토큰이 누락되었습니다.' });
+  }
+
+  try {
+    const decodedToken = await admin.auth().verifyIdToken(idToken);
+    const userEmail = decodedToken.email;
+
+    // DB에서 관리자 권한 확인
+    const adminUser = await dbGet("SELECT * FROM admins WHERE email = ?", [userEmail]);
+    
+    if (!adminUser) {
+      console.warn(`🚨 권한 없는 사용자 접근 시도: ${userEmail}`);
+      return res.status(403).json({ error: '관리자 권한이 없는 계정입니다.' });
+    }
+
+    req.user = { ...decodedToken, role: adminUser.role };
     next();
-  } else {
-    console.warn(`🚨 미인증 접근 시도: ${req.method} ${req.url}`);
-    res.status(401).json({ error: '인증이 필요합니다. 올바른 비밀번호를 입력해주세요.' });
+  } catch (error) {
+    console.warn(`🚨 유효하지 않은 토큰 접근 시도: ${req.method} ${req.url}`, error.message);
+    res.status(403).json({ error: '유효하지 않은 인증 토큰입니다.' });
   }
 }
+
+/**
+ * GET /api/auth-status
+ * 현재 로그인한 사용자의 권한 정보를 반환합니다.
+ */
+app.get('/api/auth-status', authMiddleware, (req, res) => {
+  res.json({ isAdmin: true, role: req.user.role, email: req.user.email });
+});
 
 // ─────────────────────────────────────────────
 // SQLite DB 초기화 및 유틸리티
@@ -53,6 +87,15 @@ function dbQuery(query, params = []) {
     db.all(query, params, (err, rows) => {
       if (err) reject(err);
       else resolve(rows);
+    });
+  });
+}
+
+function dbGet(query, params = []) {
+  return new Promise((resolve, reject) => {
+    db.get(query, params, (err, row) => {
+      if (err) reject(err);
+      else resolve(row);
     });
   });
 }
@@ -644,6 +687,57 @@ app.post('/api/drugs/import', authMiddleware, upload.single('drugFile'), async (
 // ─────────────────────────────────────────────
 // 관리자 페이지
 // ─────────────────────────────────────────────
+
+// ─────────────────────────────────────────────
+// 사용자(관리자) 관리 API
+// ─────────────────────────────────────────────
+
+/**
+ * GET /api/admins
+ * 관리자 목록을 가져옵니다. (슈퍼 관리자 전용)
+ */
+app.get('/api/admins', authMiddleware, async (req, res) => {
+  try {
+    const admins = await dbQuery("SELECT * FROM admins ORDER BY added_at DESC");
+    res.json(admins);
+  } catch (error) {
+    res.status(500).json({ error: '관리자 목록 로드 실패' });
+  }
+});
+
+/**
+ * POST /api/admins
+ * 새로운 관리자를 추가합니다.
+ */
+app.post('/api/admins', authMiddleware, async (req, res) => {
+  const { email, role } = req.body;
+  if (!email) return res.status(400).json({ error: '이메일이 필요합니다.' });
+
+  try {
+    await dbRun("INSERT OR REPLACE INTO admins (email, role) VALUES (?, ?)", [email, role || 'admin']);
+    res.json({ success: true, message: '관리자가 추가되었습니다.' });
+  } catch (error) {
+    res.status(500).json({ error: '관리자 추가 실패' });
+  }
+});
+
+/**
+ * DELETE /api/admins/:email
+ * 관리자를 삭제합니다.
+ */
+app.delete('/api/admins/:email', authMiddleware, async (req, res) => {
+  const { email } = req.params;
+  if (email === 'mom2891@gmail.com') {
+    return res.status(400).json({ error: '최고 관리자는 삭제할 수 없습니다.' });
+  }
+
+  try {
+    await dbRun("DELETE FROM admins WHERE email = ?", [email]);
+    res.json({ success: true, message: '관리자가 삭제되었습니다.' });
+  } catch (error) {
+    res.status(500).json({ error: '관리자 삭제 실패' });
+  }
+});
 
 app.get('/admin', (req, res) => {
   try {

@@ -1,94 +1,104 @@
 // 메인 애플리케이션 진입점 (라우터 및 초기화)
 import * as renderer from './view-renderer.js?v=25';
 import * as dataService from './data-service.js?v=25';
+import { watchAuthState, loginWithGoogle, logout, getValidToken } from './auth.js';
 
 export class App {
   constructor() {
     this.activeSidebarDrug = null;
-    this.isAdmin = sessionStorage.getItem('is_admin') === 'true';
-    this.apiKey = this.isAdmin ? '3505' : (localStorage.getItem('pharm_api_key') || '');
+    this.isAdmin = false;
+    this.user = null;
     
+    // Firebase 인증 상태 관찰
+    watchAuthState(async (user) => {
+      console.log('🔐 Auth State Changed:', user ? user.email : 'Logged Out');
+      this.user = user;
+      
+      if (user) {
+        try {
+          const response = await fetch('/api/auth-status', {
+            headers: { 'x-api-key': localStorage.getItem('firebaseToken') }
+          });
+          const status = await response.json();
+          this.isAdmin = status.isAdmin === true;
+        } catch (e) {
+          this.isAdmin = false;
+        }
+      } else {
+        this.isAdmin = false;
+      }
+      
+      this.updateAuthUI();
+      setTimeout(() => this.handleRoute(), 100);
+    });
+
     this.init();
   }
 
   // 관리자 모드 토글
-  async toggleAdminMode() {
-    if (this.isAdmin) {
-      if (confirm('관리자 모드를 해제하시겠습니까?')) {
-        this.isAdmin = false;
-        sessionStorage.removeItem('is_admin');
-        this.updateAdminUI();
-        this.handleRoute(); // UI 갱신
-      }
-    } else {
-      this.openAdminLoginModal();
+  async loginWithGoogle() {
+    try {
+      await loginWithGoogle();
+      this.showToast('성공적으로 로그인되었습니다.');
+    } catch (error) {
+      this.showToast('로그인에 실패했습니다.');
     }
   }
 
-  // 모달 열기/닫기
-  openAdminLoginModal() {
-    document.getElementById('admin-pw-input').value = '';
-    document.getElementById('login-error-msg').innerText = '';
-    document.getElementById('admin-login-modal').style.display = 'flex';
-    document.getElementById('admin-pw-input').focus();
-  }
-
-  closeAdminLoginModal() {
-    document.getElementById('admin-login-modal').style.display = 'none';
-  }
-
-  // 로그인 제출
-  async submitAdminLogin() {
-    const pwInput = document.getElementById('admin-pw-input');
-    const errorMsg = document.getElementById('login-error-msg');
-    const pw = pwInput.value;
-
-    if (pw === '3505') {
-      this.isAdmin = true;
-      this.apiKey = pw;
-      localStorage.setItem('pharm_api_key', pw);
-      sessionStorage.setItem('is_admin', 'true');
-      this.updateAdminUI();
-      this.closeAdminLoginModal();
-      this.showToast('관리자 인증에 성공했습니다.');
-      this.navigateTo('/admin/guide'); // 로그인 시 가이드 페이지로 바로 이동
-      
-      // 만약 권한 대기 중인 리졸버가 있다면 해결
-      if (this._authResolver) {
-        this._authResolver(true);
-        this._authResolver = null;
-      }
-    } else {
-      errorMsg.innerText = '❌ 비밀번호가 일치하지 않습니다.';
-      pwInput.style.borderColor = '#ef4444';
-      setTimeout(() => pwInput.style.borderColor = '', 1000);
+  async logout() {
+    if (confirm('로그아웃 하시겠습니까?')) {
+      await logout();
+      this.user = null;
+      this.isAdmin = false;
+      this.showToast('로그아웃 되었습니다.');
+      window.location.href = '/#/'; // 강제 홈 이동 및 해시 초기화
+      window.location.reload(); // 확실한 UI 초기화를 위해 새로고침
     }
   }
 
-  // API Key 요청 및 저장 (데이터 수정 시 호출됨)
-  async promptApiKey() {
-    if (this.isAdmin && this.apiKey === '3505') return true;
-    
-    this.openAdminLoginModal();
-    
-    // 사용자가 모달을 통해 인증할 때까지 대기하는 Promise 반환
-    return new Promise((resolve) => {
-        this._authResolver = resolve;
-    });
+  // API 권한 체크 (데이터 수정 시 호출됨)
+  async checkAuth() {
+    if (this.isAdmin) return true;
+    this.showToast('이 작업을 수행하려면 관리자 로그인이 필요합니다.');
+    return false;
   }
 
-  updateAdminUI() {
-    const loginBtn = document.getElementById('adminLoginBtn');
-    const logoutBtn = document.getElementById('adminLogoutBtn');
+  updateAuthUI() {
+    const loginBtn = document.getElementById('google-login-btn');
+    const profileArea = document.getElementById('user-profile');
     const trashBtn = document.getElementById('trashNavBtn');
     
-    if (this.isAdmin) {
+    if (this.user) {
       if (loginBtn) loginBtn.style.display = 'none';
-      if (logoutBtn) logoutBtn.style.display = 'flex';
+      if (profileArea) {
+        profileArea.style.display = 'flex';
+        document.getElementById('user-name').innerText = this.user.displayName;
+        document.getElementById('user-photo').src = this.user.photoURL;
+        
+        // 최고 관리자일 경우 권한 관리 버튼 추가 (이미 있으면 중복 생성 방지)
+        const mgmtBtn = document.getElementById('user-mgmt-btn');
+        if (this.user.email === 'mom2891@gmail.com') {
+          if (!mgmtBtn) {
+            const newBtn = document.createElement('button');
+            newBtn.id = 'user-mgmt-btn';
+            newBtn.className = 'nav-btn-sm';
+            newBtn.style.cssText = 'padding: 4px 8px; font-size: 11px; background: #8b5cf6; color: white; border: none;';
+            newBtn.innerText = '👥 권한 관리';
+            newBtn.onclick = () => this.navigateTo('/admin/users');
+            profileArea.insertBefore(newBtn, profileArea.lastElementChild);
+          }
+        } else {
+          if (mgmtBtn) mgmtBtn.remove();
+        }
+      }
       if (trashBtn) trashBtn.style.display = 'inline-block';
     } else {
       if (loginBtn) loginBtn.style.display = 'flex';
-      if (logoutBtn) logoutBtn.style.display = 'none';
+      if (profileArea) {
+        profileArea.style.display = 'none';
+        const mgmtBtn = document.getElementById('user-mgmt-btn');
+        if (mgmtBtn) mgmtBtn.remove();
+      }
       if (trashBtn) trashBtn.style.display = 'none';
     }
   }
@@ -108,9 +118,10 @@ export class App {
     }
 
     window.addEventListener('hashchange', () => this.handleRoute());
-    // DOMContentLoaded는 이미 발생했을 수 있으므로 즉시 실행
+    
+    // DB 로드 후에만 handleRoute 호출
     this.handleRoute();
-    this.updateAdminUI();
+    this.updateAuthUI();
     
     // 전역 검색 설정
     const searchInput = document.getElementById('global-search');
@@ -128,7 +139,11 @@ export class App {
     }
   }
 
-  handleRoute() {
+  async handleRoute() {
+    if (!window.DB) {
+      console.warn('DB not ready, skipping route handling');
+      return;
+    }
     const path = window.location.hash.slice(1) || '/';
     console.log('--- Routing Start ---');
     console.log('Path:', path);
@@ -166,6 +181,13 @@ export class App {
         }
       } else if (root === 'admin' && parts[1] === 'guide') {
         renderer.renderSystemGuide();
+      } else if (root === 'admin' && parts[1] === 'users') {
+        // 관리자 목록 가져오기
+        const response = await fetch('/api/admins', {
+          headers: { 'x-api-key': localStorage.getItem('firebaseToken') }
+        });
+        const admins = await response.json();
+        renderer.renderUserManagement(admins, this.isAdmin);
       } else if (root === 'trash') {
         renderer.renderTrash();
       } else if (root === 'supplements') {
@@ -173,10 +195,8 @@ export class App {
           renderer.renderDetail(parts[1]);
         }
       } else if (root === 'search') {
-        // 검색 결과는 navigateTo나 초기 로드 시 state가 없으므로 
-        // 필요한 경우 여기서 세션스토리지나 쿼리 파라미터로 복구 가능
-        // 현재는 빈 화면 방지를 위해 홈으로 리다이렉트하거나 메시지 표시
-        if (!container.innerHTML.trim()) {
+        const appContent = document.getElementById('app-content');
+        if (appContent && !appContent.innerHTML.trim()) {
            this.navigateTo('/');
         }
       }
@@ -837,7 +857,7 @@ export class App {
             method: 'POST',
             headers: { 
                 'Content-Type': 'application/json',
-                'x-api-key': '3505'
+                'x-api-key': localStorage.getItem('firebaseToken')
             },
             body: JSON.stringify(payload)
         });
@@ -876,7 +896,7 @@ export class App {
             method: 'POST',
             headers: { 
                 'Content-Type': 'application/json',
-                'x-api-key': '3505'
+                'x-api-key': localStorage.getItem('firebaseToken')
             },
             body: JSON.stringify(payload)
         });
@@ -964,7 +984,7 @@ export class App {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': '3505'
+          'x-api-key': localStorage.getItem('firebaseToken')
         },
         body: JSON.stringify({ major, sub, summary })
       });
@@ -1011,7 +1031,7 @@ export class App {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': '3505'
+          'x-api-key': localStorage.getItem('firebaseToken')
         },
         body: JSON.stringify({ aiSummary })
       });
@@ -1091,7 +1111,7 @@ export class App {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': '3505'
+          'x-api-key': localStorage.getItem('firebaseToken')
         },
         body: JSON.stringify({ is_checked: isChecked })
       });
@@ -1119,7 +1139,7 @@ export class App {
       const response = await fetch(`/api/guidelines/${id}`, {
         method: 'DELETE',
         headers: {
-          'x-api-key': '3505'
+          'x-api-key': localStorage.getItem('firebaseToken')
         }
       });
 
@@ -1135,6 +1155,55 @@ export class App {
     } catch (err) {
       console.error('Error deleting guideline:', err);
       alert('서버 통신 중 오류가 발생했습니다.');
+    }
+  }
+
+  // --- 관리자 권한 관리 ---
+  async addAdmin() {
+    const emailInput = document.getElementById('new-admin-email');
+    const email = emailInput.value.trim();
+    if (!email) return;
+
+    try {
+      const response = await fetch('/api/admins', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': localStorage.getItem('firebaseToken')
+        },
+        body: JSON.stringify({ email, role: 'admin' })
+      });
+
+      if (response.ok) {
+        this.showToast('관리자가 등록되었습니다.');
+        this.handleRoute(); // 목록 갱신
+      } else {
+        alert('등록 실패: ' + await response.text());
+      }
+    } catch (err) {
+      alert('오류 발생: ' + err.message);
+    }
+  }
+
+  async deleteAdmin(email) {
+    if (!confirm(`[${email}] 관리자 권한을 해제하시겠습니까?`)) return;
+
+    try {
+      const response = await fetch(`/api/admins/${email}`, {
+        method: 'DELETE',
+        headers: {
+          'x-api-key': localStorage.getItem('firebaseToken')
+        }
+      });
+
+      if (response.ok) {
+        this.showToast('관리자가 제거되었습니다.');
+        this.handleRoute(); // 목록 갱신
+      } else {
+        alert('삭제 실패: ' + await response.text());
+      }
+    } catch (err) {
+      alert('오류 발생: ' + err.message);
     }
   }
 }

@@ -79,10 +79,13 @@ export function linkifySummary(text) {
     
     // 영어/숫자인 경우 \b 사용, 한글이 포함된 경우 수동 경계 체크
     const isLatin = /^[A-Za-z0-9\s-]+$/.test(keyword);
+    // 특수문자 (괄호 등) 이스케이프 처리
+    const escapedKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    
     // 한글의 경우 앞뒤에 문자가 붙어있지 않은 독립된 단어일 때만 매칭하도록 정규식 개선
     const regex = isLatin 
-      ? new RegExp(`\\b(${keyword})\\b`, 'g')
-      : new RegExp(`(?<=[^가-힣a-zA-Z0-9]|^)(${keyword})(?=[^가-힣a-zA-Z0-9]|$)`, 'g');
+      ? new RegExp(`\\b(${escapedKeyword})\\b`, 'g')
+      : new RegExp(`(?<=[^가-힣a-zA-Z0-9]|^)(${escapedKeyword})(?=[^가-힣a-zA-Z0-9]|$)`, 'g');
 
     // 이미 링크된 텍스트(<span>...</span>) 내부를 제외하고 매칭하는 것은 복잡하므로,
     // 간단하게 "태그 외부"만 매칭하도록 시도하거나, 매 루프마다 체크
