@@ -6,7 +6,6 @@ scratch
 *.txt
 *.csv
 package-lock.json
-server.js
 admin.html
 broken.txt
 check.txt
