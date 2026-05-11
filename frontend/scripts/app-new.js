@@ -1,8 +1,8 @@
 // 메인 애플리케이션 진입점 (라우터 및 초기화)
-import * as renderer from './view-renderer.js?v=20260511_v2';
-import * as dataService from './data-service.js?v=20260511_v2';
+import * as renderer from './view-renderer.js?v=20260511_v3';
+import * as dataService from './data-service.js?v=20260511_v3';
 
-import { watchAuthState, loginWithGoogle, logout, getValidToken } from './auth.js';
+import { watchAuthState, loginWithGoogle, logout, getValidToken } from './auth.js?v=20260511_v3';
 
 export class App {
   constructor() {
@@ -291,21 +291,6 @@ export class App {
       }
       
       this.updateActiveNav('/' + root);
-
-      // 드래그 앤 드롭 순서 변경 초기화 (관리자 모드일 때만)
-      if (this.isAdmin) {
-        setTimeout(() => {
-          if (root === 'guidelines') {
-            if (parts.length === 1) {
-              this.initSortable('major', 'major-list-container');
-            } else if (parts.includes('category')) {
-              this.initSortable('subcategory', 'subcategory-list-container');
-            } else if (parts.includes('subcategory')) {
-              this.initSortable('guideline', 'guideline-list-container');
-            }
-          }
-        }, 500);
-      }
     } catch (error) {
       console.error('Routing Error:', error);
       document.getElementById('error-log').innerHTML += `<p>Routing Error [${path}]: ${error.message}</p>`;

@@ -1713,3 +1713,36 @@ main {
     min-width: 0 !important;
   }
 }
+
+/* Drag & Drop Handle */
+.drag-handle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 28px;
+  height: 28px;
+  background-image: radial-gradient(circle, #000 2px, transparent 2.5px);
+  background-size: 8px 8px;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.2;
+  cursor: grab;
+  z-index: 100;
+  transition: all 0.2s;
+  border-radius: 4px;
+}
+
+.drag-handle:hover {
+  opacity: 0.8;
+  background-color: rgba(0,0,0,0.05);
+  transform: scale(1.1);
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Ensure cards are relative for handle positioning */
+.neo-card {
+  position: relative !important;
+}
