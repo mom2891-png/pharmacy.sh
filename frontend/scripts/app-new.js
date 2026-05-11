@@ -1,6 +1,7 @@
 // 메인 애플리케이션 진입점 (라우터 및 초기화)
-import * as renderer from './view-renderer.js?v=26';
-import * as dataService from './data-service.js?v=25';
+import * as renderer from './view-renderer.js?v=20260511_v2';
+import * as dataService from './data-service.js?v=20260511_v2';
+
 import { watchAuthState, loginWithGoogle, logout, getValidToken } from './auth.js';
 
 export class App {
