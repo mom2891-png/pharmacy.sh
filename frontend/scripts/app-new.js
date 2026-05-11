@@ -221,7 +221,11 @@ export class App {
         this.openGuidelineMoveModal(id);
       }
     });
+
+    // 드래그 앤 드롭 이벤트 초기화
+    this.initDragAndDrop();
   }
+
 
   async handleRoute() {
     if (!window.DB) {
@@ -2008,14 +2012,250 @@ export class App {
       }
     } catch (err) {
       console.error('Upload error:', err);
+      console.error('Upload error:', err);
       if (statusDiv) {
-        statusDiv.innerHTML = '\u274C \uC11C\uBC84 \uD1B5\uC2E0 \uC624\uB958';
+        statusDiv.innerHTML = '❌ 서버 통신 오류';
         statusDiv.style.color = 'red';
       }
-      alert('\uC11C\uBC84\uC640 \uD1B5\uC2E0 \uC911 \uC624\uB958\uAC00 \uBC1C\uC0DD\uD518\uC2B5\uB2C8\uB2E4.');
+      alert('서버와 통신 중 오류가 발생했습니다.');
     }
   }
+  // 분류 설정 모달 열기
+  async openCategoryModal(id) {
+    if (!this.isAdmin) return;
+    const g = (window.DB.guidelines || []).find(x => x.id === id);
+    if (!g) return;
+
+    const majors = [...new Set(window.DB.guidelines.map(x => x.major))];
+    
+    // 모달용 컨테이너 생성
+    let modal = document.getElementById('category-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'category-modal';
+      modal.className = 'neo-modal-overlay';
+      document.body.appendChild(modal);
+    }
+
+    modal.innerHTML = `
+      <div class="neo-modal-content" style="max-width: 400px; padding: 30px; border: 4px solid var(--black); box-shadow: 10px 10px 0px var(--black); background: #fff;">
+        <h3 style="margin-top: 0; display: flex; align-items: center; gap: 10px; font-weight: 900;">
+          📂 분류 이동 / 설정
+        </h3>
+        <p style="font-size: 14px; color: #666; margin-bottom: 20px;">'${g.title}' 항목의 분류를 변경합니다.</p>
+        
+        <div style="display: grid; gap: 15px;">
+          <div style="display: grid; gap: 6px;">
+            <label style="font-weight: 800; font-size: 13px;">\uB300\uBD84\uB958</label>
+            <select id="modal-major" class="neo-input" onchange="window.app.updateModalSubs('${id}', this.value)" style="width: 100%; padding: 10px; border: 2px solid #000;">
+              ${majors.map(m => `<option value="${m}" ${m === g.major ? 'selected' : ''}>${m}</option>`).join('')}
+            </select>
+          </div>
+          <div style="display: grid; gap: 6px;">
+            <label style="font-weight: 800; font-size: 13px;">\uC911\uBD84\uB958</label>
+            <select id="modal-sub" class="neo-input" style="width: 100%; padding: 10px; border: 2px solid #000;">
+              ${[...new Set(window.DB.guidelines.filter(x => x.major === g.major).map(x => x.sub))].map(s => `<option value="${s}" ${s === g.sub ? 'selected' : ''}>${s}</option>`).join('')}
+            </select>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; margin-top: 25px;">
+          <button onclick="window.app.saveQuickCategory('${id}')" class="neo-btn" style="flex: 1; background: #3b82f6; color: white; padding: 12px; border: 2px solid #000; font-weight: 900; cursor: pointer;">💾 \uC800\uC7A5</button>
+          <button onclick="document.getElementById('category-modal').style.display='none'" class="neo-btn" style="flex: 1; background: #94a3b8; color: white; padding: 12px; border: 2px solid #000; font-weight: 900; cursor: pointer;">\uC128\uC18C</button>
+        </div>
+      </div>
+    `;
+
+    modal.style.display = 'flex';
+  }
+
+  // 모달 내 \uB300\uBD84\uB958 변경 시 \uC911\uBD84\uB958 \uBAA9\uB85D 업데이트
+  updateModalSubs(id, major) {
+    const subs = [...new Set(window.DB.guidelines.filter(x => x.major === major).map(x => x.sub))];
+    const subSelect = document.getElementById('modal-sub');
+    if (subSelect) {
+      subSelect.innerHTML = subs.map(s => `<option value="${s}">${s}</option>`).join('');
+    }
+  }
+
+  // 모달에서 분류 \uC800\uC7A5
+  async saveQuickCategory(id) {
+    const major = document.getElementById('modal-major').value;
+    const sub = document.getElementById('modal-sub').value;
+    const g = (window.DB.guidelines || []).find(x => x.id === id);
+
+    if (!major || !sub) return;
+
+    try {
+      const response = await fetch(`/api/guidelines/${id}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': localStorage.getItem('firebaseToken')
+        },
+        body: JSON.stringify({
+          ...g,
+          major,
+          sub
+        })
+      });
+
+      if (response.ok) {
+        this.showToast('✅ 분류가 변경되었습니다.');
+        document.getElementById('category-modal').style.display = 'none';
+        
+        g.major = major;
+        g.sub = sub;
+        
+        this.handleRoute();
+      } else {
+        alert('\uC800\uC7A5 \uC2E4\uD328');
+      }
+    } catch (err) {
+      console.error(err);
+      alert('오류 발생');
+    }
+  }
+
+  // 드래그 앤 드롭 시스템 초기화
+  initDragAndDrop() {
+    let draggedItem = null;
+    let canDrag = false;
+
+    // 핸들을 클릭했을 때만 드래그 허용 플래그 설정
+    document.addEventListener('mousedown', (e) => {
+      if (!this.isAdmin) return;
+      const handle = e.target.closest('.drag-handle');
+      canDrag = !!handle;
+    });
+
+    document.addEventListener('dragstart', (e) => {
+      const card = e.target.closest('.neo-card');
+      if (!card || !this.isAdmin || !canDrag) {
+        e.preventDefault();
+        return;
+      }
+      
+      draggedItem = card;
+      draggedItem.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+      
+      // 투명도 조절 등을 위해 약간의 지연 후 클래스 추가 (선택사항)
+      setTimeout(() => draggedItem.classList.add('drag-ghost'), 0);
+      console.log('📦 Drag Start:', draggedItem.dataset.id);
+    });
+
+    document.addEventListener('dragend', (e) => {
+      if (draggedItem) {
+        draggedItem.classList.remove('dragging', 'drag-ghost');
+        draggedItem = null;
+        canDrag = false;
+        console.log('🏁 Drag End');
+      }
+    });
+
+    document.addEventListener('dragover', (e) => {
+      if (!draggedItem) return;
+      e.preventDefault();
+      
+      const container = draggedItem.parentNode;
+      const closestElement = this.getDragAfterElement(container, e.clientX, e.clientY);
+      
+      if (closestElement && closestElement !== draggedItem) {
+        const box = closestElement.getBoundingClientRect();
+        // 수평/수직 모두 대응하는 범용 로직
+        const isAfter = (e.clientX > box.left + box.width / 2) || (e.clientY > box.top + box.height / 2);
+        
+        if (isAfter) {
+          container.insertBefore(draggedItem, closestElement.nextElementSibling);
+        } else {
+          container.insertBefore(draggedItem, closestElement);
+        }
+      }
+    });
+
+
+
+
+    document.addEventListener('drop', async (e) => {
+      if (!draggedItem) return;
+      e.preventDefault();
+      
+      const type = draggedItem.dataset.type;
+      const container = draggedItem.parentNode;
+      const items = Array.from(container.querySelectorAll(`:scope > [data-type="${type}"]`));
+
+      
+      const reorderData = items.map((item, index) => {
+        const id = item.dataset.id;
+        if (type === 'subcategory') {
+          return { major: item.dataset.major, sub: id, order: index + 1 };
+        } else if (type === 'major') {
+          return { major: id, order: index + 1 };
+        } else {
+          return { id: id, order: index + 1 };
+        }
+      });
+
+      await this.saveReorder(type, reorderData);
+    });
+  }
+
+  getDragAfterElement(container, x, y) {
+    // :scope를 사용하여 컨테이너의 직계 자식인 .neo-card들만 대상으로 함
+    const draggableElements = [...container.querySelectorAll(':scope > .neo-card:not(.dragging)')];
+
+    return draggableElements.reduce((closest, child) => {
+      const box = child.getBoundingClientRect();
+      const centerX = box.left + box.width / 2;
+      const centerY = box.top + box.height / 2;
+      
+      const distance = Math.pow(x - centerX, 2) + Math.pow(y - centerY, 2);
+
+      if (distance < closest.distance) {
+        return { distance: distance, element: child, box: box };
+      } else {
+        return closest;
+      }
+    }, { distance: Number.POSITIVE_INFINITY }).element;
+  }
+
+
+
+  async saveReorder(type, items) {
+    try {
+      const token = await getValidToken();
+      if (!token) {
+        alert('인증 토큰을 가져올 수 없습니다. 다시 로그인해 주세요.');
+        return;
+      }
+
+      const response = await fetch('/api/reorder', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': token
+        },
+        body: JSON.stringify({ type, items })
+      });
+
+      if (response.ok) {
+        console.log(`✅ ${type} 순서 저장 완료`);
+        // 로컬 데이터 업데이트 및 재렌더링
+        await this.fetchData();
+        this.handleRoute();
+      } else {
+        const err = await response.json();
+        alert('순서 저장 실패: ' + err.error);
+      }
+    } catch (err) {
+      console.error('Reorder error:', err);
+      alert('서버 통신 오류가 발생했습니다.');
+    }
+  }
+
 }
 
-// \uC804\uC5ED \uC571 \uAC1D\uCCB4 \uB4F1\uB85D (\u006F\u006E\u0063\u006C\u0069\u0063\u006B \uD544\uB4E4\uB7EC \uB4F1\uC5D0\uC11C \uCC38\uC870)
+
+// 전역 앱 객체 등록 (onclick 필터 등에서 참조)
 window.app = new App();

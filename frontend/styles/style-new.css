@@ -968,6 +968,81 @@ main {
     border-width: 2px;
 }
 
+
+/* Neo-Brutalism Modal */
+.neo-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.neo-modal-content {
+    background: var(--white);
+    border: 4px solid var(--black);
+    width: 450px;
+    max-width: 90vw;
+    padding: 30px;
+    box-shadow: 12px 12px 0px var(--black);
+    animation: modal-pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes modal-pop {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Drag and Drop Styles */
+.drag-handle {
+    width: 100%;
+    height: 10px;
+    background: repeating-linear-gradient(
+        90deg,
+        #000,
+        #000 2px,
+        transparent 2px,
+        transparent 6px
+    );
+    border-bottom: 2px solid var(--black);
+    cursor: grab;
+    opacity: 0.3;
+    transition: opacity 0.2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.drag-handle:hover {
+    opacity: 1;
+    background-color: var(--yellow);
+}
+
+.drag-handle:active {
+    cursor: grabbing;
+}
+
+.neo-card {
+    position: relative; /* For absolute drag-handle */
+    padding-top: 20px; /* Make space for handle */
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.dragging {
+    opacity: 0.5;
+    transform: scale(1.05); /* 드래그 중인 카드를 살짝 키워서 강조 */
+    box-shadow: 12px 12px 0px var(--black) !important;
+    z-index: 100;
+}
+
+
 /* Modal Styles */
 .modal-overlay {
     position: fixed;

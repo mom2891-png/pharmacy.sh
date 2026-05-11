@@ -106,8 +106,13 @@ export function renderGuidelineMajors(isAdmin) {
 
     return `
       <div class="neo-card clickable guideline-major-card" 
+           draggable="${isAdmin}"
+           data-id="${major}"
+           data-type="major"
            onclick="window.app.navigateTo('/guidelines/category/${encodeURIComponent(major)}')">
+        ${isAdmin ? `<div class="drag-handle" title="\uB4DC\uB798\uADF8\uD558\uC5EC \uC21C\uC11C \uBCC0\uACBD"></div>` : ''}
         <div class="badge-mini">GUIDELINE</div>
+
         <h3 class="card-title">${escapeHtml(cleanName(major))}</h3>
         
         <div class="guideline-sub-grid">
@@ -135,7 +140,8 @@ export function renderGuidelineMajors(isAdmin) {
       ${devLabel('GuidelineMajors', isAdmin)}
       <h2 class="section-title">\uAC00\uC774\uB4DC\uB77C\uC778 \uB300\uBD84\uB958</h2>
     </div>
-    <div class="grid-container">
+    <div class="grid-container" id="major-list-container">
+
       ${cardsHtml}
       ${isAdmin ? `
         <div class="neo-card clickable add-card" onclick="window.app.addGuidelineMajor()" style="border-style: dashed; background: #f8fafc; border-width: 4px; display: flex; align-items: center; justify-content: center; min-height: 200px;">
@@ -155,15 +161,23 @@ export function renderGuidelineMajors(isAdmin) {
 export function renderGuidelineSubcategories(majorName, isAdmin) {
   const subsMap = getSubcategories(majorName);
   const container = document.getElementById(CONTENT_ID);
-  const sortedSubs = Object.keys(subsMap).sort(hierarchicalSort);
+  const sortedSubs = Object.keys(subsMap); // getSubcategories에서 이미 정렬되어 나옴
 
   let cardsHtml = sortedSubs.map(sub => {
     const items = subsMap[sub];
     const itemListHtml = items.map(i => `<li>${escapeHtml(i.title)}</li>`).join('');
 
     return `
-      <div class="neo-card clickable" onclick="window.app.navigateTo('/guidelines/subcategory/${encodeURIComponent(majorName)}/${encodeURIComponent(sub)}')">
+      <div class="neo-card clickable" 
+           draggable="${isAdmin}"
+           data-id="${sub}"
+           data-type="subcategory"
+           data-major="${majorName}"
+           onclick="window.app.navigateTo('/guidelines/subcategory/${encodeURIComponent(majorName)}/${encodeURIComponent(sub)}')">
+
+        ${isAdmin ? `<div class="drag-handle" title="\uB4DC\uB798\uADF8\uD558\uC5EC \uC21C\uC11C \uBCC0\uACBD"></div>` : ''}
         <div class="badge-mini">SUBCATEGORY</div>
+
         <h3 class="card-title">${escapeHtml(sub)}</h3>
         <ul class="card-preview-list">
           ${itemListHtml}
@@ -180,7 +194,8 @@ export function renderGuidelineSubcategories(majorName, isAdmin) {
       <h2 class="section-title">${escapeHtml(majorName)}</h2>
       <p class="section-subtitle">선택하신 분야의 세부 분류를 선택해주세요.</p>
     </div>
-    <div class="grid-container">
+    <div class="grid-container" id="subcategory-list-container">
+
       ${cardsHtml}
       ${isAdmin ? `
         <div class="neo-card clickable add-card" onclick="window.app.addGuidelineSubcategory('${escapeHtml(majorName)}')" style="border-style: dashed; background: #f8fafc; border-width: 4px; display: flex; align-items: center; justify-content: center; min-height: 200px;">
@@ -200,41 +215,44 @@ export function renderGuidelineSubcategories(majorName, isAdmin) {
 export function renderGuidelineItems(majorName, subName, isAdmin) {
   const subsMap = getSubcategories(majorName);
   const data = (subsMap[subName] || []).sort((a, b) => {
+    // 1. 사용자가 지정한 순서(sort_order) 우선
+    const orderA = a.sort_order || 0;
+    const orderB = b.sort_order || 0;
+    if (orderA !== orderB) return orderA - orderB;
+
+    // 2. 순서가 같으면 연도순 (최신순)
     const yearDiff = parseInt(b.year || 0) - parseInt(a.year || 0);
     if (yearDiff !== 0) return yearDiff;
+
+    // 3. 연도도 같으면 제목순
     return hierarchicalSort(a.title, b.title);
   });
+
 
   const container = document.getElementById(CONTENT_ID);
   
   let listHtml = data.map(g => {
-    const pUrl = Array.isArray(g.url) ? g.url[0] : (g.url || '');
-    const isLocalFile = (Array.isArray(g.url) && g.url.length > 0) || (typeof g.url === 'string' && g.url.startsWith('assets/')) || (typeof g.url === 'string' && g.url.includes('firebasestorage'));
-    const isHwp = typeof pUrl === 'string' && pUrl.toLowerCase().endsWith('.hwp');
-    
-    let badgeHtml;
-    if (isHwp) {
-      badgeHtml = '<span class="badge-hwp" style="background:#f97316; color:#fff; padding:0 8px; border-radius:4px; font-size:11px; font-weight:700; height:34px; display:flex; align-items:center; border:2px solid #000;">📎 HWP</span>';
-    } else if (isLocalFile) {
-      badgeHtml = '<span class="badge-pdf" style="height:34px; display:flex; align-items:center; border:2px solid #000; background:#E0BBE4; color:#4b214d; font-weight:800; padding:0 8px;">\uD83D\uDCC4 \uB0B4\uBD80 \uBDF0\uC5B4</span>';
-    } else {
-      badgeHtml = '<span class="badge-link" style="height:34px; display:flex; align-items:center; border:2px solid #000; background:#fff; color:#000; font-weight:800; padding:0 8px;">\uD83D\uDD17 \uC678\uBD80 \uB9C1\uD06C</span>';
-    }
-
     // \uAD6D\uAC00 \uC774\uBAA8\uC9C0 \uB9E4\uD551
     const countryEmojis = {
       '\uD55C\uAD6D': '\uD83C\uDDF0\uD83C\uDDF7',
       '\uBBF8\uAD6D': '\uD83C\uDDFA\uD83C\uDDF8',
       '\uC720\uB7FD': '\uD83C\uDDEA\uD83C\uDDFA',
+      '\uBBF8\uC124\uC815': '\u2754',
       'South Korea': '\uD83C\uDDF0\uD83C\uDDF7',
       'United States': '\uD83C\uDDFA\uD83C\uDDF8',
       'European Union': '\uD83C\uDDEA\uD83C\uDDFA'
     };
-    const countryName = g.country || '\uD55C\uAD6D';
+    const countryName = g.country || '\uBBF8\uC124\uC815';
     const flag = countryEmojis[countryName] || '\uD83C\uDF10';
     
     return `
-      <div class="neo-card clickable item-card-cube ${g.is_checked ? 'is-done' : ''}" onclick="window.app.navigateTo('/guidelines/${g.id}')">
+      <div class="neo-card clickable item-card-cube ${g.is_checked ? 'is-done' : ''}" 
+           draggable="${isAdmin}" 
+           data-id="${g.id}"
+           data-type="guideline"
+           onclick="window.app.navigateTo('/guidelines/${g.id}')">
+        ${isAdmin ? `<div class="drag-handle" title="\uB4DC\uB798\uADF8\uD558\uC5EC \uC21C\uC11C \uBCC0\uACBD"></div>` : ''}
+
         <div class="item-status-row" style="display:flex; align-items:center; gap:8px; margin-bottom:12px; height:34px;">
           <div class="item-country" style="background:#fff; border:2px solid #000; height:34px; padding:0 10px; display:flex; align-items:center; font-weight:800; font-size:14px; gap:6px; font-family: 'Twemoji Country Flags', 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif;">
             <span>${flag}</span>
@@ -246,7 +264,14 @@ export function renderGuidelineItems(majorName, subName, isAdmin) {
                style="cursor: pointer; width:34px; height:34px; background:#fff; border:2px solid #000; display:flex; align-items:center; justify-content:center; font-size: 18px; color: ${g.is_checked ? '#10b981' : '#cbd5e1'}; transition: all 0.2s;">
             <i class="${g.is_checked ? 'fas fa-check-square' : 'far fa-square'}"></i>
           </div>
-          ${badgeHtml}
+          ${isAdmin ? `
+            <div class="guideline-folder-tool" 
+                 onclick="event.stopPropagation(); window.app.openCategoryModal('${g.id}')"
+                 style="cursor: pointer; width:34px; height:34px; background:#fef3c7; border:2px solid #000; display:flex; align-items:center; justify-content:center; font-size: 16px; color: #d97706; transition: all 0.2s; border-radius: 4px;"
+                 title="\uBD84\uB958 \uC124\uC815">
+              <i class="fas fa-folder-open"></i>
+            </div>
+          ` : ''}
           ${isAdmin ? `
             <div class="guideline-delete-tool" 
                  onclick="event.stopPropagation(); window.app.deleteGuideline('${g.id}', '${escapeHtml(g.title)}')"
@@ -255,6 +280,7 @@ export function renderGuidelineItems(majorName, subName, isAdmin) {
               <i class="fas fa-trash-alt"></i>
             </div>
           ` : ''}
+
         </div>
         <h3 class="item-title" style="margin: 0 0 10px 0; font-size: 16px; font-weight: 800; line-height: 1.4;">${escapeHtml(g.title)}</h3>
         <div class="item-meta">
@@ -363,7 +389,8 @@ export function renderGuidelineItems(majorName, subName, isAdmin) {
       </div>
     </div>
 
-    <div class="grid-container">
+    <div class="grid-container" id="guideline-list-container">
+
       ${listHtml || '<p>등록된 \uAC00\uC774\uB4DC\uB77C\uC778이 없습니다.</p>'}
     </div>
   `;
