@@ -1,8 +1,8 @@
 // 메인 애플리케이션 진입점 (라우터 및 초기화)
-import * as renderer from './view-renderer.js?v=20260511_v3';
-import * as dataService from './data-service.js?v=20260511_v3';
+import * as renderer from './view-renderer.js?v=20260511_v4';
+import * as dataService from './data-service.js?v=20260511_v4';
 
-import { watchAuthState, loginWithGoogle, logout, getValidToken } from './auth.js?v=20260511_v3';
+import { watchAuthState, loginWithGoogle, logout, getValidToken } from './auth.js?v=20260511_v4';
 
 export class App {
   constructor() {
@@ -20,10 +20,16 @@ export class App {
           const response = await fetch('/api/auth-status', {
             headers: { 'x-api-key': localStorage.getItem('firebaseToken') }
           });
-          const status = await response.json();
-          this.isAdmin = status.isAdmin === true;
+          if (response.ok) {
+            const status = await response.json();
+            this.isAdmin = status.isAdmin === true || status.role === 'master' || status.role === 'admin';
+          } else {
+             // Vercel/Static \uD644\uACBD \uD3F4\uBC31: \uB9C8\uC2A4\uD130 \uC774\uBA54\uC77C \uC9C1\uC811 \uD655\uC778
+             this.isAdmin = (user.email === 'mom2891@gmail.com');
+          }
         } catch (e) {
-          this.isAdmin = false;
+          // API \uC11C\uBC84 \uC5C6\uB294 \uACBD\uC630(\uC608: Vercel) \uC774\uBA54\uC77C 기반 \uAD8C\uD55C \uBD80\uC5EC
+          this.isAdmin = (user.email === 'mom2891@gmail.com');
         }
       } else {
         this.isAdmin = false;
