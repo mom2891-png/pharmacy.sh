@@ -12,3 +12,14 @@ assets/
 data/
 public/data/guidelines/
 public/data/images/
+guidelines/documents/
+
+# 보안 및 임시 파일
+serviceAccountKey.json
+*.db
+scratch/
+tools/
+maintenance/
+*.js_backup
+view-renderer_backup.js
+

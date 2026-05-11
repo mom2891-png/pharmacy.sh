@@ -1713,23 +1713,24 @@
     "desc": "대한상부위장관.헬리코박터학회 / 2020년 가이드라인",
     "category": "소화기질환 - 12. 소화성궤양",
     "aiSummary": {
-      "overview": "한국인 헬리코박터 파일로리 감염 치료는 클라리스로마이신 내성 증가로 인한 표준 3제 요법의 제균율 감소에 대응하여, 14일 표준 3제 요법, 순차 요법, 동시 요법 등 다양한 1차 치료법을 권고하며, 철결핍성 빈혈, 위선종 절제 후, 기능성 소화불량증 환자에서 제균 치료를 고려합니다.",
+      "overview": "2020년 개정 가이드라인은 클라리스로마이신 내성 증가에 따라 표준 3제 요법의 기간을 14일로 연장 권고하며, 동시/순차 요법 등 대안 요법과 비스무트 4제 요법을 통한 맞춤형 제균 전략을 제시합니다.",
       "firstLine": [
-        "표준 3제 요법 (PPI (Omeprazole 등), Amoxicillin, Clarithromycin) - 14일 치료 권고",
-        "순차 요법 (PPI (Omeprazole 등), Amoxicillin → PPI (Omeprazole 등), Clarithromycin, Metronidazole) - 10일 치료 권고",
-        "동시 요법 (PPI (Omeprazole 등), Clarithromycin, Amoxicillin, Metronidazole) - 10일 치료 권고",
-        "비스무스 4제 요법 (PPI (Omeprazole 등), Metronidazole, Bismuth (Bismuth subcitrate 등), Tetracycline) - 10~14일 치료 권고 (다른 1차 치료법이 불가능할 경우 고려)"
+        "표준 3제 요법 (PPI + Amoxicillin 1g + Clarithromycin 500mg, bid) - 14일 투여 (내성 고려)",
+        "동시 요법 (PPI + Amox + Clar + Metronidazole 500mg, bid) - 10일 투여",
+        "순차 요법 (PPI+Amox 5일 → PPI+Clar+Metron 5일) - 10일 투여",
+        "비스무트 4제 요법 (PPI + Bismuth + Metronidazole + Tetracycline) - 10~14일 투여"
       ],
       "monitoring": [
-        "H. pylori 제균 성공 여부: 치료 후 요소호기검사(UBT), 대변항원검사 등으로 확인 (음성 전환 목표)",
-        "철결핍성 빈혈 동반 환자: 혈색소(Hemoglobin) 및 페리틴(Ferritin) 수치 정기 확인 (정상 범위 회복 목표)",
-        "약물 부작용: 위장관 증상 (오심, 설사 등), 알레르기 반응 등 환자 증상 모니터링"
+        "복약 순응도 확인: 제균 성공의 핵심 (중도 포기 금지)",
+        "치료 4주 후 제균 확인 검사 (요소호기검사 등) 필수",
+        "부작용 모니터링: 설사, 미각 변화(금속성 맛), 변색(대변/혀 검게 변함)"
       ],
       "cautions": [
-        "Clarithromycin: 내성률이 15% 이상인 지역에서는 3제 요법의 제균율이 낮아 7일 표준 3제 요법 고려 시 내성 검사 권고",
-        "비스무스 4제 요법: 높은 위장관 부작용 (오심, 설사, 복통 등) 발생률 주의"
+        "Metronidazole 사용 시 절대 금주 (Disulfiram-like reaction 주의)",
+        "Tetracycline: 임부 및 8세 미만 소아 금기 (치아 및 골격 영향)",
+        "Clarithromycin 내성 확인 시 PCR 검사 등 활용 권장"
       ],
-      "special": "원인 미상의 철결핍성 빈혈 성인, H. pylori 양성 위선종 내시경 절제 후 환자, H. pylori 양성 기능성 소화불량증 환자에게는 H. pylori 제균 치료 (표준 3제 요법, 순차 요법, 동시 요법 등)를 권고합니다."
+      "special": "제균 치료 실패 시 2차 요법으로 비스무트 4제 요법(14일)을 표준으로 하며, 이후 레보플록사신 기반 요법 등을 순차적으로 고려합니다. 약사는 환자에게 항생제 복용에 따른 위장 장애 관리와 완수 의지의 중요성을 집중 교육해야 합니다."
     }
   },
   {

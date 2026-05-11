@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: 'SUITE', sans-serif;
+  font-family: 'SUITE', "Twemoji Country Flags", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -120,6 +120,7 @@ main {
   box-shadow: var(--hard-shadow);
   margin-bottom: 32px;
   transition: all 0.1s;
+  position: relative; /* Add for dev-labels */
 }
 
 .neo-card.clickable:hover {
@@ -151,7 +152,7 @@ main {
 }
 
 .card-preview-list li::before {
-  content: "•";
+  content: "??;
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -227,8 +228,9 @@ main {
 /* Grid */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 32px;
+  position: relative; /* Add for dev-labels */
 }
 
 /* Item List Specifics - Cube Style */
@@ -248,13 +250,7 @@ main {
   margin-bottom: 16px;
 }
 
-.item-year {
-  background: var(--black);
-  color: var(--primary);
-  padding: 2px 8px;
-  font-weight: 900;
-  font-size: 14px;
-}
+.item-year { background: #fde047; color: #000; padding: 0 10px; font-weight: 900; font-size: 14px; border: 2px solid #000; box-shadow: 2px 2px 0px #000; border-radius: 4px; display: flex; align-items: center; justify-content: center; height: 28px; }
 
 .badge-pdf {
   background: #DCFCE7; /* Light Green */
@@ -326,6 +322,15 @@ main {
   margin-bottom: 24px;
   cursor: pointer;
   box-shadow: 4px 4px 0px var(--secondary);
+}
+
+.section-header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.detail-view {
+  position: relative;
 }
 
 .detail-title {
@@ -1263,7 +1268,7 @@ main {
   }
 }
 
-/* 토스트 알림 */
+/* ?醫롫뮞?????뵝 */
 .neo-toast {
   position: fixed;
   bottom: 40px;
@@ -1283,7 +1288,7 @@ main {
   to { transform: translateY(0); opacity: 1; }
 }
 
-/* 로그인 모달 전용 */
+/* 嚥≪뮄???筌뤴뫀???袁⑹뒠 */
 .login-modal {
   width: 380px !important;
   border-radius: 0;
@@ -1327,7 +1332,7 @@ main {
   color: white;
 }
 
-/* 컴포넌트 영역 강조 효과 (관리자 전용) */
+/* ?뚮똾猷??곕뱜 ?怨몃열 揶쏅벡????ｋ궢 (?온?귐딆쁽 ?袁⑹뒠) */
 .dev-component-area {
   transition: all 0.2s ease-in-out;
   position: relative;
@@ -1519,9 +1524,9 @@ main {
   margin-bottom: 4px;
 }
 
-/* 가이드라인 완료 체크 스타일 */
+/* 揶쎛??諭??깆뵥 ?袁⑥┷ 筌ｋ똾寃??????*/
 .item-card-cube.is-done {
-  background-color: #f0fdf4 !important; /* 연한 녹색 배경 */
+  background-color: #f0fdf4 !important; /* ?怨좊립 ?諭源?獄쏄퀗瑗?*/
   border-color: #10b981 !important;
   opacity: 0.9;
 }
@@ -1541,4 +1546,95 @@ main {
 .guideline-delete-tool:hover {
   transform: scale(1.3);
   color: #ef4444 !important;
+}
+
+/* 燁삳똾?믤⑥쥓???온??甕곌쑵???????(?怨쀫? ?怨룸뼊 ?⑥쥙?? */
+.category-admin-tools {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+  z-index: 100;
+}
+
+.admin-btn-mini {
+  width: 34px;
+  height: 34px;
+  background: var(--white);
+  border: 2px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px var(--black);
+  transition: all 0.1s;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.admin-btn-mini:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px var(--black);
+}
+
+.admin-btn-mini:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--black);
+}
+
+.admin-btn-mini.edit-btn {
+  background: #3b82f6; /* Blue */
+  color: white;
+}
+
+.admin-btn-mini.trash-btn {
+  background: #ef4444; /* Red */
+  color: white;
+}
+
+/* SortableJS Styles */
+.sortable-ghost {
+  opacity: 0.4 !important;
+  background: #f1f5f9 !important;
+  border: 3px dashed #6366f1 !important;
+}
+.sortable-drag {
+  z-index: 10000 !important;
+  opacity: 0.9 !important;
+  transform: rotate(2deg);
+}
+
+/* Old Guideline Toggle Button */
+.old-guideline-toggle-btn {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.old-guideline-toggle-btn:hover {
+  background: #cbd5e1 !important;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000 !important;
+}
+.old-guideline-toggle-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000 !important;
+}
+.old-guideline-toggle-btn i {
+  transition: transform 0.3s ease;
+}
+.old-guideline-toggle-btn.active i {
+  transform: rotate(180deg);
+}
+
+
+@media (min-width: 1024px) {
+  .guideline-list-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 24px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .guideline-list-container > * {
+    min-width: 0 !important;
+  }
 }

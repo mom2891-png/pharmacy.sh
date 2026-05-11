@@ -59,13 +59,21 @@ export function watchAuthState(callback) {
       const token = await user.getIdToken();
       // 토큰을 세션이나 로컬스토리지에 저장하여 API 요청 시 사용
       localStorage.setItem('firebaseToken', token);
+      
+      // 쿠키에 토큰 저장 (iframe 등의 리소스 요청 시 자동 전송됨)
+      // 보안을 위해 SameSite=Lax 설정을 추가합니다.
+      document.cookie = `firebaseToken=${token}; path=/; max-age=3600; SameSite=Lax`;
+      
       callback(user);
     } else {
       localStorage.removeItem('firebaseToken');
+      // 쿠키 삭제
+      document.cookie = "firebaseToken=; path=/; max-age=0; SameSite=Lax";
       callback(null);
     }
   });
 }
+
 
 /**
  * 현재 유효한 ID 토큰 가져오기

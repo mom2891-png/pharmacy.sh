@@ -1,14 +1,14 @@
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
+const dbPath = path.join(__dirname, '..', 'backend', 'database', 'pharmacy.db');
+const db = new sqlite3.Database(dbPath);
 
-const DB_FILE = path.join(__dirname, '..', 'backend', 'database', 'pharmacy.db');
-const db = new sqlite3.Database(DB_FILE);
-
-db.all("PRAGMA table_info(category_metadata)", [], (err, rows) => {
+db.all("PRAGMA table_info(guidelines)", (err, rows) => {
   if (err) {
     console.error(err);
-    process.exit(1);
+  } else {
+    console.log('Columns in guidelines table:');
+    rows.forEach(row => console.log(`- ${row.name} (${row.type})`));
   }
-  console.log(JSON.stringify(rows, null, 2));
   db.close();
 });
